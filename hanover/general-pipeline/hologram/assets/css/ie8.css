@@ -1,0 +1,19 @@
+/*
+	Hologram by Pixelarity
+	pixelarity.com | hello@pixelarity.com
+	License: pixelarity.com/license
+*/
+
+/* Basic */
+
+	body {
+		background-image: url("https://campbellhc.github.io/alternate/px-hologram/main/images/bg.jpg");
+		background-size: cover;
+		-ms-behavior: url("https://campbellhc.github.io/alternate/px-hologram/main/assets/js/ie/backgroundsize.min.htc");
+	}
+
+		body.landing {
+			background-image: url("https://campbellhc.github.io/alternate/px-hologram/main/images/bg.jpg");
+			background-size: cover;
+			-ms-behavior: url("https://campbellhc.github.io/alternate/px-hologram/main/assets/js/ie/backgroundsize.min.htc");
+		}
