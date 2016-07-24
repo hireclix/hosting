@@ -1405,18 +1405,12 @@
 
 	body {
 		background-attachment: fixed, fixed;
-		background-image: url("https://dl.dropbox.com/s/smew9lnkhnq0lyq/checker-pattern.svg?dl=0"), url("https://dl.dropbox.com/s/smew9lnkhnq0lyq/checker-pattern.svg?dl=0"), url("https://campbellhc.github.io/alternate/px-hologram/main/images/bg-hanover.jpg");
+		background-image: url("https://dl.dropbox.com/s/smew9lnkhnq0lyq/checker-pattern.svg?dl=0"), url("https://dl.dropbox.com/s/smew9lnkhnq0lyq/checker-pattern.svg?dl=0"), url("https://hireclix.github.io/hosting/hanover/general-pipeline/hologram/images/bg-hanover.jpg");
 		background-position: center -315px, center top;
 		background-repeat: no-repeat;
 		background-size: auto, cover;
 	}
 
-		body.landing {
-			background-attachment: scroll, scroll, fixed;
-			background-image: url("https://campbellhc.github.io/alternate/px-hologram/main/images/angular-lines-up.png"), url("https://campbellhc.github.io/alternate/px-hologram/main/images/angular-lines-down.png"), url("https://campbellhc.github.io/alternate/px-hologram/main/images/bg.jpg");
-			background-position: center top, center bottom, center top;
-			background-size: auto, auto, cover;
-		}
 
 		body.is-loading *, body.is-loading *:before, body.is-loading *:after {
 			-moz-animation: none !important;
@@ -2528,12 +2522,6 @@
 	header.style4 {
 		background-color: #b67e96;
 		color: #fff;
-	}
-
-	header.style1, header.style2, header.style3, header.style4 {
-		background-image: url("https://campbellhc.github.io/alternate/px-hologram/main/images/overlay.png"), url("https://campbellhc.github.io/alternate/px-hologram/main/images/checker-pattern.png");
-		background-position: center top;
-		background-repeat: repeat;
 	}
 
 	@media screen and (max-width: 980px) {
@@ -3708,11 +3696,6 @@
 					border-color: rgba(255, 255, 255, 0.075);
 				}
 
-		.wrapper.style2, .wrapper.style3, .wrapper.style4 {
-			background-image: url("https://campbellhc.github.io/alternate/px-hologram/main/images/overlay.png"), url("https://campbellhc.github.io/alternate/px-hologram/main/images/checker-pattern.png");
-			background-position: center top;
-			background-repeat: repeat, repeat;
-		}
 
 		@media screen and (max-width: 980px) {
 
