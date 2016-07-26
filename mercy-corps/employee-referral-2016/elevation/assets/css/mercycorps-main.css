@@ -2791,12 +2791,17 @@
 		}
 
         .wrapper.style4 {	background:url(https://hireclix.github.io/hosting/mercy-corps/images/all-together-darker.jpg);
-       
         background-position: top;
         background-repeat: no-repeat;
         background-size: cover;    
         background-color: #f5f5f5;
 		}
+
+@media screen and (min-width:768px){
+    .wrapper.style4 {
+        background-attachment: fixed;
+    }
+}
 
 .wrapper.style4 h2 {
     font-family: TimesNewRoman, "Times New Roman", Times, Baskerville, Georgia, serif;
@@ -2809,14 +2814,18 @@
     color: #fff;
 }
 
-        .wrapper.style5 {
-			background:url(https://hireclix.github.io/hosting/mercy-corps/images/come-see-darker.jpg);
-          
+        .wrapper.style5 {	background:url(https://hireclix.github.io/hosting/mercy-corps/images/come-see-darker.jpg);
             background-position: center;
             background-repeat: no-repeat;
             background-size: cover;
             background-color: #f5f5f5;
 		}
+
+@media screen and (min-width:768px){
+    .wrapper.style5 {
+        background-attachment: fixed;
+    }
+}
 
 .wrapper.style5 .major2 h2 {
     font-family: TimesNewRoman, "Times New Roman", Times, Baskerville, Georgia, serif;
