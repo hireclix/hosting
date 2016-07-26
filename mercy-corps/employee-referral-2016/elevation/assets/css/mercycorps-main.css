@@ -2794,7 +2794,10 @@
         background-attachment: fixed;
         background-position: top;
         background-repeat: no-repeat;
-        background-size: cover;    
+        background-size: cover;
+        -webkit-background-size: cover;
+            -moz-background-size: cover;
+            -o-background-size: cover;    
         background-color: #f5f5f5;
 		}
 
@@ -2815,6 +2818,9 @@
             background-position: center;
             background-repeat: no-repeat;
             background-size: cover;
+            -webkit-background-size: cover;
+            -moz-background-size: cover;
+            -o-background-size: cover;
             background-color: #f5f5f5;
 		}
 
