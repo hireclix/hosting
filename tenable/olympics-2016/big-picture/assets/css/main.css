@@ -2,7 +2,7 @@
 @import url("font-awesome.min.css");
 
 /*
-	HireClix - Big Picture  
+	Big Picture  
 */
 
 /* Reset */
@@ -2936,6 +2936,8 @@
 /* Contact */
 
 	#contact {
+        background: url("https://raw.githubusercontent.com/hireclix/hosting/gh-pages/tenable/images/nerd-herd-5k.jpeg");
+        background-size: 100%, cover;
 		padding-bottom: 0;
 		overflow: hidden;
 	}
