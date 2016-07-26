@@ -2791,7 +2791,7 @@
 		}
 
         .wrapper.style4 {
-			background:url(/images/all-together-darker.jpg) no-repeat fixed center;
+			background:url(https://hireclix.github.io/hosting/mercy-corps/images/all-together-darker.jpg) no-repeat fixed center;
             background-color: #f5f5f5;
 		}
 
@@ -2807,7 +2807,7 @@
 }
 
         .wrapper.style5 {
-			background:url(/images/come-see-darker.jpg) no-repeat fixed center;
+			background:url(https://hireclix.github.io/hosting/mercy-corps/images/come-see-darker.jpg) no-repeat fixed center;
             background-color: #f5f5f5;
 		}
 
@@ -3063,7 +3063,7 @@
 /* Banner */
 
 	#banner {
-		background: linear-gradient(rgba(0,0,0,0.4), rgba(0, 0, 0, 0.4)), url("/images/bold-bright.jpg");
+		background: linear-gradient(rgba(0,0,0,0.4), rgba(0, 0, 0, 0.4)), url("https://hireclix.github.io/hosting/mercy-corps/images/bold-bright.jpg");
 		background-repeat: no-repeat;
 		background-size: cover;
 		color: #fff;
