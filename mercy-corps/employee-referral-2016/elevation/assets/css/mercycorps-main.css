@@ -1804,12 +1804,12 @@
 		-webkit-transition: color 0.2s ease-in-out;
 		-ms-transition: color 0.2s ease-in-out;
 		transition: color 0.2s ease-in-out;
-		color: #e96c77;
-		text-decoration: underline;
+		color: #fff;
+		text-decoration: none;
 	}
 
 		a:hover {
-			color: #e96c77 !important;
+			color: #fff !important;
 			text-decoration: none;
 		}
 
