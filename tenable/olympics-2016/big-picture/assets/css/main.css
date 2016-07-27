@@ -10,6 +10,7 @@
 html {
     overflow: scroll;
     overflow-x: hidden;
+    height: 100%;
 }
 ::-webkit-scrollbar {
     width: 0px;  /* remove scrollbar space */
