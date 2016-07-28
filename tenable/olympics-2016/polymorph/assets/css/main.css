@@ -3352,9 +3352,6 @@
 
 	@media screen and (max-width: 736px) {
 
-		body {
-			padding-top: 2.75em;
-		}
 
 		#header {
 			height: 2.75em;
@@ -3680,7 +3677,7 @@
 			#banner > article.full {
 				min-height: 65vh;
 				width: 100%;
-                background: linear-gradient(rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2)), url(/images/sprinter-track-crop.jpg);
+                background: linear-gradient(rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2)), url(https://hireclix.github.io/hosting/tenable/images/sprinter-track-crop.jpg);
                 background-size: cover;
 			}
 
@@ -3719,13 +3716,13 @@
 			}
 
             #banner > article.half.one {
-				background: linear-gradient(rgba(0, 0, 0, 0.25), rgba(0, 0, 0, 0.25)), url(/images/gymnast-OPT.jpg);
+				background: linear-gradient(rgba(0, 0, 0, 0.25), rgba(0, 0, 0, 0.25)), url(https://hireclix.github.io/hosting/tenable/images/gymnast-OPT.jpg);
                 background-size: cover;
                 background-position: center;
 			}
             
             #banner > article.half.two {
-				background: linear-gradient(rgba(0, 0, 0, 0.25), rgba(0, 0, 0, 0.25)), url(/images/swimmer-OPT.jpg);
+				background: linear-gradient(rgba(0, 0, 0, 0.25), rgba(0, 0, 0, 0.25)), url(https://hireclix.github.io/hosting/tenable/images/swimmer-OPT.jpg);
                 background-size: cover;
                 background-position: center;
 			}
@@ -3734,11 +3731,12 @@
 					font-size: 1.75em;
 				}
 
-				#banner > article.half .content {
-					width: 25em;
-                    top: 5em;
-				}
-
+                @media screen and (min-width: 767px) {
+				    #banner > article.half .content {
+					   width: 25em;
+                        top: 5em;
+				    }
+                }
 				@media screen and (max-width: 1680px) {
 
 					#banner > article.half h2 {
