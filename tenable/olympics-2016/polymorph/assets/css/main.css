@@ -7,7 +7,7 @@
 
 /* Reset */
 
-	html, body, div, span, applet, object, iframe, h1, h2, h3, h4, h5, h6, p, blockquote, pre, a, abbr, acronym, address, big, cite, code, del, dfn, em, img, ins, kbd, q, s, samp, small, strike, strong, sub, sup, tt, var, b, u, i, center, dl, dt, dd, ol, ul, li, fieldset, form, label, legend, table, caption, tbody, tfoot, thead, tr, th, td, article, aside, canvas, details, embed, figure, figcaption, footer, header, hgroup, menu, nav, output, ruby, section, summary, time, mark, audio, video {
+	html, body, div, span, applet, object, iframe, h1, h2, h3, h4, h5, h6, p, blockquote, pre, a, abbr, acronym, address, big, cite, code, del, dfn, em, img, ins, kbd, q, s, samp, small, strike, strong, sub, sup, tt, var, b, u, i, center, dl, dt, dd, ol, ul, li, fieldset, form, label, legend, table, caption, tbody, tfoot, thead, tr, th, td, section, aside, canvas, details, embed, figure, figcaption, footer, header, hgroup, menu, nav, output, ruby, section, summary, time, mark, audio, video {
 		margin: 0;
 		padding: 0;
 		border: 0;
@@ -16,7 +16,7 @@
 		vertical-align: baseline;
 	}
 
-	article, aside, details, figcaption, figure, footer, header, hgroup, menu, nav, section {
+	section, aside, details, figcaption, figure, footer, header, hgroup, menu, nav, section {
 		display: block;
 	}
 
@@ -2861,15 +2861,15 @@
 			color: #aaaaaa;
 		}
 
-/* Section/Article */
+/* Section/section */
 
-	section.special, article.special {
+	section.special, section.special {
 		text-align: center;
 	}
 
 		@media screen and (max-width: 480px) {
 
-			section.special, article.special {
+			section.special, section.special {
 				text-align: left;
 			}
 
@@ -3056,7 +3056,7 @@
 		flex-wrap: wrap;
 	}
 
-		.posts > article {
+		.posts > section {
 			width: 33.33333%;
 			border-style: solid;
 			border-right-width: 1px;
@@ -3064,48 +3064,48 @@
 			padding: 2.75em;
 		}
 
-			.posts > article .image {
+			.posts > section .image {
 				margin: -1.375em 0 3.125em -1.375em;
 				display: block;
 				position: relative;
 				width: calc(100% + 2.75em);
 			}
 
-				.posts > article .image img {
+				.posts > section .image img {
 					width: 100%;
 				}
 
-			.posts > article > :last-child {
+			.posts > section > :last-child {
 				margin-bottom: 0;
 			}
 
-				.posts > article > :last-child > :last-child {
+				.posts > section > :last-child > :last-child {
 					margin-bottom: 0;
 				}
 
-			.posts > article:nth-child(3n) {
+			.posts > section:nth-child(3n) {
 				border-right-width: 0;
 			}
 
-			.posts > article:nth-last-child(1), .posts > article:nth-last-child(2), .posts > article:nth-last-child(3) {
+			.posts > section:nth-last-child(1), .posts > section:nth-last-child(2), .posts > section:nth-last-child(3) {
 				border-bottom-width: 0;
 			}
 
 		@media screen and (max-width: 1280px) {
 
-			.posts > article {
+			.posts > section {
 				width: 50%;
 			}
 
-				.posts > article:nth-child(2n) {
+				.posts > section:nth-child(2n) {
 					border-right-width: 0;
 				}
 
-				.posts > article:nth-child(3n) {
+				.posts > section:nth-child(3n) {
 					border-right-width: 1px;
 				}
 
-				.posts > article:nth-last-child(3) {
+				.posts > section:nth-last-child(3) {
 					border-bottom-width: 1px;
 				}
 
@@ -3113,11 +3113,11 @@
 
 		@media screen and (max-width: 980px) {
 
-			.posts > article {
+			.posts > section {
 				padding: 2.75em 2em;
 			}
 
-				.posts > article .image {
+				.posts > section .image {
 					margin: -1.375em 0 2.4375em -1em;
 					width: calc(100% + 2em);
 				}
@@ -3126,11 +3126,11 @@
 
 		@media screen and (max-width: 736px) {
 
-			.posts > article {
+			.posts > section {
 				padding: 1em 1em 2em 1em;
 			}
 
-				.posts > article .image {
+				.posts > section .image {
 					margin: 0 0 1.75em 0;
 					width: 100%;
 				}
@@ -3139,18 +3139,18 @@
 
 		@media screen and (max-width: 480px) {
 
-			.posts > article {
+			.posts > section {
 				width: 100%;
 				border-right-width: 0 !important;
 			}
 
-				.posts > article:nth-last-child(2) {
+				.posts > section:nth-last-child(2) {
 					border-bottom-width: 1px;
 				}
 
 		}
 
-	.posts > article {
+	.posts > section {
 		border-color: #dbdbdb;
 	}
 
@@ -3538,7 +3538,7 @@
 					background-color: #f2f2f2;
 				}
 
-		#banner > article {
+		#banner > section {
 			display: -moz-flex;
 			display: -webkit-flex;
 			display: -ms-flex;
@@ -3559,7 +3559,7 @@
 			position: relative;
 		}
 
-			#banner > article:before {
+			#banner > section:before {
 				-moz-transition: opacity 2.25s ease;
 				-webkit-transition: opacity 2.25s ease;
 				-ms-transition: opacity 2.25s ease;
@@ -3574,7 +3574,7 @@
 				opacity: 0.25;
 			}
 
-			#banner > article:nth-child(1):before {
+			#banner > section:nth-child(1):before {
 				-moz-transition-delay: 0s;
 				-webkit-transition-delay: 0s;
 				-ms-transition-delay: 0s;
@@ -3582,7 +3582,7 @@
 				background-color: #333333;
 			}
 
-			#banner > article:nth-child(2):before {
+			#banner > section:nth-child(2):before {
 				-moz-transition-delay: 0.375s;
 				-webkit-transition-delay: 0.375s;
 				-ms-transition-delay: 0.375s;
@@ -3590,7 +3590,7 @@
 				background-color: #303030;
 			}
 
-			#banner > article:nth-child(3):before {
+			#banner > section:nth-child(3):before {
 				-moz-transition-delay: 0.75s;
 				-webkit-transition-delay: 0.75s;
 				-ms-transition-delay: 0.75s;
@@ -3598,7 +3598,7 @@
 				background-color: #2e2e2e;
 			}
 
-			#banner > article:nth-child(4):before {
+			#banner > section:nth-child(4):before {
 				-moz-transition-delay: 1.125s;
 				-webkit-transition-delay: 1.125s;
 				-ms-transition-delay: 1.125s;
@@ -3606,7 +3606,7 @@
 				background-color: #2b2b2b;
 			}
 
-			#banner > article:nth-child(5):before {
+			#banner > section:nth-child(5):before {
 				-moz-transition-delay: 1.5s;
 				-webkit-transition-delay: 1.5s;
 				-ms-transition-delay: 1.5s;
@@ -3614,7 +3614,7 @@
 				background-color: #292929;
 			}
 
-			#banner > article:nth-child(6):before {
+			#banner > section:nth-child(6):before {
 				-moz-transition-delay: 1.875s;
 				-webkit-transition-delay: 1.875s;
 				-ms-transition-delay: 1.875s;
@@ -3622,7 +3622,7 @@
 				background-color: #262626;
 			}
 
-			#banner > article:nth-child(7):before {
+			#banner > section:nth-child(7):before {
 				-moz-transition-delay: 2.25s;
 				-webkit-transition-delay: 2.25s;
 				-ms-transition-delay: 2.25s;
@@ -3630,7 +3630,7 @@
 				background-color: #242424;
 			}
 
-			#banner > article:nth-child(8):before {
+			#banner > section:nth-child(8):before {
 				-moz-transition-delay: 2.625s;
 				-webkit-transition-delay: 2.625s;
 				-ms-transition-delay: 2.625s;
@@ -3638,7 +3638,7 @@
 				background-color: #212121;
 			}
 
-			#banner > article:nth-child(9):before {
+			#banner > section:nth-child(9):before {
 				-moz-transition-delay: 3s;
 				-webkit-transition-delay: 3s;
 				-ms-transition-delay: 3s;
@@ -3646,7 +3646,7 @@
 				background-color: #1f1f1f;
 			}
 
-			#banner > article:nth-child(10):before {
+			#banner > section:nth-child(10):before {
 				-moz-transition-delay: 3.375s;
 				-webkit-transition-delay: 3.375s;
 				-ms-transition-delay: 3.375s;
@@ -3654,49 +3654,49 @@
 				background-color: #1c1c1c;
 			}
 
-			/*#banner > article > img {
+			/*#banner > section > img {
 				display: none;
 			} */
 
 
-			#banner > article .content {
+			#banner > section .content {
 				max-width: 80%;
 				text-align: center;
 				position: relative;
 				z-index: 1;
 			}
 
-			#banner > article h1, #banner > article h2, #banner > article h3 {
+			#banner > section h1, #banner > section h2, #banner > section h3 {
 				margin: 0 0 0.4375em 0;
 			}
 
-				#banner > article h1 a, #banner > article h2 a, #banner > article h3 a {
+				#banner > section h1 a, #banner > section h2 a, #banner > section h3 a {
 					color: #ffffff !important;
 				}
 
-			#banner > article.full {
+			#banner > section.full {
 				min-height: 65vh;
 				width: 100%;
                 background: linear-gradient(rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2)), url(https://hireclix.github.io/hosting/tenable/images/sprinter-track-crop.jpg);
                 background-size: cover;
 			}
 
-				#banner > article.full h2 {
+				#banner > section.full h2 {
 					font-size: 2.25em;
 				}
 
-				#banner > article.full .content {
+				#banner > section.full .content {
 					width: 35em;
                     margin-top: -2.5em;
 				}
 
 				@media screen and (max-width: 1680px) {
 
-					#banner > article.full {
+					#banner > section.full {
 						min-height: 70vh;
 					}
 
-						#banner > article.full h2 {
+						#banner > section.full h2 {
 							font-size: 1.75em;
 						}
 
@@ -3704,42 +3704,42 @@
 
 				@media screen and (max-width: 736px) {
 
-					#banner > article.full h2 {
+					#banner > section.full h2 {
 						font-size: 1.5em;
 					}
 
 				}
 
-			#banner > article.half {
+			#banner > section.half {
 				min-height: 50vh;
 				width: 50%;
 			}
 
-            #banner > article.half.one {
+            #banner > section.half.one {
 				background: linear-gradient(rgba(0, 0, 0, 0.25), rgba(0, 0, 0, 0.25)), url(https://hireclix.github.io/hosting/tenable/images/gymnast-OPT.jpg);
                 background-size: cover;
                 background-position: center;
 			}
             
-            #banner > article.half.two {
+            #banner > section.half.two {
 				background: linear-gradient(rgba(0, 0, 0, 0.25), rgba(0, 0, 0, 0.25)), url(https://hireclix.github.io/hosting/tenable/images/swimmer-OPT.jpg);
                 background-size: cover;
                 background-position: center;
 			}
 
-				#banner > article.half h2 {
+				#banner > section.half h2 {
 					font-size: 1.75em;
 				}
 
                 @media screen and (min-width: 767px) {
-				    #banner > article.half .content {
+				    #banner > section.half .content {
 					   width: 25em;
                         top: 5em;
 				    }
                 }
 				@media screen and (max-width: 1680px) {
 
-					#banner > article.half h2 {
+					#banner > section.half h2 {
 						font-size: 1.35em;
 					}
 
@@ -3747,7 +3747,7 @@
 
 				@media screen and (max-width: 736px) {
 
-					#banner > article.half h2 {
+					#banner > section.half h2 {
 						font-size: 1.25em;
 					}
 
@@ -3755,15 +3755,15 @@
 
 		@media screen and (max-width: 980px) {
 
-			#banner > article {
+			#banner > section {
 				padding: 6em 2em 4.25em 2em ;
 			}
 
-				#banner > article.full {
+				#banner > section.full {
 					min-height: 55vh;
 				}
 
-				#banner > article.half {
+				#banner > section.half {
 					min-height: 35vh;
 				}
 
@@ -3771,15 +3771,15 @@
 
 		@media screen and (max-width: 736px) {
 
-			#banner > article {
+			#banner > section {
 				padding: 4em 1em 2.25em 1em ;
 			}
 
-				#banner > article.full {
+				#banner > section.full {
 					min-height: 0;
 				}
 
-				#banner > article.half {
+				#banner > section.half {
 					min-height: 0;
 				}
 
@@ -3794,31 +3794,31 @@
 				flex-direction: column;
 			}
 
-				#banner > article {
+				#banner > section {
 					padding: 4em 2em 2.25em 2em ;
 				}
 
-					#banner > article.full {
+					#banner > section.full {
 						width: 100%;
 					}
 
-						#banner > article.full .content {
+						#banner > section.full .content {
 							width: 100%;
 							max-width: 100%;
 						}
 
-					#banner > article.half {
+					#banner > section.half {
 						width: 100%;
 					}
 
-						#banner > article.half .content {
+						#banner > section.half .content {
 							width: 100%;
 							max-width: 100%;
 						}
 
 		}
 
-		body.is-loading #banner > article:before {
+		body.is-loading #banner > section:before {
 			opacity: 1;
 		}
 
