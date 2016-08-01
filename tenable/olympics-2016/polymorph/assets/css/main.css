@@ -1689,7 +1689,7 @@
 			transition: color 0.2s ease-in-out;
 		}
 
-		a:hover {
+		a:hover, a:active, a:target, a:focus {
 			color: #53bed5 !important;
 			border-bottom-color: transparent;
             text-decoration: none;
