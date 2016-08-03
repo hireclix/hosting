@@ -3039,7 +3039,9 @@
 .lightbox-target {
 position: fixed;
 top: -100%;
-width: 100%;   
+left: 25%;
+right: 25%;
+width: 50%;   
 background: rgba(0,0,0,.7);
 opacity: 0;
 -webkit-transition: opacity .5s ease-in-out;
