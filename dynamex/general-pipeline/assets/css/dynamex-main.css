@@ -3052,13 +3052,11 @@ overflow: hidden;
 }
 
 .lightbox-target .join-us {   
-margin: auto;
 position: absolute;
 top: 0;
 left:0;
 right:0;
-bottom: 0;
-box-sizing: border-box;        
+bottom: 0;       
 -webkit-transition: .5s ease-in-out;
 -moz-transition: .5s ease-in-out;
 -o-transition: .5s ease-in-out;
