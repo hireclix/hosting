@@ -1477,10 +1477,10 @@
 		background-color: #4a4a4a;
 		color: #ffffff;
 		padding: 7em 0 5em 0 ;
-		background-image: -moz-linear-gradient(to top, rgba(74,74,74,0.50), rgba(74,74,74,0.50)), url("../../../images/banner.jpg");
-		background-image: -webkit-linear-gradient(to top, rgba(74,74,74,0.50), rgba(74,74,74,0.50)), url("../../../images/banner.jpg");
-		background-image: -ms-linear-gradient(to top, rgba(74,74,74,0.50), rgba(74,74,74,0.50)), url("../../../images/banner.jpg");
-		background-image: linear-gradient(to top, rgba(74,74,74,0.50), rgba(74,74,74,0.50)), url("../../../images/banner.jpg");
+		background-image: -moz-linear-gradient(to top, rgba(74,74,74,0.50), rgba(74,74,74,0.50)), url("https://hireclix.github.io/hosting/dynamex/images/banner.jpg");
+		background-image: -webkit-linear-gradient(to top, rgba(74,74,74,0.50), rgba(74,74,74,0.50)), url("https://hireclix.github.io/hosting/dynamex/images/banner.jpg");
+		background-image: -ms-linear-gradient(to top, rgba(74,74,74,0.50), rgba(74,74,74,0.50)), url("https://hireclix.github.io/hosting/dynamex/images/banner.jpg");
+		background-image: linear-gradient(to top, rgba(74,74,74,0.50), rgba(74,74,74,0.50)), url("https://hireclix.github.io/hosting/dynamex/images/banner.jpg");
 		background-position: center;
 		background-repeat: no-repeat;
 		background-size: cover;
@@ -3000,37 +3000,37 @@
 		}
 
 .feature1 {
-    background: url(/images/feature1.jpg);
+    background: url(https://hireclix.github.io/hosting/dynamex/images/feature1.jpg);
     background-size: cover;
 }
 
 .feature2 {
-    background: url(/images/feature2.jpg);
+    background: url(https://hireclix.github.io/hosting/dynamex/images/feature2.jpg);
     background-size: cover;
 }
 
 .feature3 {
-    background: url(/images/feature3.jpg);
+    background: url(https://hireclix.github.io/hosting/dynamex/images/feature3.jpg);
     background-size: cover;
 }
 
 .feature4 {
-    background: url(/images/feature4.jpg);
+    background: url(https://hireclix.github.io/hosting/dynamex/images/feature4.jpg);
     background-size: cover;
 }
 
 .feature5 {
-    background: url(/images/feature5.jpg);
+    background: url(https://hireclix.github.io/hosting/dynamex/images/feature5.jpg);
     background-size: cover;
 }
 
 .feature6 {
-    background: url(/images/feature6.jpg);
+    background: url(https://hireclix.github.io/hosting/dynamex/images/feature6.jpg);
     background-size: cover;
 }
 
 .big-feature {
-    background: url(/images/big-feature.jpg);
+    background: url(https://hireclix.github.io/hosting/dynamex/images/big-feature.jpg);
     background-size: cover;
 }
 
