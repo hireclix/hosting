@@ -3064,6 +3064,19 @@ height: 80%;
 transition: .5s ease-in-out;
 }
 
+.lightbox-target .join-us2 {   
+margin: auto;
+position: absolute;
+top: 0;
+left:0;
+right:0;
+bottom: 0;
+height: 80%;    
+-webkit-transition: .5s ease-in-out;
+-moz-transition: .5s ease-in-out;
+-o-transition: .5s ease-in-out;
+transition: .5s ease-in-out;
+}
 
 .lightbox-target iframe {    
 margin: auto;
