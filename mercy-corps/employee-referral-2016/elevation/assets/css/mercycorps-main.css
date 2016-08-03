@@ -2266,6 +2266,10 @@ ul.features h3 {
     font-family: TimesNewRoman, "Times New Roman", Times, Baskerville, Georgia, serif;
 }
 
+.style1 .box.special h3 {
+   font-size: 1.2em;
+}
+
 
 	.plan {
 		background-color: #f5f5f5;
