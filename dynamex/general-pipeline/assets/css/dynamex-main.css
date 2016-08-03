@@ -3063,6 +3063,10 @@ height: 80%;
 transition: .5s ease-in-out;
 }
 
+.join-us-bg {
+    background: #fff;
+}
+
 .lightbox-target iframe {    
 margin: auto;
 position: absolute;
