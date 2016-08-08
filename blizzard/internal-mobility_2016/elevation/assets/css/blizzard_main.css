@@ -2427,7 +2427,7 @@ opacity: 0;
 -moz-transition: opacity .5s ease-in-out;
 -o-transition: opacity .5s ease-in-out;
 transition: opacity .5s ease-in-out;
-overflow: visible;
+overflow: scroll;
 }
 
 .lightbox-target .join-us {   
@@ -2445,12 +2445,6 @@ min-width: 500px;
 transition: .5s ease-in-out;
 }
 
-@media screen and (max-width:767px){
-    .lightbox-target {
-        -webkit-touch-overflow:scroll;
-        -webkit-overflow-scrolling: touch;
-    } 
-}
 
 @media screen and (max-width:500px){
     .lightbox-target .join-us {
