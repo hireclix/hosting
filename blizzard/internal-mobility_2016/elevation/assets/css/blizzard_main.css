@@ -2516,3 +2516,15 @@ bottom: 0;
 .lightbox-target:target a.lightbox-close {
 top: 0px;
 }
+
+.plan a {
+    color: #4b505c;
+}
+
+.plan a:hover {
+    color: #21bbeb!important;
+}
+
+.features a:hover {
+    color: #21bbeb!important;
+}
