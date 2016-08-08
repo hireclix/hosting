@@ -1198,7 +1198,7 @@
 			}
 
 			.wrapper.style2 header.major > :first-child:before, .wrapper.style2 header.major > :first-child:after {
-				background-image: url("images/header-major-on-dark.svg");
+				background-image: url("https://hireclix.github.io/hosting/blizzard/images/header-major-on-dark.svg");
 			}
 
 			.wrapper.style2 .box {
@@ -1247,7 +1247,7 @@
 			background: #ffffff;
 		}
 
-        .wrapper.style4 {	background:url(../../../../images/parallax2.jpg);
+        .wrapper.style4 {	background:url(https://hireclix.github.io/hosting/blizzard/images/parallax2.jpg);
         background-position: top;
         background-repeat: no-repeat;
         background-size: cover;    
@@ -1270,7 +1270,7 @@
     color: #fff;
 }
 
-        .wrapper.style5 {	background:url(https://hireclix.github.io/hosting/mercy-corps/images/come-see-darker.jpg);
+        .wrapper.style5 {	background:url();
             background-position: center;
             background-repeat: no-repeat;
             background-size: cover;
@@ -1534,7 +1534,7 @@
 /* Banner */
 
 	#banner {
-		background: linear-gradient(rgba(0,0,0,0.4), rgba(0, 0, 0, 0.4)), url("/../../images/sunrise-blizzard.jpg");
+		background: linear-gradient(rgba(0,0,0,0.4), rgba(0, 0, 0, 0.4)), url("https://hireclix.github.io/hosting/blizzard/images/sunrise-blizzard.jpg");
 		background-repeat: no-repeat;
 		background-size: cover;
 		color: #fff;
