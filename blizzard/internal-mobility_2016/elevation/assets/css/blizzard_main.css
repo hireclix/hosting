@@ -2446,7 +2446,8 @@ transition: .5s ease-in-out;
 
 @media screen and (max-width:767px){
     .lightbox-target {
-        overflow: scroll;
+        -webkit-touch-overflow:scroll;
+        -webkit-overflow-scrolling: touch;
     } 
 }
 
