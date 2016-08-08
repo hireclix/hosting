@@ -2444,6 +2444,12 @@ min-width: 500px;
 transition: .5s ease-in-out;
 }
 
+@media screen and (max-width:500px){
+    .lightbox-target .join-us {
+        min-width: 0;
+    } 
+}
+
 .lightbox-target iframe {    
 margin: auto;
 position: absolute;
