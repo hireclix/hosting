@@ -2426,7 +2426,8 @@ ul.features h3 {
     }
 }
 
-.left {
-    position: relative;
-    left: -7em;
+@media screen and (min-width: 1280px) {
+    .feature img {
+        max-width: 447px;
+    }
 }
