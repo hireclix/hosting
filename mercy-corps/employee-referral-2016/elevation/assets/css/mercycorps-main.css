@@ -657,6 +657,10 @@
 		padding: 2.25em;
 	}
 
+.jobs .box {
+    height: 20em;
+}
+
 		.box > :last-child,
 		.box > :last-child > :last-child,
 		.box > :last-child > :last-child > :last-child {
@@ -2428,12 +2432,24 @@ ul.features h3 {
 
 @media screen and (min-width: 1280px) {
     .feature img {
-        max-width: 447px;
+        max-width: 475px;
+    }
+}
+
+@media screen and (min-width: 1680px) {
+    .feature img {
+        max-width: 500px;
     }
 }
 
 @media screen and (max-width: 767px) {
     .feature img {
         margin-top: 2.5em;
+    }
+}
+
+@media (min-width:980px) and (max-width:1280px) {
+    .target-padding {
+        padding-bottom:1.8em !important;
     }
 }
