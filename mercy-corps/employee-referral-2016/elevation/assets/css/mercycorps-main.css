@@ -2154,7 +2154,7 @@
 ul.features {
 			list-style: none;
 			padding: 0;
-            max-width: 60%;
+            /*max-width: 60%;*/
             margin: 0 auto;
 		}
 
@@ -2426,3 +2426,7 @@ ul.features h3 {
     }
 }
 
+.left {
+    position: relative;
+    left: -7em;
+}
