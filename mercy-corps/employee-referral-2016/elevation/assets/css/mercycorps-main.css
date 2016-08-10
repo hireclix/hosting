@@ -454,9 +454,9 @@
 			}
 
 		header.major p {
-            font-family: TimesNewRoman, "Times New Roman", Times, Baskerville, Georgia, serif;
+            /*font-family: TimesNewRoman, "Times New Roman", Times, Baskerville, Georgia, serif;*/
 			color: #666;
-			font-size: 1.1em;
+			font-size: 1em;
 			line-height: 1.65em;
 			margin: 0 auto 0 auto;
 		}
@@ -2154,10 +2154,13 @@
 ul.features {
 			list-style: none;
 			padding: 0;
+            max-width: 60%;
+            margin: 0 auto;
 		}
 
 ul.features h3 {
-			font-size: 1.1em;
+			font-size: 1em;
+            text-transform: none;
 		}
 
 	ul.features li {
@@ -2196,7 +2199,7 @@ ul.features h3 {
 					padding-left: 1.2em;
                     padding-top: .7em;
 					position: relative;
-					width: 35%;
+					width: 100%;
 					-ms-flex: auto;
 				}
 
@@ -2214,7 +2217,7 @@ ul.features h3 {
 					}
 
 				ul.features li p {
-                    font-family: TimesNewRoman, "Times New Roman", Times, Baskerville, Georgia, serif;
+                    /*font-family: TimesNewRoman, "Times New Roman", Times, Baskerville, Georgia, serif;*/
 					width: 65%;
 					-ms-flex: auto;
 					margin-bottom: 0;
@@ -2263,11 +2266,12 @@ ul.features h3 {
 			}
 
 .style1 .box.special p {
-    font-family: TimesNewRoman, "Times New Roman", Times, Baskerville, Georgia, serif;
+    /*font-family: TimesNewRoman, "Times New Roman", Times, Baskerville, Georgia, serif;*/
+    font-size: .9em;
 }
 
 .style1 .box.special h3 {
-   font-size: 1.2em;
+   font-size: 1.25em;
 }
 
 
