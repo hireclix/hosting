@@ -1493,13 +1493,20 @@
 /* CTA */
 
 	#cta {
-		background: linear-gradient(rgba(0,0,0,0.4), rgba(0, 0, 0, 0.4)), url(https://hireclix.github.io/hosting/banfield/images/parallax2.jpg);
+		background:  url(../../../../images/parallax2.jpg);
         background-attachment: fixed;
         background-repeat: no-repeat;
 		color: #fff;
 		padding: 3.5em 0 4em 0;
 		text-align: center;
-	} 
+	}
+
+    @media screen and (min-width: 1620px) {
+        #cta {
+            background-position: center;
+        }
+    }
+
 
     @media screen and (max-width: 600px) {
         #cta {
@@ -2077,6 +2084,29 @@
 
 .testimonials h4 {
     margin-top: -15px;
+}
+
+.testimonials .tagline h3 {
+    margin-top: -.4em;
+    letter-spacing: .15em;
+}
+
+.testimonials .tagline h4 {
+    color: #00b3e2;
+    padding-bottom: 1em;
+}
+
+@media screen and (min-width: 980px) {
+    .vert-center {
+        display: flex;
+        align-items: center;
+    }
+}
+
+@media screen and (max-width: 979px) {
+    .testimonials .tagline {
+       padding-top:2em; 
+    }
 }
 
 #cta .button.special {
