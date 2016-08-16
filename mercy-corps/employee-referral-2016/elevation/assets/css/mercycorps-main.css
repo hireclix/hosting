@@ -431,7 +431,7 @@
 		}
 
 			header.major > :first-child:before, header.major > :first-child:after {
-				background-image: url("images/header-major-on-light.svg");
+				/*background-image: url("images/header-major-on-light.svg");*/
 				background-repeat: no-repeat;
 				content: '';
 				display: inline-block;
@@ -2192,7 +2192,7 @@ ul.features h3 {
 				display: -webkit-flex;
 				display: -ms-flex;
 				display: flex;
-				border-top: solid 2px;
+				/*border-top: solid 2px;*/
 				margin: 2em 0 0 0;
 				padding: 3em 0 0 0;
 			}
