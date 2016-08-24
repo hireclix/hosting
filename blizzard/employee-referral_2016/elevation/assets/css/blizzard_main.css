@@ -1261,9 +1261,9 @@
 }
 
 .wrapper.style4 h2 {
-    text-transform: none;
+    text-transform: uppercase;
     color: #fff;
-    font-size: 3em;
+    font-size: 2.25em;
 }
 
 .wrapper.style4 p {
@@ -1534,7 +1534,7 @@
 /* Banner */
 
 	#banner {
-		background: linear-gradient(rgba(0,0,0,0.4), rgba(0, 0, 0, 0.4)), url("https://hireclix.github.io/hosting/blizzard/images/intro-banner.jpg");
+		background: linear-gradient(rgba(0,0,0,0.4), rgba(0, 0, 0, 0.4)), url("https://hireclix.github.io/hosting/blizzard/images/blizzard-campus-gates.jpg");
 		background-repeat: no-repeat;
 		background-size: cover;
 		color: #fff;
@@ -2142,7 +2142,7 @@
 /* Custom Added 8/16 */
 
 .intro-logo {
-    width: ;
+    width: 250px;
 }
 
 ul.features {
@@ -2290,6 +2290,16 @@ ul.features h3 {
 				color: #4b505c;
 			}
 
+            .plan ul a {
+				color: #21bbeb;
+                text-align: center;
+                display: block;  
+			}
+
+            .plan ul a:hover {
+                color: #026c92 !important;
+			}
+
 		.plan .price {
 			display: block;
 			font-size: 0.8em;
@@ -2411,4 +2421,110 @@ ul.features h3 {
 
 .all-reqs:hover {
     color: #026c92 !important;
+}
+
+/* Lightbox */
+
+.lightbox-target {
+position: fixed;
+top: -100%;
+width: 100%;
+background: rgba(0,0,0,.7);
+width: 100%;
+opacity: 0;
+-webkit-transition: opacity .5s ease-in-out;
+-moz-transition: opacity .5s ease-in-out;
+-o-transition: opacity .5s ease-in-out;
+transition: opacity .5s ease-in-out;
+overflow: hidden;
+}
+
+.lightbox-target .join-us {   
+margin: auto;
+position: absolute;
+top: 0;
+left:0;
+right:0;
+bottom: 0;
+height: 70%;
+width: 100%;
+box-sizing: border-box;        
+-webkit-transition: .5s ease-in-out;
+-moz-transition: .5s ease-in-out;
+-o-transition: .5s ease-in-out;
+transition: .5s ease-in-out;
+}
+
+.lightbox-target iframe {    
+margin: auto;
+position: absolute;
+top: 0;
+left:0;
+right:0;
+bottom: 0;
+max-height: 70%;
+max-width: 100%;
+-webkit-transition: .5s ease-in-out;
+-moz-transition: .5s ease-in-out;
+-o-transition: .5s ease-in-out;
+transition: .5s ease-in-out;
+}
+
+a.lightbox-close {
+display: block;
+width:50px;
+height:50px;
+box-sizing: border-box;
+background: white;
+color: black;
+text-decoration: none;
+position: absolute;
+top: -80px;
+right: 0;
+-webkit-transition: .5s ease-in-out;
+-moz-transition: .5s ease-in-out;
+-o-transition: .5s ease-in-out;
+transition: .5s ease-in-out;
+}
+
+a.lightbox-close:before {
+content: "";
+display: block;
+height: 30px;
+width: 1px;
+background: black;
+position: absolute;
+left: 26px;
+top:10px;
+-webkit-transform:rotate(45deg);
+-moz-transform:rotate(45deg);
+-o-transform:rotate(45deg);
+transform:rotate(45deg);
+}
+
+a.lightbox-close:after {
+content: "";
+display: block;
+height: 30px;
+width: 1px;
+background: black;
+position: absolute;
+left: 26px;
+top:10px;
+-webkit-transform:rotate(-45deg);
+-moz-transform:rotate(-45deg);
+-o-transform:rotate(-45deg);
+transform:rotate(-45deg);
+}
+
+
+.lightbox-target:target {
+opacity: 1;
+top: 0;
+bottom: 0;
+}
+
+
+.lightbox-target:target a.lightbox-close {
+top: 0px;
 }
