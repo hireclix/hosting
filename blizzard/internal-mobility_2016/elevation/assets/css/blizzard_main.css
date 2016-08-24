@@ -2572,7 +2572,7 @@ top: 0px;
     display: none;
     position: absolute;
     padding: 0;  
-    margin-left: -385px;
+    margin-left: -460px;
     z-index: 100;
     width:800px;
 }
@@ -2597,6 +2597,8 @@ top: 0px;
     padding-right: 2em;
 }
 
-.style4 ul li:hover > ul {
-    display: inherit;
+@media screen and (min-width: 767px) {
+    .style4 ul li:hover > ul {
+        display: inherit;
+    }
 }
