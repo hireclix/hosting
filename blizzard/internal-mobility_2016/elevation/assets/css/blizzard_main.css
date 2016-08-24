@@ -2558,3 +2558,45 @@ top: 0px;
 .dropdown .button:hover > .hide-on-hover {
     display: none;
 }
+
+.style4 ul ul.dropdowns1 {
+    display: none;
+    position: absolute;
+    padding: 0;  
+    margin-left: -185px;
+    z-index: 100;
+    width:600px;
+}
+
+.style4 ul ul.dropdowns2 {
+    display: none;
+    position: absolute;
+    padding: 0;  
+    margin-left: -385px;
+    z-index: 100;
+    width:800px;
+}
+
+.style4 ul ul li:hover  {
+   background-color: #21bbeb;
+}
+
+.dropdowns:hover > .dropdown .button  {
+   background-color: #21bbeb !important;
+}
+
+.style4 ul ul li {
+    display: inline-block;
+	background-color: #026c92;
+    padding: .5em 2em;
+    border: 1px solid #fff;
+    margin-left: -.3em;;
+}
+
+.style4 ul ul li:last-child {
+    padding-right: 2em;
+}
+
+.style4 ul li:hover > ul {
+    display: inherit;
+}
