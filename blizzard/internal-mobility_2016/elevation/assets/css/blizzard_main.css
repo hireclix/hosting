@@ -1534,9 +1534,10 @@
 /* Banner */
 
 	#banner {
-		background: linear-gradient(rgba(0,0,0,0.4), rgba(0, 0, 0, 0.4)), url("https://hireclix.github.io/hosting/blizzard/images/sunrise-blizzard.jpg");
+		background: linear-gradient(rgba(0,0,0,0.4), rgba(0, 0, 0, 0.4)), url("https://hireclix.github.io/hosting/blizzard/images/collage.jpg");
 		background-repeat: no-repeat;
 		background-size: cover;
+        background-position: center;
 		color: #fff;
 		padding: 16em 0 14em 0;
 		text-align: center;
