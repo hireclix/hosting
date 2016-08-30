@@ -2604,3 +2604,17 @@ top: 0px;
         display: inherit;
     }
 }
+
+.major h2 {
+    font-size: 2.25em;
+}
+
+@media screen and (min-width: 1280px) {
+    p {
+        font-size: 16pt;
+    }
+}
+
+footer .menu a:hover {
+    color: #484459 !important;
+}
