@@ -1624,6 +1624,7 @@
 				font-size: 11pt;
 			}
 
+
 		/* Banner */
 
 			#banner {
@@ -1641,6 +1642,10 @@
 			body, input, select, textarea {
 				font-size: 11pt;
 			}
+        
+        
+            
+        
 
 		/* Section/Article */
 
@@ -2527,4 +2532,18 @@ bottom: 0;
 
 .lightbox-target:target a.lightbox-close {
 top: 0px;
+}
+
+.major h2 {
+    font-size: 2.25em;
+}
+
+@media screen and (min-width: 1280px) {
+    p {
+        font-size: 12pt;
+    }
+}
+
+footer .menu a:hover {
+    color: #484459 !important;
 }
