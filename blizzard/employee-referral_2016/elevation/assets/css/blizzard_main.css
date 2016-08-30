@@ -2301,10 +2301,6 @@ ul.features h3 {
                 display: block;  
 			}
 
-            .plan ul a:hover {
-                color: #026c92 !important;
-			}
-
 		.plan .price {
 			display: block;
 			font-size: 0.8em;
