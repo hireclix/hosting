@@ -2615,10 +2615,22 @@ top: 0px;
     }
 }
 
-@media screen and (min-width: 1280px) {
+@media screen and (min-width: 1380px) {
     p {
         font-size: 16pt;
     }
+}
+
+@media screen and (min-width: 1380px) {
+    header.major p {
+			font-size: 1.3em;
+		}
+}
+
+@media screen and (min-width: 1480px) {
+    header.major p {
+			font-size: 1.4em;
+		}
 }
 
 footer .menu a:hover {
