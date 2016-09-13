@@ -3495,3 +3495,13 @@
         padding-top: 2em;
     }
 }
+
+.social-icons img {
+    width: 55px;
+}
+
+@media screen and (max-width: 980px) {
+    .share {
+        text-align: center;
+    }
+}
