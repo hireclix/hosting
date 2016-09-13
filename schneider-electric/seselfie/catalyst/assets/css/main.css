@@ -3482,3 +3482,16 @@
     95% { left:-300%; }
     100%   { left:0%; }
 }
+
+
+@media screen and (min-width: 980px) {
+    .ipad {
+        float: right;
+    }
+}
+
+@media screen and (min-width: 980px) {
+    .sec2 {
+        padding-top: 2em;
+    }
+}
