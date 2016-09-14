@@ -326,9 +326,7 @@
     .color-block {
         position: relative;
         background-color: #2DCCD3;
-        padding: .5em 0em .25 0em;
-        margin: 0 auto;
-        min-width: 100%;
+        padding: .5em 0em .25em 0em;
     }
 
 
