@@ -1230,6 +1230,7 @@
 		transition: opacity 0.5s ease, transform 0.5s ease;
 		max-width: calc(100vw - 6em);
 		width: 86em;
+        background-color:#fff;
 	}
 
 @media screen and (min-width: 980px) {
