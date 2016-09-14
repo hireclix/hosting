@@ -1283,7 +1283,7 @@
 			transition: transform 0.5s ease;
 			background-color: #ffffff;
 			padding: 0em;
-			width: 50%;
+			width: 55%;
 		}
 
 		.panel.inactive {
@@ -1353,7 +1353,7 @@
 		@media screen and (max-width: 1680px) {
 
 			.panel {
-				width: 75em;
+				width: 70em;
 			}
 
 				.panel > .image {
