@@ -3543,6 +3543,25 @@
     color: #3DCD58;
 }
 
+
+@media screen and (min-width: 1500px) {
+    p {
+        font-size: 1.2em;
+    }
+    
+    #one p {
+        font-size: 1.4em;
+    }
+    
+    #one h2 {
+        font-size:1.8em;
+    }
+    
+    h2 {
+        font-size: 1.8em;
+    }
+}
+
 /*@media screen and (max-width: 980px) {
     .share {
         text-align: center;
