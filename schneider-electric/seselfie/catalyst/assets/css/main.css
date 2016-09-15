@@ -2680,7 +2680,7 @@
 		background-repeat: no-repeat;
 		background-size: cover;
 		color: #fff;
-		padding: 14em 0;
+		padding: 18em 0;
 		text-align: center;
         background-attachment: fixed;
 	}
@@ -2755,8 +2755,12 @@
 /* One */
 
 	#one {
-		padding-bottom: 0;
+		padding-bottom: 3em;
 	}
+
+    #one .container {
+        margin-top: -1em;
+    }
 
 		#one p {
 			font-size: 1.25em;
@@ -2766,7 +2770,7 @@
 
 		#one .inner {
 			display: inline-block;
-			margin-top: -6em;
+			/*margin-top: -6em;*/
 			padding-right: 6em;
 			vertical-align: middle;
 			width: 50%;
@@ -2774,10 +2778,10 @@
 
 		#one .device {
 			border: solid 40px #fff;
-			border-bottom: 0;
-			border-radius: 20px;
-			border-bottom-left-radius: 0;
-			border-bottom-right-radius: 0;
+			/* border-bottom: 0; */
+            border-radius: 20px;
+			/* border-bottom-left-radius: 0;
+			border-bottom-right-radius: 0; */
 			display: inline-block;
 			margin-bottom: 0;
 			position: relative;
@@ -2790,10 +2794,10 @@
 				border-radius: 100%;
 				content: '';
 				height: 10px;
-				left: 50%;
+				left: 104%;
 				margin: -23px 0 0 -5px;
 				position: absolute;
-				top: 0;
+				top: 55%;
 				width: 10px;
 			}
 
@@ -2883,7 +2887,7 @@
 		/* Banner */
 
 			#banner {
-				padding: 12em 0;
+				padding: 14em 0;
 			}
 
 				#banner .inner {
@@ -2903,7 +2907,7 @@
 		/* One */
 
 			#one .inner {
-				margin-top: -4em;
+				/*margin-top: -4em;*/
 				padding-right: 4em;
 			}
 
@@ -3279,7 +3283,7 @@
 		/* One */
 
 			#one .device {
-				border-width: 20px;
+				border-width: 25px;
 				margin-top: 2em;
 				max-width: 100%;
 				width: 25em;
@@ -3367,7 +3371,7 @@
 		/* One */
 
 			#one .device {
-				border-width: 15px;
+				border-width: 20px;
 			}
 
 				#one .device:after {
@@ -3500,18 +3504,27 @@
     }
 }
 
-@media screen and (min-width: 980px) {
+/*@media screen and (min-width: 980px) {
     .sec2 {
-        padding-top: 2em;
+        padding-top: 4em;
     }
-}
+}*/
 
 .social-icons img {
-    width: 55px;
+    width: 50px;
 }
 
-@media screen and (max-width: 980px) {
+.share a {
+    color: #009530;
+    text-decoration: none;
+}
+
+.share a:hover {
+    color: #3DCD58;
+}
+
+/*@media screen and (max-width: 980px) {
     .share {
         text-align: center;
     }
-}
+}/*
