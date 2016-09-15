@@ -2791,7 +2791,7 @@
 
 
             #one .device:before {
-				border:1px solid #eee;
+				border:1px solid #ccc;
                 background: #fff;
 				border-radius: 100%;
 				content: '';
@@ -2804,7 +2804,7 @@
 			}
 
 			#one .device:after {
-				background: #eee;
+				background: #ccc;
 				border-radius: 100%;
 				content: '';
 				height: 10px;
@@ -3560,6 +3560,10 @@
     h2 {
         font-size: 1.8em;
     }
+}
+
+.ipad img {
+    border: 1px solid #8e8e8e;
 }
 
 /*@media screen and (max-width: 980px) {
