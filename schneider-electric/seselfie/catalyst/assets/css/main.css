@@ -2789,6 +2789,20 @@
 			width: 50%;
 		}
 
+
+            #one .device:before {
+				border:1px solid #eee;
+                background: #fff;
+				border-radius: 100%;
+				content: '';
+				height: 20px;
+				left: -5.5%;
+				margin: -23px 0 0 -5px;
+				position: absolute;
+				top: 52%;
+				width: 20px;
+			}
+
 			#one .device:after {
 				background: #eee;
 				border-radius: 100%;
@@ -3293,6 +3307,12 @@
 					height: 8px;
 					margin: -13px 0 0 -4px;
 					width: 8px;
+				}
+        
+                #one .device:before {
+					height: 15px;
+					margin: -13px 0 0 -4px;
+					width: 15px;
 				}
 
 	}
