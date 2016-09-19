@@ -1,4 +1,10 @@
-
+        a {
+            color: #005981 !important;
+            font-family: Arial , Helvetica Neue , Helvetica , sans-serif; 
+            font-weight: 500; 
+            font-size: 18.0px; 
+            color: #005981;
+        }
 
           
          /* Client-specific Styles */
