@@ -3141,7 +3141,7 @@ top: 0px;
 		}
 		
 		html {
-			background-attachment: scroll;
+			background-attachment: scroll, scroll;
 		}
 
 
