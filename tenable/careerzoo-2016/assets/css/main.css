@@ -3139,6 +3139,10 @@ top: 0px;
                line-height: 1.75em;
 		}
 		
+		html { 
+        background-attachment: scroll; 
+		background-image: url("https://raw.githubusercontent.com/hireclix/hosting/gh-pages/tenable/images/careerzoo-bg-02.jpg");
+}
 
 	}
 	
