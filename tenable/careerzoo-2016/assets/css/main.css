@@ -2282,6 +2282,7 @@
 
 				ul.icons-grid li h3 {
 					margin: 0;
+					padding: 1em;
 				}
 
 				ul.icons-grid li:nth-child(2n + 1) {
