@@ -120,7 +120,7 @@ section#intro {
 	padding: 50px 0;
 }
 section#intro .intro2 div{
-	background: url('https://hireclix.github.io/hosting/schneider-electric/images/headerbackground2-2560x900.jpg') center center fixed;
+	background: url('https://hireclix.github.io/hosting/schneider-electric/prettyPhoto/dark_rounded/contentPattern.png') center center fixed;
 	max-width: 385px;
 	 background-repeat: repeat-y;
 	-webkit-background-size: cover ;
@@ -406,7 +406,7 @@ section#faq .question i {
 /*Footer*/
 
 footer#footer {
-	background: url('https://hireclix.github.io/hosting/schneider-electric/images/GS3486547-2560x900.jpg') center center fixed;
+	background: url('https://hireclix.github.io/hosting/schneider-electric/images/headerbackground2-2560x900.jpg') center center fixed;
 	-webkit-background-size: cover ;
 	background-size: cover ;
 	padding: 50px 0;
