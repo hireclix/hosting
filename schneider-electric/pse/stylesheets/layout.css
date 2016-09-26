@@ -1,0 +1,517 @@
+/*
+* Korona
+* 2013, Piotr Kananowicz
+* 12/22/2013
+*/
+
+/*
+Table of Content:
+1. Main Style
+2. Header
+3. Intro
+4. Services 
+5. Features
+6. Clients
+7. FAQ
+8. Footer
+9. Media Queries
+10. Font-Face
+*/
+
+/*Main (Typography) Style*/
+
+p {
+	font-family: 'PT Sans', Helvetica, Arial, sans-serif;
+	color: #3c3c3c;
+}
+
+p.lead {
+	font-size: 16px;
+}
+
+h1,h2,h3,h4,h5 {
+    text-transform: uppercase;
+    font-family: 'Arvo', Georgia, Times, serif;
+    font-weight: bold;
+}
+
+h1 {
+    font-size: 48px;
+    line-height: 52px;
+    margin-bottom: 14px;
+    letter-spacing: -1px;
+}
+
+h2 {
+    font-size: 36px;
+    line-height: 48px;
+    margin-bottom: 10px;
+    letter-spacing: -1px;
+}
+
+h3 {
+    font-size: 30px;
+    line-height: 42px;
+    margin-bottom: 8px;
+    letter-spacing: -1px;
+}
+
+h4 {
+    font-size: 24px;
+    line-height: 36px;
+    margin-bottom: 4px;
+}
+
+h5 {
+    font-size: 18px;
+    line-height: 30px;
+}
+
+h6 {
+    font-size: 14px;
+    line-height: 21px;
+}
+
+a {
+	text-decoration: none;
+}
+
+/*Header*/
+
+header {
+	padding: 16px 0;
+	background: white;
+}
+
+header .info p {
+	text-align: right;
+	line-height: 32px;
+}
+
+/*Intro*/
+
+section#intro {
+	background: url('https://dl.dropbox.com/s/tjalhagdlmjzgti/Tower-Bridge-morning-traffic-000044340372_Medium.jpg?dl=0') center center fixed;
+	background-color: #B35757;
+	-webkit-background-size: cover ;
+	background-size: cover ;
+	padding: 50px 0;
+}
+section#intro .intro2 div{
+	background: url('https://dl.dropbox.com/s/uqz66lbtzn9sg7i/transparent.png?dl=0') center center fixed;
+	 background-repeat: repeat-y;
+	-webkit-background-size: cover ;
+	background-size: cover ;
+	padding: 50px 0;
+}
+
+section#intro .intro-text h2 {
+	color: white;
+	text-shadow: 0 1px #414141;
+	padding: 0px 10px;
+}
+
+section#intro .intro-text p {
+	color: white;
+	padding: 0px 10px;
+}
+section#intro .intro-text blockquote {
+	color: white;
+	border-left-color: #B32424;
+}
+
+section#intro .intro-text blockquote small {
+	font-weight: bold;
+	font-style: normal;
+	text-transform: uppercase;
+	font-family: 'arvo';
+	margin-left: 5px;
+}
+
+section#intro .booking div {
+	padding: 15px 20px;
+	width: 75%;
+	float: right;
+	background: white;
+	border: 15px solid rgba(0, 0, 0, 0.3);
+	-moz-background-clip: border;    
+  	-webkit-background-clip: border;
+  	background-clip: border-box;      			
+  	-moz-background-clip: padding;    
+  	-webkit-background-clip: padding;  
+  	background-clip: padding-box;      
+}
+
+
+section#intro .booking i {
+	color: #B32424;
+	margin: 10px 0;
+	text-align: center;
+	display: block;
+	font-size: 24px;
+}
+
+section#intro .booking h3 {
+	text-align: center;
+}
+
+section#intro .booking p {
+	text-align: center;
+}
+
+section#intro .booking input,
+section#intro .booking textarea {
+	width: 100%;
+	--webkit-box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	box-sizing: border-box;
+}
+
+section#intro .booking button {
+	background: #B32424;
+	outline: none;
+	border: none;
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+	color: white;
+	padding: 10px 18px;
+	text-transform: uppercase;
+	-webkit-transition: 0.2s ease-in;
+	-moz-transition: 0.2s ease-in;
+	-ms-transition: 0.2s ease-in;
+	-o-transition: 0.2s ease-in;
+	transition: 0.2s ease-in;
+}
+
+section#intro .booking button:hover {
+	background: #7C1212;
+	cursor: pointer;
+	-webkit-transition: 0.2s ease-in;
+	-moz-transition: 0.2s ease-in;
+	-ms-transition: 0.2s ease-in;
+	-o-transition: 0.2s ease-in;
+	transition: 0.2s ease-in;
+}
+
+/* Date and Time picker */
+
+.ui-timepicker-div .ui-widget-header { 
+	margin-bottom: 8px 
+}
+
+.ui-timepicker-div dl { 
+	text-align: left 
+}
+
+.ui-timepicker-div dl dt {
+    float: left;
+    clear: left;
+    padding: 0 0 0 5px;
+}
+
+.ui-datepicker-calendar thead {
+	background: #B32424;
+}
+
+.ui-datepicker-calendar th {
+	color: white;
+}
+
+.ui-timepicker-div dl dd { 
+	margin: 0 10px 10px 45% 
+}
+
+.ui-timepicker-div td { 
+	font-size: 90% 
+}
+
+.ui-tpicker-grid-label {
+    background: none;
+    border: none;
+    margin: 0;
+    padding: 0;
+}
+.ui-timepicker-rtl { 
+	direction: rtl 
+}
+
+.ui-timepicker-rtl dl {
+    text-align: right;
+    padding: 0 5px 0 0;
+}
+.ui-timepicker-rtl dl dt {
+    float: right;
+    clear: right;
+}
+.ui-timepicker-rtl dl dd { 
+	margin: 0 45% 10px 10px 
+}
+
+/*Services*/
+
+section#services {
+	padding: 50px 0 20px 0;
+}
+
+section#services .list-services ul i {
+	margin-right: 5px;
+	color: #B32424;
+}
+
+section#services .big-thumbnail img {
+	-webkit-transition: 0.2s ease-in;
+	-moz-transition: 0.2s ease-in;
+	-ms-transition: 0.2s ease-in;
+	-o-transition: 0.2s ease-in;
+	transition: 0.2s ease-in;
+}
+
+section#services .big-thumbnail img:hover {
+	-webkit-filter: grayscale(80%);
+	-moz-filter: grayscale(80%);
+	filter: grayscale(80%);
+	-webkit-transition: 0.2s ease-in;
+	-moz-transition: 0.2s ease-in;
+	-ms-transition: 0.2s ease-in;
+	-o-transition: 0.2s ease-in;
+	transition: 0.2s ease-in;
+}
+
+/*Features*/
+
+section#features {
+	padding-bottom: 50px;
+}
+
+section#features h5 {
+	padding: 10px 0 5px 0;
+}
+
+section#features img {
+	-webkit-transition: 0.2s ease-in;
+	-moz-transition: 0.2s ease-in;
+	-ms-transition: 0.2s ease-in;
+	-o-transition: 0.2s ease-in;
+	transition: 0.2s ease-in;
+}
+
+section#features img:hover {
+	-webkit-filter: grayscale(80%);
+	-moz-filter: grayscale(80%);
+	filter: grayscale(80%);
+	-webkit-transition: 0.2s ease-in;
+	-moz-transition: 0.2s ease-in;
+	-ms-transition: 0.2s ease-in;
+	-o-transition: 0.2s ease-in;
+	transition: 0.2s ease-in;
+}
+
+/*Clients*/
+
+section#clients {
+	background: url('https://dl.dropbox.com/s/tjalhagdlmjzgti/Tower-Bridge-morning-traffic-000044340372_Medium.jpg?dl=0') center center fixed;
+	background-color: #B35757;
+	-webkit-background-size: cover ;
+	background-size: cover ;
+	padding: 50px 0;
+}
+
+section#clients .preambule {
+	margin-bottom: 20px;
+}
+
+section#clients .preambule h3 {
+	color: white;
+	text-align: center;
+}
+
+section#clients .preambule p {
+	color: white;
+	text-align: center;
+}
+
+section#clients a>img {
+	opacity: 0.7;
+	-webkit-transition: 0.2s ease-in;
+	-moz-transition: 0.2s ease-in;
+	-ms-transition: 0.2s ease-in;
+	-o-transition: 0.2s ease-in;
+	transition: 0.2s ease-in;
+}
+
+section#clients a>img:hover {
+	opacity: 1;
+	-webkit-transition: 0.2s ease-in;
+	-moz-transition: 0.2s ease-in;
+	-ms-transition: 0.2s ease-in;
+	-o-transition: 0.2s ease-in;
+	transition: 0.2s ease-in;
+}
+
+/*FAQ*/
+
+section#faq {
+	background: white;
+	padding: 50px 0;
+}
+
+section#faq .preambule {
+	margin-bottom: 20px;
+}
+
+section#faq .preambule h3 {
+	text-align: center;
+}
+
+section#faq .preambule p {
+	text-align: center;
+}
+
+section#faq .question h5 {
+	margin: 5px 0;
+}
+
+section#faq .question i {
+	float: left;
+	margin-right: 5px;
+	font-size: 18px;
+	line-height: 38px;
+	color: #B32424;
+}
+
+/*Footer*/
+
+footer#footer {
+	background: url('https://dl.dropbox.com/s/tjalhagdlmjzgti/Tower-Bridge-morning-traffic-000044340372_Medium.jpg?dl=0') center center fixed;
+	background-color: #582D2D;
+	-webkit-background-size: cover ;
+	background-size: cover ;
+	padding: 50px 0;
+}
+
+footer#footer .preambule {
+	margin-bottom: 20px;
+}
+
+footer#footer .preambule h3 {
+	color: white;
+	text-align: center;
+}
+
+footer#footer .preambule p {
+	color: white;
+	text-align: center;
+}
+
+footer#footer .widget i {
+	color: white;
+	text-align: center;
+	display: block;	
+	margin-bottom: 15px;
+	font-size: 34px;
+}
+
+footer#footer .widget p {
+	text-align: center;
+	color: white;
+}
+
+footer#footer .widget a {
+	color: white;
+}
+
+footer#footer .social {
+	display: table;
+	text-align: center;
+	margin: 20px auto;
+}
+
+footer#footer .social li {
+	float: left;
+	width: 45px;
+}
+
+footer#footer .social li a {
+	text-align: center;
+	--webkit-border-radius: 50%;
+	-moz-border-radius: 50%;
+	border-radius: 50%;
+	border: 2px solid white;
+	padding: 6px;
+	width: 15px;
+	height: 15px;
+	display: block;
+	vertical-align: center;
+	-webkit-transition: 0.2s ease-in;
+	-moz-transition: 0.2s ease-in;
+	-ms-transition: 0.2s ease-in;
+	-o-transition: 0.2s ease-in;
+	transition: 0.2s ease-in;
+}
+
+footer#footer .social li a:hover {
+	border-color: #B32424;
+	-webkit-transition: 0.2s ease-in;
+	-moz-transition: 0.2s ease-in;
+	-ms-transition: 0.2s ease-in;
+	-o-transition: 0.2s ease-in;
+	transition: 0.2s ease-in;
+}
+
+footer#footer .social li i {
+	color: white;
+}
+
+footer#footer .copyrights {
+	text-align: center;
+	color: #838080;
+}
+
+
+/* #Media Queries
+================================================== */
+
+	/* Smaller than standard 960 (devices and browsers) */
+	@media only screen and (max-width: 959px) {}
+
+	/* Tablet Portrait size to standard 960 (devices and browsers) */
+	@media only screen and (min-width: 768px) and (max-width: 959px) {}
+
+	/* All Mobile Sizes (devices and browser) */
+	@media only screen and (max-width: 767px) {
+		header .info p {
+			text-align: left;
+		}
+
+		section#intro .booking div {
+			max-width: 100%;
+			float: none;
+		}
+	}
+
+	/* Mobile Landscape Size to Tablet Portrait (devices and browsers) */
+	@media only screen and (min-width: 480px) and (max-width: 767px) {}
+
+	/* Mobile Portrait Size to Mobile Landscape Size (devices and browsers) */
+	@media only screen and (max-width: 479px) {}
+
+
+/* #Font-Face
+================================================== */
+/* 	This is the proper syntax for an @font-face file
+		Just create a "fonts" folder at the root,
+		copy your FontName into code below and remove
+		comment brackets */
+
+/* #Font-Face
+	================================================== */
+	
+	/*	@font-face {
+		  font-family: 'FontAwesome';
+		  src: url('../font/fontawesome-webfont.eot');
+		  src: url('../font/fontawesome-webfont.eot?#iefix') format('embedded-opentype'), url('../font/fontawesome-webfont.woff') format('woff'), url('../font/fontawesome-webfont.ttf') format('truetype'), url('../font/fontawesome-webfont.svg#FontAwesome') format('svg');
+		  font-weight: normal;
+		  font-style: normal;
+	}
+	*/
