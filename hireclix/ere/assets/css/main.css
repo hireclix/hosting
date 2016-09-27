@@ -3739,9 +3739,7 @@
 		}
 
 	/*
-		Atmosphere by Pixelarity
-		pixelarity.com | hello@pixelarity.com
-		License: pixelarity.com/license
+		HireClix
 	*/
 
 /* Header */
@@ -3912,9 +3910,7 @@
 		}
 
 	/*
-		Atmosphere by Pixelarity
-		pixelarity.com | hello@pixelarity.com
-		License: pixelarity.com/license
+		HireClix
 	*/
 
 /* Menu */
@@ -4098,9 +4094,7 @@
 		}
 
 	/*
-		Atmosphere by Pixelarity
-		pixelarity.com | hello@pixelarity.com
-		License: pixelarity.com/license
+		HireClix
 	*/
 
 /* Banner */
@@ -4109,12 +4103,12 @@
 		background-image: -moz-linear-gradient(to top, rgba(71, 46, 104, 0.9), rgba(71, 46, 104, 0.9)), url("../../images/banner.jpg");
 		background-image: -webkit-linear-gradient(to top, rgba(71, 46, 104, 0.9), rgba(71, 46, 104, 0.9)), url("../../images/banner.jpg");
 		background-image: -ms-linear-gradient(to top, rgba(71, 46, 104, 0.9), rgba(71, 46, 104, 0.9)), url("../../images/banner.jpg");
-		background-image:  url("https://hireclix.github.io/hosting/hireclix/images/HireClix1400x600.jpeg");
+		background-image: linear-gradient(to top, rgba(166,31,35, 0.9), rgba(166,31,35, 0.9));
 		background-attachment: fixed;
 		background-position: center center;
 		background-size: cover;
 		color: #fff;
-		padding: 16em 3em;
+		padding: 12em 3em;
 		position: relative;
 		text-align: center;
 	}
@@ -4247,7 +4241,7 @@
 		background-image: -moz-linear-gradient(to top, rgba(71, 46, 104, 0.9), rgba(71, 46, 104, 0.9)), url("../../images/banner.jpg");
 		background-image: -webkit-linear-gradient(to top, rgba(71, 46, 104, 0.9), rgba(71, 46, 104, 0.9)), url("../../images/banner.jpg");
 		background-image: -ms-linear-gradient(to top, rgba(71, 46, 104, 0.9), rgba(71, 46, 104, 0.9)), url("../../images/banner.jpg");
-		background-image: linear-gradient(to top, rgba(71, 46, 104, 0.9), rgba(71, 46, 104, 0.9)), url("../../images/banner.jpg");
+		background-image: linear-gradient(to top, rgba(241,246,250, 0.9), rgba(241,246,250, 0.9)), url("../../images/banner.jpg");
 		background-attachment: fixed;
 		background-position: center center;
 		background-size: cover;
