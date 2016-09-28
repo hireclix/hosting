@@ -3566,11 +3566,12 @@
     border: 1px solid #b7b7b7;
 }
 
-/*@media screen and (max-width: 980px) {
-    .share {
+@media screen and (max-width: 767px) {
+    .social-icons {
         text-align: center;
+        padding-bottom: 2em;
     }
-}/*
+}
 
 
 /* Lightbox */
