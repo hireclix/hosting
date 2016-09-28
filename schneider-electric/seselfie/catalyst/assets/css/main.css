@@ -3664,3 +3664,17 @@ bottom: 0;
 .lightbox-target:target a.lightbox-close {
 top: 0px;
 }
+
+
+
+@media screen and (max-width: 767px) {
+    .desktop {
+        display: none;
+    }
+}
+
+@media screen and (min-width: 768px) {
+    .mobile {
+        display: none;
+    }
+}
