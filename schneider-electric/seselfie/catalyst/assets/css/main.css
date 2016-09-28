@@ -1571,12 +1571,12 @@
 	}
 
 	a {
-		color: #5ecb96;
+		color: #009530;
 		text-decoration: underline;
 	}
 
 		a:hover {
-			text-decoration: none;
+			color: #3DCD58;
 		}
 
 	strong, b {
@@ -1701,14 +1701,14 @@
 		position: relative;
 	}
 
-		header.major:after {
+		/*header.major:after {
 			background: #eee;
 			content: '';
 			display: inline-block;
 			height: 3px;
 			margin: 0 0 2em 0;
-			width: 6em;
-		}
+			width: 27em;
+		}*/
 
 		header.major.alt {
 			text-align: center;
@@ -2702,20 +2702,20 @@
 
 			#banner .inner h2 {
 				color: inherit;
-				font-size: 2.5em;
+				font-size: 2.75em;
 				line-height: 1.35em;
 				margin: 0;
 				padding: 0;
+                text-transform: none;
 			}
 
 			#banner .inner p {
-				font-size: 1.3em;
+				font-size: 1.5em;
 				letter-spacing: 0.125em;
-				line-height: 2em;
+				line-height: 1.5em;
 				margin: 2em 0 0 0;
-				padding: 2em 0 0 0;
+				padding: 1em 0 0 0;
 				position: relative;
-				text-transform: uppercase;
 				top: -0.25em;
 			}
 
@@ -2909,7 +2909,7 @@
 				}
 
 					#banner .inner h2 {
-						font-size: 2.25em;
+						font-size: 2.75em;
 					}
 
 		/* Main */
@@ -3033,7 +3033,7 @@
 				}
 
 					#banner .inner h2 {
-						font-size: 2em;
+						font-size: 2.25em;
 					}
 
 		/* Main */
@@ -3286,7 +3286,7 @@
 				}
 
 					#banner .inner h2 {
-						font-size: 1.5em;
+						font-size: 2em;
 					}
 
 					#banner .inner p {
@@ -3571,3 +3571,96 @@
         text-align: center;
     }
 }/*
+
+
+/* Lightbox */
+
+.lightbox-target {
+position: fixed;
+top: -100%;
+width: 100%;
+background: rgba(0,0,0,.7);
+width: 100%;
+opacity: 0;
+-webkit-transition: opacity .5s ease-in-out;
+-moz-transition: opacity .5s ease-in-out;
+-o-transition: opacity .5s ease-in-out;
+transition: opacity .5s ease-in-out;
+overflow: hidden;
+z-index: 100;    
+}
+
+
+.lightbox-target iframe {    
+margin: auto;
+position: absolute;
+top: 0;
+left:0;
+right:0;
+bottom: 0;
+max-height: 100%;
+max-width: 100%;
+-webkit-transition: .5s ease-in-out;
+-moz-transition: .5s ease-in-out;
+-o-transition: .5s ease-in-out;
+transition: .5s ease-in-out;
+}
+
+a.lightbox-close {
+display: block;
+width:50px;
+height:50px;
+box-sizing: border-box;
+background: white;
+color: black;
+text-decoration: none;
+position: absolute;
+top: -80px;
+right: 0;
+-webkit-transition: .5s ease-in-out;
+-moz-transition: .5s ease-in-out;
+-o-transition: .5s ease-in-out;
+transition: .5s ease-in-out;
+}
+
+a.lightbox-close:before {
+content: "";
+display: block;
+height: 30px;
+width: 1px;
+background: black;
+position: absolute;
+left: 26px;
+top:10px;
+-webkit-transform:rotate(45deg);
+-moz-transform:rotate(45deg);
+-o-transform:rotate(45deg);
+transform:rotate(45deg);
+}
+
+a.lightbox-close:after {
+content: "";
+display: block;
+height: 30px;
+width: 1px;
+background: black;
+position: absolute;
+left: 26px;
+top:10px;
+-webkit-transform:rotate(-45deg);
+-moz-transform:rotate(-45deg);
+-o-transform:rotate(-45deg);
+transform:rotate(-45deg);
+}
+
+
+.lightbox-target:target {
+opacity: 1;
+top: 0;
+bottom: 0;
+}
+
+
+.lightbox-target:target a.lightbox-close {
+top: 0px;
+}
