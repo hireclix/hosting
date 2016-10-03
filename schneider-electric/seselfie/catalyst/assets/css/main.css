@@ -2225,10 +2225,10 @@
 		-webkit-transition: background-color 0.2s ease-in-out, color 0.2s ease-in-out;
 		-ms-transition: background-color 0.2s ease-in-out, color 0.2s ease-in-out;
 		transition: background-color 0.2s ease-in-out, color 0.2s ease-in-out;
-		background-color: #1d2726;
+		background-color: #fff;
 		border-radius: 0;
 		border: 0;
-		color: #ffffff !important;
+		color: #009530 !important;
 		cursor: pointer;
 		display: inline-block;
 		font-size: 0.9em;
@@ -2245,11 +2245,18 @@
 		white-space: nowrap;
 	}
 
+    .sign-up .button {
+        height: 3em;
+		line-height: 3em;
+        padding: 0 2.25em;
+    }
+
 		input[type="submit"]:hover,
 		input[type="reset"]:hover,
 		input[type="button"]:hover,
 		.button:hover {
-			background-color: #283634;
+			background-color: #009530;
+            color: #fff !important;
 		}
 
 		input[type="submit"]:active,
@@ -2335,7 +2342,7 @@
 		input[type="reset"].special,
 		input[type="button"].special,
 		.button.special {
-			background-color: #5ecb96;
+			background-color: #3DCD58;
 			color: #ffffff !important;
 		}
 
@@ -2343,7 +2350,7 @@
 			input[type="reset"].special:hover,
 			input[type="button"].special:hover,
 			.button.special:hover {
-				background-color: #71d1a3;
+				background-color: #77dc8a;
 			}
 
 			input[type="submit"].special:active,
@@ -2473,12 +2480,12 @@
 /* Wrapper */
 
 	.wrapper {
-		padding: 6em 0 4em 0;
+		padding: 6em 0 0em 0;
 	}
 
 		.wrapper.style1 {
-			background: #5ecb96;
-			color: #d6f2e4;
+			background: #3DCD58;
+			color: #fff;
 		}
 
 			.wrapper.style1 h2, .wrapper.style1 h3, .wrapper.style1 h4, .wrapper.style1 h5, .wrapper.style1 h6, .wrapper.style1 strong {
@@ -2674,13 +2681,12 @@
 /* Banner */
 
 	#banner {
-		background-color: #f6f6f6;
-		background-image: url("https://hireclix.github.io/hosting/schneider-electric/images/guy-phone-crop.jpg");
+		background-color: #3DCD58;
 		background-position: bottom;
 		background-repeat: no-repeat;
 		background-size: cover;
 		color: #fff;
-		padding: 22em 0;
+		padding: 6em 0 0em 0;
 		text-align: center;
         background-attachment: fixed;
 	}
@@ -2692,8 +2698,6 @@
 		}
 
 		#banner .inner {
-			background: #000000;
-			background: rgba(0, 0, 0, 0.5);
 			display: inline-block;
 			padding: 3.5em 5em;
 			position: relative;
@@ -2702,7 +2706,7 @@
 
 			#banner .inner h2 {
 				color: inherit;
-				font-size: 2.75em;
+				font-size: 2em;
 				line-height: 1.35em;
 				margin: 0;
 				padding: 0;
@@ -2710,13 +2714,14 @@
 			}
 
 			#banner .inner p {
-				font-size: 1.5em;
+				font-size: 1.25em;
 				letter-spacing: 0.125em;
 				line-height: 1.5em;
-				margin: 2em 0 0 0;
+				margin: 2em auto 0 auto;
 				padding: 1em 0 0 0;
 				position: relative;
 				top: -0.25em;
+                max-width: 400px;
 			}
 
 				#banner .inner p:before {
@@ -2755,6 +2760,7 @@
 /* One */
 
 	#one {
+        padding-top: 4em;
 		padding-bottom: 3em;
 	}
 
@@ -2895,13 +2901,13 @@
 		/* Wrapper */
 
 			.wrapper {
-				padding: 4em 0 2em 0;
+				padding: 2em 0 0em 0;
 			}
 
 		/* Banner */
 
 			#banner {
-				padding: 14em 0;
+				padding: 6em 0 0em 0;
 			}
 
 				#banner .inner {
@@ -2909,7 +2915,7 @@
 				}
 
 					#banner .inner h2 {
-						font-size: 2.75em;
+						font-size: 2em;
 					}
 
 		/* Main */
@@ -3025,7 +3031,7 @@
 		/* Banner */
 
 			#banner {
-				padding: 10em 0;
+				padding: 6em 0 0em 0;
 			}
 
 				#banner .inner {
@@ -3033,7 +3039,7 @@
 				}
 
 					#banner .inner h2 {
-						font-size: 2.25em;
+						font-size: 1.5em;
 					}
 
 		/* Main */
@@ -3270,13 +3276,13 @@
 		/* Wrapper */
 
 			.wrapper {
-				padding: 2.5em 1.25em 0.5em 1.25em;
+				padding: 2.5em 1.25em 0em 1.25em;
 			}
 
 		/* Banner */
 
 			#banner {
-				padding: 6em 0;
+				padding: 6em 0 0em 0;
                 background-attachment: scroll;
 			}
 
@@ -3286,7 +3292,7 @@
 				}
 
 					#banner .inner h2 {
-						font-size: 2em;
+						font-size: 1.75em;
 					}
 
 					#banner .inner p {
@@ -3350,6 +3356,7 @@
 			ul.actions {
 				margin: 0 0 2em 0;
 			}
+        
 
 				ul.actions li {
 					display: block;
@@ -3404,26 +3411,13 @@
 
 
 .logo-header {
-    position: absolute;
+    position: relative;
+    background: #1d2726;
 }
 
 .intro-logo {
-    width: 200px;
-    margin: 1em 3em;
+    width: 300px;
 }
-
-@media screen and (max-width: 700px) {
-    .logo-header {
-        background: rgba(0,0,0,.5);
-        width: 100%;
-        text-align: center;    
-    }
-    
-    .intro-logo {
-        width: 100px;
-    }
-}
-
 
 /* Carousel */
 .carousel{
@@ -3679,3 +3673,7 @@ top: 0px;
         display: none;
     }
 }
+
+ul.actions a:hover {
+            text-decoration: none !important;
+        }
