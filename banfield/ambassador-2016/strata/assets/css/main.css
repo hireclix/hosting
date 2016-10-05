@@ -3143,3 +3143,12 @@
     }
 }
 
+.join-us {
+    padding-top:2em;
+}
+
+@media screen and (max-width: 1500px) {
+    .join-us {
+        padding-top:.2em;
+    }
+}
