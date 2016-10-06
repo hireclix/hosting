@@ -3152,3 +3152,26 @@
         padding-top:.4em;
     }
 }
+
+.mobile {
+    display: none;
+}
+
+
+@media screen and (max-width: 767px) {
+    .desktop {
+        display: none;
+    }
+    
+    .mobile {
+        display: inherit;
+    }
+    
+    .mobile-padding {
+        padding-top:1em;
+    }
+    
+    .join-us {
+        margin-left:15%;
+    }
+}
