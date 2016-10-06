@@ -3153,20 +3153,24 @@
 /*}*/
 
 
-.tall {
+/*.tall {
     display: none;
 }
 
 @media screen and (min-width: 1500px) {
     .tall {
         display: inherit;
-        max-width: 50%;
+        max-width: 60%;
+    }
+    
+    .desktop p {
+        padding-right: 1em;
     }
     
     .wide {
         display: none;
     }
-}
+}*/
 
 @media screen and (min-width: 1300px) {
     .logo img {
