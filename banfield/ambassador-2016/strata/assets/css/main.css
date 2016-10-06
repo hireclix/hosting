@@ -3142,15 +3142,15 @@
     }
 }
 
-.join-us {
+/*.join-us {
     padding-top:2em;
-}
+}*/
 
-@media screen and (max-width: 1500px) {
+/*@media screen and (max-width: 1500px) {*/
     .join-us {
         padding-top:.4em;
     }
-}
+/*}*/
 
 .mobile {
     display: none;
