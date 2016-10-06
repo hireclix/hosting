@@ -3152,6 +3152,28 @@
     }
 /*}*/
 
+
+.tall {
+    display: none;
+}
+
+@media screen and (min-width: 1500px) {
+    .tall {
+        display: inherit;
+        max-width: 50%;
+    }
+    
+    .wide {
+        display: none;
+    }
+}
+
+@media screen and (min-width: 1300px) {
+    .logo img {
+        width:250px;
+    }
+}
+
 .mobile {
     display: none;
 }
