@@ -1,11 +1,8 @@
+/* HireClix 2016 | www.hireclix.com */
+
 @import url(font-awesome.min.css);
 @import url("https://fonts.googleapis.com/css?family=Quicksand:400,700");
 
-/*
-	Atmosphere by Pixelarity
-	pixelarity.com | hello@pixelarity.com
-	License: pixelarity.com/license
-*/
 
 /* Reset */
 
@@ -2944,6 +2941,19 @@
 			width: 3.75em;
 		}
 
+        .mobile-icon .icon {
+			border-radius: 100%;
+			box-shadow: -0.5em 0.5em 1em rgba(0, 0, 0, 0.05);
+			display: block;
+			font-size: 3.75em;
+			height: 2.75em ;
+			line-height: 2.75em;
+			margin: 0 auto 0.7em;
+			text-align: center;
+			width: 2.75em;
+            margin-bottom: .51em;
+		}
+
 		.features h4 {
 			font-weight: 700;
 			margin-bottom: 0.5em;
@@ -4108,10 +4118,14 @@
 		background-position: center center;
 		background-size: cover;
 		color: #fff;
-		padding: 12em 3em;
+		padding: 5em 4em 12em 4em;
 		position: relative;
 		text-align: center;
 	}
+    
+    #banner img {
+        width: 300px;
+    }
 
 		#banner h1 {
 			color: inherit;
@@ -4176,7 +4190,7 @@
 
 			#banner {
 				background-attachment: scroll;
-				padding: 16em 3em;
+				padding: 4em 3em 16em 3em;
 			}
 
 		}
@@ -4192,7 +4206,7 @@
 		@media screen and (max-width: 736px) {
 
 			#banner {
-				padding: 8em 2em;
+				padding: 4em 2em 8em 2em;
 			}
 
 				#banner h1 {
