@@ -2513,7 +2513,7 @@
 	#footer {
 		bottom: 0;
 		left: 0;
-		padding: 0 4em 6em 0;
+		padding: 0 4em 1em 0;
 		position: fixed;
 		text-align: right;
 		width: 35%;
@@ -2524,11 +2524,11 @@
 		}
 
 			#footer .icons a {
-				color: rgba(255, 255, 255, 0.4);
+				color: rgba(255, 255, 255, 0.7);
 			}
 
 		#footer .copyright {
-			color: rgba(255, 255, 255, 0.4);
+			color: rgba(255, 255, 255, 0.7);
 			font-size: 0.8em;
 			list-style: none;
 			margin: 1em 0 0 0;
@@ -2558,7 +2558,7 @@
 	#main {
 		margin-left: 35%;
 		max-width: 60em;
-		padding: 4em 4em 4em 4em;
+		padding: 4em 4em 0em 4em;
 		width: calc(100% - 35%);
 	}
 
@@ -2874,7 +2874,7 @@
 		/* Footer */
 
 			#footer {
-				padding: 0 3em 5em 3em;
+				padding: 0 3em 1em 3em;
 				width: 30%;
 			}
 
@@ -2891,7 +2891,7 @@
 			#main {
 				margin-left: 30%;
 				max-width: none;
-				padding: 4em 3em 3em 3em;
+				padding: 4em 3em 0em 3em;
 				width: calc(100% - 30%);
 			}
 
