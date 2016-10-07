@@ -3679,11 +3679,11 @@ ul.actions a:hover {
         }
 
 .style1 .sec2 hr {
-        margin: -1em 0 1em 0
+        margin: -1em 0 1em 0;
     }
 
 @media screen and (max-width: 980px) {
     .style1 .sec2 hr {
-        margin: -1em auto 1em auto
+        margin: -1em auto 1em auto;
     }
 }
