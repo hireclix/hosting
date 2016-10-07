@@ -3686,4 +3686,8 @@ ul.actions a:hover {
     .style1 .sec2 hr {
         margin: -1em auto 1em auto;
     }
+    
+    .style1 .sec2 br {
+        display: none;
+    }
 }
