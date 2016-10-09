@@ -4311,10 +4311,22 @@
 					bottom: 0;
 					content: '';
 					height: 1px;
-					left: -4em;
+					left: -2.5em;
 					position: absolute;
 					width: 8em;
 				}
+
+        @media screen and (max-width: 980px) {
+    #footer .contact li:after {
+					background-color: rgba(99, 116, 133, 0.25);
+					bottom: 0;
+					content: '';
+					height: 1px;
+					left: -2em;
+					position: absolute;
+					width: 8em;
+				}
+        }
 
 				#footer .contact li:last-child {
 					margin-bottom: 0;
