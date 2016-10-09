@@ -2,6 +2,9 @@
 
 @import url(font-awesome.min.css);
 @import url("https://fonts.googleapis.com/css?family=Quicksand:400,700");
+@import 'https://fonts.googleapis.com/css?family=Lato';
+@import 'https://fonts.googleapis.com/css?family=Raleway';
+@import 'https://fonts.googleapis.com/css?family=Roboto';
 
 
 /* Reset */
@@ -2926,7 +2929,7 @@
 		.features li {
 			margin-bottom: 2em;
 			padding: 0 1em;
-			width: 25%;
+			width: 33%;
 		}
 
 		.features .icon {
@@ -4121,6 +4124,7 @@
 		padding: 5em 4em 12em 4em;
 		position: relative;
 		text-align: center;
+        font-family: 'Lato', sans-serif;
 	}
     
     #banner img {
@@ -4128,15 +4132,15 @@
     }
 
 		#banner h1 {
+            font-family: 'Roboto', sans-serif;
 			color: inherit;
 			font-size: 3.2em;
 			margin: 0 0 0.65em 0;
 			padding: 0;
-			text-transform: uppercase;
 		}
 
 		#banner p {
-			font-size: 1.75em;
+			font-size: 1.5em;
 			margin-bottom: 0.75em;
 		}
 
