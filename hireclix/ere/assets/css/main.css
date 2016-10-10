@@ -4118,7 +4118,7 @@
 		background-position: center;
 		background-size: cover;
 		color: #fff;
-		padding: 5em 4em 12em 4em;
+		padding: 5em 4em 6em 4em;
 		position: relative;
 		text-align: center;
         font-family: 'Lato', sans-serif;
@@ -4191,7 +4191,7 @@
 
 			#banner {
 				background-attachment: scroll;
-				padding: 4em 3em 10em 3em;
+				padding: 4em 3em 4em 3em;
 			}
 
 		}
