@@ -2769,8 +2769,8 @@
     }
 
 		#one p {
-			font-size: 1.25em;
-			line-height: 1.75em;
+			font-size: 1.1em;
+			line-height: 1.55em;
 			margin: -0.5em 0 0 0;
 		}
 
@@ -3537,6 +3537,9 @@
     color: #3DCD58;
 }
 
+#one h2 {
+    line-height: 1.5em;
+}
 
 @media screen and (min-width: 1500px) {
     p {
@@ -3544,7 +3547,7 @@
     }
     
     #one p {
-        font-size: 1.4em;
+        font-size: 1.2em;
     }
     
     #one h2 {
