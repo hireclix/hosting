@@ -2488,9 +2488,13 @@
 			color: #fff;
 		}
 
-			.wrapper.style1 h2, .wrapper.style1 h3, .wrapper.style1 h4, .wrapper.style1 h5, .wrapper.style1 h6, .wrapper.style1 strong {
+			.wrapper.style1 h2, .wrapper.style1 h3, .wrapper.style1 h4, .wrapper.style1 h5, .wrapper.style1 h6 {
 				color: #ffffff;
 			}
+
+            .wrapper.style1 strong {
+				color: #efefef;
+}
 
 			.wrapper.style1 header.major:after {
 				background: rgba(255, 255, 255, 0.9);
