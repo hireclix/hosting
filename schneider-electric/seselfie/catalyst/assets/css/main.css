@@ -2493,7 +2493,7 @@
 			}
 
             .wrapper.style1 strong {
-				color: #efefef;
+				color: #fff;
 }
 
 			.wrapper.style1 header.major:after {
@@ -3551,7 +3551,7 @@
     }
     
     #one p {
-        font-size: 1.2em;
+        font-size: 1.1em;
     }
     
     #one h2 {
