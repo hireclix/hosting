@@ -3026,10 +3026,10 @@
 		background-color: #4a4a4a;
 		color: #ffffff;
 		padding: 9em 0 5em 0 ;
-		background-image: -moz-linear-gradient(to top, rgba(74,74,74,0.50), rgba(74,74,74,0.50)), url("https://hireclix.github.io/hosting/tenable//images/sales-header.png");
-		background-image: -webkit-linear-gradient(to top, rgba(74,74,74,0.50), rgba(74,74,74,0.50)), url("https://hireclix.github.io/hosting/tenable//images/sales-header.png");
-		background-image: -ms-linear-gradient(to top, rgba(74,74,74,0.50), rgba(74,74,74,0.50)), url("https://hireclix.github.io/hosting/tenable//images/sales-header.png");
-		background-image: linear-gradient(to right, rgba(74,74,74,0.5), rgba(74,74,74,0.25)), url("/../../images/header-search.jpg");
+		background-image: -moz-linear-gradient(to right, rgba(74,74,74,0.5), rgba(74,74,74,0.25)), url("https://hireclix.github.io/hosting/santander/images/header-search.jpg");
+		background-image: -webkit-linear-gradient(to right, rgba(74,74,74,0.5), rgba(74,74,74,0.25)), url("https://hireclix.github.io/hosting/santander/images/header-search.jpg");
+		background-image: -ms-linear-gradient(to right, rgba(74,74,74,0.5), rgba(74,74,74,0.25)), url("https://hireclix.github.io/hosting/santander/images/header-search.jpg");
+		background-image: linear-gradient(to right, rgba(74,74,74,0.5), rgba(74,74,74,0.25)), url("https://hireclix.github.io/hosting/santander/images/header-search.jpg");
 		background-position: center;
 		background-repeat: no-repeat;
 		background-size: cover;
@@ -4568,18 +4568,14 @@ header h1 {
 }
 
 .big-feature {
-    background: url(../../../../images/video-preview);
+    background: url(https://hireclix.github.io/hosting/santander/images/video-preview);
     background-size: cover;
 }
 
 .big-feature:hover {
-    background: url(../../../../images/video-preview_hover.jpg);
+    background: url(https://hireclix.github.io/hosting/santander/images/video-preview_hover.jpg);
 }
 
-.big-feature2 {
-    background: url(https://hireclix.github.io/hosting/tenable/images/tenable-thumb-2.jpg);
-    background-size: contain;
-}
 
 /* Lightbox */
 
