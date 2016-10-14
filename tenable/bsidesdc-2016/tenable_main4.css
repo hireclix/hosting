@@ -902,7 +902,7 @@ figure.figure-hover {
 		padding-right:16px;
 	}
 	
-	#header .header-text { padding-top:70px; }
+	#header .header-text { padding-top:0px; }
 	
 	#header.header2 .header-text h1 {
 		font-size:44px;
@@ -934,7 +934,7 @@ figure.figure-hover {
 		padding-right:4px;
 	}
 	
-	#header .header-text { padding-top:25px; }
+	#header .header-text { padding-top:0px; }
 	
 	#header.header2 .header-text h1 {
 		font-size:40px;
