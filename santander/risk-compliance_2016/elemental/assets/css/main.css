@@ -1778,9 +1778,9 @@
 			font-size: 1.35em;
 		}
 
-		h3 {
+		/*h3 {
 			font-size: 1em;
-		}
+		}*/
 
 	}
 
@@ -1853,7 +1853,7 @@
 	}
 
 	a:hover {
-		color: #72bee1 !important;
+		color: #ff0000 !important;
 	}
 
 	strong, b {
@@ -3025,7 +3025,7 @@
 	.banner {
 		background-color: #4a4a4a;
 		color: #ffffff;
-		padding: 9em 0 5em 0 ;
+		padding: 5em 30em 3em 0 ;
 		background-image: -moz-linear-gradient(to right, rgba(74,74,74,0.5), rgba(74,74,74,0.25)), url("https://hireclix.github.io/hosting/santander/images/header-search.jpg");
 		background-image: -webkit-linear-gradient(to right, rgba(74,74,74,0.5), rgba(74,74,74,0.25)), url("https://hireclix.github.io/hosting/santander/images/header-search.jpg");
 		background-image: -ms-linear-gradient(to right, rgba(74,74,74,0.5), rgba(74,74,74,0.25)), url("https://hireclix.github.io/hosting/santander/images/header-search.jpg");
@@ -3135,7 +3135,7 @@
 		@media screen and (max-width: 980px) {
 
 			.banner {
-				padding: 8em 3em 6em 3em ;
+				padding: 5em 30em 3em 0 ;
 			}
 
 		}
@@ -3143,7 +3143,7 @@
 		@media screen and (max-width: 736px) {
 
 			.banner {
-				padding: 4em 3em 2em 3em ;
+				padding: 5em 17em 3em 0 ;
 			}
 
 				.banner h2 {
@@ -3184,9 +3184,9 @@
 				color: #ffffff;
 			}
 
-			.wrapper.style1 a:hover {
+			/*.wrapper.style1 a:hover {
 				color: #ffffff !important;
-			}
+			}*/
 
 			.wrapper.style1 strong, .wrapper.style1 b {
 				color: #ffffff;
@@ -4548,6 +4548,16 @@
 
 .footer-logo {
     width:400px;
+}
+
+.headline-img {
+    width:350px;
+}
+
+@media screen and (max-width: 736px) {
+    .headline-img {
+        width:250px;
+    }
 }
 
 header h1 {
