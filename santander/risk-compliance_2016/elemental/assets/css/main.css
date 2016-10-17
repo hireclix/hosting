@@ -4710,3 +4710,18 @@ top: 0px;
     font-size: 1.9em;
     line-height: 1.25em;
 }
+
+@media screen and (max-width: 736px) {
+    .desktop {
+        display: none;
+    }
+    
+    .mobile {
+        display: inherit !important;
+    }
+}
+
+.mobile {
+    padding-top: 2em;
+    display: none;
+}
