@@ -1666,11 +1666,11 @@
 
 		}
 
-		@media screen and (max-width: 360px) {
+		/*@media screen and (max-width: 360px) {
 
 			body, input, select, textarea {
 				font-size: 10.5pt;
-			}
+			}*/
 
 		}
 
