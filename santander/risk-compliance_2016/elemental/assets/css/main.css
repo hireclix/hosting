@@ -3143,7 +3143,19 @@
 		@media screen and (max-width: 736px) {
 
 			.banner {
-				padding: 5em 17em 3em 0 ;
+				padding: 5em 15em 3em 1em ;
+			}
+
+				.banner h2 {
+					font-size: 1.75em;
+				}
+
+		}
+
+        @media screen and (max-width: 575px) {
+
+			.banner {
+				padding: 4em 2em 2em 2em ;
 			}
 
 				.banner h2 {
@@ -4557,6 +4569,18 @@
 @media screen and (max-width: 736px) {
     .headline-img {
         width:250px;
+    }
+}
+
+@media screen and (max-width: 575px) {
+    .headline-img {
+        width:200px;
+        float: left;
+        padding-bottom: 1em;
+    }
+    
+    .banner-btn {
+        width: 200px;
     }
 }
 
