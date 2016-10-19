@@ -1637,7 +1637,11 @@
 		@media screen and (max-width: 460px) {
 
 			.banner {
-				padding: 8em 0em 2em 0em ;
+				padding: 8em .0em 2em .0em ;
+                background-image: -moz-linear-gradient(to top, rgba(0,0,0,0.35), rgba(0,0,0,0.35)), url("https://hireclix.github.io/hosting/mercy-corps/images/header.png");
+        background-image: -webkit-linear-gradient(to top, rgba(0,0,0,0.35), rgba(0,0,0,0.35)), url("https://hireclix.github.io/hosting/mercy-corps/images/header.png");
+        background-image: -ms-linear-gradient(to top, rgba(0,0,0,0.35), rgba(0,0,0,0.35)), url("https://hireclix.github.io/hosting/mercy-corps/images/header.png");
+		background-image: linear-gradient(to top, rgba(0,0,0,0.35), rgba(0,0,0,0.35)), url("https://hireclix.github.io/hosting/mercy-corps/images/header.png");
 			}
 
 				.banner h2 {
