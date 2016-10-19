@@ -1487,8 +1487,8 @@
 		background-image: -moz-linear-gradient(to top, rgba(0,0,0,0.25), rgba(0,0,0,0.25)), url("https://hireclix.github.io/hosting/mercy-corps/images/header.png");
         background-image: -webkit-linear-gradient(to top, rgba(0,0,0,0.25), rgba(0,0,0,0.25)), url("https://hireclix.github.io/hosting/mercy-corps/images/header.png");
         background-image: -ms-linear-gradient(to top, rgba(0,0,0,0.25), rgba(0,0,0,0.25)), url("https://hireclix.github.io/hosting/mercy-corps/images/header.png");
-		background-image: linear-gradient(to top, rgba(0,0,0,0.25), rgba(0,0,0,0.25)), url("/../../images/come-see.jpg");
-		background-position: right;
+		background-image: linear-gradient(to top, rgba(0,0,0,0.25), rgba(0,0,0,0.25)), url("https://hireclix.github.io/hosting/mercy-corps/images/header.png");
+		background-position: left;
 		background-repeat: no-repeat;
 		background-size: cover;
         background-attachment: fixed;
