@@ -1561,7 +1561,10 @@
 		}
 
 		.banner hr {
-			border-bottom-color: #ffffff;
+			border-bottom: dotted 1px #ffffff;
+            padding: 0;
+            margin: 0 auto 1em auto;
+            width:100px;
 		}
 
 		.banner h2 {
@@ -1572,6 +1575,11 @@
 
         .banner h5 {
             font-size: 1.1em;
+        }
+
+        .banner h6 {
+            font-size: .85em;
+            /*margin-bottom: 0;*/
         }
 
 		.banner > * {
