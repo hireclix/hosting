@@ -375,8 +375,8 @@
 		display: inline-block;
 		font-weight: 600;
 		height: 3.025em;
-		line-height: 3.025em;
-		padding: 0 3em;
+		line-height: 1.5em;
+		padding: .75em 3em 0 3em;
 		text-align: center;
 		text-decoration: none;
 		/*white-space: nowrap;*/
