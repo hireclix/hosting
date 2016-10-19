@@ -1611,6 +1611,7 @@
 			.banner {
 				padding: 12em 0em 2em 0em ;
                 background-attachment: scroll !important;
+                background-position: right;
 			}
 
 				.banner h2 {
