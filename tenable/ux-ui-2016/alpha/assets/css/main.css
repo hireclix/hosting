@@ -1,11 +1,7 @@
+/* HireClix 2016 | www.hireclix.com */
+
 @import url("font-awesome.min.css");
 @import url("http://fonts.googleapis.com/css?family=Source+Sans+Pro:300,400,300italic,400italic");
-
-/*
-	Alpha by Pixelarity
-	pixelarity.com | hello@pixelarity.com
-	License: pixelarity.com/license
-*/
 
 /* Reset */
 
@@ -3029,9 +3025,9 @@
 /* Banner */
 
 	#banner {
-		background-attachment: scroll,							fixed;
+		background-attachment: scroll;
 		background-color: #666;
-		background-image: url("/images/tenable3-base-header-image.jpg");
+		background-image: url("https://hireclix.github.io/hosting/tenable/images/tenable3-base-header-image.jpg");
 		background-position:center center;
 		background-repeat: no-repeat;
 		background-size: cover;
