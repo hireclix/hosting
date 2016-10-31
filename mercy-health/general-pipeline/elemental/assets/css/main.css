@@ -3026,10 +3026,10 @@
 		background-color: #4a4a4a;
 		color: #ffffff;
 		padding: 5em 0em 3em 0 ;
-		background-image: -moz-linear-gradient(to right, rgba(0,0,0,0.4), rgba(0,0,0,0.25)), url("http://hireclix.github.io/hosting/mercy-health/images/header.jpg");
-		background-image: -webkit-linear-gradient(to right, rgba(0,0,0,0.4), rgba(0,0,0,0.25)), url("http://hireclix.github.io/hosting/mercy-health/images/header.jpg");
-		background-image: -ms-linear-gradient(to right, rgba(0,0,0,0.4), rgba(0,0,0,0.25)), url("http://hireclix.github.io/hosting/mercy-health/images/header.jpg");
-		background-image: linear-gradient(to right, rgba(0,0,0,0.4), rgba(0,0,0,0.25)), url("http://hireclix.github.io/hosting/mercy-health/images/header.jpg");
+		background-image: -moz-linear-gradient(to right, rgba(0,0,0,0.4), rgba(0,0,0,0.25)), url("https://hireclix.github.io/hosting/mercy-health/images/header.jpg");
+		background-image: -webkit-linear-gradient(to right, rgba(0,0,0,0.4), rgba(0,0,0,0.25)), url("https://hireclix.github.io/hosting/mercy-health/images/header.jpg");
+		background-image: -ms-linear-gradient(to right, rgba(0,0,0,0.4), rgba(0,0,0,0.25)), url("https://hireclix.github.io/hosting/mercy-health/images/header.jpg");
+		background-image: linear-gradient(to right, rgba(0,0,0,0.4), rgba(0,0,0,0.25)), url("https://hireclix.github.io/hosting/mercy-health/images/header.jpg");
 		background-position: bottom center;
 		background-repeat: no-repeat;
 		background-size: cover;
@@ -4594,16 +4594,16 @@ header h1 {
 
 
 .big-feature {
-    background: url(http://hireclix.github.io/hosting/mercy-health/images/video-preview.png);
+    background: url(https://hireclix.github.io/hosting/mercy-health/images/video-preview.png);
     background-size: cover;
 }
 
 .big-feature:hover {
-    background: url(http://hireclix.github.io/hosting/mercy-health/images/video-preview_hover.png);
+    background: url(https://hireclix.github.io/hosting/mercy-health/images/video-preview_hover.png);
 }
 
 .big-feature2 {
-    background: url(http://hireclix.github.io/hosting/mercy-health/images/feature2.jpg);
+    background: url(https://hireclix.github.io/hosting/mercy-health/images/feature2.jpg);
     background-size: cover;
 }
 
