@@ -100,7 +100,7 @@
 		background-image: url("images/overlay.png"), -moz-linear-gradient(60deg, rgba(124, 236, 180, 0.5) 5%, rgba(108, 141, 255, 0.35)), url("../../images/bg.jpg");
 		background-image: url("images/overlay.png"), -webkit-linear-gradient(60deg, rgba(124, 236, 180, 0.5) 5%, rgba(108, 141, 255, 0.35)), url("../../images/bg.jpg");
 		background-image: url("images/overlay.png"), -ms-linear-gradient(60deg, rgba(124, 236, 180, 0.5) 5%, rgba(108, 141, 255, 0.35)), url("../../images/bg.jpg");
-		background-image: url("/../images/australia-skyline.jpg");
+		background-image: url("https://hireclix.github.io/hosting/tenable/images/australia-skyline.jpg");
 		background-repeat:no-repeat;
 		background-size: cover;
 		background-position:bottom center;
