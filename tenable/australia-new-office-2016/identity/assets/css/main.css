@@ -169,7 +169,7 @@
 		}
 
 		a:hover {
-			color: #435464;
+			color: #00a6b5;
 		}
 
 	strong, b {
@@ -502,74 +502,30 @@
 					padding-top: 0;
 				}
 
-		ul.icons {
-			cursor: default;
-			list-style: none;
-			padding-left: 0;
-			margin-top: -0.675em;
-		}
+            ul.icons {
+                cursor: default;
+			     list-style: none;
+			     padding-left: 0;
+		  }
 
 			ul.icons li {
 				display: inline-block;
-				padding: 0.675em 0.5em;
+				padding: 0 1em 0 0;
 			}
 
-				ul.icons li a {
-					text-decoration: none;
-					position: relative;
-					display: block;
-					width: 3.75em;
-					height: 3.75em;
-					border-radius: 100%;
-					border: solid 1px #c8cccf;
-					line-height: 3.75em;
-					overflow: hidden;
-					text-align: center;
-					text-indent: 3.75em;
-					white-space: nowrap;
+				ul.icons li:last-child {
+					padding-right: 0;
 				}
 
-					ul.icons li a:before {
-						-moz-osx-font-smoothing: grayscale;
-						-webkit-font-smoothing: antialiased;
-						font-family: FontAwesome;
-						font-style: normal;
-						font-weight: normal;
-						text-transform: none !important;
-					}
-
-					ul.icons li a:before {
-						color: #ffffff;
-						text-shadow: 1.25px 0px 0px #c8cccf, -1.25px 0px 0px #c8cccf, 0px 1.25px 0px #c8cccf, 0px -1.25px 0px #c8cccf;
-					}
-
-					ul.icons li a:hover:before {
-						text-shadow: 1.25px 0px 0px #435464, -1.25px 0px 0px #435464, 0px 1.25px 0px #435464, 0px -1.25px 0px #435464;
-					}
-
-					ul.icons li a:before {
-						position: absolute;
-						top: 0;
-						left: 0;
-						width: inherit;
-						height: inherit;
-						font-size: 1.85rem;
-						line-height: inherit;
-						text-align: center;
-						text-indent: 0;
-					}
-
-					ul.icons li a:hover {
-						border-color: #435464;
-					}
-
-			@media screen and (max-width: 480px) {
-
-				ul.icons li a:before {
-					font-size: 1.5rem;
+				ul.icons li .icon:before {
+					font-size: 1.5em;
 				}
 
-			}
+#footer .icons {
+			margin: 0 0 .25em 0;
+		}
+
+			
 
 		ul.actions {
 			cursor: default;
@@ -778,7 +734,7 @@
 		-ms-align-self: -ms-flex-end;
 		align-self: flex-end;
 		width: 100%;
-		padding: 1.5em 0 0 0;
+		padding: .2em 0 0 0;
 		color: rgba(255, 255, 255, 0.75);
 		cursor: default;
 		text-align: center;
@@ -793,8 +749,8 @@
 
 			#footer .copyright li {
 				display: inline-block;
-				margin: 0 0 0 0.45em;
-				padding: 0 0 0 0.85em;
+				margin: 0 0 0 0em;
+				padding: 0 0 0 0em;
 				border-left: solid 1px rgba(255, 255, 255, 0.5);
 				line-height: 1;
 			}
