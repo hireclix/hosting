@@ -1693,6 +1693,14 @@
 				color: inherit !important;
 			}
 
+.custom-link a {
+    color: #5e5e5e !important;
+}
+
+.custom-link a:hover {
+    color: #5e5e5e !important;
+}
+
 	strong, b {
 		font-weight: 600;
 	}
