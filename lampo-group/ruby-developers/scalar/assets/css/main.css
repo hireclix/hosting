@@ -3010,7 +3010,7 @@ ul.joined-icons li {
 	#banner {
 		padding: 9em 0 7em 0 ;
 		background-color: #423e3a;
-        background-image: linear-gradient(to right, rgba(85,85,85,0.5), rgba(85,85,85,0.25)), url("/images/hero2.jpg");
+        background-image: linear-gradient(to right, rgba(85,85,85,0.5), rgba(85,85,85,0.25)), url("https://hireclix.github.io/hosting/lampo-group/images/hero2.jpg");
 		background-position: 50% 75%;
 		background-repeat: no-repeat;
 		background-size: cover;
@@ -3021,9 +3021,6 @@ ul.joined-icons li {
         margin-bottom: .35em
     }
     
-    #banner header p {
-        margin-bottom: .2\5em
-    }
 
 		#banner h1, #banner h2, #banner h3, #banner h4, #banner h5, #banner h6, #banner strong, #banner b {
 			color: #ffffff;
