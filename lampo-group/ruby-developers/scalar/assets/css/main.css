@@ -2595,7 +2595,7 @@ ul.joined-icons li {
 /* Wrapper */
 
 	.wrapper {
-		padding: 6em 0 4em 0 ;
+		padding: 3em 0 3em 0 ;
 	}
 
 		.wrapper:after {
@@ -3120,7 +3120,7 @@ ul.joined-icons li {
 		/* Wrapper */
 
 			.wrapper {
-				padding: 4em 0 2em 0 ;
+				padding: 3em 0 2em 0 ;
 			}
 
 				.wrapper.split .primary {
@@ -3232,7 +3232,7 @@ ul.joined-icons li {
 				-webkit-transition: -webkit-transform 0.5s ease;
 				-ms-transition: -ms-transform 0.5s ease;
 				transition: transform 0.5s ease;
-				height: 3em;
+				height: 6em;
 				line-height: 3em;
 			}
 
@@ -3564,7 +3564,7 @@ ul.joined-icons li {
 			}
 
 			#header {
-				height: 44px;
+				height:5em;
 				line-height: 44px;
 			}
 
@@ -3671,6 +3671,17 @@ ul.joined-icons li {
 
 .intro-logo {
     width:250px;
+}
+
+	@media screen and (max-width: 736px) {
+        
+        .intro-logo {
+    width:200px;
+        }
+            #header h1 {
+                position: relative;
+                text-align: center;
+            }
 }
 
 /* Lightbox */
