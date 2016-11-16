@@ -3100,6 +3100,15 @@ ul.joined-icons li {
 
 	@media screen and (max-width: 1280px) {
 
+        
+        .tech-header {
+            margin-bottom: .15em;
+        }
+        
+        .tech-copy {
+            margin-bottom: 1.25em;
+        }
+        
 		/* Basic */
 
 			body, input, select, textarea {
