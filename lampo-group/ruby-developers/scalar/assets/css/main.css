@@ -3094,18 +3094,27 @@ ul.joined-icons li {
 				font-size: 11pt;
 			}
 
+        .tech-copy {
+            font-size:1.25em;
+            line-height: 1.5em;
+        }
+        
 	}
 
 /* Large */
 
 	@media screen and (max-width: 1280px) {
 
+        #two .image {
+            width:100%;
+        }
         
         .tech-header {
             margin-bottom: .15em;
         }
         
         .tech-copy {
+            font-size: 1em;
             margin-bottom: 1.25em;
         }
         
