@@ -3692,7 +3692,7 @@ ul.joined-icons li {
     padding-top: .75em;
 }
 
-	@media screen and (max-width: 736px) {
+	@media screen and (max-width: 980px) {
         
         .intro-logo {
     width:225px;
