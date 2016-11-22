@@ -1579,6 +1579,14 @@
             color: #7f7f7f;
 		}
 
+    #banner a {
+        color: #fff;
+    }
+
+    #banner a:hover {
+        color: #fff;
+    }
+
 	strong, b {
 		color: #7f7f7f;
 		font-weight: 600;
