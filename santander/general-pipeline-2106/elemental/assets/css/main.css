@@ -2015,8 +2015,8 @@
 	input[type="button"],
 	button,
 	.button {
-		background-color: red;
-		box-shadow: inset 0 0 0 1px #c00;
+		background-color: #ddd;
+		box-shadow: inset 0 0 0 1px #bbb;
 		color: #fff !important;
 	}
 
@@ -2025,8 +2025,8 @@
 		input[type="button"]:hover,
 		button:hover,
 		.button:hover {
-			background-color: #c00;
-            box-shadow: inset 0 0 0 1px #8f0000;
+			background-color: #e6e6e6;
+            box-shadow: inset 0 0 0 1px #9c9c9c;
 			color: #fff !important;
 		}
 
@@ -3061,7 +3061,7 @@
 	.banner {
 		background-color: #4a4a4a;
 		color: #ffffff;
-		padding: 8em 2em .1em 2em ;
+		padding: 7em 0em .1em 0em ;
 		background-image: -moz-linear-gradient(to right, rgba(74,74,74,0.5), rgba(74,74,74,0.25)), url("https://hireclix.github.io/hosting/santander/images/hero.jpg");
 		background-image: -webkit-linear-gradient(to right, rgba(74,74,74,0.5), rgba(74,74,74,0.25)), url("https://hireclix.github.io/hosting/santander/images/hero.jpg");
 		background-image: -ms-linear-gradient(to right, rgba(74,74,74,0.5), rgba(74,74,74,0.25)), url("https://hireclix.github.io/hosting/santander/images/hero.jpg");
@@ -3161,7 +3161,7 @@
 		@media screen and (max-width: 1280px) {
 
 			.banner {
-				padding: 8em 2em .1em 2em ;
+				padding: 7em 0 .1em 0 ;
 			}
 
 				.banner h2 {
@@ -3173,7 +3173,7 @@
 		@media screen and (max-width: 980px) {
 
 			.banner {
-				padding: 6em 0em .1em 0 ;
+				padding: 8em 0em .1em 0em ;
 			}
 
 		}
@@ -3181,7 +3181,7 @@
 		@media screen and (max-width: 736px) {
 
 			.banner {
-				padding: 5em 1em 3em 1em ;
+				padding: 8em 0em 2em 0em ;
 			}
 
 				.banner h2 {
@@ -3190,22 +3190,16 @@
 
 		}
 
-        @media screen and (max-width: 575px) {
+@media screen and (min-width: 460px) {
+    .desktop-padding {
+        padding-top:4em;
+    }
+}
+
+		@media screen and (max-width: 460px) {
 
 			.banner {
-				padding: 4em 1em 2em 1em ;
-			}
-
-				.banner h2 {
-					font-size: 1.75em;
-				}
-
-		}
-
-		@media screen and (max-width: 360px) {
-
-			.banner {
-				padding: 4em 1em 2em 1em ;
+				padding: 8em 0em 2em 0em ;
 			}
 
 				.banner h2 {
@@ -4291,9 +4285,14 @@
 		max-width: calc(100% - 4em);
 	}
 
-		#main > header {
-			padding: 1em 0 1em 0 ;
-			text-align: center;
+		header {
+			padding: 0em 0 .25em 0 ;
+            text-align: center;
+            top:0;
+            width: 100%; 
+            background-color: #ff0000;
+            border-top-left-radius: 1.5em;
+            border-top-right-radius: 1.5em;
 		}
 
 			#main > header .logo {
@@ -4333,7 +4332,7 @@
 			}
 
 				#main > header {
-					padding: 1em 0 1em 0 ;
+					padding: 0em 0 0em 0 ;
 				}
 
 		}
@@ -4341,7 +4340,7 @@
 		@media screen and (max-width: 736px) {
 
 			#main > header {
-				padding: 1em 0 1em 0 ;
+				padding: 0em 0 0em 0 ;
 			}
 
 		}
@@ -4618,8 +4617,11 @@
 
 
 .intro-logo {
-    width:250px;
+    width:225px;
+    /*position: relative;
+    top: 0;*/
 }
+
 
 .footer-logo {
     width:400px;
