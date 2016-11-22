@@ -3008,10 +3008,10 @@ ul.joined-icons li {
 /* Banner */
 
 	#banner {
-		padding: 9em 0 7em 0 ;
+		padding: 7em 0 5em 0 ;
 		background-color: #423e3a;
         background-image: linear-gradient(to right, rgba(95,95,95,0.25), rgba(95,95,95,0.25)), url("https://hireclix.github.io/hosting/lampo-group/images/RS-Halloween_Oct-2016.jpg");
-		background-position: 50% 60%;
+		background-position: 50% 50%;
 		background-repeat: no-repeat;
 		background-size: cover;
 		color: #cfcecd;
