@@ -2035,8 +2035,8 @@
 		input[type="button"]:active,
 		button:active,
 		.button:active {
-			background-color: #c00;
-            box-shadow: inset 0 0 0 1px #8f0000;
+			background-color: #e6e6e6;
+            box-shadow: inset 0 0 0 1px #9c9c9c;
 		}
 
 		input[type="submit"].special,
