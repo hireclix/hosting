@@ -1682,6 +1682,8 @@
 				padding: 1em 2em;
 				position: relative;
 				max-width: 22em;
+                min-height: 12em;
+                
 			}
 
 				blockquote.testimonial p:after {
@@ -3218,6 +3220,7 @@ ul.joined-icons li {
 
 				blockquote.testimonial p {
 					max-width: 30em;
+                    min-height: 0;
 				}
 
 		/* Wrapper */
