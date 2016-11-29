@@ -4803,3 +4803,13 @@ top: 0px;
 .glassdoor:hover img:last-child{
     display:inline-block;
 }
+
+.glassdoor img {
+    width: 40px;
+}
+
+@media screen and (min-width: 1681px) {
+    .glassdoor img {
+    width: 46px;
+}
+}
