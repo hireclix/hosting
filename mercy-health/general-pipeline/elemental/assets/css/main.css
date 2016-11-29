@@ -3025,17 +3025,31 @@
 	.banner {
 		background-color: #4a4a4a;
 		color: #ffffff;
-		padding: 5em 0em 3em 0 ;
-		background-image: -moz-linear-gradient(to right, rgba(0,0,0,0.4), rgba(0,0,0,0.25)), url("https://hireclix.github.io/hosting/mercy-health/images/header.jpg");
-		background-image: -webkit-linear-gradient(to right, rgba(0,0,0,0.4), rgba(0,0,0,0.25)), url("https://hireclix.github.io/hosting/mercy-health/images/header.jpg");
-		background-image: -ms-linear-gradient(to right, rgba(0,0,0,0.4), rgba(0,0,0,0.25)), url("https://hireclix.github.io/hosting/mercy-health/images/header.jpg");
-		background-image: linear-gradient(to right, rgba(0,0,0,0.4), rgba(0,0,0,0.25)), url("https://hireclix.github.io/hosting/mercy-health/images/header.jpg");
-		background-position: bottom center;
+		padding: 20em 0em 3em 0 ;
+		background-image: -moz-linear-gradient(to right, rgba(0,0,0,0.4), rgba(0,0,0,0.25)), url("https://hireclix.github.io/hosting/mercy-health/images/header2.jpg");
+		background-image: -webkit-linear-gradient(to right, rgba(0,0,0,0.4), rgba(0,0,0,0.25)), url("https://hireclix.github.io/hosting/mercy-health/images/header2.jpg");
+		background-image: -ms-linear-gradient(to right, rgba(0,0,0,0.4), rgba(0,0,0,0.25)), url("https://hireclix.github.io/hosting/mercy-health/images/header2.jpg");
+		background-image: linear-gradient(to right, rgba(0,0,0,0.1), rgba(0,0,0,0.8)), url("https://hireclix.github.io/hosting/mercy-health/images/header2.jpg");
+		background-position: 50% 20%;
 		background-repeat: no-repeat;
 		background-size: cover;
 		position: relative;
 		text-align: center;
 	}
+
+    .overlay1 {
+        width:65%;
+        position: absolute;
+        left:0;
+        top:60%;
+    }
+
+    .overlay2 {
+        width:50%;
+        position: absolute;
+        right:0;
+        bottom:0;
+    }
 
 		.banner input[type="submit"],
 		.banner input[type="reset"],
@@ -3123,7 +3137,7 @@
 		@media screen and (max-width: 1280px) {
 
 			.banner {
-				padding: 5em 0em 3em 0 ;
+				padding: 20em 0em 3em 0 ;
 			}
 
 				.banner h2 {
@@ -3135,15 +3149,14 @@
 		@media screen and (max-width: 980px) {
 
 			.banner {
-				padding: 5em 0em 3em 0 ;
+				padding: 20em 0em 3em 0 ;
 			}
-
 		}
 
 		@media screen and (max-width: 736px) {
 
 			.banner {
-				padding: 5em 1em 3em 1em ;
+				padding: 15em 0em 3em 0em ;
 			}
 
 				.banner h2 {
@@ -3155,7 +3168,7 @@
         @media screen and (max-width: 575px) {
 
 			.banner {
-				padding: 4em 2em 2em 2em ;
+				padding: 14em 0em 0em 0em ;
 			}
 
 				.banner h2 {
@@ -3167,7 +3180,7 @@
 		@media screen and (max-width: 360px) {
 
 			.banner {
-				padding: 4em 2em 2em 2em ;
+				padding: 14em 0em 2em 0em ;
 			}
 
 				.banner h2 {
@@ -3393,7 +3406,7 @@
 			}
 
 		.wrapper.style2 {
-			background-color: #860038;
+			background-color: #005288;
 			color: #ffffff;
 		}
 
@@ -3849,9 +3862,6 @@
 
 			.wrapper.spotlight > .image {
 				border-radius: 0;
-				background-repeat: no-repeat;
-				background-position: center;
-				background-size: cover;
 				display: block;
 			}
 
@@ -3877,10 +3887,10 @@
 		@media screen and (max-width: 980px) {
 
 			.wrapper.spotlight {
-				-moz-flex-direction: column;
-				-webkit-flex-direction: column;
-				-ms-flex-direction: column;
-				flex-direction: column;
+				-moz-flex-direction: column-reverse;
+				-webkit-flex-direction: column-reverse;
+				-ms-flex-direction: column-reverse;
+				flex-direction: column-reverse;
 				text-align: center;
 			}
 
@@ -3910,10 +3920,10 @@
 				}
 
 				.wrapper.spotlight.alt {
-					-moz-flex-direction: column;
-					-webkit-flex-direction: column;
-					-ms-flex-direction: column;
-					flex-direction: column;
+					-moz-flex-direction: column-reverse;
+				-webkit-flex-direction: column-reverse;
+				-ms-flex-direction: column-reverse;
+				flex-direction: column-reverse;
 				}
 
 		}
@@ -4270,7 +4280,7 @@
 			}
 
 				#main > header {
-					padding: 5em 0 3em 0 ;
+					padding: 1em 0 1em 0 ;
 				}
 
 		}
@@ -4596,16 +4606,23 @@ header h1 {
 
 
 .big-feature {
-    background: url(https://hireclix.github.io/hosting/mercy-health/images/video-preview.png);
+    background: url(https://hireclix.github.io/hosting/mercy-health/images/video-preview.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
     background-size: cover;
 }
 
 .big-feature:hover {
-    background: url(https://hireclix.github.io/hosting/mercy-health/images/video-preview_hover.png);
+    background: url(https://hireclix.github.io/hosting/mercy-health/images/video-preview_hover.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
 }
 
 .big-feature2 {
     background: url(https://hireclix.github.io/hosting/mercy-health/images/feature2.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
     background-size: cover;
 }
 
@@ -4720,3 +4737,4 @@ top: 0px;
     padding-top: 2em;
     display: none;
 }
+
