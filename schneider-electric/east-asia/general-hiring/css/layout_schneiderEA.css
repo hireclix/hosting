@@ -101,6 +101,17 @@ section#intro {
 	background-size: cover ;
 	padding: 50px 0;
 }
+
+@media screen and (max-width: 700px) {
+    section#intro {
+	   background: url('https://hireclix.github.io/hosting/schneider-electric/images/general-hiring_hero.jpg') 80% 70% scroll;
+	-webkit-background-size: cover;
+	background-size: cover;
+    background-repeat: no-repeat;
+	padding: 50px 0;
+}
+}
+
 section#intro .intro2 div{
 	/*background: url('https://dl.dropbox.com/s/uqz66lbtzn9sg7i/transparent.png?dl=0') center center fixed;
 	 background-repeat: repeat-y;
@@ -371,6 +382,13 @@ section#clients {
 	padding: 50px 0;
 }
 
+@media screen and (max-width: 700px) {
+    section#clients {
+       background-attachment: scroll; 
+       background-position: right top;    
+    }
+}
+
 section#clients .preambule {
 	margin-bottom: 20px;
 }
@@ -446,6 +464,12 @@ footer#footer {
 	background-size: cover;
     background-attachment: fixed;
 	padding: 100px 0 50px 0;
+}
+
+@media screen and (max-width: 700px) {
+    footer#footer {
+        background-attachment: scroll;
+    }
 }
 
 footer#footer .preambule {
