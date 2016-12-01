@@ -1,8 +1,4 @@
-/*
-* Korona
-* 2013, Piotr Kananowicz
-* 12/22/2013
-*/
+/* HireClix 2016 | www.hireclix.com */
 
 /*
 Table of Content:
@@ -80,21 +76,27 @@ a {
 /*Header*/
 
 header {
-	padding: 12px 0;
+	padding: 0;
 	background: #3CCD57;}
 
 
 header .info p {
     font-family: 'PT Sans', Helvetica, Arial, sans-serif;
 	text-align: right;
-    padding-top: 15px;
+    padding-top: 30px;
     font-size: 17px;
+}
+
+@media screen and (max-width: 700px) {
+    header .info p {
+        padding: 5px 0 0 10px;
+}
 }
 
 /*Intro*/
 
 section#intro {
-	background: url('../../../images/general-hiring_hero.jpg') center 30% fixed;
+	background: url('https://hireclix.github.io/hosting/schneider-electric/images/general-hiring_hero.jpg') center 30% fixed;
 	-webkit-background-size: cover ;
 	background-size: cover ;
 	padding: 50px 0;
@@ -358,10 +360,10 @@ section#features img:hover {
 /*Clients*/
 
 section#clients {
-	background-image: -moz-linear-gradient(to right, rgba(0,0,0,0.35), rgba(0,0,0,0.35)), url("../../../images/general-hiring_hero2.jpg");
-    background-image: -webkit-linear-gradient(to right, rgba(0,0,0,0.35), rgba(0,0,0,0.35)), url("../../../images/general-hiring_hero2.jpg");
-    background-image: -ms-linear-gradient(to right, rgba(0,0,0,0.35), rgba(0,0,0,0.35)), url("../../../images/general-hiring_hero2.jpg");
-    background-image: linear-gradient(to right, rgba(0,0,0,0.35), rgba(0,0,0,0.35)), url("../../../images/general-hiring_hero2.jpg");
+	background-image: -moz-linear-gradient(to right, rgba(0,0,0,0.35), rgba(0,0,0,0.35)), url("https://hireclix.github.io/hosting/schneider-electric/images/general-hiring_hero2.jpg");
+    background-image: -webkit-linear-gradient(to right, rgba(0,0,0,0.35), rgba(0,0,0,0.35)), url("https://hireclix.github.io/hosting/schneider-electric/images/general-hiring_hero2.jpg");
+    background-image: -ms-linear-gradient(to right, rgba(0,0,0,0.35), rgba(0,0,0,0.35)), url("https://hireclix.github.io/hosting/schneider-electric/images/general-hiring_hero2.jpg");
+    background-image: linear-gradient(to right, rgba(0,0,0,0.35), rgba(0,0,0,0.35)), url("https://hireclix.github.io/hosting/schneider-electric/images/general-hiring_hero2.jpg");
     background-position: left bottom;
 	-webkit-background-size: cover;
 	background-size: cover;
@@ -435,10 +437,10 @@ section#faq .question i {
 /*Footer*/
 
 footer#footer {
-	background-image: -moz-linear-gradient(to right, rgba(0,0,0,0.35), rgba(0,0,0,0.35)), url("../../../images/general-hiring_hero2.jpg");
-    background-image: -webkit-linear-gradient(to right, rgba(0,0,0,0.35), rgba(0,0,0,0.35)), url("../../../images/general-hiring_hero2.jpg");
-    background-image: -ms-linear-gradient(to right, rgba(0,0,0,0.35), rgba(0,0,0,0.35)), url("../../../images/general-hiring_hero2.jpg");
-    background-image: linear-gradient(to right, rgba(0,0,0,0.35), rgba(0,0,0,0.35)), url("../../../images/general-hiring_hero3.jpg");
+	background-image: -moz-linear-gradient(to right, rgba(0,0,0,0.35), rgba(0,0,0,0.35)), url("https://hireclix.github.io/hosting/schneider-electric/images/general-hiring_hero2.jpg");
+    background-image: -webkit-linear-gradient(to right, rgba(0,0,0,0.35), rgba(0,0,0,0.35)), url("https://hireclix.github.io/hosting/schneider-electric/images/general-hiring_hero2.jpg");
+    background-image: -ms-linear-gradient(to right, rgba(0,0,0,0.35), rgba(0,0,0,0.35)), url("https://hireclix.github.io/hosting/schneider-electric/images/general-hiring_hero2.jpg");
+    background-image: linear-gradient(to right, rgba(0,0,0,0.35), rgba(0,0,0,0.35)), url("https://hireclix.github.io/hosting/schneider-electric/images/general-hiring_hero3.jpg");
     background-position: center top;
 	-webkit-background-size: cover;
 	background-size: cover;
