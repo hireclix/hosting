@@ -155,7 +155,7 @@ section#intro .booking div {
 	padding: 0px 0px;
 	width: 75%;
 	max-width: 250px;
-	float: right;
+	float: left;
 	background: #FAFAFA;
 	border: 10px solid rgba(0, 0, 0, 0.3);
 	-moz-background-clip: border;    
