@@ -1,8 +1,14 @@
-	$(".accordion > dt").click(function(){
-		$('.active').removeClass('active');
-        if(false == $(this).next().is(':visible')) {
-			$('.accordion > dd').slideUp(600);
-            $(this).addClass('active');
-		}
-		$(this).next().slideToggle(600);
-	});
+$('.accordion').click(function(){
+
+  if( $(this).hasClass('active') ){
+    $(this).removeClass('active');
+    $(this).next().removeClass('show');
+  }else{
+    $('.accordion').removeClass('active');
+    $('.panel').removeClass('show');
+
+    $(this).addClass('active');
+    $(this).next().addClass('show');
+  }
+
+})
