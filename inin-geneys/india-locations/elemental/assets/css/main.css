@@ -3034,10 +3034,10 @@
 		background-color: #4a4a4a;
 		color: #ffffff;
 		padding: 8em 0em 3em 0 ;
-		background-image: -moz-linear-gradient(to right, rgba(0,0,0,0.4), rgba(0,0,0,0.25)), url("https://hireclix.github.io/hosting/mercy-health/images/header2.jpg");
-		background-image: -webkit-linear-gradient(to right, rgba(0,0,0,0.4), rgba(0,0,0,0.25)), url("https://hireclix.github.io/hosting/mercy-health/images/header2.jpg");
-		background-image: -ms-linear-gradient(to right, rgba(0,0,0,0.4), rgba(0,0,0,0.25)), url("https://hireclix.github.io/hosting/mercy-health/images/header2.jpg");
-		background-image: linear-gradient(to right, rgba(0,0,0,0.2), rgba(0,0,0,0.6)), url("/../../images/hero.jpg");
+		background-image: -moz-linear-gradient(to right, rgba(0,0,0,0.2), rgba(0,0,0,0.6)), url("https://hireclix.github.io/hosting/inin-geneys/images/hero.jpg");
+		background-image: -webkit-linear-gradient(to right, rgba(0,0,0,0.2), rgba(0,0,0,0.6)), url("https://hireclix.github.io/hosting/inin-geneys/images/hero.jpg");
+		background-image: -ms-linear-gradient(to right, rgba(0,0,0,0.2), rgba(0,0,0,0.6)), url("https://hireclix.github.io/hosting/inin-geneys/images/hero.jpg");
+		background-image: linear-gradient(to right, rgba(0,0,0,0.2), rgba(0,0,0,0.6)), url("https://hireclix.github.io/hosting/inin-geneys/images/hero.jpg");
 		background-position: 50% 20%;
 		background-repeat: no-repeat;
 		background-size: cover;
@@ -4616,21 +4616,21 @@ header h1 {
 
 
 .big-feature {
-    background: url(/images/video-preview.png);
+    background: url(https://hireclix.github.io/hosting/inin-geneys/images/video-preview.png);
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
 }
 
 .big-feature:hover {
-    background: url(/images/video-preview_hover.png);
+    background: url(https://hireclix.github.io/hosting/inin-geneys/images/video-preview_hover.png);
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
 }
 
 .big-feature2 {
-    background: url(/images/india-office1.jpg);
+    background: url(https://hireclix.github.io/hosting/inin-geneys/images/india-office1.jpg);
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
