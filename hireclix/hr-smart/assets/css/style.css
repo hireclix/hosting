@@ -628,7 +628,7 @@ a:visited {
 
 	.domain-bg .text-block h1 {
 		font-family: Poppins;
-		font-size: 34px;
+		font-size: 30px;
 		font-weight: 600;
 		color: #fff;
 		line-height: 1.2;
@@ -1823,9 +1823,20 @@ ul#countdown li p {
 
 .intro-logo {
     width:250px;
+}
+
+@media screen and (max-height: 400px) {
+    .intro-logo {
+    width:150px;
     
-        -webkit-animation-duration: 4s; /* Safari 4.0 - 8.0 */
-        animation-duration: 10s;
+}
+    
+    .domain-bg .text-block {
+		position: absolute;
+		top: 5%;
+		left: 0;
+		right: 0;
+	}
 }
 
 /* Marketo Form */
