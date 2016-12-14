@@ -651,6 +651,16 @@ a:visited {
 		letter-spacing: -1px;
 	}
 
+.domain-bg .text-block hr {
+    width: 450px;
+}
+
+@media only screen and (max-width: 450px) {
+    .domain-bg .text-block hr {
+    width: 350px;
+}   
+}
+
 @media only screen and (min-width: 768px) {
 
 	#ar-about {
@@ -673,6 +683,8 @@ a:visited {
   .nav-social ul {
     padding: 0.4em;
   }
+    
+    
 }
 
 
