@@ -698,16 +698,28 @@ a:visited {
 		height: 100%;
 		overflow: hidden;
         z-index: 99;
-        -webkit-animation-name: expand-slide-right; /* Safari 4.0 - 8.0 */
-        -webkit-animation-duration: 4s; /* Safari 4.0 - 8.0 */
+        
+}
+
+@media only screen and (min-width : 802px) {
+.left-section {
+animation-duration: 10s;    
+-webkit-animation-name: expand-slide-right; /* Safari 4.0 - 8.0 */
+        -webkit-animation-duration: 10s; /* Safari 4.0 - 8.0 */
         animation-name: expand-slide-right;
-        animation-duration: 10s;
+    }
+    
+    .delay {
+    -webkit-animation-delay: 10s !important; /* Safari 4.0 - 8.0 */
+    animation-delay: 10s !important;
+}
 }
 
 .delay {
-    -webkit-animation-delay: 10s; /* Safari 4.0 - 8.0 */
-    animation-delay: 10s;
+    -webkit-animation-delay: 6s; /* Safari 4.0 - 8.0 */
+    animation-delay: 6s;
 }
+
 
 
 /* Safari 4.0 - 8.0 */
