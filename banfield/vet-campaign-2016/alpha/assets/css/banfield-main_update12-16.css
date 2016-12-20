@@ -1340,7 +1340,7 @@
 		background-attachment: scroll,							fixed;
 		background-color: #2DCCD3;
 		color: #fff;
-		padding: 2em 0 1em 0;
+		padding: 1em 0 1em 0;
 		text-align: center;
 	}
 
@@ -1565,7 +1565,7 @@
 		/* Banner */
 
 			#banner {
-				padding: 2em 0 1em 0;
+				padding: 1em 0 1em 0;
 			}
 
 	}
