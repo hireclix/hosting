@@ -1328,6 +1328,12 @@
     }
 }
 
+@media screen and (max-width: 500px) {
+    #hero {
+        background-position: right 40%;
+    }
+}
+
 /* Banner */
 
 	#banner {
