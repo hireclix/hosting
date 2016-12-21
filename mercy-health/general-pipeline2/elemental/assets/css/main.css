@@ -3035,10 +3035,10 @@
 		background-color: #4a4a4a;
 		color: #ffffff;
 		padding: 20em 0em 3em 0 ;
-		background-image: -moz-linear-gradient(to right, rgba(0,0,0,0.4), rgba(0,0,0,0.25)), url("https://hireclix.github.io/hosting/mercy-health/images/feature1.png.jpg");
-		background-image: -webkit-linear-gradient(to right, rgba(0,0,0,0.4), rgba(0,0,0,0.25)), url("https://hireclix.github.io/hosting/mercy-health/images/feature1.png.jpg");
-		background-image: -ms-linear-gradient(to right, rgba(0,0,0,0.4), rgba(0,0,0,0.25)), url("https://hireclix.github.io/hosting/mercy-health/images/feature1.png.jpg");
-		background-image: linear-gradient(to right, rgba(0,0,0,0.1), rgba(0,0,0,0.5)), url("https://hireclix.github.io/hosting/mercy-health/images/feature1.png");
+		background-image: -moz-linear-gradient(165deg, rgba(0,0,0,0.4), rgba(0,0,0,0.25)), url("https://hireclix.github.io/hosting/mercy-health/images/feature1.png.jpg");
+		background-image: -webkit-linear-gradient(165deg, rgba(0,0,0,0.4), rgba(0,0,0,0.25)), url("https://hireclix.github.io/hosting/mercy-health/images/feature1.png.jpg");
+		background-image: -ms-linear-gradient(165deg, rgba(0,0,0,0.4), rgba(0,0,0,0.25)), url("https://hireclix.github.io/hosting/mercy-health/images/feature1.png.jpg");
+		background-image: linear-gradient(165deg, rgba(0,0,0,0.1), rgba(0,0,0,0.75)), url("https://hireclix.github.io/hosting/mercy-health/images/feature1.png");
 		background-position: 50% 30%;
 		background-repeat: no-repeat;
 		background-size: cover;
