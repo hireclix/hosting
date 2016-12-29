@@ -3112,6 +3112,10 @@
 			color: #ffffff;
 		}
 
+        .banner h1 {
+            font-weight: 700;
+        }
+
 		.banner blockquote {
 			border-left-color: #ffffff;
 		}
@@ -4616,18 +4620,18 @@ header h1 {
 
 
 .big-feature {
-    background: url(https://hireclix.github.io/hosting/inin-geneys/images/video-preview.png);
+    background: url(https://hireclix.github.io/hosting/inin-geneys/images/india-office2.jpg);
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
 }
 
-.big-feature:hover {
+/*.big-feature:hover {
     background: url(https://hireclix.github.io/hosting/inin-geneys/images/video-preview_hover.png);
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
-}
+}*/
 
 .big-feature2 {
     background: url(https://hireclix.github.io/hosting/inin-geneys/images/india-office1.jpg);
@@ -4757,3 +4761,8 @@ top: 0px;
 .job-openings .actions {
     margin-bottom:.75em;
 }
+
+#three h3 {
+    font-size: 1.3em;
+}
+
