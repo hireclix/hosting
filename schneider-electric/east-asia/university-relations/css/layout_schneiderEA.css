@@ -1,0 +1,864 @@
+/* HireClix 2016 | www.hireclix.com */
+
+/*
+Table of Content:
+1. Main Style
+2. Header
+3. Intro
+4. Services 
+5. Features
+6. Clients
+7. FAQ
+8. Footer
+9. Media Queries
+10. Font-Face
+*/
+
+/*Main (Typography) Style*/
+
+p {
+	/*font-family: 'PT Sans', Helvetica, Arial, sans-serif;*/
+    font-family: arial, helvetica, sans-serif;
+	color: #3c3c3c;
+}
+
+p.lead {
+	font-size: 16px;
+}
+
+h1,h2,h3,h4,h5 {
+    text-transform: uppercase;
+    font-family: arial, helvetica, sans-serif;
+    font-weight: bold;
+}
+
+h1 {
+    font-size: 48px;
+    line-height: 52px;
+    margin-bottom: 14px;
+    letter-spacing: -1px;
+}
+
+h2 {
+    font-size: 36px;
+    line-height: 48px;
+    margin-bottom: 10px;
+    letter-spacing: -1px;
+}
+
+h3 {
+    font-size: 30px;
+    line-height: 42px;
+    margin-bottom: 8px;
+    letter-spacing: -1px;
+}
+
+h4 {
+    font-size: 24px;
+    line-height: 36px;
+    margin-bottom: 4px;
+}
+
+h5 {
+    font-size: 18px;
+    line-height: 30px;
+}
+
+h6 {
+    font-size: 14px;
+    line-height: 21px;
+}
+
+a {
+	text-decoration: none;
+}
+
+
+/*Intro*/
+
+#intro .logo {
+	position: absolute;
+    top: 1em;
+    left: 1em;
+    width: 250px;
+}
+
+#intro .container {
+    text-align: center;
+    padding-top: 2em;
+}
+
+#intro h2 {
+    color: #fff;
+    font-size: 30px;
+    font-weight: 500;
+    line-height: 35px;
+}
+
+#intro strong {
+    color: #fff;
+}
+
+#intro p {
+    color: #fff;
+    font-weight: 600;
+}
+
+section#intro {
+	background: url('https://hireclix.github.io/hosting/schneider-electric//images/university-relations_bg2.jpg') center 20% fixed;
+	-webkit-background-size: cover ;
+	background-size: cover ;
+	padding: 50px 0;
+}
+
+@media screen and (max-width: 700px) {
+    section#intro {
+	   background: url('https://hireclix.github.io/hosting/schneider-electric//images/university-relations_bg2.jpg') 80% 70% scroll;
+	-webkit-background-size: cover;
+	background-size: cover;
+    background-repeat: no-repeat;
+	padding: 0 0;
+}
+
+    #intro h2 br {
+        display:none;
+    }   
+    
+    #intro p br {
+        display:none;
+    }  
+    
+    #intro .container {
+    padding-top: 3em;
+}
+    #intro .logo {
+	position: relative;
+    margin: 0 auto;
+}
+    
+    #footer br {
+        display: none;
+    }
+    
+}
+
+section#intro .intro2 div{
+    background: rgba(0,0,0,0.55);
+	padding: 30px 0 0 0;
+}
+
+section#intro .intro-text h2 {
+	color: white;
+	text-shadow: 0 1px #414141;
+	padding: 0px 10px;
+    font-size: 23px;
+    line-height: 32px;
+}
+
+section#intro .intro-text p {
+	color: white;
+	padding: 0px 10px;
+}
+
+@media screen and (max-width: 700px) {
+    section#intro .intro-text h2 {
+        font-size: 20px;
+        line-height: 28px;
+}
+    
+    section#intro .intro-text p {
+	   line-height: 24px;
+}
+}
+
+section#intro .intro-text strong {
+    color: white;
+}
+
+section#intro .intro-text blockquote {
+	color: white;
+	border-left-color: #009530;
+}
+
+section#intro .intro-text blockquote small {
+	font-weight: bold;
+	font-style: normal;
+	text-transform: uppercase;
+	font-family: 'arvo';
+	margin-left: 5px;
+}
+
+section#intro .booking div {
+	padding: 0px 0px;
+	width: 75%;
+	max-width: 250px;
+	float: left;
+	background: #FAFAFA;
+	border: 10px solid rgba(0, 0, 0, 0.3);
+	-moz-background-clip: border;    
+  	-webkit-background-clip: border;
+  	background-clip: border-box;      			
+  	-moz-background-clip: padding;    
+  	-webkit-background-clip: padding;  
+  	background-clip: padding-box;      
+}
+
+section#intro .booking span {
+	max-width: 250px;
+
+}
+section#intro .booking2 div {
+	padding: 0px 0px;
+	width: 75%;
+	float: right;
+	background: #FAFAFA;
+	border: 0px solid rgba(0, 0, 0, 0.3);
+	-moz-background-clip: border;    
+  	-webkit-background-clip: border;
+  	background-clip: border-box;      			
+  	-moz-background-clip: padding;    
+  	-webkit-background-clip: padding;  
+  	background-clip: padding-box;      
+}
+
+
+section#intro .booking i {
+	color: #FFFFFF;
+	margin: 10px 0;
+	text-align: center;
+	display: block;
+	font-size: 24px;
+}
+
+section#intro .booking h3 {
+	text-align: center;
+}
+
+section#intro .booking p {
+	text-align: center;
+}
+
+section#intro .booking input,
+section#intro .booking textarea {
+	width: 100%;
+	-webkit-box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	box-sizing: border-box;
+}
+
+section#intro .booking button {
+	background: #009530;
+	outline: none;
+	border: none;
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+	color: white;
+	padding: 10px 18px;
+	text-transform: uppercase;
+	-webkit-transition: 0.2s ease-in;
+	-moz-transition: 0.2s ease-in;
+	-ms-transition: 0.2s ease-in;
+	-o-transition: 0.2s ease-in;
+	transition: 0.2s ease-in;
+}
+
+section#intro .booking button:hover {
+	background: #7C1212;
+	cursor: pointer;
+	-webkit-transition: 0.2s ease-in;
+	-moz-transition: 0.2s ease-in;
+	-ms-transition: 0.2s ease-in;
+	-o-transition: 0.2s ease-in;
+	transition: 0.2s ease-in;
+}
+
+/* Date and Time picker */
+
+.ui-timepicker-div .ui-widget-header { 
+	margin-bottom: 8px 
+}
+
+.ui-timepicker-div dl { 
+	text-align: left 
+}
+
+.ui-timepicker-div dl dt {
+    float: left;
+    clear: left;
+    padding: 0 0 0 5px;
+}
+
+.ui-datepicker-calendar thead {
+	background: #009530;
+}
+
+.ui-datepicker-calendar th {
+	color: white;
+}
+
+.ui-timepicker-div dl dd { 
+	margin: 0 10px 10px 45% 
+}
+
+.ui-timepicker-div td { 
+	font-size: 90% 
+}
+
+.ui-tpicker-grid-label {
+    background: none;
+    border: none;
+    margin: 0;
+    padding: 0;
+}
+.ui-timepicker-rtl { 
+	direction: rtl 
+}
+
+.ui-timepicker-rtl dl {
+    text-align: right;
+    padding: 0 5px 0 0;
+}
+.ui-timepicker-rtl dl dt {
+    float: right;
+    clear: right;
+}
+.ui-timepicker-rtl dl dd { 
+	margin: 0 45% 10px 10px 
+}
+
+/*Services*/
+
+section#services {
+	padding: 50px 0 20px 0;
+}
+
+section#services .list-services ul i {
+	margin-right: 5px;
+	color: #009530;
+}
+
+/*section#services .big-thumbnail img {
+	-webkit-transition: 0.2s ease-in;
+	-moz-transition: 0.2s ease-in;
+	-ms-transition: 0.2s ease-in;
+	-o-transition: 0.2s ease-in;
+	transition: 0.2s ease-in;
+}
+
+section#services .big-thumbnail img:hover {
+	-webkit-filter: grayscale(80%);
+	-moz-filter: grayscale(80%);
+	filter: grayscale(80%);
+	-webkit-transition: 0.2s ease-in;
+	-moz-transition: 0.2s ease-in;
+	-ms-transition: 0.2s ease-in;
+	-o-transition: 0.2s ease-in;
+	transition: 0.2s ease-in;
+}*/
+
+/*Features*/
+
+section#features {
+	padding-bottom: 50px;
+}
+
+section#features h5 {
+	padding: 10px 0 5px 0;
+    font-size: 16px;
+    color: #009530;
+}
+
+@media screen and (max-width: 700px) {
+    .mobile-padding {
+        padding-top:20px;
+    }
+}
+
+/*section#features img {
+	-webkit-transition: 0.2s ease-in;
+	-moz-transition: 0.2s ease-in;
+	-ms-transition: 0.2s ease-in;
+	-o-transition: 0.2s ease-in;
+	transition: 0.2s ease-in;
+}
+
+section#features img:hover {
+	-webkit-filter: grayscale(80%);
+	-moz-filter: grayscale(80%);
+	filter: grayscale(80%);
+	-webkit-transition: 0.2s ease-in;
+	-moz-transition: 0.2s ease-in;
+	-ms-transition: 0.2s ease-in;
+	-o-transition: 0.2s ease-in;
+	transition: 0.2s ease-in;
+}*/
+
+/*Clients*/
+
+section#clients {
+	background-image: -moz-linear-gradient(to right, rgba(0,0,0,0.35), rgba(0,0,0,0.35)), url("https://hireclix.github.io/hosting/schneider-electric/images/university-relations_bg3.jpg");
+    background-image: -webkit-linear-gradient(to right, rgba(0,0,0,0.35), rgba(0,0,0,0.35)), url("https://hireclix.github.io/hosting/schneider-electric/images/university-relations_bg3.jpg");
+    background-image: -ms-linear-gradient(to right, rgba(0,0,0,0.35), rgba(0,0,0,0.35)), url("https://hireclix.github.io/hosting/schneider-electric/images/university-relations_bg3.jpg");
+    background-image: linear-gradient(to right, rgba(0,0,0,0.25), rgba(0,0,0,0.45)), url("https://hireclix.github.io/hosting/schneider-electric/images/university-relations_bg3.jpg");
+    background-position: left top;
+	-webkit-background-size: cover;
+	background-size: cover;
+    background-attachment: fixed;
+	padding: 50px 0;
+}
+
+@media screen and (max-width: 700px) {
+    section#clients {
+       background-attachment: scroll; 
+       background-position: right top;    
+    }
+}
+
+section#clients .preambule {
+	margin-bottom: 20px;
+}
+
+section#clients .preambule h3 {
+	color: white;
+	text-align: center;
+}
+
+section#clients .preambule p {
+	color: white;
+	text-align: center;
+}
+
+section#clients a>img {
+	opacity: 0.7;
+	-webkit-transition: 0.2s ease-in;
+	-moz-transition: 0.2s ease-in;
+	-ms-transition: 0.2s ease-in;
+	-o-transition: 0.2s ease-in;
+	transition: 0.2s ease-in;
+}
+
+section#clients a>img:hover {
+	opacity: 1;
+	-webkit-transition: 0.2s ease-in;
+	-moz-transition: 0.2s ease-in;
+	-ms-transition: 0.2s ease-in;
+	-o-transition: 0.2s ease-in;
+	transition: 0.2s ease-in;
+}
+
+/*FAQ*/
+
+section#faq {
+	background: #FAFAFA;
+	padding: 50px 0 0 0;
+}
+
+section#faq .preambule {
+	margin-bottom: 20px;
+}
+
+section#faq .preambule h3 {
+	text-align: center;
+}
+
+section#faq .preambule p {
+	text-align: center;
+}
+
+section#faq .question h5 {
+	margin: 5px 0;
+}
+
+section#faq .question i {
+	float: left;
+	margin-right: 5px;
+	font-size: 18px;
+	line-height: 38px;
+	color: #009530;
+}
+
+/*Footer*/
+
+footer#footer {
+	background-image: -moz-linear-gradient(to right, rgba(0,0,0,0.35), rgba(0,0,0,0.35)), url("https://hireclix.github.io/hosting/schneider-electric/images/general-hiring_hero2.jpg");
+    background-image: -webkit-linear-gradient(to right, rgba(0,0,0,0.35), rgba(0,0,0,0.35)), url("https://hireclix.github.io/hosting/schneider-electric/images/general-hiring_hero2.jpg");
+    background-image: -ms-linear-gradient(to right, rgba(0,0,0,0.35), rgba(0,0,0,0.35)), url("https://hireclix.github.io/hosting/schneider-electric/images/general-hiring_hero2.jpg");
+    background-image: linear-gradient(to right, rgba(0,0,0,0.35), rgba(0,0,0,0.35)), url("https://hireclix.github.io/hosting/schneider-electric/images/general-hiring_hero3.jpg");
+    background-position: center top;
+	-webkit-background-size: cover;
+	background-size: cover;
+    background-attachment: fixed;
+	padding: 100px 0 50px 0;
+}
+
+@media screen and (max-width: 700px) {
+    footer#footer {
+        background-attachment: scroll;
+    }
+}
+
+footer#footer .preambule {
+	margin-bottom: 20px;
+    text-align: center;
+}
+
+footer#footer .preambule h3 {
+	color: white;
+	text-align: center;
+}
+
+footer#footer .preambule p {
+	color: white;
+	text-align: center;
+}
+
+footer#footer a {
+    color:white;
+}
+
+footer#footer a:hover {
+    color:white;
+}
+
+@media screen and (max-width: 700px) {
+    footer#footer .preambule p br {
+        display:none;
+    }
+}
+
+footer#footer .widget i {
+	color: white;
+	text-align: center;
+	display: block;	
+	margin-bottom: 15px;
+	font-size: 34px;
+}
+
+footer#footer .widget p {
+	text-align: center;
+	color: white;
+}
+
+footer#footer .widget a {
+	color: white;
+}
+
+footer#footer .social {
+	display: table;
+	text-align: center;
+	margin: 20px auto;
+}
+
+footer#footer .social li {
+	float: left;
+	width: 45px;
+}
+
+footer#footer .social li a {
+	text-align: center;
+	--webkit-border-radius: 50%;
+	-moz-border-radius: 50%;
+	border-radius: 50%;
+	border: 2px solid white;
+	padding: 6px;
+	width: 15px;
+	height: 15px;
+	display: block;
+	vertical-align: center;
+	-webkit-transition: 0.2s ease-in;
+	-moz-transition: 0.2s ease-in;
+	-ms-transition: 0.2s ease-in;
+	-o-transition: 0.2s ease-in;
+	transition: 0.2s ease-in;
+}
+
+footer#footer .social li a:hover {
+	border-color: #009530;
+	-webkit-transition: 0.2s ease-in;
+	-moz-transition: 0.2s ease-in;
+	-ms-transition: 0.2s ease-in;
+	-o-transition: 0.2s ease-in;
+	transition: 0.2s ease-in;
+}
+
+footer#footer .social li i {
+	color: white;
+}
+
+footer#footer .copyrights {
+	text-align: center;
+	color: #838080;
+}
+
+
+/* #Media Queries
+================================================== */
+
+	/* Smaller than standard 960 (devices and browsers) */
+	@media only screen and (max-width: 959px) {}
+
+	/* Tablet Portrait size to standard 960 (devices and browsers) */
+	@media only screen and (min-width: 768px) and (max-width: 959px) {}
+
+	/* All Mobile Sizes (devices and browser) */
+	@media only screen and (max-width: 767px) {
+		header .info p {
+			text-align: left;
+		}
+
+		section#intro .booking div {
+			max-width: 100%;
+			float: none;
+		}
+	}
+
+	/* Mobile Landscape Size to Tablet Portrait (devices and browsers) */
+	@media only screen and (min-width: 480px) and (max-width: 767px) {}
+
+	/* Mobile Portrait Size to Mobile Landscape Size (devices and browsers) */
+	@media only screen and (max-width: 479px) {}
+
+
+/* #Font-Face
+================================================== */
+/* 	This is the proper syntax for an @font-face file
+		Just create a "fonts" folder at the root,
+		copy your FontName into code below and remove
+		comment brackets */
+
+/* #Font-Face
+	================================================== */
+	
+	/*	@font-face {
+		  font-family: 'FontAwesome';
+		  src: url('../font/fontawesome-webfont.eot');
+		  src: url('../font/fontawesome-webfont.eot?#iefix') format('embedded-opentype'), url('../font/fontawesome-webfont.woff') format('woff'), url('../font/fontawesome-webfont.ttf') format('truetype'), url('../font/fontawesome-webfont.svg#FontAwesome') format('svg');
+		  font-weight: normal;
+		  font-style: normal;
+	}
+	*/
+	
+	
+	
+.video-container {
+    position: relative;
+    padding-bottom: 56.25%;
+    padding-top: 30px; height: 0; overflow: hidden;
+}
+ 
+.video-container iframe,
+.video-container object,
+.video-container embed {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+}
+
+/******************************          Image Responsive          ******************************/
+
+.img-responsive,
+.thumbnail > img,
+.thumbnail a > img,
+.carousel-inner > .item > img,
+.carousel-inner > .item > a > img {
+  display: block;
+  width: 100% \9;
+  max-width: 100%;
+  height: auto;
+}
+
+/******************************          Buttons          ******************************/
+.btn {
+  border-radius: 6px;
+  transition: all 300ms;
+  cursor: pointer;
+  -webkit-flex: 0 0 auto;
+      -ms-flex: 0 0 auto;
+          flex: 0 0 auto;
+  display: inline-block;
+}
+.btn_container {
+  -webkit-flex: 0 0 auto;
+      -ms-flex: 0 0 auto;
+          flex: 0 0 auto;
+  margin-top: 30px;
+}
+.btn_container .btn {
+  margin-right: 20px;
+}
+.btn_container .btn:last-child {
+  margin-right: 0!important;
+}
+@media screen and (max-width: 700px) {
+  .btn_container {
+    text-align: center;
+  }
+}
+.btn_block {
+  width: 100%;
+  display: block;
+  text-align: center;
+}
+.btn_green {
+  font-family: arial, helvetica, sans-serif;
+  text-transform: uppercase;    
+  padding: 12px 25px;
+  font-size: 20px;
+  font-weight: 700;
+  background: #3CCD57;
+  color: white !important;
+    
+}
+
+.btn_green:hover {
+    background: #009530!important;
+}
+
+.btn_shadow_hover {
+  box-shadow: 0 0 0px rgba(0, 0, 0, 0.3);
+}
+.btn_shadow_hover:hover {
+  box-shadow: 0 15px 20px rgba(0, 0, 0, 0.3);
+}
+.btn_shadow {
+  box-shadow: 0 15px 20px rgba(0, 0, 0, 0.3);
+}
+.btn_blue {
+  color: #fff;
+  background: #00A6B5;
+}
+.btn_blue:hover {
+  background: #425363;
+}
+.btn_blue:active {
+  background: #003db8;
+}
+.btn_white {
+  color: #00A6B5;
+  background: #fff;
+}
+.btn_white:hover {
+  background: #f1f1f1;
+}
+.btn_white:active {
+  color: #fff;
+  background: #003db8;
+}
+.btn_white_border {
+  color: #fff;
+  border: 2px solid #fff;
+  background: transparent;
+  padding: 13px 23px;
+}
+.btn_white_border:hover {
+  color: #00A6B5;
+  background: #fff;
+}
+.btn_white_border:active {
+  color: #fff;
+  background: #003db8;
+}
+.btn_black_border {
+  color: #000;
+  border: 2px solid #000;
+  background: transparent;
+  padding: 13px 23px;
+}
+.btn_black_border:hover {
+  color: #000;
+  background: #fff;
+}
+.btn_black_border:active {
+  color: #000;
+  background: #ccc;
+}
+.btn_facebook {
+  color: #fff;
+  background: #3b5998;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-justify-content: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-align-items: center!important;
+      -ms-flex-align: center!important;
+          align-items: center!important;
+  padding: 11px 25px;
+}
+.btn_facebook span {
+  -webkit-flex: 1;
+      -ms-flex: 1;
+          flex: 1;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-justify-content: space-between;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-align-items: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+.btn_facebook span i {
+  -webkit-flex: 0 1 auto;
+      -ms-flex: 0 1 auto;
+          flex: 0 1 auto;
+  text-align: left;
+  font-size: 26px;
+}
+.btn_i {
+  margin-right: 10px;
+}
+.i_place_blue {
+  color: #00aeef!important;
+}
+.i_place_light_blue {
+  color: #a4dbff!important;
+}
+.i_place_red {
+  color: #f0123c!important;
+}
+.i_place_orang {
+  color: #f26c4f!important;
+}
+.i_place_green {
+  color: #197b30!important;
+}
+.i_place_light_green {
+  color: #8dc63f!important;
+}
+.i_place_violet {
+  color: #662d91!important;
+}
+.i_place_light_violet {
+  color: #b282d6!important;
+}
+.i_place_gray {
+  color: #cccccc!important;
+}
+.back {
+  -webkit-flex: 0 0 auto;
+      -ms-flex: 0 0 auto;
+          flex: 0 0 auto;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-justify-content: flex-start;
+      -ms-flex-pack: start;
+          justify-content: flex-start;
+  -webkit-align-items: center;
+      -ms-flex-align: center;
+          align-items: center;
+  font-size: 15px;
+  color: #93a7cf;
+  margin: 10px 20px 0;
+  padding: 0;
+}
+.back i {
+  font-size: 26px;
+  margin-right: 10px;
+}
