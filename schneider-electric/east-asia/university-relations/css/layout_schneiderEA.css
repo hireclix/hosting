@@ -113,7 +113,12 @@ section#intro {
 
 @media screen and (max-width: 700px) {
     section#intro {
-	   background: url('https://hireclix.github.io/hosting/schneider-electric//images/university-relations_bg2.jpg') 80% 70% scroll;
+	   background-image: -moz-linear-gradient(to right, rgba(0,0,0,0.35), rgba(0,0,0,0.35)), url("https://hireclix.github.io/hosting/schneider-electric/images/university-relations_bg2.jpg");
+    background-image: -webkit-linear-gradient(to right, rgba(0,0,0,0.35), rgba(0,0,0,0.35)), url("https://hireclix.github.io/hosting/schneider-electric/images/university-relations_bg2.jpg");
+    background-image: -ms-linear-gradient(to right, rgba(0,0,0,0.35), rgba(0,0,0,0.35)), url("https://hireclix.github.io/hosting/schneider-electric/images/university-relations_bg2.jpg");
+    background-image: linear-gradient(to right, rgba(0,0,0,0.25), rgba(0,0,0,0.15)), url("https://hireclix.github.io/hosting/schneider-electric/images/university-relations_bg2.jpg");
+    background-attachment: scroll;
+    background-position: 75% 70%;    
 	-webkit-background-size: cover;
 	background-size: cover;
     background-repeat: no-repeat;
@@ -410,6 +415,10 @@ section#clients {
 
 @media screen and (max-width: 700px) {
     section#clients {
+    background-image: -moz-linear-gradient(to right, rgba(0,0,0,0.35), rgba(0,0,0,0.55)), url("https://hireclix.github.io/hosting/schneider-electric/images/university-relations_bg3.jpg");
+    background-image: -webkit-linear-gradient(to right, rgba(0,0,0,0.35), rgba(0,0,0,0.55)), url("https://hireclix.github.io/hosting/schneider-electric/images/university-relations_bg3.jpg");
+    background-image: -ms-linear-gradient(to right, rgba(0,0,0,0.35), rgba(0,0,0,0.55)), url("https://hireclix.github.io/hosting/schneider-electric/images/university-relations_bg3.jpg");
+    background-image: linear-gradient(to right, rgba(0,0,0,0.25), rgba(0,0,0,0.55)), url("https://hireclix.github.io/hosting/schneider-electric/images/university-relations_bg3.jpg");    
        background-attachment: scroll; 
        background-position: right top;    
     }
