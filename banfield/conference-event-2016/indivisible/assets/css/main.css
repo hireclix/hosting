@@ -306,34 +306,36 @@
             font-family: FFMetaOT;
             font-size: 1.3em;
             font-weight: 100;
-            letter-spacing: 0;
+            letter-spacing: 1px;
             text-transform: none;
             color: #fff;
+            display: inline;
         }
     
         header h2 {
             font-family: FFMetaOT;
-            font-size: 2.25em !important;
+            font-size: 1.3em !important;
 			line-height: .5em;
 			margin: -.25em 0 0.5em 0;
 			padding: 0;
             font-weight: bold;
-            letter-spacing: 0;
+            letter-spacing: 1px;
             text-transform: none;
             color: #fff;
+            display: inline;
         }
 
     .color-block {
         position: relative;
         background-color: #2DCCD3;
-        padding: .5em 0em .25em 0em;
+        padding: .75em 0em .75em 0em;
     }
 
 
 		@media screen and (max-width: 736px) {
 
 			header {
-				margin: 2em 0;
+				margin: -1em 0 0 0;
 			}
 
 				header > :first-child:after {
@@ -347,8 +349,37 @@
 					header p br {
 						display: none;
 					}
+            
+            header h3 {
+            font-family: FFMetaOT;
+            font-size: 1em;
+            font-weight: 100;
+            letter-spacing: 1px;
+            text-transform: none;
+            color: #fff;
+            display: inline;
+        }
+    
+        header h2 {
+            font-family: FFMetaOT;
+            font-size: 1.0em !important;
+			line-height: 1.5em;
+			margin: 0em 0 0.5em 0;
+			padding: 0;
+            font-weight: bold;
+            letter-spacing: 1px;
+            text-transform: none;
+            color: #fff;
+            display: inline;
+        }
 
 		}
+
+@media screen and (min-width: 450px) {
+    header br {
+        display: none;
+    }   
+}
 
 /* Form */
 
@@ -1241,13 +1272,13 @@
 }
 
 		.panel > .image {
-             background: url(https://hireclix.github.io/hosting/banfield/images/conference-hero2.jpg);
+             background: url(https://hireclix.github.io/hosting/banfield/images/vet-hero.jpg);
 			-moz-transition: -moz-transform 0.5s ease;
 			-webkit-transition: -webkit-transform 0.5s ease;
 			-ms-transition: -ms-transform 0.5s ease;
 			transition: transform 0.5s ease;
 			background-color: #777;
-			background-position: center;
+			background-position: right center;
 			background-repeat: no-repeat;
 			background-size: cover;
 			border-radius: 0;
@@ -1568,7 +1599,7 @@
 
 .intro-logo {
     width: 250px;
-    padding-top: 2em;
+    padding: 2.25em 0 2em 0;
 }
 
 
