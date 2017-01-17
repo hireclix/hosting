@@ -1,4 +1,4 @@
-/* HireClix 2016 | www.hireclix.com */
+/* HireClix 2017 | www.hireclix.com */
 
 
 @import url(font-awesome.min.css);
@@ -3035,10 +3035,10 @@
 		background-color: #4a4a4a;
 		color: #ffffff;
 		padding: 8em 0em 2em 0 ;
-		background-image: -moz-linear-gradient(165deg, rgba(0,0,0,0.4), rgba(0,0,0,0.25)), url("https://hireclix.github.io/hosting/mercy-health/images/feature1.png.jpg");
-		background-image: -webkit-linear-gradient(165deg, rgba(0,0,0,0.4), rgba(0,0,0,0.25)), url("https://hireclix.github.io/hosting/mercy-health/images/feature1.png.jpg");
-		background-image: -ms-linear-gradient(165deg, rgba(0,0,0,0.4), rgba(0,0,0,0.25)), url("https://hireclix.github.io/hosting/mercy-health/images/feature1.png.jpg");
-		background-image: linear-gradient(165deg, rgba(0,0,0,0.1), rgba(0,0,0,0.2)), url("/images/banner1.jpg");
+		background-image: -moz-linear-gradient(165deg, rgba(0,0,0,0.4), rgba(0,0,0,0.25)), url("https://hireclix.github.io/hosting/wilsonart/images/banner1.jpg");
+		background-image: -webkit-linear-gradient(165deg, rgba(0,0,0,0.4), rgba(0,0,0,0.25)), url("https://hireclix.github.io/hosting/wilsonart/images/banner1.jpg");
+		background-image: -ms-linear-gradient(165deg, rgba(0,0,0,0.4), rgba(0,0,0,0.25)), url("https://hireclix.github.io/hosting/wilsonart/images/banner1.jpg");
+		background-image: linear-gradient(165deg, rgba(0,0,0,0.1), rgba(0,0,0,0.2)), url("https://hireclix.github.io/hosting/wilsonart/images/banner1.jpg");
 		background-position: 50% 30%;
 		background-repeat: no-repeat;
 		background-size: cover;
@@ -4632,23 +4632,8 @@ header h1 {
     font-size: 1.25em;
 }
 
-
-.big-feature {
-    background: url(https://hireclix.github.io/hosting/mercy-health/images/video-preview.jpg);
-    background-repeat: no-repeat;
-    background-position: center;
-    background-size: cover;
-}
-
-.big-feature:hover {
-    background: url(https://hireclix.github.io/hosting/mercy-health/images/video-preview_hover.jpg);
-    background-repeat: no-repeat;
-    background-position: center;
-    background-size: cover;
-}
-
 .big-feature2 {
-    background: url(/images/banner.jpg);
+    background: url(https://hireclix.github.io/hosting/wilsonart/images/banner.jpg);
     background-repeat: no-repeat;
     background-position: 70% center;
     background-size: cover;
