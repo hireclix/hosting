@@ -42,14 +42,21 @@
 }
 
 .rsDefault .rsThumb img {
-    width: 40%;
-    height: 60px;
+    width: 30%;
     float: left;
 }
 
 .rsDefault .rsTmb h5 {
     float: left;
     padding-left: 1em;
+}
+
+.rsDefault .rsTmb h5.one-line {
+    padding-top:1.5em;
+}
+
+.rsDefault .rsTmb h5.two-line {
+    padding-top:1em;
 }
 
 .rsDefault .rsThumb.rsNavSelected img {
@@ -88,4 +95,13 @@
   .sampleBlock {
     font-size: 14px;
   }
+}
+
+.rsDefault .rsPlayBtn {
+    opacity: 0;
+}
+
+
+.rsDefault .rsThumbsArrow {
+    display: none;
 }
