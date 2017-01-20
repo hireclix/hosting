@@ -1,4 +1,4 @@
-/* HireClix 2016 | www.hireclix.com */
+/* HireClix 2017 | www.hireclix.com */
 
 
 @import url(font-awesome.min.css);
@@ -4751,6 +4751,27 @@ top: 0px;
     #three {
         text-align: center;
     }
+    
+    .five-thousand {
+        border-bottom: solid 2px #f2f5f5;
+        padding-bottom: 1em;
+    }
+    
+    .forty {
+        border-bottom: solid 2px #f2f5f5;
+        padding-top :1em;
+        padding-bottom: 1em;
+    }
+    
+    .ten-thousand {
+        padding-top: 1em;
+        padding-bottom: 1em;
+        border-bottom: solid 2px #f2f5f5;
+    }
+    
+    .wrapper2.style3 {
+        border: 0 !important;
+}
 }
 
 .mobile {
@@ -4764,4 +4785,9 @@ top: 0px;
 
 #three h3 {
     font-size: 1.3em;
+}
+
+
+.wrapper2.style3 {
+    border-bottom: solid 2px #f2f5f5;
 }
