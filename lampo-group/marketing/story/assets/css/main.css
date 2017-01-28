@@ -8504,7 +8504,7 @@ ul.icons.style2 li {
     width: 250px;
 }
 
-iframe {
+.test-wrapper iframe {
     width: 100%;
     height: 520px !important;
     overflow: visible;
