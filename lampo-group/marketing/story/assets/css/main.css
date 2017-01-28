@@ -3410,12 +3410,26 @@ ul.icons.style2 li {
 					max-width: 100%;
 					height: 45vh;
 				}
+            
+            .intro-logo {
+                margin: 0 auto;
+            }
+            
+            .join-us-app {
+                text-align: center !important;
+            }
 
 		}
+
+        
 
 		.banner.style1.fullscreen {
 			min-height: 100vh;
 		}
+
+.join-us-app {
+                text-align: left;
+            }
 
 			@media screen and (orientation: portrait) {
 
