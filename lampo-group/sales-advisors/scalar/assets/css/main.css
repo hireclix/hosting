@@ -2424,3 +2424,9 @@ top: 0px;
 					.tech-header {
             margin-bottom: .15em;
         }
+
+@media screen and (max-width: 736px) {
+    .awards img {
+        padding-top:1em;
+    }
+}
