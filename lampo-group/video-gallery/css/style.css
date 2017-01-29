@@ -45,6 +45,12 @@
 } 
 }
 
+@media screen and (max-width: 1180px) {
+   .rsDefault .rsThumb img {
+    width: 105px;
+} 
+}
+
 .rsDefault .rsTmb h5 {
     float: left;
     padding-left: 1em;
