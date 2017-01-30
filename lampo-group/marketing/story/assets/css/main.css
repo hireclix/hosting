@@ -8598,3 +8598,17 @@ footer .inner {
     height: 450px !important;
 } 
 }
+
+@media screen and (max-width: 1080px) {
+    .desktop-video {
+        display: none;
+    }
+    
+    .mobile-video {
+        display: inherit !important;  
+    }
+}
+
+.mobile-video {
+    display: none;
+}
