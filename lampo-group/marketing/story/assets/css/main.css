@@ -8523,12 +8523,12 @@ ul.icons.style2 li {
 }
 
 
-/*@media screen and (max-width: 980px) {
+@media screen and (max-width: 980px) {
  .test-wrapper {
-    padding: 0rem !important;
+    padding: .5rem 0 0 0 !important;
     background: #f9f9f9;
 }
-}*/
+}
    
 .test-wrapper {
     padding: 2rem 6rem;
