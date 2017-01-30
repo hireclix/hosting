@@ -4857,7 +4857,8 @@ ul.icons.style2 li {
 
 			.spotlight.style1 .content {
 				width: 100%;
-                padding: 2.5rem 2rem 6rem 2rem ;
+                padding: 2.5rem 2rem 1rem 2rem ;
+                -webkit-text-size-adjust:none;
 			}
 
 			.spotlight.style1 .image {
