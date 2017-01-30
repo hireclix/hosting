@@ -3370,6 +3370,13 @@ ul.icons.style2 li {
 
 		}
 
+@media screen and (min-width: 737px) {}
+
+.join-us-app {
+                text-align: left;
+            }
+}
+
 		@media screen and (max-width: 736px) {
 
 			.banner.style1 .content {
@@ -3431,9 +3438,7 @@ ul.icons.style2 li {
 			min-height: 100vh;
 		}
 
-.join-us-app {
-                text-align: left;
-            }
+
 
 			@media screen and (orientation: portrait) {
 
@@ -4861,7 +4866,7 @@ ul.icons.style2 li {
 
 			.spotlight.style1 .content {
 				width: 100%;
-                padding: 1rem 2rem 10rem 2rem ;
+                padding: 1rem 2rem 12rem 2rem ;
                
 			}
 
