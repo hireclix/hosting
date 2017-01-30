@@ -8547,6 +8547,10 @@ footer {
     .awards img {
         padding-top:1em;
     }
+    
+    .mobile-padding {
+        padding-bottom: 1rem;
+    }
 }
 footer .inner {
     padding-bottom: 0 !important;
