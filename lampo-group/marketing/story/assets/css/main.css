@@ -8617,3 +8617,31 @@ footer .inner {
 .mobile-video {
     display: none;
 }
+
+.test-wrapper iframe.mobile-video {
+    width: 800px;
+    height: 500px;
+    margin: 0 auto;
+    padding-bottom: 2rem;
+}
+
+@media screen and (max-width: 800px) {
+    .test-wrapper iframe.mobile-video {
+    width: 600px;
+    height: 400px;
+}
+}
+
+@media screen and (max-width: 600px) {
+    .test-wrapper iframe.mobile-video {
+    width: 450px;
+    height: 300px;
+}
+}
+
+@media screen and (max-width: 450px) {
+    .test-wrapper iframe.mobile-video {
+    width: 100%;
+    height: 275px;
+}
+}
