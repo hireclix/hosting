@@ -8530,7 +8530,7 @@ ul.icons.style2 li {
 
 @media screen and (max-width: 980px) {
  .test-wrapper {
-    padding: .5rem 0 0 0 !important;
+    padding: 1rem 0 0 0 !important;
     background: #f9f9f9;
 }
 }
