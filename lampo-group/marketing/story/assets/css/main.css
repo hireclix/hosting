@@ -4806,6 +4806,24 @@ ul.icons.style2 li {
 			border-radius: 0;
 		}
 
+        .spotlight.style1 .image.first {
+			background: url('https://hireclix.github.io/hosting/lampo-group/images/Damon_Goude_2014_v1.jpeg');
+            background-size: cover;
+            background-position: center;
+		}
+
+        .spotlight.style1 .image.second {
+			background: url('https://hireclix.github.io/hosting/lampo-group/images/Christina_Reckard_2014_v1.jpeg');
+            background-size: cover;
+            background-position: center;
+		}
+
+        .spotlight.style1 .image.third {
+			background: url('https://hireclix.github.io/hosting/lampo-group/images/Cory_Mabry_2015_v1.jpeg');
+            background-size: cover;
+            background-position: center;
+		}
+
 			.spotlight.style1 .image img {
 				-moz-object-fit: cover;
 				-webkit-object-fit: cover;
