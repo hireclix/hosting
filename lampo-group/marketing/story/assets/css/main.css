@@ -3326,6 +3326,9 @@ ul.icons.style2 li {
 			flex-shrink: 0;
 			border-radius: 0;
 			width: 50%;
+            background: url('https://hireclix.github.io/hosting/lampo-group/images/RS-Halloween_Oct-2016.jpg');
+            background-size: cover;
+            background-position: center;
 		}
 
 			.banner.style1 .image img {
