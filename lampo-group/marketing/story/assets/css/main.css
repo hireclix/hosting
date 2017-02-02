@@ -3290,7 +3290,7 @@ ul.icons.style2 li {
 	}
 
 		.banner.style1 .content {
-			padding: 1rem 4rem 2rem 4rem ;
+			padding: 0rem 4rem 2rem 4rem ;
 			-moz-align-self: center;
 			-webkit-align-self: center;
 			-ms-align-self: center;
@@ -3311,8 +3311,12 @@ ul.icons.style2 li {
 
         .banner.style1 .content h1 {
             color: #fff;
-            font-size: 3rem;
+            font-size: 2rem;
             padding-top:1.5rem;
+        }
+
+         .banner.style1 .content p {
+            font-size: 16px;
         }
 
 		.banner.style1 .image {
@@ -3362,23 +3366,20 @@ ul.icons.style2 li {
 			.banner.style1 .content {
 				padding: 1rem 4rem 2rem 4rem ;
 			}
-
+            .banner.style1 .content p {
+                font-size: 14px;
+            }
 		}
 
 		@media screen and (max-width: 980px) {
 
 			.banner.style1 .content {
-				padding: 3.75rem 3rem 1.75rem 3rem ;
+				padding: 1rem 3rem 1.75rem 3rem ;
 			}
 
 		}
 
-@media screen and (min-width: 737px) {}
 
-.join-us-app {
-                text-align: left;
-            }
-}
 
 		@media screen and (max-width: 736px) {
 
@@ -3388,6 +3389,7 @@ ul.icons.style2 li {
             
             .join-us-app {
                 text-align: center !important;
+                margin: 0 auto !important;
             }
 
 		}
@@ -3429,17 +3431,15 @@ ul.icons.style2 li {
                 margin: 0 auto;
             }
             
-            .join-us-app {
-                text-align: center !important;
-            }
+           
 
 		}
 
         
 
-		.banner.style1.fullscreen {
+		/*.banner.style1.fullscreen {
 			min-height: 100vh;
-		}
+		}*/
 
 
 
