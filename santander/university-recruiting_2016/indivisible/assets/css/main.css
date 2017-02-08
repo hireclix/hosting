@@ -1266,7 +1266,7 @@
 			background-repeat: no-repeat;
 			background-size: cover;
 			border-radius: 0;
-			max-height: 50em;
+			/*max-height: 50em;*/
 			width: 45%;
 			z-index: 1;
 		}
