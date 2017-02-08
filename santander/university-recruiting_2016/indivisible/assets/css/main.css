@@ -1717,3 +1717,9 @@ bottom: 0;
 .lightbox-target:target a.lightbox-close {
 top: 0px;
 }
+
+@media screen and (max-width: 480px) {
+    .xs-hidden {
+        display: none;
+    }   
+}
