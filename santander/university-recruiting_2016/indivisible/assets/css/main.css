@@ -126,6 +126,12 @@
 			border-bottom-color: transparent;
 		}
 
+        .custom-link a:hover {
+			color: #ff0000 !important;
+		}
+
+
+
 	strong, b {
 		color: #555;
 		font-weight: 500;
