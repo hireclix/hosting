@@ -5,12 +5,12 @@
 
 @font-face {
   font-family: 'CASans';
-  src: url('/fonts/CASans.eot?') format('eot'), url('https://hireclix.github.io/hosting/ca-technologies/logos/fonts/CASans.woff') format('woff'), url('https://hireclix.github.io/hosting/ca-technologies/logos/fonts/CASans.ttf') format('truetype');
+  src: url('https://hireclix.github.io/hosting/ca-technologies/fonts/CASans.eot?') format('eot'), url('https://hireclix.github.io/hosting/ca-technologies/fonts/CASans.woff') format('woff'), url('https://hireclix.github.io/hosting/ca-technologies/fonts/CASans.ttf') format('truetype');
 }
 
 @font-face {
   font-family: 'CASans-Bold';
-  src: url('/fonts/CASans-Bold.eot?') format('eot'), url('https://hireclix.github.io/hosting/ca-technologies/logos/fonts/CASans-Bold.woff') format('woff'), url('https://hireclix.github.io/hosting/ca-technologies/logos/fonts/CASans-Bold.ttf') format('truetype');
+  src: url('https://hireclix.github.io/hosting/ca-technologies/fonts/CASans-Bold.eot?') format('eot'), url('https://hireclix.github.io/hosting/ca-technologies/fonts/CASans-Bold.woff') format('woff'), url('https://hireclix.github.io/hosting/ca-technologies/fonts/CASans-Bold.ttf') format('truetype');
 }
 
 
