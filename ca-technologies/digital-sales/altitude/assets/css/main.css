@@ -3146,7 +3146,7 @@
 		margin: 0 0 2em 0;
 	}
 
-		.spotlights > article {
+		.spotlights > div {
 			display: -moz-flex;
 			display: -webkit-flex;
 			display: -ms-flex;
@@ -3157,17 +3157,17 @@
 			flex-direction: row;
 		}
 
-			.spotlights > article .content {
+			.spotlights > div .content {
 				padding: 4em 5em 2em 5em ;
 				text-align: center;
 			}
 
-			.spotlights > article .image {
+			.spotlights > div .image {
 				border-radius: 0;
 				position: relative;
 			}
 
-				.spotlights > article .image img {
+				.spotlights > div .image img {
 					border-radius: 0;
 					position: absolute;
 					top: 0;
@@ -3176,32 +3176,32 @@
 					width: 100%;
 				}
 
-			.spotlights > article > :nth-child(1) {
+			.spotlights > div > :nth-child(1) {
 				width: 60%;
 			}
 
-			.spotlights > article > :nth-child(2) {
+			.spotlights > div > :nth-child(2) {
 				width: 40%;
 			}
 
-			.spotlights > article:nth-child(2n - 1) {
+			.spotlights > div:nth-child(2n - 1) {
 				-moz-flex-direction: row-reverse;
 				-webkit-flex-direction: row-reverse;
 				-ms-flex-direction: row-reverse;
 				flex-direction: row-reverse;
 			}
 
-				.spotlights > article:nth-child(2n - 1) > :nth-child(1) {
+				.spotlights > div:nth-child(2n - 1) > :nth-child(1) {
 					width: 40%;
 				}
 
-				.spotlights > article:nth-child(2n - 1) > :nth-child(2) {
+				.spotlights > div:nth-child(2n - 1) > :nth-child(2) {
 					width: 60%;
 				}
 
 		@media screen and (max-width: 1680px) {
 
-			.spotlights > article .content {
+			.spotlights > div .content {
 				padding: 4em 3em 2em 3em ;
 			}
 
@@ -3209,41 +3209,41 @@
 
 		@media screen and (max-width: 980px) {
 
-			.spotlights > article {
+			.spotlights > div {
 				-moz-flex-direction: column;
 				-webkit-flex-direction: column;
 				-ms-flex-direction: column;
 				flex-direction: column;
 			}
 
-                .spotlights > article .image {
+                .spotlights > div .image {
                     max-height: 20em;
                 }
             
-				.spotlights > article .image img {
+				.spotlights > div .image img {
 					position: relative;
 				}
 
-				.spotlights > article > :nth-child(1) {
+				.spotlights > div > :nth-child(1) {
 					width: 100%;
 				}
 
-				.spotlights > article > :nth-child(2) {
+				.spotlights > div > :nth-child(2) {
 					width: 100%;
 				}
 
-				.spotlights > article:nth-child(2n - 1) {
+				.spotlights > div:nth-child(2n - 1) {
 					-moz-flex-direction: column;
 					-webkit-flex-direction: column;
 					-ms-flex-direction: column;
 					flex-direction: column;
 				}
 
-					.spotlights > article:nth-child(2n - 1) > :nth-child(1) {
+					.spotlights > div:nth-child(2n - 1) > :nth-child(1) {
 						width: 100%;
 					}
 
-					.spotlights > article:nth-child(2n - 1) > :nth-child(2) {
+					.spotlights > div:nth-child(2n - 1) > :nth-child(2) {
 						width: 100%;
 					}
 
@@ -3251,7 +3251,7 @@
 
 		@media screen and (max-width: 736px) {
 
-			.spotlights > article .content {
+			.spotlights > div .content {
 				padding: 3em 2em 1em 2em ;
 			}
 
@@ -5124,7 +5124,7 @@
 			position: relative;
 		}
 
-			#banner > .slider > article {
+			#banner > .slider > div {
 				background: url(https://hireclix.github.io/hosting/ca-technologies/images/hero2.jpg);
                 background-position: 90% 50%;
 				background-size: cover;
