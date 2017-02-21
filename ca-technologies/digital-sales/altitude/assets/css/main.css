@@ -1629,9 +1629,7 @@
 
 	}
 
-	body {
-		background: #575b72;
-	}
+	
 
 		body.is-loading *, body.is-loading *:before, body.is-loading *:after {
 			-moz-animation: none !important;
@@ -1678,13 +1676,10 @@
 		-webkit-transition: color 0.2s ease-in-out, background-color 0.2s ease-in-out, border-bottom-color 0.2s ease-in-out;
 		-ms-transition: color 0.2s ease-in-out, background-color 0.2s ease-in-out, border-bottom-color 0.2s ease-in-out;
 		transition: color 0.2s ease-in-out, background-color 0.2s ease-in-out, border-bottom-color 0.2s ease-in-out;
-		border-bottom: dotted 1px;
 		text-decoration: none;
 	}
 
-		a:hover {
-			border-bottom-color: transparent;
-		}
+		
 
 	strong, b {
 		font-weight: 500;
@@ -5440,7 +5435,7 @@
 		}
 
 		#page-wrapper > :last-child {
-			padding-bottom: 4em;
+			padding-bottom: .5em;
 			overflow: hidden;
 		}
 
@@ -5455,7 +5450,7 @@
 			}
 
 			#page-wrapper > :last-child {
-				padding-bottom: 4em;
+				padding-bottom: .5em;
 			}
 
 		}
@@ -5471,7 +5466,7 @@
 			}
 
 			#page-wrapper > :last-child {
-				padding-bottom: 3em;
+				padding-bottom: 1em;
 			}
 
 		}
