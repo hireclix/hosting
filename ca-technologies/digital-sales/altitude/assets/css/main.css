@@ -1901,6 +1901,16 @@
 		font-size: 1em;
 	}
 
+@media screen and (max-width: 736px) {
+    input[type="submit"],
+	input[type="reset"],
+	input[type="button"],
+	button,
+	.button { 
+        font-size: .75em;
+    }
+}
+
 		input[type="submit"].icon:before,
 		input[type="reset"].icon:before,
 		input[type="button"].icon:before,
