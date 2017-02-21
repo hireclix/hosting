@@ -3194,6 +3194,24 @@
 					width: 60%;
 				}
 
+.one {
+    background: url(https://hireclix.github.io/hosting/ca-technologies/images/feature.jpg);
+    background-size: cover;
+    background-position: 50% 50%;
+}
+
+.two {
+    background: url(https://hireclix.github.io/hosting/ca-technologies/images/BWYB1.jpg);
+    background-size: cover;
+    background-position: 50% 50%;
+}
+
+.three {
+    background: url(https://hireclix.github.io/hosting/ca-technologies/images/team1.jpg);
+    background-size: cover;
+    background-position: 50% 50%;
+}
+
 		@media screen and (max-width: 1680px) {
 
 			.spotlights > div .content {
@@ -3212,7 +3230,7 @@
 			}
 
                 .spotlights > div .image {
-                    max-height: 20em;
+                    height: 20em;
                 }
             
 				.spotlights > div .image img {
@@ -5499,3 +5517,4 @@
         padding-top: 1em !important;
     }
 }
+
