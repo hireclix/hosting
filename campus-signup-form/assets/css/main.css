@@ -1521,3 +1521,18 @@
 		body.is-loading-0 #footer {
 			opacity: 0;
 		}
+
+@media screen and (min-width: 1080px) {
+    .desktop-hidden {
+        display: none;
+    }
+}
+
+@media screen and (max-width: 736px) {
+    .panel > .image img {
+                width: 60%;
+                margin: 0 auto;
+                padding-top: 2em;
+                opacity: .85;
+			}
+}
