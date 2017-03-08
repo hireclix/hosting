@@ -3962,6 +3962,11 @@
 				.wrapper.spotlight > .content {
 					padding: 3em 3em 1em 3em ;
 				}
+            
+             .wrapper.spotlight.alt > .content {
+				padding: 2.5em 1em 1em 1em ;
+			}
+
 
 		}
 
