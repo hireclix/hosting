@@ -4772,11 +4772,11 @@ top: 0px;
 }
 
 .footer-text h2 {
-    margin-bottom: 0;
+    margin-bottom: .25em;
 }
 
 .footer-text p {
-    margin-bottom: 1.5em;
+    margin-bottom: 1.75em;
     line-height: 1.25em;
 }
 
