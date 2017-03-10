@@ -3559,7 +3559,28 @@ section.special h2 {
 					background-color: #f2f2f2;
 				}
 
-		#banner > section {
+		#banner > section.half {
+			display: -moz-flex;
+			display: -webkit-flex;
+			display: -ms-flex;
+			display: flex;
+			-moz-align-items: center;
+			-webkit-align-items: center;
+			-ms-align-items: center;
+			align-items: center;
+			-moz-justify-content: center;
+			-webkit-justify-content: center;
+			-ms-justify-content: center;
+			justify-content: center;
+			padding: 0em 4em 4em 4em ;
+			background-position: center;
+			background-repeat: no-repeat;
+			background-size: cover;
+			overflow: hidden;
+			position: relative;
+		}
+
+        #banner > section.full {
 			display: -moz-flex;
 			display: -webkit-flex;
 			display: -ms-flex;
@@ -3813,12 +3834,32 @@ section.special h2 {
 				#banner > section.half {
 					min-height: 35vh;
 				}
-
+            
+            #banner > section.half {
+			display: -moz-flex;
+			display: -webkit-flex;
+			display: -ms-flex;
+			display: flex;
+			-moz-align-items: center;
+			-webkit-align-items: center;
+			-ms-align-items: center;
+			align-items: center;
+			-moz-justify-content: center;
+			-webkit-justify-content: center;
+			-ms-justify-content: center;
+			justify-content: center;
+			padding: 2em 0em 4em 0em ;
+			background-position: center;
+			background-repeat: no-repeat;
+			background-size: cover;
+			overflow: hidden;
+			position: relative;
+		}
 		}
 
 		@media screen and (max-width: 736px) {
 
-            #banner > section {
+            #banner > section.full {
 			display: -moz-flex;
 			display: -webkit-flex;
 			display: -ms-flex;
