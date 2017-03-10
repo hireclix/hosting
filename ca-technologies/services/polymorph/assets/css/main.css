@@ -2876,6 +2876,10 @@
 		text-align: center;
 	}
 
+section.special h2 {
+    margin-bottom: .5em;
+}
+
     section.special iframe {
         width: 85%;
         height: 400px;    
