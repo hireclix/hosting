@@ -3568,11 +3568,11 @@ section.special h2 {
 			-webkit-align-items: center;
 			-ms-align-items: center;
 			align-items: center;
-			-moz-justify-content: center;
-			-webkit-justify-content: center;
-			-ms-justify-content: center;
-			justify-content: center;
-			padding: 3em 4em 6.25em 4em ;
+			-moz-justify-content: left;
+			-webkit-justify-content: left;
+			-ms-justify-content: left;
+			justify-content: left;
+			padding: 1em 4em 1em 4em ;
 			background-position: center;
 			background-repeat: no-repeat;
 			background-size: cover;
@@ -3690,11 +3690,11 @@ section.special h2 {
             #banner > section .content2 {
 				max-width: 80%;
 				text-align: left;
-				position: absolute;
+				position: relative;
                 left: 0;
                 top: 0;
 				z-index: 1;
-                padding: 2em 3em;
+                padding: 0em 0em 0 0em;
 			}
 
 			#banner > section h1, #banner > section h2, #banner > section h3 {
@@ -3818,9 +3818,26 @@ section.special h2 {
 
 		@media screen and (max-width: 736px) {
 
-			#banner > section {
-				padding: 4em 1em 2.25em 1em ;
-			}
+            #banner > section {
+			display: -moz-flex;
+			display: -webkit-flex;
+			display: -ms-flex;
+			display: flex;
+			-moz-align-items: center;
+			-webkit-align-items: center;
+			-ms-align-items: center;
+			align-items: center;
+			-moz-justify-content: center;
+			-webkit-justify-content: center;
+			-ms-justify-content: center;
+			justify-content: center;
+			padding: 1em 4em 1em 4em ;
+			background-position: center;
+			background-repeat: no-repeat;
+			background-size: cover;
+			overflow: hidden;
+			position: relative;
+		}
 
 				#banner > section.full {
 					min-height: 100vh;
