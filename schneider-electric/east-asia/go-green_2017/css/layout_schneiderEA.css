@@ -490,7 +490,7 @@ section#faq .question i {
 /*Footer*/
 
 footer#footer {
-	background-color: #626469;
+	color: #626469;
 	padding: 10px 0 10px 0;
 }
 
@@ -501,12 +501,10 @@ footer#footer .preambule {
 }
 
 footer#footer .preambule h3 {
-	color: white;
 	text-align: center;
 }
 
 footer#footer .preambule p {
-	color: white;
 	text-align: center;
 }
 
