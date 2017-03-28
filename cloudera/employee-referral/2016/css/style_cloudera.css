@@ -31,7 +31,7 @@ a {
   transition: all 0.3s;
 }
 a:hover {
-  color: #29A7DE;
+  color: #fff;
   text-decoration: none;
 }
 a:hover .icon svg {
