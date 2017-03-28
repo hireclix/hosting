@@ -334,7 +334,6 @@ section#intro .booking button:hover {
 /*Services*/
 
 section#services {
-    background: #FAFAFA;
 	padding: 20px 0 20px 0;
 }
 
@@ -365,6 +364,7 @@ section#services .big-thumbnail img:hover {
 /*Features*/
 
 section#features {
+    background: #fafafa;
 	padding: 25px 0;
 }
 
@@ -459,7 +459,7 @@ section#clients a>img:hover {
 /*FAQ*/
 
 section#faq {
-	background: #FAFAFA;
+	
 	padding: 50px 0 0 0;
 }
 
