@@ -1821,8 +1821,12 @@
 	}
 
 	a {
-		color: #434b56;
+		 color: #22465E;
 	}
+
+    a:hover, a:active, a:target, a:focus {
+			color: #1b384b !important;
+		}
 
 	strong, b {
 		color: #434b56;
