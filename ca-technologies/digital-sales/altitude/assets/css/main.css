@@ -1825,7 +1825,7 @@
 	}
 
     a:hover, a:active, a:target, a:focus {
-			color: #1b384b !important;
+			color: #1b384b;
 		}
 
 	strong, b {
