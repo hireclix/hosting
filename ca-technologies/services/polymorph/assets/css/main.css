@@ -1704,6 +1704,12 @@
             text-decoration: none;
 		}
 
+        a:hover, a:active, a:target, a:focus {
+			color: #1b384b !important;
+			border-bottom-color: transparent;
+            text-decoration: none;
+		}
+
 			a:hover:before {
 				color: #53bed5 !important;
 			}
@@ -1840,6 +1846,10 @@
 	#footer a {
 		color: #fff;
 	}
+
+    a {
+        color: #22465E;
+    }
 
 	strong, b {
 		color: #404040;
