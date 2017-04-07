@@ -3568,6 +3568,10 @@
 						color: #ffffff;
 					}
 
+                    .wrapper > .inner > .main.accent2 a:hover, .wrapper > .inner > .main.accent2 a:focus, .wrapper > .inner > .main.accent2 a:active {
+                                            color: #ffffff;
+                                        }
+
 					.wrapper > .inner > .main.accent2 strong, .wrapper > .inner > .main.accent2 b {
 						color: #ffffff;
 					}
