@@ -291,9 +291,9 @@
 		text-align: center;
 	}
 
-@media screen and (max-width: 1300px) {}
+@media screen and (min-width: 1300px) {
     header.major {
-		padding: 1em 0 0 6em;
+		padding: 1em 0 0 6em !important;
 		text-align: center;
 	}
 
