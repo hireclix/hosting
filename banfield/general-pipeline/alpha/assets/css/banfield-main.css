@@ -291,6 +291,14 @@
 		text-align: center;
 	}
 
+@media screen and (max-width: 1300px) {}
+    header.major {
+		padding: 1em 0 0 6em;
+		text-align: center;
+	}
+
+    }
+
 		header.major h2 {
 			margin: 0;
 		}
