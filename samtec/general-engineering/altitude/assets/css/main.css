@@ -3207,19 +3207,19 @@
 				}
 
 .one {
-    background: url(/images/feature1.jpg);
+    background: url(https://hireclix.github.io/hosting/samtec/images/feature1.jpg);
     background-size: cover;
     background-position: 50% 50%;
 }
 
 .two {
-    background: url(/images/feature3.jpg);
+    background: url(https://hireclix.github.io/hosting/samtec/images/feature3.jpg);
     background-size: cover;
     background-position: 90% 50%;
 }
 
 .three {
-    background: url(/images/feature2.jpg);
+    background: url(https://hireclix.github.io/hosting/samtec/images/feature2.jpg);
     background-size: cover;
     background-position: 30% 50%;
 }
@@ -5153,7 +5153,7 @@
 		}
 
 			#banner > .slider > div {
-				background: url(/images/hero.jpg);
+				background: url(https://hireclix.github.io/hosting/samtec/images/hero.jpg);
                 background-position: 60% 10%;
 				background-size: cover;
 				height: 100%;
