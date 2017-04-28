@@ -1267,7 +1267,6 @@
 @media screen and (min-width: 980px) {
     .panel {
         height: 95vh;
-        height: 95%;
     }
 }
 
