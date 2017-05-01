@@ -1,0 +1,176 @@
+/* HireClix 2017 | www.hireclix.com */
+
+body {
+    padding-top: 80px; 
+    font-family: 'Roboto', sans-serif;
+}
+
+
+.hero {
+    height: 300px;
+    background: url('/images/capa-hero.jpg') center center no-repeat scroll;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    background-size: cover;
+    -o-background-size: cover;
+}
+
+
+.tagline {
+    text-shadow: 0 0 10px #000;
+    color: #fff;
+}
+
+.img-center {
+    margin: 0 auto;
+}
+
+footer {
+    background-color: #0a3555;
+    color: white;
+    padding: .7em 0 .25em 0;
+}
+
+footer h4 {
+   font-weight:100;
+    font-size: 1.5em;
+    display: inline;
+}
+
+footer p {
+    float: right;
+    display: inline;
+    line-height: 1.8em;
+}
+
+footer .container {
+    padding-top: 0;
+    padding-bottom: 0;
+}
+
+.navbar {
+    background-color: #0a3555;
+    color: white;
+    padding: .5em 0;
+    text-align: center;
+}
+
+@media screen and (max-width: 767px) {
+    h1.title {
+        font-size: 2.5em;
+        text-align: center !important;
+    }
+    
+    .hero {
+        margin-top: 4.5em;
+    }
+    
+    .gray-bg .stats-header {
+    padding-left: 10px !important;
+}
+    h2.stats-header {
+    padding-left: 0px !important;
+}
+}
+
+
+.logo {
+    width: 175px;
+}
+
+h1,h2,h3,h4,h5,h6 {
+    font-family: 'Roboto Condensed', sans-serif;
+}
+
+
+h1.title {
+    font-size: 2.5em;
+    text-align: right;
+    font-weight: 300;
+}
+
+h2.stats-header {
+    color: #0a3555;
+    padding-left: 65px;
+}
+
+.vertical-align {
+    display: flex;
+    align-items: center;
+    padding-top: 1em;
+}
+
+.stats {
+    padding-left: 0;
+    padding-right: 0;
+}
+
+.stats img { 
+    width: 120px;
+}
+.stats p {
+    font-size: 1.25em;
+    margin-left: -2em;
+}
+
+@media screen and (max-width: 1199px) {
+    .stats p {
+    margin-left: -1em;
+    }  
+}
+
+@media screen and (max-width: 991px) {
+    .stats p {
+    margin-left: .5em;
+    }  
+}
+
+.color-block {
+    background-color: #0a3555;
+    color: white;
+    padding: 1.25em;
+}
+
+.color-block h3 {
+    font-weight: 100;
+    margin-top: 0;
+    margin-bottom: 0;
+}
+
+.navbar .container {
+    padding-top: 0;
+    padding-bottom: 0;
+}
+
+.container {
+    padding-bottom: 2em;
+}
+
+.gray-bg {
+    background-color: #fbfbfb;
+    padding-bottom: 1em;
+}
+
+.gray-bg p {
+    font-size: 1.25em;
+    color: #231f20;
+}
+
+.gray-bg .stats-header {
+    padding-left: 80px;
+}
+
+.gray-bg ul {
+    font-size: .9em;
+    list-style: square;
+    color: 999999;
+}
+
+footer a {
+    color: #fff;
+}
+
+footer a:hover, footer a:focus, footer a:active {
+    color: #ebebeb;
+    text-decoration: none;
+}
