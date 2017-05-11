@@ -3841,14 +3841,14 @@ a:active, a:focus {
 					right: -0.5em;
 					top: 0;
 				}
-            iframe {
+            iframe.video {
                 height: 200px !important;
                 padding-bottom: 1em;
             }
 
 		}
 
-iframe {
+iframe.video {
     height:300px;
 }
 
