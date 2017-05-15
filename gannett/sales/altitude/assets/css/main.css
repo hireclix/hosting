@@ -1,21 +1,20 @@
 /* HireClix 2017 | www.hireclix.com */
 
 @import url(font-awesome.min.css);
-@import url("https://fonts.googleapis.com/css?family=Raleway:300,500,600");
 
 @font-face {
   font-family: 'Futura-Light';
-  src: url('/fonts/futura-light.eot?') format('eot'), url('/fonts/futura-light.woff') format('woff'), url('/fonts/futura-light.ttf') format('truetype');
+  src: url('https://hireclix.github.io/hosting/gannett/fonts/futura-light.eot?') format('eot'), url('https://hireclix.github.io/hosting/gannett/fonts/futura-light.woff') format('woff'), url('https://hireclix.github.io/hosting/gannett/fonts/futura-light.ttf') format('truetype');
 }
 
 @font-face {
   font-family: 'Futura-Normal';
-  src: url('/fonts/futura-normal.eot?') format('eot'), url('/fonts/futura-normal.woff') format('woff'), url('/fonts/futura-normal.ttf') format('truetype');
+  src: url('https://hireclix.github.io/hosting/gannett/fonts/futura-normal.eot?') format('eot'), url('https://hireclix.github.io/hosting/gannett/fonts/futura-normal.woff') format('woff'), url('https://hireclix.github.io/hosting/gannett/fonts/futura-normal.ttf') format('truetype');
 }
 
 @font-face {
   font-family: 'Futura-Bold';
-  src: url('/fonts/futura-bold.eot?') format('eot'), url('/fonts/futura-bold.woff') format('woff'), url('/fonts/futura-bold.ttf') format('truetype');
+  src: url('https://hireclix.github.io/hosting/gannett/fonts/futura-bold.eot?') format('eot'), url('https://hireclix.github.io/hosting/gannett/fonts/futura-bold.woff') format('woff'), url('https://hireclix.github.io/hosting/gannett/fonts/futura-bold.ttf') format('truetype');
 }
 
 
@@ -3217,19 +3216,19 @@
 				}
 
 .one {
-    background: url(/images/feature1.jpg);
+    background: url(https://hireclix.github.io/hosting/gannett/images/feature1.jpg);
     background-size: cover;
     background-position: 50% 50%;
 }
 
 .two {
-    background: url(/images/feature3.jpg);
+    background: url(https://hireclix.github.io/hosting/gannett/images/feature3.jpg);
     background-size: cover;
     background-position: 50% 50%;
 }
 
 .three {
-    background: url(/images/feature2.jpg);
+    background: url(https://hireclix.github.io/hosting/gannett/images/feature2.jpg);
     background-size: cover;
     background-position: 100% 50%;
 }
@@ -5163,7 +5162,7 @@
 		}
 
 			#banner > .slider > div {
-				background: url(/images/hero.jpg);
+				background: url(https://hireclix.github.io/hosting/gannett/images/hero.jpg);
                 background-position: 30% 50%;
 				background-size: cover;
 				height: 100%;
