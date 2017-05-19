@@ -1267,23 +1267,12 @@
 @media screen and (min-width: 980px) {
     .panel {
         height: 95vh;
+        height: 95%;
     }
 }
 
 		.panel > .image {
              background: url(https://hireclix.github.io/hosting/banfield/images/vet-hero.jpg);
-			display: -moz-flex;
-			display: -webkit-flex;
-			display: -ms-flex;
-			display: flex;
-			-moz-flex-direction: column;
-			-webkit-flex-direction: column;
-			-ms-flex-direction: column;
-			flex-direction: column;
-			-moz-justify-content: center;
-			-webkit-justify-content: center;
-			-ms-justify-content: center;
-			justify-content: center;
 			-moz-transition: -moz-transform 0.5s ease;
 			-webkit-transition: -webkit-transform 0.5s ease;
 			-ms-transition: -ms-transform 0.5s ease;
@@ -1309,9 +1298,9 @@
 
 		.panel > .content {
 			display: -moz-flex;
-			display: -webkit-flex;
-			display: -ms-flex;
-			display: flex;
+            display: -webkit-flex;
+            display: -ms-flex;
+            display: flex;
 			-moz-flex-direction: column;
 			-webkit-flex-direction: column;
 			-ms-flex-direction: column;
