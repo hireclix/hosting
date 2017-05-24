@@ -3793,8 +3793,9 @@ a:active, a:focus {
 		display: -webkit-flex;
 		display: -ms-flex;
 		display: flex;
-		border-bottom: solid 5px #3DCD58;
-		padding: 0em 0 1em 0;
+        background: #3DCD58; 
+		border-bottom: 4px solid #009530;
+		padding: 0em 5em 0em 4.5em;
 		position: relative;
         
 	}
@@ -3809,11 +3810,13 @@ a:active, a:focus {
 		}
 
         #header .logo img {
-            width: 300px;
+            width: 245px;
         }
 
 		#header .icons {
 			text-align: right;
+            color: white;
+            padding-bottom: .5em;
 		}
 
 		@media screen and (max-width: 1680px) {
