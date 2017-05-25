@@ -33,29 +33,33 @@
     font-size: 1.2em;
 }
 
-#content {
-	width: 290px;
-	float: left;
-	padding: 5px 15px;
+#about .light {
+    font-family: light, Helvetica, sans-serif;
+    color: #a12221;
 }
 
-#middle {
-	width: 294px; /* Account for margins + border values */
-	float: left;
-	padding: 5px 15px;
-	margin: 0px 5px 5px 5px;
+#about h1 {
+    font-family: medium, Helvetica, sans-serif;
+    color: #0f0f3f;
+    font-size: 3.5em;
 }
 
-#sidebar {
-	width: 270px;
-	padding: 5px 15px;
-	float: left;
+@media screen and (max-width: 720px) {
+    #about h1 {
+    font-size: 2.5em;
+}
+    .whoweare-background {
+        display: none;
+    }
+    
+    .mobile-only {
+        display: inherit !important;
+    }
 }
 
-
-
-
-
+.mobile-only {
+    display: none;
+}
 
 
 /*!
