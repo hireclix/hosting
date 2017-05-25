@@ -53,6 +53,7 @@
     }
     
     .mobile-only {
+        padding-top:6em;
         display: inherit !important;
     }
 }
