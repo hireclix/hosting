@@ -154,6 +154,71 @@ http://ccstage.smashfly.com/Views/Client/8dc4a657-f3b9-4967-bf13-de8e447ff866/im
     font-size: 2.25em;
 }
 
+/* Awards Page */
+
+.awards-background {
+  background: url(
+http://ccstage.smashfly.com/Views/Client/8dc4a657-f3b9-4967-bf13-de8e447ff866/images/awards-header.jpg);
+  background-size: contain;
+  background-position: center center;
+  background-repeat: no-repeat;
+  height: 0;
+  padding-top: 38.98%; }
+
+.awards-background .overlay h1 {
+  color: #fff;
+  font-weight: normal;
+  font-size: 3.25em;
+  margin-bottom: 0; }
+
+.awards-background .overlay h2 {
+  color: #fff;
+  font-size: 1.5em;
+  font-weight: normal;
+  margin-top: 0; }
+
+.awards-background .overlay {
+    text-align: left;
+    padding-left: 5em;
+}
+
+#awards {
+    padding: 0 40px;
+    margin-top:-3em;
+}
+
+#awards p {
+    font-size: 1.1em;
+}
+
+#awards .light {
+    font-family: light, Helvetica, sans-serif;
+    color: #a12221;
+}
+
+#awards .light-blue {
+    font-family: light, Helvetica, sans-serif;
+    color: #0f0f3f;
+}
+
+#awards h1 {
+    font-family: medium, Helvetica, sans-serif;
+    color: #0f0f3f;
+    font-size: 2.25em;
+    line-height: 1.25em;
+}
+
+#awards h2 {
+    font-family: light, Helvetica, sans-serif;
+    color: #a12221;
+    font-size: 2.25em;
+}
+
+#awards h3 {
+    font-family: medium, Helvetica, sans-serif;
+    color: #0f0f3f;
+    font-size: 1.5em;
+}
 
 
 
@@ -162,6 +227,16 @@ http://ccstage.smashfly.com/Views/Client/8dc4a657-f3b9-4967-bf13-de8e447ff866/im
 @media screen and (max-width: 720px) {
     
     #benefits {
+    padding-top: 7em;     
+    margin-top:0em;
+}
+    
+    #awards {
+    padding-top: 7em;     
+    margin-top:0em;
+}
+    
+      #about {
     padding-top: 7em;     
     margin-top:0em;
 }
@@ -175,6 +250,11 @@ http://ccstage.smashfly.com/Views/Client/8dc4a657-f3b9-4967-bf13-de8e447ff866/im
 }
     
     #benefits h1 {
+    line-height: 1.1em;    
+    font-size: 1.7em;
+}
+    
+    #awards h1 {
     line-height: 1.1em;    
     font-size: 1.7em;
 }
@@ -199,9 +279,16 @@ http://ccstage.smashfly.com/Views/Client/8dc4a657-f3b9-4967-bf13-de8e447ff866/im
         display: none;
     }
     
+    .awards-background {
+        display: none;
+    }
+    
     .mobile-only {
-        padding-top:6em;
         display: inherit !important;
+    }
+    
+    .desktop-only {
+        display: none;
     }
     
     #culture .bio {
