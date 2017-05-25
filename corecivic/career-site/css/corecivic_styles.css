@@ -167,11 +167,16 @@ http://ccstage.smashfly.com/Views/Client/8dc4a657-f3b9-4967-bf13-de8e447ff866/im
 }
     
     #benefits .button {
-        font-size: 1em;
+        font-size: .9em;
     }
     
     #culture {
     margin-top:0em;
+}
+    
+    #benefits h1 {
+    line-height: 1.1em;    
+    font-size: 1.7em;
 }
     
     #about h1 {
