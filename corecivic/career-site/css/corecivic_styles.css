@@ -27,7 +27,7 @@
 
 .culture-background {
   background: url(
-http://ccstage.smashfly.com/Views/Client/8dc4a657-f3b9-4967-bf13-de8e447ff866/images/culture-header_v1.jpg);
+http://ccstage.smashfly.com/Views/Client/8dc4a657-f3b9-4967-bf13-de8e447ff866/images/culture-header.jpg);
   background-size: contain;
   background-position: center center;
   background-repeat: no-repeat;
@@ -37,7 +37,7 @@ http://ccstage.smashfly.com/Views/Client/8dc4a657-f3b9-4967-bf13-de8e447ff866/im
 .culture-background .overlay h1 {
   color: #fff;
   font-weight: normal;
-  font-size: 3.5em;
+  font-size: 2.5em;
   margin-bottom: 0; }
 
 .culture-background .overlay h2 {
