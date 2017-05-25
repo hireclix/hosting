@@ -1,5 +1,7 @@
 /* CoreCivic Custom CSS | HireClix 2017 */
 
+/* Who We Are Page */
+
 .whoweare-background {
   background: url(http://ccstage.smashfly.com/Views/Client/8dc4a657-f3b9-4967-bf13-de8e447ff866/images/who-we-are-header_v1.jpg);
   background-size: contain;
@@ -24,6 +26,27 @@
     text-align: left;
     padding-left: 5em;
 }
+
+#about {
+    padding: 0 40px;
+}
+
+#about p {
+    font-size: 1.2em;
+}
+
+#about .light {
+    font-family: light, Helvetica, sans-serif;
+    color: #a12221;
+}
+
+#about h1 {
+    font-family: medium, Helvetica, sans-serif;
+    color: #0f0f3f;
+    font-size: 3.5em;
+}
+
+/* Culture Page */
 
 .culture-background {
   background: url(
@@ -51,29 +74,9 @@ http://ccstage.smashfly.com/Views/Client/8dc4a657-f3b9-4967-bf13-de8e447ff866/im
     padding-left: 5em;
 }
 
-
-#about {
-    padding: 0 40px;
-}
-
-#about p {
-    font-size: 1.2em;
-}
-
-#about .light {
-    font-family: light, Helvetica, sans-serif;
-    color: #a12221;
-}
-
-#about h1 {
-    font-family: medium, Helvetica, sans-serif;
-    color: #0f0f3f;
-    font-size: 3.5em;
-}
-
-
 #culture {
     padding: 0 40px;
+    margin-top:-3em;
 }
 
 #culture p {
@@ -97,7 +100,80 @@ http://ccstage.smashfly.com/Views/Client/8dc4a657-f3b9-4967-bf13-de8e447ff866/im
     margin: 0 3em
 }
 
+/* Benefits Page */
+
+.benefits-background {
+  background: url(
+http://ccstage.smashfly.com/Views/Client/8dc4a657-f3b9-4967-bf13-de8e447ff866/images/benefits-header.jpg);
+  background-size: contain;
+  background-position: center center;
+  background-repeat: no-repeat;
+  height: 0;
+  padding-top: 38.98%; }
+
+.benefits-background .overlay h1 {
+  color: #fff;
+  font-weight: normal;
+  font-size: 2.25em;
+  margin-bottom: 0; }
+
+.benefits-background .overlay h2 {
+  color: #fff;
+  font-size: 1.5em;
+  font-weight: normal;
+  margin-top: 0; }
+
+.benefits-background .overlay {
+    text-align: left;
+    padding-left: 5em;
+}
+
+#benefits {
+    padding: 0 40px;
+    margin-top:-3em;
+}
+
+#benefits p {
+    font-size: 1.1em;
+}
+
+#benefits .light {
+    font-family: light, Helvetica, sans-serif;
+    color: #a12221;
+}
+
+#benefits h1 {
+    font-family: medium, Helvetica, sans-serif;
+    color: #0f0f3f;
+    font-size: 2.25em;
+}
+
+#benefits h2 {
+    font-family: light, Helvetica, sans-serif;
+    color: #a12221;
+    font-size: 2.25em;
+}
+
+
+
+
+/* Media Queries */
+
 @media screen and (max-width: 720px) {
+    
+    #benefits {
+    padding-top: 7em;     
+    margin-top:0em;
+}
+    
+    #benefits .button {
+        font-size: 1em;
+    }
+    
+    #culture {
+    margin-top:0em;
+}
+    
     #about h1 {
     font-size: 2.5em;
 }
@@ -111,6 +187,10 @@ http://ccstage.smashfly.com/Views/Client/8dc4a657-f3b9-4967-bf13-de8e447ff866/im
     }
     
     .culture-background {
+        display: none;
+    }
+    
+     .benefits-background {
         display: none;
     }
     
