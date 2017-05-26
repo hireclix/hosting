@@ -287,6 +287,139 @@ http://ccstage.smashfly.com/Views/Client/8dc4a657-f3b9-4967-bf13-de8e447ff866/im
     font-size: 1.5em;
 }
 
+/* Community Page */
+
+.community-background {
+  background: url(
+http://ccstage.smashfly.com/Views/Client/8dc4a657-f3b9-4967-bf13-de8e447ff866/images/community-header.jpg);
+  background-size: contain;
+  background-position: center center;
+  background-repeat: no-repeat;
+  height: 0;
+  padding-top: 38.98%; }
+
+.community-background .overlay h1 {
+  color: #fff;
+  font-weight: normal;
+  font-size: 4.25em;
+  margin-bottom: 0; }
+
+.community-background .overlay h2 {
+  color: #fff;
+  font-size: 1.5em;
+  font-weight: normal;
+  margin-top: 0; }
+
+.community-background .overlay {
+    text-align: left;
+    padding-left: 5em;
+}
+
+#community {
+    padding: 0 40px;
+    margin-top:-3em;
+}
+
+#community p {
+    font-size: 1.1em;
+}
+
+#community .light {
+    font-family: light, Helvetica, sans-serif;
+    color: #a12221;
+}
+
+#community .light-blue {
+    font-family: light, Helvetica, sans-serif;
+    color: #0f0f3f;
+}
+
+#community h1 {
+    font-family: medium, Helvetica, sans-serif;
+    color: #0f0f3f;
+    font-size: 2.25em;
+    line-height: 1.25em;
+}
+
+#community h2 {
+    font-family: light, Helvetica, sans-serif;
+    color: #a12221;
+    font-size: 2.25em;
+}
+
+#community h3 {
+    font-family: medium, Helvetica, sans-serif;
+    color: #0f0f3f;
+    font-size: 1.5em;
+}
+
+
+/* Corporate Page */
+
+.corporate-background {
+  background: url(
+http://ccstage.smashfly.com/Views/Client/8dc4a657-f3b9-4967-bf13-de8e447ff866/images/security-header.jpg);
+  background-size: contain;
+  background-position: center center;
+  background-repeat: no-repeat;
+  height: 0;
+  padding-top: 38.98%; }
+
+.corporate-background .overlay h1 {
+  color: #fff;
+  font-weight: normal;
+  font-size: 4.25em;
+  margin-bottom: 0; }
+
+.corporate-background .overlay h2 {
+  color: #fff;
+  font-size: 1.5em;
+  font-weight: normal;
+  margin-top: 0; }
+
+.corporate-background .overlay {
+    text-align: left;
+    padding-left: 5em;
+}
+
+#corporate {
+    padding: 0 40px;
+    margin-top:-3em;
+}
+
+#corporate p {
+    font-size: 1.1em;
+}
+
+#corporate .light {
+    font-family: light, Helvetica, sans-serif;
+    color: #a12221;
+}
+
+#corporate .light-blue {
+    font-family: light, Helvetica, sans-serif;
+    color: #0f0f3f;
+}
+
+#corporate h1 {
+    font-family: medium, Helvetica, sans-serif;
+    color: #0f0f3f;
+    font-size: 2.25em;
+    line-height: 1.25em;
+}
+
+#corporate h2 {
+    font-family: light, Helvetica, sans-serif;
+    color: #a12221;
+    font-size: 2.25em;
+}
+
+#corporate h3 {
+    font-family: medium, Helvetica, sans-serif;
+    color: #0f0f3f;
+    font-size: 1.5em;
+}
+
 
 /* Media Queries */
 
@@ -312,6 +445,16 @@ http://ccstage.smashfly.com/Views/Client/8dc4a657-f3b9-4967-bf13-de8e447ff866/im
     margin-top:0em;
 }
     
+    #community {
+    padding-top: 7em;     
+    margin-top:0em;
+}
+    
+    #corporate {
+    padding-top: 7em;     
+    margin-top:0em;
+}
+    
     #benefits .button {
         font-size: .9em;
     }
@@ -331,6 +474,16 @@ http://ccstage.smashfly.com/Views/Client/8dc4a657-f3b9-4967-bf13-de8e447ff866/im
 }
     
     #security h1 {
+    line-height: 1.1em;    
+    font-size: 1.8em;
+}
+    
+    #community h1 {
+    line-height: 1.1em;    
+    font-size: 1.8em;
+}
+    
+    #corporate h1 {
     line-height: 1.1em;    
     font-size: 1.8em;
 }
@@ -360,6 +513,14 @@ http://ccstage.smashfly.com/Views/Client/8dc4a657-f3b9-4967-bf13-de8e447ff866/im
     }
     
     .security-background {
+        display: none;
+    }
+    
+    .community-background {
+        display: none;
+    }
+    
+    .corporate-background {
         display: none;
     }
     
