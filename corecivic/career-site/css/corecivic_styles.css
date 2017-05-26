@@ -154,9 +154,9 @@ http://ccstage.smashfly.com/Views/Client/8dc4a657-f3b9-4967-bf13-de8e447ff866/im
     font-size: 2.25em;
 }
 
-/* Awards Page */
+/* News Page */
 
-.awards-background {
+.news-background {
   background: url(
 http://ccstage.smashfly.com/Views/Client/8dc4a657-f3b9-4967-bf13-de8e447ff866/images/awards-header.jpg);
   background-size: contain;
@@ -165,56 +165,56 @@ http://ccstage.smashfly.com/Views/Client/8dc4a657-f3b9-4967-bf13-de8e447ff866/im
   height: 0;
   padding-top: 38.98%; }
 
-.awards-background .overlay h1 {
+.news-background .overlay h1 {
   color: #fff;
   font-weight: normal;
   font-size: 3.25em;
   margin-bottom: 0; }
 
-.awards-background .overlay h2 {
+.news-background .overlay h2 {
   color: #fff;
   font-size: 1.5em;
   font-weight: normal;
   margin-top: 0; }
 
-.awards-background .overlay {
+.news-background .overlay {
     text-align: left;
     padding-left: 5em;
 }
 
-#awards {
+#news {
     padding: 0 40px;
     margin-top:-3em;
 }
 
-#awards p {
+#news p {
     font-size: 1.1em;
 }
 
-#awards .light {
+#news .light {
     font-family: light, Helvetica, sans-serif;
     color: #a12221;
 }
 
-#awards .light-blue {
+#news .light-blue {
     font-family: light, Helvetica, sans-serif;
     color: #0f0f3f;
 }
 
-#awards h1 {
+#news h1 {
     font-family: medium, Helvetica, sans-serif;
     color: #0f0f3f;
     font-size: 2.25em;
     line-height: 1.25em;
 }
 
-#awards h2 {
+#news h2 {
     font-family: light, Helvetica, sans-serif;
     color: #a12221;
     font-size: 2.25em;
 }
 
-#awards h3 {
+#news h3 {
     font-family: medium, Helvetica, sans-serif;
     color: #0f0f3f;
     font-size: 1.5em;
@@ -432,7 +432,7 @@ http://ccstage.smashfly.com/Views/Client/8dc4a657-f3b9-4967-bf13-de8e447ff866/im
     margin-top:0em;
 }
     
-    #awards {
+    #news {
     padding-top: 7em;     
     margin-top:0em;
 }
@@ -470,7 +470,7 @@ http://ccstage.smashfly.com/Views/Client/8dc4a657-f3b9-4967-bf13-de8e447ff866/im
     font-size: 1.7em;
 }
     
-    #awards h1 {
+    #news h1 {
     line-height: 1.1em;    
     font-size: 1.7em;
 }
@@ -510,7 +510,7 @@ http://ccstage.smashfly.com/Views/Client/8dc4a657-f3b9-4967-bf13-de8e447ff866/im
         display: none;
     }
     
-    .awards-background {
+    .news-background {
         display: none;
     }
     
