@@ -359,7 +359,7 @@ http://ccstage.smashfly.com/Views/Client/8dc4a657-f3b9-4967-bf13-de8e447ff866/im
 
 .corporate-background {
   background: url(
-http://ccstage.smashfly.com/Views/Client/8dc4a657-f3b9-4967-bf13-de8e447ff866/images/security-header.jpg);
+http://ccstage.smashfly.com/Views/Client/8dc4a657-f3b9-4967-bf13-de8e447ff866/images/corporate-header.jpg);
   background-size: contain;
   background-position: center center;
   background-repeat: no-repeat;
@@ -369,7 +369,7 @@ http://ccstage.smashfly.com/Views/Client/8dc4a657-f3b9-4967-bf13-de8e447ff866/im
 .corporate-background .overlay h1 {
   color: #fff;
   font-weight: normal;
-  font-size: 4.25em;
+  font-size: 3.25em;
   margin-bottom: 0; }
 
 .corporate-background .overlay h2 {
