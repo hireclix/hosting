@@ -2018,7 +2018,8 @@
 					}
 
                     .wrapper > .inner > .main.accent2 a:hover, .wrapper > .inner > .main.accent2 a:focus, .wrapper > .inner > .main.accent2 a:active {
-                                            color: #ffffff;
+                                            color: #FF4F1F;
+                        text-decoration: none !important;
                                         }
 
 					.wrapper > .inner > .main.accent2 strong, .wrapper > .inner > .main.accent2 b {
