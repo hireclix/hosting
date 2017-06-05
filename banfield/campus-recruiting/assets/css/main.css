@@ -3211,7 +3211,7 @@
 				}
 
 .one {
-    background: url(https://hireclix.github.io/hosting/banfield/images/student1.jpg);
+    background: url(https://hireclix.github.io/hosting/banfield/images/student9.jpg);
     background-size: cover;
     background-position: 50% 50%;
 }
@@ -3225,7 +3225,7 @@
 .three {
     background: url(https://hireclix.github.io/hosting/banfield/images/student8.jpg);
     background-size: cover;
-    background-position: 35% 50%;
+    background-position: 30% 50%;
 }
 
 		@media screen and (max-width: 1680px) {
@@ -3558,8 +3558,8 @@
 					}
 
 				.wrapper > .inner > .main.accent2 {
-					background-color: #47c1cb;
-					color: rgba(255, 255, 255, 0.95);
+					background-color: #fafafa;
+					color: #222;
 				}
 
 					.wrapper > .inner > .main.accent2 input, .wrapper > .inner > .main.accent2 select, .wrapper > .inner > .main.accent2 textarea {
@@ -3579,7 +3579,7 @@
 					}
 
 					.wrapper > .inner > .main.accent2 h1, .wrapper > .inner > .main.accent2 h2, .wrapper > .inner > .main.accent2 h3, .wrapper > .inner > .main.accent2 h4, .wrapper > .inner > .main.accent2 h5, .wrapper > .inner > .main.accent2 h6 {
-						color: #ffffff;
+						color: #005F86;
 					}
 
 					.wrapper > .inner > .main.accent2 blockquote {
@@ -3605,8 +3605,8 @@
 					.wrapper > .inner > .main.accent2 button,
 					.wrapper > .inner > .main.accent2 .button {
 						background-color: transparent;
-						box-shadow: inset 0 0 0 1px rgba(255, 255, 255, 0.5);
-						color: #ffffff !important;
+		box-shadow: inset 0 0 0 1px rgba(67, 75, 86, 0.25);
+		color: #434b56 !important;
 					}
 
 						.wrapper > .inner > .main.accent2 input[type="submit"]:hover,
@@ -3614,7 +3614,7 @@
 						.wrapper > .inner > .main.accent2 input[type="button"]:hover,
 						.wrapper > .inner > .main.accent2 button:hover,
 						.wrapper > .inner > .main.accent2 .button:hover {
-							background-color: rgba(255, 255, 255, 0.05);
+							background-color: rgba(67, 75, 86, 0.05);
 						}
 
 						.wrapper > .inner > .main.accent2 input[type="submit"]:active,
@@ -4785,7 +4785,7 @@
 			}
 
 				#banner > .items section h1 {
-					font-size: 1.75em;
+					font-size: 2.25em;
                     margin-bottom: 0;
                     line-height: 1.25em;
 				}
@@ -4881,8 +4881,8 @@
 							}
 
 				#banner > .items section.accent2 {
-					background-color: #47c1cb;
-					color: #fff;
+					background-color: #fafafa;
+					color: #222;
 				}
 
 					#banner > .items section.accent2 input, #banner > .items section.accent2 select, #banner > .items section.accent2 textarea {
@@ -4898,7 +4898,7 @@
 					}
 
 					#banner > .items section.accent2 h1, #banner > .items section.accent2 h2, #banner > .items section.accent2 h3, #banner > .items section.accent2 h4, #banner > .items section.accent2 h5, #banner > .items section.accent2 h6 {
-						color: #fff;
+						color: #005F86;
 					}
 
 					#banner > .items section.accent2 blockquote {
@@ -5389,7 +5389,7 @@
 				}
 
 		#footer .copyright {
-			color: rgba(255, 255, 255, 0.5);
+			color: #222;
 		}
 
 		@media screen and (max-width: 980px) {
@@ -5459,7 +5459,7 @@
 	}
 
 		#page-wrapper {
-			background-color: #005F86;
+			background-color: #f3f3f3;
 		}
 
 		#page-wrapper > * {
@@ -5509,7 +5509,7 @@
 		}
 
 .intro-logo {
-    width: 325px;
+    width: 155px;
     padding: .5em 0;
 }
 
