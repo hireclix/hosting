@@ -471,7 +471,7 @@ section#services .big-thumbnail img:hover {
 
 section#features {
     background: #fafafa;
-	padding: 25px 0;
+	padding: 25px 0 0 0;
 }
 
 section#features h5 {
@@ -480,10 +480,38 @@ section#features h5 {
     color: #009530;
 }
 
+section#features2 {
+    background: #fff;
+	padding: 25px 0;
+}
+
+section#features2 h5 {
+	padding: 10px 0 5px 0;
+    font-size: 16px;
+    color: #009530;
+}
+
+section#features3 {
+    background: #fff;
+	padding: 25px 0 0 0;
+}
+
+section#features3 h5 {
+	padding: 10px 0 0 0;
+    font-size: 18px;
+    color: #3DCD58;
+}
+
 @media screen and (max-width: 700px) {
     .mobile-padding {
         padding-top:20px;
     }
+}
+
+.test-img {
+    width: 105px;
+    border-radius: 50%;
+    box-shadow: 5px 5px 8px #888888;
 }
 
 /*section#features img {
@@ -563,10 +591,10 @@ section#clients a>img:hover {
 }
 
 /*FAQ*/
-
+ 
 section#faq {
-	
-	padding: 50px 0 0 0;
+	background: #fafafa;
+	padding: 25px 0 0 0;
 }
 
 section#faq .preambule {
