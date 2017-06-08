@@ -17,6 +17,7 @@ Table of Content:
 /*Main (Typography) Style*/
 
 @import url(https://hireclix.github.io/hosting/schneider-electric/reentry/assets/css/font-awesome.min.css);
+@import url('https://fonts.googleapis.com/css?family=Nunito:200,200i,300,300i,400,400i,600,600i,700,700i,800,800i,900,900i');
 
 p {
 	/*font-family: 'PT Sans', Helvetica, Arial, sans-serif;*/
@@ -29,7 +30,7 @@ p.lead {
 }
 
 h1,h2,h3,h4,h5 {
-    font-family: Arial Rounded MT Bold,Helvetica Rounded,Arial,sans-serif;
+     font-family: 'Nunito', sans-serif;
 }
 
 h1 {
@@ -51,17 +52,20 @@ h3 {
     line-height: 42px;
     margin-bottom: 8px;
     letter-spacing: -1px;
+    font-weight: 300;
 }
 
 h4 {
     font-size: 18px;
     line-height: 36px;
     margin-bottom: 4px;
+    font-weight: 600;
 }
 
 h5 {
     font-size: 18px;
     line-height: 30px;
+    font-weight: 300;
 }
 
 h6 {
@@ -176,7 +180,6 @@ ul.icons {
 					right: -0.5em;
 					top: 0;
                     text-align: left;
-					padding-right: 1.5em;
 				}
             
             .opportunities {
@@ -189,17 +192,17 @@ ul.icons {
 
 
 #intro .container {
-    text-align: center;
+    text-align: left;
     padding-top: 2em;
 }
 
 #intro h2 {
-    color: #fff;
-    font-size: 46px;
-    font-weight: 100;
+    color: #333;
+    font-size: 64px;
+    font-weight: 300;
     line-height: 46px;
     text-transform: none;
-    font-family: Arial Rounded MT Bold,Helvetica Rounded,Arial,sans-serif; 
+    font-family: 'Nunito', sans-serif; 
 }
 
 #intro strong {
@@ -207,16 +210,16 @@ ul.icons {
 }
 
 #intro p {
-    color: #fff;
-    font-weight: 600;
+    color: #333;
+    font-weight: 100 !important;
+    font-size: 1.5em;
+    font-family: 'Nunito', sans-serif;
+    padding-left:.15em;
 }
 
 
 section#intro {
-    background-image: -moz-linear-gradient(to right, rgba(0,0,0,0.15), rgba(0,0,0,0.15)), url("https://hireclix.github.io/hosting/schneider-electric/images/mainbg_schneider.jpg");
-    background-image: -webkit-linear-gradient(to right, rgba(0,0,0,0.15), rgba(0,0,0,0.15)), url("https://hireclix.github.io/hosting/schneider-electric/images/mainbg_schneider.jpg");
-    background-image: -ms-linear-gradient(to right, rgba(0,0,0,0.15), rgba(0,0,0,0.15)), url("https://hireclix.github.io/hosting/schneider-electric/images/mainbg_schneider.jpg");
-	background-image: linear-gradient(to right, rgba(0,0,0,0.15), rgba(0,0,0,0.15)), url("https://hireclix.github.io/hosting/schneider-electric/images/mainbg_schneider.jpg");
+	background-image: url("https://hireclix.github.io/hosting/schneider-electric/images/return2work_hero.jpg");
     background-position: center 30%;
     padding: 7em 0;
 	-webkit-background-size: cover ;
@@ -224,11 +227,35 @@ section#intro {
     position: relative;
 }
 
+.program {
+    padding-left: 1.5em;
+}
+
+.program h4 {
+    margin-top:-.35em;
+}
+
 @media screen and (max-width: 700px) {
     section#intro {
-    background-position: 35% center;    
+    background-position: 70% center;    
 	-webkit-background-size: cover;
 	padding: 5em 0;
+}
+    #intro h2 {
+    color: #333;
+    font-size: 46px;
+    font-weight: 300;
+    line-height: 46px;
+    text-transform: none;
+    font-family: 'Nunito', sans-serif; 
+}
+
+#intro p {
+    color: #333;
+    font-weight: 100 !important;
+    font-size: 1.15em;
+    font-family: 'Nunito', sans-serif;
+    padding-left:.15em;
 }
 
     #intro h2 br {
@@ -250,7 +277,14 @@ section#intro {
     #footer br {
         display: none;
     }
-    
+  
+    .program {
+    padding-left: 0;
+}
+
+.program h4 {
+    margin-top: 0;
+}
 }
 
 section#intro .intro2 div{
@@ -482,7 +516,7 @@ section#features h5 {
 }
 
 section#features2 {
-    background: #fff;
+    background: #fafafa;
 	padding: 25px 0;
 }
 
@@ -594,7 +628,7 @@ section#clients a>img:hover {
 /*FAQ*/
  
 section#faq {
-	background: #fafafa;
+	background: #fff;
 	padding: 25px 0 0 0;
 }
 
@@ -717,7 +751,7 @@ footer#footer .social li i {
 }
 
 footer#footer .copyrights {
-	text-align: center;
+	text-align: left;
 	color: #838080;
 }
 
@@ -1063,24 +1097,24 @@ footer#footer .copyrights {
 		-webkit-transition: background-color 0.2s ease-in-out, color 0.2s ease-in-out;
 		-ms-transition: background-color 0.2s ease-in-out, color 0.2s ease-in-out;
 		transition: background-color 0.2s ease-in-out, color 0.2s ease-in-out;
-		background-color: transparent;
+		background-color:#3DCD58;
 		border-radius: 0.375em;
 		border: 0;
-		box-shadow: inset 0 0 0 2px #009530;
-		color: #009530 !important;
-		cursor: pointer;
+		color: #fff !important;
+		cursor: pointer !important;
 		display: inline-block;
-		font-family: Arial, Helvetica, sans-serif;
+		font-family: 'Nunito', sans-serif;
 		font-size: 0.8em;
 		font-weight: 700;
 		height: 3.5em;
 		letter-spacing: 0.075em;
 		line-height: 3.5em;
-		padding: 0 2.25em;
+		padding: 0 2.75em;
 		text-align: center;
 		text-decoration: none;
-		text-transform: uppercase;
 		white-space: nowrap;
+        box-shadow: none;
+        text-transform: none;
 	}
 
 		input[type="submit"]:hover,
@@ -1088,8 +1122,8 @@ footer#footer .copyrights {
 		input[type="button"]:hover,
 		button:hover,
 		.button:hover {
-			box-shadow: inset 0 0 0 2px #00862b;
-		color: #00862b !important;
+        box-shadow: none;    
+		color: #fff !important;
 		}
 
 		input[type="submit"]:active,
@@ -1097,8 +1131,8 @@ footer#footer .copyrights {
 		input[type="button"]:active,
 		button:active,
 		.button:active {
-			box-shadow: inset 0 0 0 2px #00862b;
-		color: #00862b !important;
+            box-shadow: none;
+		color: #fff !important;
 		}
 
 		input[type="submit"].icon:before,
@@ -1132,9 +1166,10 @@ footer#footer .copyrights {
 		input[type="button"].big,
 		button.big,
 		.button.big {
-			font-size: 1em;
-			height: 3.25em;
-			line-height: 3.25em;
+			font-size: 1.15em;
+			height: 2.5em;
+			line-height: 2.65em;
+            font-weight: 800;
 		}
 
 		input[type="submit"].special,
@@ -1180,7 +1215,7 @@ footer#footer .copyrights {
 		}
 
 #intro .button {
-    box-shadow: inset 0 0 0 2px #fff;
+    background-color:#3DCD58;
     color: #fff !important;
 }
 
