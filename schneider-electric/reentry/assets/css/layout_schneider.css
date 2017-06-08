@@ -180,6 +180,7 @@ ul.icons {
 					right: -0.5em;
 					top: 0;
                     text-align: left;
+                    padding-right: 1.5em;
 				}
             
             .opportunities {
@@ -661,6 +662,7 @@ section#faq .question i {
 footer#footer {
 	color: #626469;
 	padding: 10px 0 0px 0;
+    background-color: #fafafa;
 }
 
 
@@ -1064,6 +1066,11 @@ footer#footer .copyrights {
     height: 500px; 
 }
 
+.mobile-only {
+    display: none !important;
+}
+
+
 @media screen and (max-width: 700px) {
     .video1 {
     height: 225px;
@@ -1078,8 +1085,14 @@ footer#footer .copyrights {
   .twitter-feed {
     display: none; 
 }
+    .mobile-only {
+        display: inherit !important;
+    }
+    
+    .desktop-only {
+        display:none !important;
+    }
 }
-
 
 
 /* Button */
@@ -1254,13 +1267,7 @@ ul {
             width: 175px;
         }
 
-				#header .icons {
-					height: 5em;
-					line-height: 5em;
-					position: absolute;
-					right: -0.5em;
-					top: 0;
-				}
+				
             .video iframe {
                 height: 200px !important;
                 padding-bottom: 1em;
