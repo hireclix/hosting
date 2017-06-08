@@ -3567,11 +3567,11 @@
 					}
 
 					.wrapper > .inner > .main.accent2 a {
-						color: #22465E;
+						color: #22465E !important;
 					}
 
                     .wrapper > .inner > .main.accent2 a:hover, .wrapper > .inner > .main.accent2 a:focus, .wrapper > .inner > .main.accent2 a:active {
-                                            color: #22465E;
+                                            color: #22465E !important;
                                         }
 
 					.wrapper > .inner > .main.accent2 strong, .wrapper > .inner > .main.accent2 b {
@@ -5459,7 +5459,7 @@
 	}
 
 		#page-wrapper {
-			background-color: #f3f3f3;
+			background-color: #fff;
 		}
 
 		#page-wrapper > * {
