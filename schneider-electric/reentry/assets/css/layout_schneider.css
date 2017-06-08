@@ -82,6 +82,10 @@ a {
     font-weight: bold !important;
 }
 
+.custom-link a {
+    color: #fff !important;
+}
+
 .icon {
 		text-decoration: none;
 		border-bottom: none;
