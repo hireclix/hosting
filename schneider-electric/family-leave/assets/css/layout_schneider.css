@@ -52,18 +52,20 @@ h3 {
     line-height: 42px;
     margin-bottom: 8px;
     letter-spacing: -1px;
+    font-weight: 300;
 }
 
 h4 {
     font-size: 18px;
     line-height: 36px;
     margin-bottom: 4px;
-    font-weight: 700;
+    font-weight: 600;
 }
 
 h5 {
     font-size: 18px;
     line-height: 30px;
+    font-weight: 300;
 }
 
 h6 {
@@ -191,14 +193,14 @@ ul.icons {
 
 
 #intro .container {
-    text-align: center;
+    text-align: left;
     padding-top: 2em;
 }
 
 #intro h2 {
     color: #fff;
     font-size: 46px;
-    font-weight: 600;
+    font-weight: 300;
     line-height: 46px;
     text-transform: none;
     font-family: 'Nunito', sans-serif;
@@ -482,6 +484,10 @@ section#features {
 	padding: 25px 0 0 0;
 }
 
+section#features p {
+    font-size: .95em;
+}
+
 section#features h5 {
 	padding: 10px 0 5px 0;
     font-size: 16px;
@@ -724,7 +730,7 @@ footer#footer .social li i {
 }
 
 footer#footer .copyrights {
-	text-align: center;
+	text-align: left;
 	color: #838080;
 }
 
@@ -1094,7 +1100,7 @@ footer#footer .copyrights {
 		height: 3.5em;
 		letter-spacing: 0.075em;
 		line-height: 3.5em;
-		padding: 0 2.25em;
+		padding: 0 2.75em;
 		text-align: center;
 		text-decoration: none;
 		white-space: nowrap;
@@ -1152,8 +1158,8 @@ footer#footer .copyrights {
 		button.big,
 		.button.big {
 			font-size: 1.15em;
-			height: 3.15em;
-			line-height: 3.25em;
+			height: 2.5em;
+			line-height: 2.65em;
             font-weight: 800;
 		}
 
@@ -1239,13 +1245,7 @@ ul {
             width: 175px;
         }
 
-				#header .icons {
-					height: 5em;
-					line-height: 5em;
-					position: absolute;
-					right: -0.5em;
-					top: 0;
-				}
+
             .video iframe {
                 height: 200px !important;
                 padding-bottom: 1em;
