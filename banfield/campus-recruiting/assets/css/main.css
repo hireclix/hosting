@@ -3301,7 +3301,7 @@
 
 			.wrapper > .inner > .main {
 				padding: 3em 6em 1em 6em ;
-				background-color: #ffffff;
+				background-color: #fff;
 			}
 
 				.wrapper > .inner > .main.accent1 {
@@ -3558,7 +3558,7 @@
 					}
 
 				.wrapper > .inner > .main.accent2 {
-					background-color: #fff;
+					background-color: #fafafa;
 					color: #222;
 				}
 
@@ -4881,7 +4881,7 @@
 							}
 
 				#banner > .items section.accent2 {
-					background-color: #fff;
+					background-color: #fafafa;
 					color: #222;
 				}
 
@@ -5459,7 +5459,7 @@
 	}
 
 		#page-wrapper {
-			background-color: #fff;
+			background-color: #f3f3f3;
 		}
 
 		#page-wrapper > * {
