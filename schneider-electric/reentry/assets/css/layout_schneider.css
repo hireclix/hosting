@@ -476,7 +476,7 @@ section#intro .booking button:hover {
 /*Services*/
 
 section#services {
-	padding: 30px 0 30px 0;
+	padding: 30px 0 0 0;
 }
 
 section#services .list-services ul i {
@@ -630,7 +630,7 @@ section#clients a>img:hover {
  
 section#faq {
 	background: #fff;
-	padding: 25px 0 0 0;
+	padding: 0 0 0 0;
 }
 
 section#faq .preambule {
