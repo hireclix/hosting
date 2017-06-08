@@ -78,6 +78,10 @@ a {
 	text-decoration: none;
 }
 
+.jobs-by-location a {
+    font-weight: bold !important;
+}
+
 .icon {
 		text-decoration: none;
 		border-bottom: none;
@@ -150,6 +154,7 @@ ul.icons {
 			text-align: right;
             color: white;
             padding-bottom: .5em;
+            padding-right: 4em;
 		}
 .opportunities {
     padding-left: 3em;
@@ -170,7 +175,7 @@ ul.icons {
 			}
 
 				#header .logo img {
-            width: 175px;
+            width: 175px;       
         }
 
 				#header .icons {
