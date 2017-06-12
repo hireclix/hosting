@@ -1707,9 +1707,13 @@
             text-decoration: none;
 		}
 
-			a:hover strong {
-				color: inherit !important;
-			}
+        a:hover strong {
+            color: inherit !important;
+        }
+
+        a:active, a:focus {
+            text-decoration: none !important;
+        }
 
 	strong, b {
 		font-weight: 600;
