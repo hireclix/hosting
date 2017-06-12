@@ -8,18 +8,18 @@
 
 @font-face {
     font-family: Avenir;
-    src: url(/fonts/AvenirNextLTPro-Regular.otf);
+    src: url(https://hireclix.github.io/hosting/xylem/fonts/AvenirNextLTPro-Regular.otf);
 }
 
 @font-face {
     font-family: Avenir;
-    src: url(/fonts/AvenirNextLTPro-Medium.otf);
+    src: url(https://hireclix.github.io/hosting/xylem/fonts/AvenirNextLTPro-Medium.otf);
     font-weight: medium;
 }
 
 @font-face {
     font-family: Avenir;
-    src: url(/fonts/AvenirNextLTPro-Bold.otf);
+    src: url(https://hireclix.github.io/hosting/xylem/fonts/AvenirNextLTPro-Bold.otf);
     font-weight: bold;
 }
 
@@ -3053,10 +3053,7 @@
 		background-color: #4a4a4a;
 		color: #ffffff;
 		padding: 8em 0em 2em 0 ;
-		background-image: linear-gradient(165deg, rgba(0,0,0,0.3), rgba(0,0,0,0.4)), url("/images/Philippines.jpg");
-		background-image: linear-gradient(165deg, rgba(0,0,0,0.3), rgba(0,0,0,0.4)), url("/images/Philippines.jpg");
-		background-image: linear-gradient(165deg, rgba(0,0,0,0.3), rgba(0,0,0,0.4)), url("/images/Philippines.jpg");
-		background-image: linear-gradient(165deg, rgba(0,0,0,0.3), rgba(0,0,0,0.6)), url("/images/xylem_hero2.jpg");
+		background-image: linear-gradient(165deg, rgba(0,0,0,0.3), rgba(0,0,0,0.6)), url("https://hireclix.github.io/hosting/xylem/images/xylem_hero2.jpg");
 		background-position: 50% 40%;
 		background-repeat: no-repeat;
 		background-size: cover;
@@ -3659,6 +3656,7 @@
 
 			.wrapper.style3 h1, .wrapper.style3 h2, .wrapper.style3 h3, .wrapper.style3 h4, .wrapper.style3 h5, .wrapper.style3 h6 {
 				color: #0085AD;
+                font-weight: bold;
 			}
 
 			.wrapper.style3 blockquote {
@@ -4656,14 +4654,14 @@ header h1 {
 }
 
 .big-feature1 {
-    background: url(/images/feature2.jpg);
+    background: url(https://hireclix.github.io/hosting/xylem/images/feature2.jpg);
     background-repeat: no-repeat;
     background-position: 70% center;
     background-size: cover;
 }
 
 .big-feature2 {
-    background: url(/images/feature1.jpg);
+    background: url(https://hireclix.github.io/hosting/xylem/images/feature1.jpg);
     background-repeat: no-repeat;
     background-position: 70% center;
     background-size: cover;
