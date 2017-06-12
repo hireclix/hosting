@@ -1646,7 +1646,7 @@
 /* Type */
 
 	body {
-		color: rgba(67, 75, 86, 0.75);
+		color: #222;
 	}
 
 	body, input, select, textarea {
@@ -2847,7 +2847,7 @@
 	}
 
 	header p {
-		color: rgba(67, 75, 86, 0.5);
+		color: #222;
 	}
 
 /* Table */
@@ -3153,8 +3153,9 @@
 /* Spotlights */
 
 	.spotlights {
-		box-shadow: 0 0 2em 0 rgba(0, 0, 0, 0.1);
+		/*box-shadow: 0 0 2em 0 rgba(0, 0, 0, 0.1);*/
 		margin: 0 0 2em 0;
+        background-color: #fff;
 	}
 
 		.spotlights > div {
@@ -3301,7 +3302,7 @@
 
 			.wrapper > .inner > .main {
 				padding: 3em 6em 1em 6em ;
-				background-color: #fff;
+				background-color: #fafafa;
 			}
 
 				.wrapper > .inner > .main.accent1 {
