@@ -2042,13 +2042,7 @@
 			color: #fff !important;
 		}
 
-    .custom-link a {
-        color: #5e5e5e !important;
-    }
-
-    .custom-link a:hover {
-        color: #5e5e5e !important;
-    }
+   
 
 		input[type="submit"]:active,
 		input[type="reset"]:active,
