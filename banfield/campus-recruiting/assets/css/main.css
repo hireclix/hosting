@@ -5552,3 +5552,15 @@
 }
 }
 
+.blue-strip {
+    color: #fff !important;
+    background-color: #2DCCD3;
+    text-align: center;
+    padding: .5em 0;
+}
+
+@media screen and (max-width: 635px) {
+    .blue-strip {
+    font-size: 95%;
+}
+}
