@@ -1715,6 +1715,14 @@
             text-decoration: none !important;
         }
 
+        .custom-link a {
+            color: #fff !important;
+        }
+
+        .custom-link a:hover, .custom-link a:focus, custom-link a:active {
+            color: #fff !important;
+        }
+        
 	strong, b {
 		font-weight: 600;
 	}
