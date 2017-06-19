@@ -2608,7 +2608,7 @@
 			object-position: top right;
 		}
 
-		.img-right {
+		.right {
 			-moz-object-position: right;
 			-webkit-object-position: right;
 			-ms-object-position: right;
@@ -5140,6 +5140,24 @@
 							}
 
 		#banner > .slider {
+			-moz-flex-grow: 0;
+			-webkit-flex-grow: 0;
+			-ms-flex-grow: 0;
+			flex-grow: 0;
+			-moz-flex-shrink: 0;
+			-webkit-flex-shrink: 0;
+			-ms-flex-shrink: 0;
+			flex-shrink: 0;
+			-moz-transition: opacity 1.5s ease-in-out;
+			-webkit-transition: opacity 1.5s ease-in-out;
+			-ms-transition: opacity 1.5s ease-in-out;
+			transition: opacity 1.5s ease-in-out;
+			width: 60%;
+			opacity: 1;
+			position: relative;
+		}
+
+        #banner > .slider2 {
 			-moz-flex-grow: 0;
 			-webkit-flex-grow: 0;
 			-ms-flex-grow: 0;
