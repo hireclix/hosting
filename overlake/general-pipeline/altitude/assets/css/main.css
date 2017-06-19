@@ -2608,11 +2608,15 @@
 			object-position: top right;
 		}
 
-		img[data-position="right"] {
+		.img-right {
 			-moz-object-position: right;
 			-webkit-object-position: right;
 			-ms-object-position: right;
 			object-position: right;
+            -moz-object-fit: cover;
+			-webkit-object-fit: cover;
+			-ms-object-fit: cover;
+			object-fit: cover;
 		}
 
 		img[data-position="bottom right"] {
@@ -3203,6 +3207,7 @@
 				}
 
 				.spotlights > div:nth-child(2n - 1) > :nth-child(2) {
+					width: 60%;
 					width: 60%;
 				}
 
