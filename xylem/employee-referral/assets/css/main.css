@@ -2647,6 +2647,7 @@
 				ul.grid-icons li {
 					min-height: 11em;
 				}
+                
 
 			}
 
@@ -2727,6 +2728,7 @@
 							margin-top: 0;
 							padding-top: 0;
 						}
+                 
 
 			}
 
@@ -3059,10 +3061,6 @@
 		background-color: #4a4a4a;
 		color: #ffffff;
 		padding: 8em 0em 2em 0 ;
-		background-image: linear-gradient(165deg, rgba(0,0,0,0.3), rgba(0,0,0,0.6)), url("https://hireclix.github.io/hosting/xylem/images/xylem_hero2.jpg");
-		background-position: 50% 40%;
-		background-repeat: no-repeat;
-		background-size: cover;
 		position: relative;
 		text-align: center;
 	}
@@ -4614,7 +4612,7 @@
 			}
 
             
-            .big-feature1 {
+  /*          .big-feature1 {
     background: url(https://hireclix.github.io/hosting/xylem/images/feature3_mobile.png) !important;
     background-repeat: no-repeat !important;
     background-position: 0% center !important;
@@ -4626,10 +4624,10 @@
     background-repeat: no-repeat !important;
     background-position: 100% center !important;
     background-size: cover !important;
-}
+} */
             
 		}
-
+/*
 @media screen and (max-width: 575px) {
     .big-feature1 {
     background: url(https://hireclix.github.io/hosting/xylem/images/feature3.png) !important;
@@ -4645,7 +4643,7 @@
     background-size: cover !important;
 }
 }
-
+*/
 
 .intro-logo {
     width:225px;
@@ -4689,20 +4687,6 @@
 
 header h1 {
     font-size: 1.25em;
-}
-
-.big-feature1 {
-    background: url(https://hireclix.github.io/hosting/xylem/images/feature3.png);
-    background-repeat: no-repeat;
-    background-position: 0% center;
-    background-size: cover;
-}
-
-.big-feature2 {
-    background: url(https://hireclix.github.io/hosting/xylem/images/feature4.png);
-    background-repeat: no-repeat;
-    background-position: 100% center;
-    background-size: cover;
 }
 
 /* Lightbox */
