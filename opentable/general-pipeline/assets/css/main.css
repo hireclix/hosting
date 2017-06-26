@@ -268,11 +268,11 @@
 	}
 
 	a {
-		 color: #f5822e;
+		 color: #fff;
 	}
 
     a:hover, a:active, a:target, a:focus {
-			color: #1b384b;
+			color: #fff;
 		}
 
 	strong, b {
@@ -2026,11 +2026,11 @@
 					}
 
 					.wrapper > .inner > .main.accent2 a {
-						color: #ffffff;
+						color: #d83841;
 					}
 
                     .wrapper > .inner > .main.accent2 a:hover, .wrapper > .inner > .main.accent2 a:focus, .wrapper > .inner > .main.accent2 a:active {
-                                            color: #ffffff;
+                                            color: #d83841;
                                         }
 
 					.wrapper > .inner > .main.accent2 strong, .wrapper > .inner > .main.accent2 b {
