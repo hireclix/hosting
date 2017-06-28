@@ -217,6 +217,7 @@ ul.icons {
     font-weight: 600;
 }
 
+/*
 section#intro {
     background-image: -moz-linear-gradient(to right, rgba(0,0,0,0.35), rgba(0,0,0,0.35)), url("https://hireclix.github.io/hosting/schneider-electric/images/family-leave-hero.jpg");
     background-image: -webkit-linear-gradient(to right, rgba(0,0,0,0.35), rgba(0,0,0,0.35)), url("https://hireclix.github.io/hosting/schneider-electric/images/family-leave-hero.jpg");
@@ -234,11 +235,9 @@ section#intro {
     background-position: 35% center;    
 	-webkit-background-size: cover;
 	padding: 5em 0;
-}
+}*/
 
-    #intro h2 br {
-        display:none;
-    }   
+       
     
     #intro p br {
         display:none;
@@ -461,7 +460,8 @@ section#services .list-services ul i {
 }
 
 section#services2 {
-	padding: 30px 0 30px 0;
+    background-color: #fafafa;
+	padding: 10px 0 0 0;
 }
 
 section#services2 .list-services ul i {
@@ -540,7 +540,7 @@ section#features3 h5 {
 
 section#features4 {
     background: #fafafa;
-	padding: 25px 0 0 0;
+	padding: 25px 0 10px 0;
 }
 
 section#features4 h5 {
@@ -550,8 +550,8 @@ section#features4 h5 {
 }
 
 section#features5 {
-    background: #fff;
-	padding: 25px 0 0 0;
+    background: #fafafa;
+	padding: 25px 0 25px 0;
 }
 
 section#features5 h5 {
@@ -682,7 +682,7 @@ section#faq .question i {
 
 section#faq2 {
 	background: #fff;
-	padding: 25px 0 0 0;
+	padding: 25px 0 25px 0;
 }
 
 section#faq2 .preambule {
