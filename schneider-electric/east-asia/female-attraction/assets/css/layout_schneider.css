@@ -651,7 +651,7 @@ section#clients a>img:hover {
 /*FAQ*/
  
 section#faq {
-	background: #fff;
+	background: #fafafa;
 	padding: 25px 0 0 0;
 }
 
@@ -713,6 +713,7 @@ section#faq2 .question i {
 
 footer#footer {
 	color: #626469;
+    background-color: #fafafa;
 	padding: 10px 0 0px 0;
 }
 
