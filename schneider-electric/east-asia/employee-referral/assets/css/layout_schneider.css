@@ -1149,6 +1149,10 @@ footer#footer .copyrights {
     .desktop-only {
         display:none !important;
     }
+    
+    .mobile-button {
+        font-size: 1em !important;
+    }
 }
 
 
