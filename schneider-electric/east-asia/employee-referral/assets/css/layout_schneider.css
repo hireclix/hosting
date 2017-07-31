@@ -80,6 +80,10 @@ a {
 	text-decoration: none;
 }
 
+.custom-link a {
+    color: #fff !important;
+}
+
 .icon {
 		text-decoration: none;
 		border-bottom: none;
