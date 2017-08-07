@@ -1097,9 +1097,9 @@
 				flex: 1;
 				border-style: solid;
 				border-left-width: 1px;
-				margin-left: 3em;
+				margin-left: 1.75em;
 				padding: 0;
-				padding-left: 3em;
+				padding-left: 1.75em;
 			}
 
 				ul.faces li:first-child {
@@ -3168,3 +3168,11 @@ top: 0px;
 .glassdoor:hover img:last-child{
     display:inline-block;
 }
+
+@media screen and (max-width: 736px) {
+
+    .desktop-only {
+        display: none !important;
+    }
+
+		}
