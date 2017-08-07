@@ -222,7 +222,7 @@
 		}
 
 		h4 {
-			font-size: 1em;
+			font-size: 1.35em;
 		}
 
 		h1 br, h2 br, h3 br, h4 br, h5 br, h6 br {
@@ -231,7 +231,7 @@
 
 	}
 
-	@media screen and (max-width: 480px) {
+	/*@media screen and (max-width: 480px) {
 
 		h2 {
 			font-size: 1.35em;
@@ -241,7 +241,7 @@
 			font-size: 1em;
 		}
 
-	}
+	}*/
 
 	sub {
 		font-size: 0.8em;
