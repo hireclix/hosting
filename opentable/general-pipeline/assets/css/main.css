@@ -1066,6 +1066,17 @@
 			object-position: top right;
 		}
 
+        .center {
+			-moz-object-position: center;
+			-webkit-object-position: center;
+			-ms-object-position: center;
+			object-position: center;
+            -moz-object-fit: cover;
+			-webkit-object-fit: cover;
+			-ms-object-fit: cover;
+			object-fit: cover;
+		}
+
 		.right {
 			-moz-object-position: right;
 			-webkit-object-position: right;
