@@ -1,0 +1,86 @@
+/* --------------------------------------------------
+ ## COMPONENT: BUTTONS
+-------------------------------------------------- */
+
+/* Default styles
+---------------------------- */
+.btn {
+  font-family: $headings-font-family;
+  @include button-size($padding-base-vertical*1.4, $padding-small-horizontal*1.8, $font-size-base, $line-height-base, $border-radius-base);
+  border-style: solid;
+  border-width: 2px;
+  &:focus { outline: none; }
+}
+
+/* Alternate buttons
+---------------------------- */
+.btn-default {
+  @include button-variant($btn-default-color, $btn-default-bg, $btn-default-border);
+}
+.btn-dark {
+  @include button-variant($btn-dark-color, $btn-dark-bg, $btn-dark-border);
+}
+.btn-half-light {
+  @include button-variant($btn-half-light-color, $btn-half-light-bg, $btn-half-light-border);
+  border: 2px solid;
+}
+.btn-half-dark {
+  @include button-variant($btn-half-dark-color, $btn-half-dark-bg, $btn-half-dark-border);
+  &:hover { background-color: lighten($btn-half-dark-bg, 10%); }
+}
+
+/* Button sizes
+---------------------------- */
+.btn-xl {
+  @include button-size($padding-small-vertical*3, $padding-xs-horizontal*5, $font-size-small*1.5, $line-height-base, $border-radius-large);
+}
+.btn-lg {
+  @include button-size($padding-base-vertical*2, $padding-small-horizontal*2.2, $font-size-large, $line-height-base, $border-radius-base);
+}
+.btn-sm {
+  @include button-size($padding-base-vertical, $padding-large-horizontal, $font-size-small, $line-height-base, $border-radius-small);
+}
+.btn-xs {
+  @include button-size($padding-base-vertical, $padding-large-horizontal, $font-size-small, $line-height-base, $border-radius-small);
+  font-family: $font-family-sans-serif;
+}
+
+/* Button shapes
+---------------------------- */
+.btn-round {
+  text-align: center;
+  vertical-align: middle;
+  border-radius: 50%;
+  padding: 6px;
+  width: 45px;
+  height: 45px;
+  &.btn-sm {
+      width: 35px;
+      height: 35px;
+  }
+  &.btn-lg {
+      width: 55px;
+      height: 55px;
+  }
+  &.btn-xl {
+      width: 60px;
+      height: 60px;
+  }
+}
+
+/* Special buttons
+---------------------------- */
+.btn-scrolltop {
+  line-height: 35px;
+  padding: 0;
+  position: fixed;
+  width: 40px;
+  z-index: $zindex-tooltip;
+  bottom: 18px;
+  right: 18px;
+  @include transition(0.4s);  
+  @include scale(0.0);
+  &.upscaled {
+    @include scale(1.0);
+  }
+}

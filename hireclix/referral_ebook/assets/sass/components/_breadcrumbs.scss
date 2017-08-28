@@ -1,0 +1,27 @@
+/* --------------------------------------------------
+ ## COMPONENT: BREADCRUMBS
+-------------------------------------------------- */
+
+/* Breadcrumbs
+---------------------------- */
+.breadcrumbs {
+	@extend .breadcrumb, .hidden-xxs;
+	position: absolute;
+	margin: 0;
+	padding: 0;
+	right: 15px;
+	top: 45px;
+	li, a, .active {
+		color: rgba($text-white, 0.5);
+		font-size: $font-size-small;
+		font-weight: bold;
+		text-transform: uppercase;		
+	}
+	li:before {
+		color: rgba($text-white, 0.3) !important;
+	}
+	a:hover {
+		color: $brand-primary;
+		text-decoration: none;
+	}
+}

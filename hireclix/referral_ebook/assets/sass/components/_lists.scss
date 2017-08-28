@@ -1,0 +1,35 @@
+/* --------------------------------------------------
+ ## COMPONENT: LISTS
+-------------------------------------------------- */
+
+/* Icon list
+---------------------------- */
+.icon-list {
+	@extend .fa-ul;
+	margin-left: 0;
+	> li { 
+		margin-left: 25px; 
+		padding-left: 15px;
+		padding-bottom: 15px;
+		> i { line-height: $line-height-base; }
+	}
+}
+
+/* Sponsor logos
+---------------------------- */
+.sponsor-logos {
+	@extend .list-inline;
+	margin-bottom: 0;
+	> li { 
+		width: 19%; 
+		img {
+			@extend .img-responsive;			
+			@extend .center-block;
+		}
+		@include breakpoint(xs){ 
+			width: 49%; 
+			padding: 40px 0;
+		}
+		@include breakpoint(xxs){ width: 100%; }		
+	}	
+}

@@ -1,0 +1,44 @@
+/* --------------------------------------------------
+ ## COMPONENT: THUMBNAILS
+-------------------------------------------------- */
+
+/* Overlay
+---------------------------- */
+.overlay {
+	width: 100%;
+	height: 100%;
+	background-color: transparent;
+	&:hover { background-color: rgba($brand-primary, 0.8); }
+	@include position-absolute(900);
+}
+
+/* Thumbnail
+---------------------------- */
+.thumbnail {
+	display: block;	
+	overflow: hidden;
+	border-radius: $border-radius-large;
+	background-color: transparent;
+	border-width: 0;
+	margin: 0; padding: 0;
+	position: relative;	
+	@include img-responsive();
+	.overlay > i {
+		@include vertical-align(middle);
+	}
+}
+
+/* Overview item
+---------------------------- */
+.overview-item {
+	> .title { margin-top: 20px; }
+	> p {
+		@include breakpoint(sm) {
+			font-size: $font-size-small;
+		}
+	}
+
+	@include breakpoint(xs) {
+		margin-bottom: 25px;
+	}
+}

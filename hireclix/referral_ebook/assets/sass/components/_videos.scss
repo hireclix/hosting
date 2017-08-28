@@ -1,0 +1,34 @@
+/* --------------------------------------------------
+ ## COMPONENT: VIDEOS
+-------------------------------------------------- */
+
+/* Video item
+---------------------------- */
+.video-item {
+	display: block;
+	padding: 2%;
+	@include breakpoint(lg) {
+		padding: 2% 5% 0;		
+	}
+	@include breakpoint(xs) {
+		padding: 4%;
+		text-align: center;
+	}	
+}
+
+/* Video frame
+---------------------------- */
+.video-frame {
+	position: relative;
+	padding-bottom: 56.25%;
+	padding-top: 0;
+	overflow: hidden;
+	border-radius: $border-radius-large*2;
+	iframe, object, embed {
+		position: absolute;
+		top: 0;
+		left: 0;
+		width: 100%;
+		height: 100%;		
+	}
+}

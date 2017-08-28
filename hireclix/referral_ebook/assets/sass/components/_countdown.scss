@@ -1,0 +1,32 @@
+/* --------------------------------------------------
+ ## COMPONENT: COUNTDOWN
+-------------------------------------------------- */
+
+/* Countdown item
+---------------------------- */
+.countdown-item {
+	@extend .well;
+	display: inline-block;
+	text-align: center;
+	padding: $padding-section-tiny;
+	margin: $padding-section-tiny;
+	width: 140px;
+	height: 140px;
+}
+
+/* Countdown time
+---------------------------- */
+.countdown-time { 
+	@extend .h1;
+	margin: 0;
+	display: block;
+	text-align: center;
+	clear: both;
+}
+
+/* Countdown label
+---------------------------- */
+.countdown-label {
+	@extend .text-uppercase;
+	display: block;		
+}

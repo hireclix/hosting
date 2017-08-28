@@ -1,0 +1,51 @@
+/* --------------------------------------------------
+ ## COMPONENT: TESTIMONIALS
+-------------------------------------------------- */
+
+/* Testimonial item
+---------------------------- */
+.testimonial-item {
+	padding: $padding-base-vertical*2 0;
+  margin-bottom: $padding-section-tiny;
+	.testimonial-header {
+    width: 20%;
+    display: table-cell;
+    vertical-align: top;
+    > img { 
+      padding: 0 10%;
+      @include breakpoint(lg) { padding: 0 15%; }
+      @include breakpoint(sm) { padding: 5% 5% 0; }
+      @include breakpoint(xs) { 
+        display: block;
+        margin: 0 auto;
+        padding: 0;
+        width: 25%;
+      }
+      @include breakpoint(xxs) { width: 50%; }      
+    }
+    @include breakpoint(xs) {
+      display: block;
+      width: 100%;
+    }
+  }
+  .testimonial-body {
+  	width: 75%;
+  	display: table-cell;
+  	vertical-align: top;
+  	padding-right: 5%;
+  	&.text-right {
+  		padding-right: 0;
+  		padding-left: 5%;
+  	}
+    @include breakpoint(xs) {
+      display: block;
+      width: 100%;
+      padding: 0 15px;
+      text-align: center;
+    }    
+    @include breakpoint(xxs) {
+
+    }    
+  }
+  @include breakpoint(lg) { padding: $padding-large-vertical 0; }
+}

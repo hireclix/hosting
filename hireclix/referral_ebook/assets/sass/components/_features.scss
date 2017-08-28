@@ -1,0 +1,42 @@
+/* --------------------------------------------------
+ ## COMPONENT: FEATURES
+-------------------------------------------------- */
+
+/* Feature Item
+---------------------------- */
+.feature-item {
+	padding: 15px;
+	margin-bottom: 35px;
+	.feature-icon {
+		width: 30%;
+		float: left;
+		text-align: center;
+		> i {
+			@include background-image('../images/quote_shape.gif');
+			font-size: 2em;
+			width: 100px;
+			height: 120px;
+			line-height: 100px;					
+		}
+		@include breakpoint(xxs) { display: none; }		
+	}
+	.feature-desc {
+		width: 70%;
+		float: right;
+		padding: 0 20px;
+		> .title {
+			margin: 0 0 10px;
+			@include breakpoint(sm) { font-size: $font-size-h4; }			
+			@include breakpoint(xxs) { font-size: $font-size-h4; }			
+		}
+		@include breakpoint(xxs) {
+			width: 100%; 
+			text-align: center;
+		}		
+	}
+	@include breakpoint(xs) {
+		clear: both;
+		display: inline-block;
+		margin-bottom: 0;
+	}
+}

@@ -1,0 +1,183 @@
+/* --------------------------------------------------
+ ## COMPONENT: TABLET-READER
+-------------------------------------------------- */
+
+/* Tablet reader styles
+---------------------------- */
+.tablet-reader {
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-position: center center; 
+	background-attachment: fixed;
+	position: relative;
+	&:before {
+		@include position-absolute(0);
+		background-color: rgba($brand-primary, 0.9);		
+		width: 100%; 
+		height: 100%;
+		content: "";
+	}
+	@include breakpoint(sm) { 
+		padding-top: $padding-section-small; 
+		margin-top: -$padding-section-small; 
+	}
+	@include breakpoint(xs) { 
+		padding-top: $padding-section-tiny; 
+		margin-top: -$padding-section-small; 
+	}
+}
+
+.tablet-frame {
+	position: relative;
+	.tablet-device {
+		@include img-responsive();
+		margin-top: 0;
+		position: relative;
+		z-index: 100;
+		width: 100%;
+		@include breakpoint(lg) { margin-top: -100px; }						
+		@include breakpoint(md) { margin-top: -80px; }									
+	}
+	.tablet-contents {
+		@include position-absolute(1020);
+		width: 100%;
+		.overview {
+			color: $text-color;
+			text-align: justify;
+		}			
+		@include breakpoint(lg) { padding: 0 90px; }						
+		@include breakpoint(md) { padding: 0 75px; }
+		@include breakpoint(sm) { height: 100%; padding: 100px 100px 0; }
+		@include breakpoint(xs) { height: 100%; padding: 13% 13% 0; }				
+	}
+}
+
+.tablet-scrollbar {
+	width: 100%; 
+	position: relative; 
+	.viewport { 
+		width: 100%; 
+		height: 100%; 
+		overflow: hidden; 
+		position: absolute; 
+	}
+	.overview { 
+		list-style: none; 
+		position: absolute; 
+		left: 0; top: 0;
+		margin: 0;
+		font-size: $font-size-small;
+		padding: 40px;
+		@include breakpoint(xxs) { 
+			padding: 20px;
+			font-size: 12px; 
+		}
+	}
+	.scrollbar{ 
+		background: #ccc; 
+		float: right; 
+		width: 2px;
+		position: relative;
+		left: -5px;
+		z-index: 300;
+	}
+	.track { 
+		background: #ccc; 
+		height: 100%; 
+		width:2px; 
+		position: relative; 
+		padding: 0 1px; 
+	}
+	.thumb { 
+		background: $brand-primary; 
+		height: 20px; 
+		width: 4px; 
+		cursor: pointer; 
+		overflow: hidden; 
+		position: absolute; 
+		top: 0; 
+		left: -1px; 
+	}
+	.thumb .end { 
+		background: $brand-primary; 
+		overflow: hidden; 
+		height: 5px; 
+		width: 25px; 
+	}
+	@include breakpoint(lg) {
+		height: 600px; 
+		top: -18px; 
+	}						
+	@include breakpoint(md) { 
+		height: 495px;
+		top: -13px;
+	}
+	@include breakpoint(sm) { 
+		height: 100%;
+		top: -7px;
+	}
+	@include breakpoint(xs) { 
+		height: 100%;
+		top: -7px;
+	}		
+}
+
+/* Tablet reader menu
+---------------------------- */
+.tablet-menu {
+	.title {
+		@extend .h1;
+		color: $text-white;
+		padding-left: 10px;
+	}
+	.nav > li {
+		margin: 0;
+		border-bottom: 1px dashed rgba($color-white, 0.7);	
+		&:nth-child(1) {
+			border-top: 1px dashed rgba($color-white, 0.7);
+		}	
+		.tablet-menu-btn {
+			color: rgba($text-white, 0.7);
+			> strong { 
+				text-transform: uppercase;
+			}
+			&:hover { 
+				background-color: transparent;
+				color: $text-white;
+			}					
+		}
+		&.active > a { 
+			background-color: rgba($gray-base, 0.25);
+			color: $text-white;
+			&:hover {
+				background-color: rgba($gray-base, 0.25);
+			}
+		}
+		&:last-child > a {
+			border-bottom: 0;
+		}
+	}
+	@include breakpoint(lg) { padding-top: $padding-section-base; }						
+	@include breakpoint(md) { padding-top: $padding-section-small; }
+	@include breakpoint(978) {
+		text-align: center; 
+		margin: 0 auto $padding-section-small;
+		max-width: 540px;
+	}
+	@include breakpoint(xxs) { text-align: left; }						
+
+}
+
+/* Fixes
+---------------------------- */
+.noSelect { 
+	user-select: none; 
+	-o-user-select: none; 
+	-moz-user-select: none; 
+	-khtml-user-select: none; 
+	-webkit-user-select: none; 
+}
+
+.sample-content {
+	display: none;
+}

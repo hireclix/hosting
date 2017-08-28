@@ -1,0 +1,63 @@
+/* --------------------------------------------------
+ ## COMPONENT: TABS
+-------------------------------------------------- */
+
+/* Tabs nav
+---------------------------- */
+.tabs-nav { 
+	@extend .nav;
+	padding-right: 15px;
+	&.tabs-vertical {
+		&:after {
+			background: #F2ECEC;
+			content: "";
+			display: block;
+			height: 500%;
+			position: absolute;
+			right: 31px;
+			top: -150px;
+			width: 1px;
+			z-index: 1;
+			@extend .hidden-xxs;		
+		}
+		> li {
+			z-index: 2;
+			&.active {
+				a {
+					color: $brand-primary;
+					border-right: 3px solid;
+					border-color: $brand-primary;
+					&:hover { 
+						color: $brand-primary; 
+					}
+				}
+			}
+			a {
+				color: $text-color;
+				font-weight: $font-weight-bold;
+				text-transform: uppercase;
+				font-size: $font-size-small;
+				padding: 15px;
+				> i { 
+					color: $brand-primary;
+					margin-right: 15px;
+				}
+				&:hover {
+					color: $text-dark;
+					background-color: transparent; 
+				}
+				&:focus { background-color: transparent; }
+			}
+		}
+	}
+}
+
+/* Tabs content
+---------------------------- */
+.tabs-content {
+	@extend .tab-content;
+	.tab-pane {
+		@extend .fade;	
+	}
+} 
+

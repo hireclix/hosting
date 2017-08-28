@@ -1,0 +1,50 @@
+/* --------------------------------------------------
+ ## COMPONENT: FLIPPERS
+-------------------------------------------------- */
+
+/* Flip item
+---------------------------- */
+.flip-item {
+	-webkit-perspective: 800;
+	perspective: 800;
+	position: relative;
+	text-align: center;
+	.card {			
+		-webkit-transform-style: preserve-3d;
+		-webkit-transition: 0.5s;
+	    transform-style: preserve-3d;
+	    transition: 0.5s;
+	    .face {
+			background-color: $bg-white;
+			border-radius: $border-radius-large;
+			padding: $padding-section-tiny;	    	
+			-webkit-backface-visibility: hidden;
+		    backface-visibility: hidden;
+		  	z-index: 2;
+			> i {
+				color: $brand-primary;
+				background-color: $gray-lighter;
+				width: 80px;
+				height: 80px;
+				line-height: 80px;
+				border-radius: 50%;
+			}
+			> p { margin-bottom: 0; }		  
+		  	&.front {
+				position: absolute;
+				width: 100%;
+				z-index: 1;
+			}			  
+			&.back {
+				@include rotateY(-180deg);
+				.title { margin-top: 0; }
+			}		  
+	    }
+		&.flipped {
+			@include rotateY(-180deg);
+		}
+		@include breakpoint(991) { margin-bottom: $padding-section-tiny; }		
+	}
+	@include breakpoint(xs) { margin: 12% 8%; }
+	@include breakpoint(xxs) { margin: 8%; }	
+}

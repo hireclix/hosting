@@ -1,0 +1,18 @@
+/* --------------------------------------------------
+ ## COMPONENT: JUMBOTRON
+-------------------------------------------------- */
+
+/* Basics
+---------------------------- */
+.jumbotron {
+	background-color: $bg-light;
+}
+
+/* Jumbotron sizes
+---------------------------- */
+.jumbotron-md { 
+	padding: 60px; 
+	@include breakpoint(xs) {
+		padding: 20px;
+	}
+}

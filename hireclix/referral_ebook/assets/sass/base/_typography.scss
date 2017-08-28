@@ -1,0 +1,146 @@
+/* --------------------------------------------------
+ ## BASE: TYPOGRAPHY
+-------------------------------------------------- */
+
+/* Init webfonts
+---------------------------- */
+$web-fonts-protocol: "https";
+@include web-fonts(("Lato": ("400", "700")));
+@include web-fonts(("Roboto Slab": ("400", "700")));
+
+/* Text colors
+---------------------------- */
+.text-base { color: $text-color; }
+
+.text-white { color: $text-white; }
+
+.text-dark { color: $text-dark; }
+
+.text-success { color: $text-success; }
+
+.text-info { color: $text-info; }
+
+.text-warning { color: $text-warning; }
+
+.text-danger { color: $text-danger; }
+
+.text-half-light { color: rgba($text-white, 0.5); }
+
+/* Word wrap
+---------------------------- */
+.nowrap { white-space: nowrap; }
+
+/* Headings
+---------------------------- */
+h1, .h1 { letter-spacing: -1px; }
+
+h2, .h2 { letter-spacing: -0.5px; }
+
+/* Heading links
+---------------------------- */
+h1, .h1, h2, .h2, h3, .h3, h4, .h4, h5, .h5, h6, .h6 {
+	> a {
+		@include transition(0.25s);
+		&:hover { text-decoration: none; }
+	}
+}
+
+/* Lead
+---------------------------- */
+.lead {
+	font-size: $font-size-base;
+	font-weight: $font-weight-base;
+	margin-bottom: $padding-section-small;
+	line-height: $line-height-base;	
+	text-align: center;
+	padding: 0 8%;
+	@include breakpoint(lg) { padding: 0 15%; }	
+	@include breakpoint(xs) { padding: 0 15px; }
+}
+
+/* Blockquote
+---------------------------- */
+blockquote {
+	font-family: $font-family-serif;
+	font-style: italic;
+	color: $text-muted;
+}
+
+/* Dropcaps
+---------------------------- */
+.dropcap {
+	.first-letter {
+		float: left;
+		font-family: $headings-font-family;
+		font-size: $font-size-h3;
+		width: 45px;		
+		height: 45px;
+		line-height: 45px;
+		margin: 10px 10px 0 0;
+		text-align: center;
+		vertical-align: middle;
+	}
+	&.dropcap-round {
+		.first-letter { border-radius: 50%; }
+	}
+	&.dropcap-basic {
+		.first-letter { border-radius: $border-radius-base; }		
+	}	
+	&.dropcap-plain { 
+		background-color: transparent;
+		.first-letter { font-size: $font-size-h2; }		 
+	}
+}
+
+/* Header title
+---------------------------- */
+.header-title {
+	font-size: $font-size-h2;
+	.highlight {
+		display: inline-block;
+		color: $text-white;
+		background-color: rgba($gray-base, 0.25);
+		padding: $padding-base-vertical*2 $padding-small-horizontal*2;
+		margin: 5px 0;
+		//white-space: nowrap;			
+		@include breakpoint(xxs) { padding: 10px 14px; }			
+	}
+	.emphasize {
+		background-color: rgba($gray-base, 0.15);
+		border-radius: $border-radius-large;
+		padding: $padding-base-vertical $padding-base-horizontal;
+	}	
+	@include breakpoint(lg)  { font-size: $font-size-h1; }
+	@include breakpoint(xs)  { font-size: $font-size-h2; }
+	@include breakpoint(xxs) { font-size: $font-size-h3; }								
+}
+
+/* Header desc
+---------------------------- */
+.header-desc {
+	@extend .text-white;
+	margin-bottom: $padding-section-tiny;
+}
+
+/* Page title
+---------------------------- */
+.page-title {
+	color: $color-white;
+	margin: 30px 0;
+	font-size: 46px;
+	letter-spacing: -2px;
+}
+
+/* Size helper
+---------------------------- */
+.font-xl { font-size: $font-size-h1*1.3; }
+
+.text-large { font-size: $font-size-large; }
+
+.text-small { font-size: $font-size-small; }
+
+/* Emphasizing
+---------------------------- */
+.strong, strong  {
+	color: $text-dark;
+}
