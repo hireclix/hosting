@@ -216,11 +216,11 @@ ul.icons {
 }
 
 section#intro {
-    background-image: -moz-linear-gradient(to right, rgba(0,0,0,0.35), rgba(0,0,0,0.35)), url("https://hireclix.github.io/hosting/schneider-electric/images/family-leave-hero.jpg");
-    background-image: -webkit-linear-gradient(to right, rgba(0,0,0,0.35), rgba(0,0,0,0.35)), url("https://hireclix.github.io/hosting/schneider-electric/images/family-leave-hero.jpg");
-    background-image: -ms-linear-gradient(to right, rgba(0,0,0,0.35), rgba(0,0,0,0.35)), url("https://hireclix.github.io/hosting/schneider-electric/images/family-leave-hero.jpg");
-	background-image: linear-gradient(to right, rgba(0,0,0,0.35), rgba(0,0,0,0.35)), url("/images/ea_family-leave_header2.jpg");
-    background-position: center 20%;
+    background-image: -moz-linear-gradient(to right, rgba(0,0,0,0.35), rgba(0,0,0,0.35)), url("https://hireclix.github.io/hosting/schneider-electric/images/ea_family-leave_header3.jpg");
+    background-image: -webkit-linear-gradient(to right, rgba(0,0,0,0.35), rgba(0,0,0,0.35)), url("https://hireclix.github.io/hosting/schneider-electric/images/ea_family-leave_header3.jpg");
+    background-image: -ms-linear-gradient(to right, rgba(0,0,0,0.35), rgba(0,0,0,0.35)), url("https://hireclix.github.io/hosting/schneider-electric/images/ea_family-leave_header3.jpg");
+	background-image: linear-gradient(to right, rgba(0,0,0,0.35), rgba(0,0,0,0.35)), url("https://hireclix.github.io/hosting/schneider-electric/images/ea_family-leave_header3.jpg");
+    background-position: center 40%;
     padding: 7em 0;
 	-webkit-background-size: cover ;
 	background-size: cover ;
