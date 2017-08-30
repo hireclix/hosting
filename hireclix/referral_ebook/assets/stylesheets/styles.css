@@ -5790,7 +5790,11 @@ header.home-header {
     float: right; }
     @media only screen and (max-width: 978px) {
       header.home-header .header-image .header-model {
-        float: none; } }
+        float: none; } 
+        header.home-header {
+            margin-top: 150px;
+        }
+}
     @media (max-width: 767px) {
       header.home-header .header-image .header-model {
         float: none;
@@ -5803,7 +5807,7 @@ header.home-header {
       text-align: center; } }
   @media (max-width: 480px) {
     header.home-header {
-      margin-top: 60px; } }
+      margin-top: 150px; } }
 
 /* Full header
 ---------------------------- */
