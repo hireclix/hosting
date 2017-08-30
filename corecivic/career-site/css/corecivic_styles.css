@@ -214,6 +214,16 @@ http://jobs.corecivic.com/Views/Client/8dc4a657-f3b9-4967-bf13-de8e447ff866/imag
     text-decoration: underline;
 }
 
+#fsm .button {
+    color: #fff; 
+    font-family: medium, Helvetica, sans-serif;
+    text-decoration: none;
+}
+
+#fsm .button:hover {
+    color: #fff !important; 
+}
+
 #fsm a:hover {
     color: #801b1a !important; 
 }
@@ -495,6 +505,9 @@ http://jobs.corecivic.com/Views/Client/8dc4a657-f3b9-4967-bf13-de8e447ff866/imag
     font-size: 1.5em;
 }
 
+.mobile-only {
+    display: none !important;
+}
 
 /* Media Queries */
 
@@ -624,10 +637,6 @@ http://jobs.corecivic.com/Views/Client/8dc4a657-f3b9-4967-bf13-de8e447ff866/imag
     width: 275px;
     margin: 0 0 1em 0;
 }
-}
-
-.mobile-only {
-    display: none;
 }
 
 
