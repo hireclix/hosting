@@ -640,6 +640,16 @@ http://jobs.corecivic.com/Views/Client/8dc4a657-f3b9-4967-bf13-de8e447ff866/imag
 }
 
 
+@media screen and (max-width: 1020px) {
+    .overlay h1 {
+        margin-top: -1em;
+    }
+    
+    .overlay {
+        width: 100% !important;
+    }
+}
+    
 /*!
  * Bootstrap v3.3.7 (http://getbootstrap.com)
  * Copyright 2011-2017 Twitter, Inc.
