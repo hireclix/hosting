@@ -154,11 +154,76 @@ http://jobs.corecivic.com/Views/Client/8dc4a657-f3b9-4967-bf13-de8e447ff866/imag
     font-size: 2.25em;
 }
 
+/* FSM Page */
+
+.fsm-background {
+  background: url(
+http://jobs.corecivic.com/Views/Client/8dc4a657-f3b9-4967-bf13-de8e447ff866/images/fsm/fsm_header.jpg);
+  background-size: contain;
+  background-position: center center;
+  background-repeat: no-repeat;
+  height: 0;
+  padding-top: 38.98%; }
+
+.fsm-background .overlay h1 {
+  color: #fff;
+  font-weight: normal;
+  font-size: 2.25em;
+  margin-bottom: 0; }
+
+.fsm-background .overlay h2 {
+  color: #fff;
+  font-size: 1.5em;
+  font-weight: normal;
+  margin-top: 0; }
+
+.fsm-background .overlay {
+    text-align: left;
+    padding-left: 5em;
+}
+
+#fsm {
+    padding: 0 40px;
+    margin-top:-3em;
+}
+
+#fsm p {
+    font-size: 1.1em;
+}
+
+#fsm .light {
+    font-family: light, Helvetica, sans-serif;
+    color: #a12221;
+}
+
+#fsm h1 {
+    font-family: medium, Helvetica, sans-serif;
+    color: #0f0f3f;
+    font-size: 2.25em;
+}
+
+#fsm h2 {
+    font-family: light, Helvetica, sans-serif;
+    color: #a12221;
+    font-size: 2.25em;
+}
+
+#fsm a {
+    color: #a12221; 
+    font-family: light, Helvetica, sans-serif;
+    text-decoration: underline;
+}
+
+#fsm a:hover {
+    color: #801b1a !important; 
+}
+
+
 /* News Page */
 
 .news-background {
   background: url(
-http://jobs.corecivic.com/Views/Client/8dc4a657-f3b9-4967-bf13-de8e447ff866/images/news/awards-header.jpg);
+/images/news-header_v2.jpg);
   background-size: contain;
   background-position: center center;
   background-repeat: no-repeat;
@@ -220,6 +285,14 @@ http://jobs.corecivic.com/Views/Client/8dc4a657-f3b9-4967-bf13-de8e447ff866/imag
     font-size: 1.5em;
 }
 
+#news a {
+    color: #0f0f3f;
+    font-weight: bold;
+}
+
+#news a:hover {
+    text-decoration: underline;
+}
 
 /* Security Page */
 
@@ -761,7 +834,6 @@ html {
   -webkit-tap-highlight-color: rgba(0, 0, 0, 0);
 }
 body {
-  font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
   font-size: 14px;
   line-height: 1.42857143;
   color: #333333;
