@@ -357,7 +357,7 @@ h1, h2, h3, h4, h5, h6,
   font-family: 'Roboto Condensed', sans-serif;
   font-weight: 400;
   line-height: 1.4;
-  color: #507EB3; }
+  color: #54A3DA; }
   h1 small,
   h1 .small, h2 small,
   h2 .small, h3 small,
@@ -527,7 +527,7 @@ a.text-danger:focus {
   color: #fff; }
 
 .bg-primary {
-  background-color: #507EB3; }
+  background-color: #54A3DA; }
 
 a.bg-primary:hover,
 a.bg-primary:focus {
@@ -2163,19 +2163,19 @@ a.btn.disabled, fieldset[disabled] a.btn {
 
 .btn-primary {
   color: #fff;
-  background-color: #507EB3;
+  background-color: #A61F24;
   border-color: transparent; }
   .btn-primary:focus, .btn-primary.focus {
     color: #fff;
-    background-color: #3f6591;
+    background-color: #84181c;
     border-color: transparent; }
   .btn-primary:hover {
     color: #fff;
-    background-color: #3f6591;
+    background-color: #84181c;
     border-color: transparent; }
   .btn-primary:active, .btn-primary.active, .open > .btn-primary.dropdown-toggle {
     color: #fff;
-    background-color: #3f6591;
+    background-color: #84181c;
     border-color: transparent; }
     .btn-primary:active:hover, .btn-primary:active:focus, .btn-primary:active.focus, .btn-primary.active:hover, .btn-primary.active:focus, .btn-primary.active.focus, .open > .btn-primary.dropdown-toggle:hover, .open > .btn-primary.dropdown-toggle:focus, .open > .btn-primary.dropdown-toggle.focus {
       color: #fff;
@@ -5497,7 +5497,7 @@ h1 > a, .h1 > a, .section-header .section-title > a, .counter-item .counter-valu
   padding: 0 8%; }
   @media (min-width: 1200px) {
     .lead {
-      padding: 0 15%; } }
+      padding: 0 10%; } }
   @media (max-width: 767px) {
     .lead {
       padding: 0 15px; } }
@@ -5751,7 +5751,7 @@ header.home-header {
   background-position: center center;
   background-color: transparent;
   background-attachment: fixed;
-  background-image: url("../images/header/full_header_bg.jpg");
+  background-image: url("http://hireclix.com/wp-content/uploads/2017/07/blue-consulting_edit.jpg");
   margin-top: 80px; }
   @media (min-width: 768px) and (max-width: 979px) {
     header.home-header {
@@ -5855,7 +5855,7 @@ header.custom-header {
 /* Section spacings
 ---------------------------- */
 section, .section {
-  padding: 100px 0;
+  padding: 40px 0;
   overflow: hidden; }
   section.padding-lg, .section.padding-lg {
     padding: 150px 0; }
@@ -5873,13 +5873,13 @@ section, .section {
   background: #494C4B; }
 
 .bg-light {
-  background: #F2ECEC; }
+  background: #f2f1f1; }
 
 .bg-shiney {
   background: #FEF9EE; }
 
 .bg-primary {
-  background: #507EB3; }
+  background: #54A3DA; }
 
 .bg-image {
   background-repeat: no-repeat;
