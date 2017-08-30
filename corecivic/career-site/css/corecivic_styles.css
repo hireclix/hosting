@@ -223,7 +223,7 @@ http://jobs.corecivic.com/Views/Client/8dc4a657-f3b9-4967-bf13-de8e447ff866/imag
 
 .news-background {
   background: url(
-/images/news-header_v2.jpg);
+http://jobs.corecivic.com/Views/Client/8dc4a657-f3b9-4967-bf13-de8e447ff866/images/news/news-header_v2.jpg);
   background-size: contain;
   background-position: center center;
   background-repeat: no-repeat;
@@ -537,6 +537,9 @@ http://jobs.corecivic.com/Views/Client/8dc4a657-f3b9-4967-bf13-de8e447ff866/imag
     #culture {
     margin-top:0em;
 }
+    #fsm {
+    margin-top:7em;
+}
     
     #benefits h1 {
     line-height: 1.1em;    
@@ -559,6 +562,11 @@ http://jobs.corecivic.com/Views/Client/8dc4a657-f3b9-4967-bf13-de8e447ff866/imag
 }
     
     #corporate h1 {
+    line-height: 1.1em;    
+    font-size: 1.8em;
+}
+    
+    #fsm h1 {
     line-height: 1.1em;    
     font-size: 1.8em;
 }
@@ -596,6 +604,10 @@ http://jobs.corecivic.com/Views/Client/8dc4a657-f3b9-4967-bf13-de8e447ff866/imag
     }
     
     .corporate-background {
+        display: none;
+    }
+    
+    .fsm-background {
         display: none;
     }
     
