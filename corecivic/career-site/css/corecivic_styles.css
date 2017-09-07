@@ -168,8 +168,10 @@ http://jobs.corecivic.com/Views/Client/8dc4a657-f3b9-4967-bf13-de8e447ff866/imag
 .fsm-background .overlay h1 {
   color: #fff;
   font-weight: normal;
-  font-size: 2.25em;
-  margin-bottom: 0; }
+  font-size: 3.25em;
+  margin-bottom: 0; 
+  line-height: 1.25em;
+}
 
 .fsm-background .overlay h2 {
   color: #fff;
