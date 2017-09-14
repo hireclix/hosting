@@ -1301,7 +1301,8 @@ footer#footer .copyrights {
 
 @media screen and (max-width: 550px) {
   #intro iframe {
-    width: 97vw;
+    width: 1px;
+    min-width: 97vw;  
     }
     
     body {
