@@ -1295,7 +1295,7 @@ footer#footer .copyrights {
 }
 
 #intro iframe {
-    width: 100%;
+    width: 100vw;
     height:400px;
 }
 
