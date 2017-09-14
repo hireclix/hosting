@@ -1294,6 +1294,11 @@ footer#footer .copyrights {
     color: #fff !important;
 }
 
+#intro iframe {
+    width: 100%;
+    height:400px;
+}
+
 ul {
 		list-style: disc;
 		margin: 0 0 2em 0;
