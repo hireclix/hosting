@@ -555,7 +555,7 @@ section#features4 h5 {
 }
 
 section#features5 {
-    background: #fafafa;
+    background: #fff;
 	padding: 25px 0 25px 0;
 }
 
@@ -656,7 +656,7 @@ section#clients a>img:hover {
 /*FAQ*/
  
 section#faq {
-	background: #ffffff;
+	background: #fafafa;
 	padding: 25px 0 0 0;
 }
 
@@ -1334,6 +1334,10 @@ ul {
                 height: 200px !important;
                 padding-bottom: 1em;
             }
+    
+    .linkedin-widget {
+        display:none !important;
+    }
 
 		}
 
