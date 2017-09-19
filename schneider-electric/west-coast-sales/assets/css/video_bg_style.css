@@ -11,7 +11,7 @@ body {
 }
 
 .container {
-    padding:5em 0em 0em 0em;
+    padding:5em 0em 5em 0em;
     text-align: center;
     overflow-x: hidden !important;
 }
@@ -23,7 +23,6 @@ h2 {
     line-height: 46px;
     text-transform: none;
     font-family: 'Nunito', sans-serif;
-    font-style: italic;
     margin-bottom:0;
 }
 
