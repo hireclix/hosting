@@ -170,6 +170,10 @@
 				color: inherit;
 			}
 
+        a:focus, a:active {
+            text-decoration: none
+        }
+
         .tabs a {
             color: #00598E !important;
         }
