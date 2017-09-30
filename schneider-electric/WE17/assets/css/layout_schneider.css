@@ -49,7 +49,7 @@ h2 {
 
 h3 {
     font-size: 30px;
-    line-height: 42px;
+    line-height: 36px;
     margin-bottom: 8px;
     letter-spacing: -1px;
     font-weight: 300;
@@ -57,7 +57,7 @@ h3 {
 
 h4 {
     font-size: 18px;
-    line-height: 36px;
+    line-height: 22px;
     margin-bottom: 4px;
     font-weight: 600;
 }
@@ -487,18 +487,20 @@ section#services .big-thumbnail img:hover {
 section#features {
     background: #fafafa;
 	padding: 25px 0 5px 0;
-    text-align:center;
+    /*text-align:center;*/
 }
 
+/*
 @media screen and (max-width: 700px) {
     section#features {
     text-align:left;
 }
-}
+}*/
 
 section#features p {
     font-size: .95em;
 }
+
 
 section#features h5 {
 	padding: 10px 0 5px 0;
@@ -609,9 +611,17 @@ section#features6 h5 {
     color: #3DCD58;
 }
 
+section#features6 h4 {
+    color: #000;
+}
+
 section#features7 {
     background: #fafafa;
 	padding: 25px 0 0 0;
+}
+
+section#features7 h4 {
+    color: #000;
 }
 
 section#features7 h5 {
