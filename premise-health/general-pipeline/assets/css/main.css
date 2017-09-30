@@ -3659,6 +3659,11 @@ padding: 15px 25px;
     .mobile-lightbox-show {
         display: inherit !important;
     }
+    
+    .lightbox-target .benefits h2 {
+        font-size: 1.25rem;
+        margin-bottom: .25rem;
+    }
 }
 
 .mobile-lightbox-show {
