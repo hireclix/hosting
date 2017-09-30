@@ -150,6 +150,7 @@
 		-ms-transition: background-color 0.2s ease-in-out, border-bottom-color 0.2s ease-in-out, color 0.2s ease-in-out;
 		transition: background-color 0.2s ease-in-out, border-bottom-color 0.2s ease-in-out, color 0.2s ease-in-out;
 		text-decoration: none;
+        color: #fff !important;
 	}
 
 		a strong {
@@ -162,7 +163,7 @@
 		a:hover {
 			text-decoration: none;
 			border-bottom-color: transparent;
-			color: #23b1ec !important;
+			color: #fff !important;
 		}
 
 			a:hover strong {
@@ -170,10 +171,14 @@
 			}
 
         .tabs a {
-            color: #00598E;
+            color: #00598E !important;
         }
 
-       
+       .tabs a:hover {
+			text-decoration: none;
+			border-bottom-color: transparent;
+			color: #23b1ec !important;
+		}
 
 
 		a.major {
