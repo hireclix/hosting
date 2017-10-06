@@ -230,6 +230,148 @@ http://jobs.corecivic.com/Views/Client/8dc4a657-f3b9-4967-bf13-de8e447ff866/imag
     color: #801b1a !important; 
 }
 
+/* Military Page */
+
+.military-background {
+  background: url(https://recruit.smashfly.com/SmashFlyMedia/Images/13195/13195_1001_military-header.jpg);
+  background-size: contain;
+  background-position: center center;
+  background-repeat: no-repeat;
+  height: 0;
+  padding-top: 38.98%; }
+
+.military-background .overlay h1 {
+  color: #fff;
+  font-weight: normal;
+  font-size: 3.25em;
+  margin-bottom: 0; 
+  line-height: 1.25em;
+}
+
+.military-background .overlay h2 {
+  color: #fff;
+  font-size: 1.5em;
+  font-weight: normal;
+  margin-top: 0; }
+
+.military-background .overlay {
+    text-align: left;
+    padding-left: 5em;
+}
+
+#military {
+    padding: 0 40px;
+    margin-top:-3em;
+}
+
+#military p {
+    font-size: 1.1em;
+}
+
+#military .light {
+    font-family: light, Helvetica, sans-serif;
+    color: #a12221;
+}
+
+#military h1 {
+    font-family: medium, Helvetica, sans-serif;
+    color: #0f0f3f;
+    font-size: 2.25em;
+}
+
+#military h2 {
+    font-family: light, Helvetica, sans-serif;
+    color: #a12221;
+    font-size: 2.25em;
+}
+
+#military a {
+    color: #a12221; 
+    font-family: light, Helvetica, sans-serif;
+    text-decoration: underline;
+}
+
+#military .button {
+    color: #fff; 
+    font-family: medium, Helvetica, sans-serif;
+    text-decoration: none;
+}
+
+#military .button:hover {
+    color: #fff !important; 
+}
+
+#military a:hover {
+    color: #801b1a !important; 
+}
+
+.vet-spotlight {
+    border: 3px solid #0f0f3f;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+.vet-spotlight .title {
+    color: #fff; 
+    font-family: medium, Helvetica, sans-serif;
+    font-size: 1.75em;
+    background-color: #0f0f3f;
+    padding: .25em 1em;
+    text-align: center;
+}
+
+.vet-spotlight .content {
+    display: inline-block;
+}
+
+.vet-spotlight .content img {
+    max-width: 30%;
+}
+
+.vet-spotlight .content p {
+    max-width: 75%; 
+    float:right; 
+    padding-right:3em;
+    font-size: 1.15em !important;
+}
+
+.vet-spotlight .content .quote {
+    font-size: 1.25em;
+    font-style: italic;
+    color: #0f0f3f;
+}
+
+.vet-spotlight .content .medium {
+    font-family: medium, Helvetica, sans-serif;
+}
+
+@media screen and (max-width: 980px) {
+    .vet-spotlight .content img {
+    max-width: 30%;
+    }
+
+    .vet-spotlight .content p {
+        max-width: 70%; 
+        float: right !important;
+        padding:0em 1em;
+    }    
+}
+
+@media screen and (max-width: 767px) {
+    
+    .vet-spotlight .content {
+    text-align: center;
+    }
+    
+    .vet-spotlight .content img {
+    max-width: 100%;
+    }
+
+    .vet-spotlight .content p {
+        max-width: 100%; 
+        float: none !important;
+        padding:0em 1em;
+    }  
+}
 
 /* News Page */
 
@@ -626,12 +768,16 @@ http://jobs.corecivic.com/Views/Client/8dc4a657-f3b9-4967-bf13-de8e447ff866/imag
         display: none;
     }
     
+    .military-background {
+        display: none;
+    }
+    
     .mobile-only {
         display: inherit !important;
     }
     
     .desktop-only {
-        display: none;
+        display: none !important;
     }
     
     #culture .bio {
