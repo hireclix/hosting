@@ -230,6 +230,82 @@ http://jobs.corecivic.com/Views/Client/8dc4a657-f3b9-4967-bf13-de8e447ff866/imag
     color: #801b1a !important; 
 }
 
+/* Programs Page */
+
+.programs-background {
+  background: url(
+https://recruit.smashfly.com/SmashFlyMedia/Images/13195/13195_1008_programs-header.jpg);
+  background-size: contain;
+  background-position: center center;
+  background-repeat: no-repeat;
+  height: 0;
+  padding-top: 38.98%; }
+
+.programs-background .overlay h1 {
+  color: #fff;
+  font-weight: normal;
+  font-size: 3.25em;
+  margin-bottom: 0; 
+  line-height: 1.25em;
+}
+
+.programs-background .overlay h2 {
+  color: #fff;
+  font-size: 1.5em;
+  font-weight: normal;
+  margin-top: 0; }
+
+.programs-background .overlay {
+    text-align: left;
+    padding-left: 5em;
+}
+
+#programs {
+    padding: 0 40px;
+    margin-top:-3em;
+}
+
+#programs p {
+    font-size: 1.1em;
+}
+
+#programs .light {
+    font-family: light, Helvetica, sans-serif;
+    color: #a12221;
+}
+
+#programs h1 {
+    font-family: medium, Helvetica, sans-serif;
+    color: #0f0f3f;
+    font-size: 2.25em;
+}
+
+#programs h2 {
+    font-family: light, Helvetica, sans-serif;
+    color: #a12221;
+    font-size: 2.25em;
+}
+
+#programs a {
+    color: #a12221; 
+    font-family: light, Helvetica, sans-serif;
+    text-decoration: underline;
+}
+
+#programs .button {
+    color: #fff; 
+    font-family: medium, Helvetica, sans-serif;
+    text-decoration: none;
+}
+
+#programs .button:hover {
+    color: #fff !important; 
+}
+
+#programs a:hover {
+    color: #801b1a !important; 
+}
+
 /* Career Paths Page */
 
 .career-paths-background {
@@ -304,6 +380,75 @@ https://recruit.smashfly.com/SmashFlyMedia/Images/13195/13195_1007_career-paths-
 
 #career-paths a:hover {
     color: #801b1a !important; 
+}
+
+.teacher-spotlight {
+    border: 3px solid #0f0f3f;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+.teacher-spotlight .title {
+    color: #fff; 
+    font-family: medium, Helvetica, sans-serif;
+    font-size: 1.75em;
+    background-color: #0f0f3f;
+    padding: .25em 1em;
+    text-align: center;
+}
+
+.teacher-spotlight .content {
+    display: inline-block;
+}
+
+.teacher-spotlight .content img {
+    max-width: 40%;
+}
+
+.teacher-spotlight .content p {
+    max-width: 60%; 
+    float:right; 
+    padding-right:3em;
+    padding-left: 1em;
+    font-size: 1.15em !important;
+}
+
+.teacher-spotlight .content .quote {
+    font-size: 1.25em;
+    font-style: italic;
+    color: #0f0f3f;
+}
+
+.teacher-spotlight .content .medium {
+    font-family: medium, Helvetica, sans-serif;
+}
+
+@media screen and (max-width: 980px) {
+    .teacher-spotlight .content img {
+    max-width: 30%;
+    }
+
+    .teacher-spotlight .content p {
+        max-width: 70%; 
+        float: right !important;
+        padding:0em 1em;
+    }    
+}
+
+@media screen and (max-width: 767px) {
+    
+    .teacher-spotlight .content {
+    text-align: center;
+    }
+    
+    .teacher-spotlight .content img {
+    max-width: 100%;
+    }
+
+    .teacher-spotlight .content p {
+        max-width: 100%; 
+        float: none !important;
+        padding:0em 1em;
+    }  
 }
 
 /* Military Page */
@@ -849,6 +994,10 @@ http://jobs.corecivic.com/Views/Client/8dc4a657-f3b9-4967-bf13-de8e447ff866/imag
     }
     
     .military-background {
+        display: none;
+    }
+    
+    .programs-background {
         display: none;
     }
     
