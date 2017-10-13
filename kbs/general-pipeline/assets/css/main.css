@@ -419,7 +419,7 @@
 		transition: all 0.3s ease;
 		cursor: pointer;
 		display: inline-block;
-		font-weight: 400;
+		font-weight: 700;
         letter-spacing: .075rem;
         padding: .6rem 3rem;
 		text-align: center;
@@ -428,6 +428,7 @@
 		font-size: .8rem;
 		outline: 0;
         text-transform: uppercase;
+        border-radius: .175rem;
 	}
 
 		input[type="submit"].icon:before,
@@ -499,9 +500,9 @@
 	input[type="button"],
 	button,
 	.button {
-		background-color:#e25136;
-		border: 1px solid #e25136;
-		color: #fff !important;
+		background-color:#fff;
+		border: 1px solid #00a8e1;
+		color: #002d5b !important;
 	}
 
 		input[type="submit"]:hover,
@@ -509,11 +510,9 @@
 		input[type="button"]:hover,
 		button:hover,
 		.button:hover {
-			background-color: #ed633b;
-            border: 1px solid #ed633b;
+			background-color: #00a8e1;
+            border: 1px solid #00a8e1;
             color: #fff !important;
-            -webkit-transform: scale(1.1);
-            transform: scale(1.1);
             text-decoration: none;
 		}
 
@@ -522,11 +521,9 @@
 			input[type="button"]:hover:active,
 			button:hover:active,
 			.button:hover:active {
-				background-color: #ed633b;
-                border: 1px solid #ed633b;
+				background-color: #00a8e1;
+                border: 1px solid #00a8e1;
                 color: #fff !important;
-                -webkit-transform: scale(1.1);
-                transform: scale(1.1);
                 text-decoration: none;
 			}
 
@@ -1010,9 +1007,6 @@
 
 				ul.icons li:last-child {
 					padding-right: 0;
-                    margin-left: -.25rem;
-                    margin-top: .325rem; 
-                    position: absolute;
 				}
 
 				ul.icons li .icon:before {
@@ -1819,22 +1813,14 @@
 			width: 100%;
 			height: 100%;
 			background-color: #f7f7f7;
-			opacity: 0.5;
-            /*background: url(https://hireclix.github.io/hosting/premise-health/images/ph_hero.jpg);
+			opacity: 0.4;
+            background: url(https://hireclix.github.io/hosting/kbs/images/header.jpg);
             background-size: cover;   
-            background-attachment: fixed;*/
+            background-attachment: fixed;
 		}
 
-        #banner video {
-			-moz-object-fit: cover;
-			-webkit-object-fit: cover;
-			-ms-object-fit: cover;
-			object-fit: cover;
-			-moz-object-position: center;
-			-webkit-object-position: center;
-			-ms-object-position: center;
-			object-position: center;
-			position: fixed;
+        #banner iframe {
+			position: absolute;
 			top: 0;
 			left: 0;
 			width: 100vw;
@@ -1845,8 +1831,9 @@
 
 
         #banner header h2 {
-			margin-bottom:0;
-            color: #00609C;
+            font-weight: 700;
+			font-size:3rem;
+            color: #002d5b;
 		}
 
 		#banner header p {
@@ -1881,9 +1868,9 @@
 
 
 
-        #one .content.secondary {
-            text-align: center;
-				padding: 0.5rem 0 .5rem 0 ;
+        #banner .content.secondary {
+                text-align: center;
+				padding: 1.25rem 0 1rem 0 ;
 				background-color: rgba(255, 255, 255, 0.85);
 			}
 
@@ -2684,7 +2671,7 @@
 				}
 
 		#wrapper > .main.accent1 {
-			background-color: #00609C;
+			background-color: #002d5b;
 			color: rgba(255, 255, 255, 0.75);
 		}
 
@@ -2879,7 +2866,7 @@
 			}
 
 		#wrapper > .main.accent2 {
-			background-color: #6ECDB2;
+			background-color: #00a8e1;
 			color: rgba(255, 255, 255, 0.75);
 		}
 
@@ -3086,10 +3073,13 @@
 			}
 
 		#wrapper > .main.alt {
-            background: url(https://hireclix.github.io/hosting/premise-health/images/ribbon_bg.png);
+            background: url(/images/footer-img.jpg);
             background-size: cover;
-			background-color: #f7f7f7;
+			background-color: #fff;
 		}
+
+
+
 
 	@media screen and (max-width: 1280px) {
 
@@ -3326,12 +3316,10 @@
         color: #bfbfbf;
 	}
 
-    #footer ul.icons {
-			margin-bottom: 1rem;
-		}
+
 
 		#footer a {
-			color: #bfbfbf !important;
+			color: #00a8e1 !important;
 		}
 
 		#footer > .inner {
@@ -3634,8 +3622,8 @@
 /* YouTube Embed */
 
 #two iframe {
-    width:75%; 
-    height:350px;
+    width:90%; 
+    height:245px;
 }
 
 @media screen and (max-width: 736px) {
@@ -3670,14 +3658,14 @@ z-index: 20000;
 }
 
 
-.lightbox-target .benefits {    
+.lightbox-target .more-info {    
 margin: auto;
 position: absolute;
 top: 0;
 left:0;
 right:0;
 bottom: 0;
-max-height: 80%;
+max-height: 70%;
 max-width: 80%;
 -webkit-transition: .5s ease-in-out;
 -moz-transition: .5s ease-in-out;
@@ -3688,7 +3676,7 @@ padding: 15px 25px;
 }
 
 @media screen and (max-width: 1200px) {
-    .lightbox-target .benefits { 
+    .lightbox-target .more-info { 
     max-height: 80%;
     max-width: 90%;    
     }
@@ -3696,16 +3684,17 @@ padding: 15px 25px;
 }
 
 @media screen and (max-width: 780px) {
-    .lightbox-target .benefits { 
+    .lightbox-target .more-info { 
     max-height: 95%;
     max-width: 80%;    
     }
     
+  
 
 }
 
 @media screen and (max-width: 700px) {
-    .lightbox-target .benefits { 
+    .lightbox-target .more-info { 
     max-height: 100%;
     max-width: 100%;
     }
@@ -3718,12 +3707,12 @@ padding: 15px 25px;
         display: inherit !important;
     }
     
-    .lightbox-target .benefits h2 {
+    .lightbox-target .more-info h2 {
         font-size: 1.5rem;
         margin-bottom: .25rem;
     }
     
-    .lightbox-target .benefits h4 {
+    .lightbox-target .more-info h4 {
     font-size: 1rem !important;
 }
 }
@@ -3732,29 +3721,23 @@ padding: 15px 25px;
         display: none;
     }
 
-.lightbox-target .benefits h2 {
-    color: #00609C;
+.lightbox-target .more-info h2 {
+    color: #00a8e1;
 }
 
-.lightbox-target .benefits h4 {
+.lightbox-target .more-info h4 {
     font-size: 1.25rem;
 }
 
-.lightbox-target .benefits p {
+.lightbox-target .more-info p {
     font-size: 1rem;
     line-height: 20px;
 }
 
-.lightbox-target .benefits ul {
+.lightbox-target .more-info ul {
     font-size: .9rem;
     line-height: 20px;
 }
-
-.lightbox-target .benefits img {
-    float: right;
-    padding: 10px;
-}
-
 
 a.lightbox-close {
 display: block;
@@ -3867,4 +3850,8 @@ top: 0px;
 
 .footer-img {
       box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+#two p {
+    font-size: 1.25rem;
 }
