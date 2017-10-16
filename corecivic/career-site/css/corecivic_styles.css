@@ -451,6 +451,59 @@ https://recruit.smashfly.com/SmashFlyMedia/Images/13195/13195_1007_career-paths-
     }  
 }
 
+/* Military-Form Page */
+
+
+
+#military-form {
+    padding: 160px 40px;
+    margin-top:-3em;
+}
+
+#military-form p {
+    font-size: 1.1em;
+}
+
+#military-form .light {
+    font-family: light, Helvetica, sans-serif;
+    color: #a12221;
+}
+
+#military-form h1 {
+    font-family: medium, Helvetica, sans-serif;
+    color: #0f0f3f;
+    font-size: 2.25em;
+    text-align: center;
+}
+
+#military-form h2 {
+    font-family: light, Helvetica, sans-serif;
+    color: #a12221;
+    font-size: 2.25em;
+}
+
+#military-form a {
+    color: #a12221; 
+    font-family: light, Helvetica, sans-serif;
+    text-decoration: underline;
+}
+
+#military-form .button {
+    color: #fff; 
+    font-family: medium, Helvetica, sans-serif;
+    text-decoration: none;
+}
+
+#military-form .button:hover {
+    color: #fff !important; 
+}
+
+#military-form a:hover {
+    color: #801b1a !important; 
+}
+
+
+
 /* Military Page */
 
 .military-background {
