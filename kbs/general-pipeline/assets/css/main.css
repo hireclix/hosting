@@ -1850,7 +1850,7 @@
 			z-index: 1;
 		}
 
-        #one .content {
+        #four .content {
 			padding: 11rem 0 5.5rem 0;
 			text-align: center;
 			position: relative;
@@ -1881,7 +1881,7 @@
 			display: flex;
 		}
 
-        #one .features {
+        #four .features {
 			display: -moz-flex;
 			display: -webkit-flex;
 			display: -ms-flex;
@@ -1892,7 +1892,7 @@
 				padding: 0 2rem;
 			}
 
-        #one .features > section {
+        #four .features > section {
 				padding: 0 2rem;
 			}
 
@@ -1918,11 +1918,11 @@
 				padding: 11rem 0 3rem 0 ;
 			}
             
-            #one .content {
+            #four .content {
 				padding: 11rem 0 3rem 0 ;
 			}
 
-				#one .content.secondary {
+				#four .content.secondary {
 					padding: .5rem 0 .5rem 0 ;
 				}
 
@@ -1934,11 +1934,11 @@
 				padding: 11.5rem 0 6rem 0 ;
 			}
             
-            #one .content {
+            #four .content {
 				padding: 11.5rem 0 6rem 0 ;
 			}
 
-				#one .content.secondary {
+				#four .content.secondary {
 					padding: .5rem 0 .5rem 0 ;
 				}
 
@@ -1947,13 +1947,13 @@
 			}
         
 
-			#one .features > section {
+			#four .features > section {
 				padding: 0 1rem;
 			}
 
             #banner:after {   
             background-attachment: scroll;
-            background-position: 50% 50%;    
+            background-position: 40% 50%;    
 		  }
 		}
 
@@ -1963,11 +1963,11 @@
 				padding: 6.5rem 1.5rem 1rem 1.5rem ;
 			}
             
-            #one .content {
+            #four .content {
 				padding: 6.5rem 1.5rem 1rem 1.5rem ;
 			}
 
-				#one .content.secondary {
+				#four .content.secondary {
 					padding: .25rem 0 .25rem 0 ;
 				}
 
@@ -1977,7 +1977,7 @@
             
             
 
-			#one .features > section {
+			#four .features > section {
 				padding: 0 0.5rem;
 			}
             
@@ -1993,11 +1993,11 @@
 				padding: 9.5rem 1.5rem 4rem 1.5rem ;
 			}
             
-            #one .content {
+            #four .content {
 				padding: 9.5rem 1.5rem 4rem 1.5rem ;
 			}
 
-				#one .content.secondary {
+				#four .content.secondary {
 					padding: 3rem 0 1rem 0 ;
 				}
 
@@ -2018,17 +2018,17 @@
 					}
             
 
-			#one .features {
+			#four .features {
 				display: block;
 			}
 
-				#one .features > section {
+				#four .features > section {
 					border-top: solid 1px #eeeeee;
 					margin: 2rem 0 0 0;
 					padding: 2rem 1rem 0 1rem;
 				}
 
-					#one .features > section:first-child {
+					#four .features > section:first-child {
 						border-top: 0;
 						margin-top: 0;
 						padding-top: 0;
