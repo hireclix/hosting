@@ -1832,7 +1832,7 @@
 
         #banner header h2 {
             font-weight: 700;
-			font-size:3rem;
+			font-size:3rem;x
             color: #002d5b;
 		}
 
@@ -3073,7 +3073,7 @@
 			}
 
 		#wrapper > .main.alt {
-            background: url(/images/footer-img.jpg);
+            background: url(https://hireclix.github.io/hosting/kbs/images/footer-img.jpg);
             background-size: cover;
 			background-color: #fff;
 		}
