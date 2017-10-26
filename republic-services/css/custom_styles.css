@@ -1,0 +1,725 @@
+/* Eric Meyer's CSS Reset
+   http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+   This is a Sass partial
+*/
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed,
+figure, figcaption, footer, header, hgroup,
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-size: 100%;
+  font: inherit;
+  vertical-align: baseline; }
+
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure,
+footer, header, hgroup, menu, nav, section {
+  display: block; }
+
+body {
+  line-height: 1; }
+
+blockquote, q {
+  quotes: none; }
+
+blockquote:before, blockquote:after,
+q:before, q:after {
+  content: '';
+  content: none; }
+
+table {
+  border-collapse: collapse;
+  border-spacing: 0; }
+
+/* SET FONT SIZE TO USE REMS */
+* {
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+  max-width: 100%; }
+
+body {
+  background-color: #fff;
+  color: #575A5B;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+  -webkit-flex-direction: column;
+  -ms-flex-direction: column;
+  flex-direction: column;
+  font-family: "Open Sans", sans-serif;
+  font-size: 1rem;
+  font-weight: 400;
+  min-height: 100%;
+  overflow-x: hidden; }
+
+.wrap {
+  background-color: #fff;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+  -webkit-flex-direction: column;
+  -ms-flex-direction: column;
+  flex-direction: column;
+  -webkit-box-flex: 1;
+  -webkit-flex: 1 0 auto;
+  -ms-flex: 1 0 auto;
+  flex: 1 0 auto;
+  position: relative; }
+
+a {
+  color: #00adef;
+  text-decoration: none; }
+  a:hover {
+    color: #00B0F0;
+    text-decoration: underline; }
+  a:active {
+    color: #00B0F0; }
+  a:visited {
+    color: #00adef; }
+  a:focus {
+    color: #00B0F0; }
+
+strong {
+  font-weight: bold; }
+
+h4 {
+  color: #004a7c;
+  display: block;
+  font-size: 2.375rem;
+  font-weight: 300;
+  line-height: 2.875rem;
+  margin-bottom: 2%; }
+
+p {
+  font-weight: 400;
+  line-height: 1.375rem;
+  margin-bottom: 2%; }
+
+input, select {
+  border: 1px solid #77787b;
+  color: #373737;
+  font-size: 18px;
+  height: 45px;
+  line-height: 22px;
+  padding-left: 10px;
+  width: 200px; }
+
+input:focus, select:focus {
+  border: 1px solid #00adef;
+  -webkit-box-shadow: inset 0 1px 1px rgba(0, 0, 0, 0.075), 0 0 8px rgba(102, 175, 233, 0.6);
+  box-shadow: inset 0 1px 1px rgba(0, 0, 0, 0.075), 0 0 8px rgba(102, 175, 233, 0.6); }
+
+.btn {
+  background-color: #FFF;
+  border: 2px solid #00B0F0;
+  color: #00B0F0;
+  cursor: pointer;
+  display: inline-block;
+  font-size: 0.875rem;
+  font-weight: 600;
+  line-height: 1.125rem;
+  padding: 12px 29px;
+  text-align: center;
+  text-decoration: none;
+  white-space: nowrap; }
+  @media (min-width: 62.5rem) {
+    .btn {
+      font-size: 1.125rem; } }
+  .btn:visited, .btn:link, .btn:focus {
+    color: #00B0F0; }
+  .btn:hover {
+    background-color: #00B0F0;
+    color: #FFF;
+    text-decoration: none; }
+
+.video-wrapper {
+  padding-bottom: 44.85%;
+  position: relative;
+  padding-top: 25px;
+  height: 0; }
+  .video-wrapper iframe {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%; }
+
+.flex-row {
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+  -webkit-flex-direction: column;
+  -ms-flex-direction: column;
+  flex-direction: column;
+  -webkit-flex-flow: row wrap;
+  -ms-flex-flow: row wrap;
+  flex-flow: row wrap;
+  -webkit-justify-content: space-around;
+  -ms-flex-pack: distribute;
+  justify-content: space-around; }
+  @media (min-width: 49.0625rem) {
+    .flex-row {
+      display: -webkit-box;
+      display: -webkit-flex;
+      display: -ms-flexbox;
+      display: flex; } }
+
+.col {
+  -webkit-box-flex: 1;
+  -webkit-flex: 1 0 auto;
+  -ms-flex: 1 0 auto;
+  flex: 1 0 auto;
+  margin: 0;
+  position: relative; }
+  .col:first-child {
+    margin-left: 0; }
+  .col:last-child {
+    margin-right: 0; }
+  @media (min-width: 49.0625rem) {
+    .col {
+      width: 0; } }
+
+.two-col {
+  -webkit-box-flex: 2;
+  -webkit-flex-grow: 2;
+  -ms-flex-positive: 2;
+  flex-grow: 2; }
+
+.three-col {
+  -webkit-box-flex: 3;
+  -webkit-flex-grow: 3;
+  -ms-flex-positive: 3;
+  flex-grow: 3; }
+
+.inner-content {
+  margin: 0 auto;
+  max-width: 75rem;
+  padding: 0 2%;
+  width: 100%;
+  position: relative; }
+
+.narrow-content {
+  margin: 0 auto;
+  max-width: 650px;
+  padding: 0 2%;
+  position: relative;
+  width: 100%; }
+
+.mobile-only {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex; }
+  @media (min-width: 49.0625rem) {
+    .mobile-only {
+      display: none; } }
+
+.desktop-only {
+  display: none; }
+  @media (min-width: 49.0625rem) {
+    .desktop-only {
+      display: -webkit-box;
+      display: -webkit-flex;
+      display: -ms-flexbox;
+      display: flex; } }
+
+.vert-center {
+  -webkit-box-align: center;
+  -webkit-align-items: center;
+  -ms-flex-align: center;
+  align-items: center;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex; }
+
+.vert-pad {
+  padding-bottom: 2%;
+  padding-top: 2%; }
+
+.bottom-pad {
+  padding-bottom: 2%; }
+
+.top-pad {
+  padding-top: 2%; }
+
+@media (min-width: 49.0625rem) {
+  .left-pad {
+    padding-left: 5%; } }
+
+@media (min-width: 49.0625rem) {
+  .right-pad {
+    padding-right: 5%; } }
+
+.side-pad {
+  padding: 0 5%; }
+
+.text-center {
+  text-align: center; }
+
+.mobile-center {
+  text-align: center; }
+  @media (min-width: 49.0625rem) {
+    .mobile-center {
+      text-align: left; } }
+
+.text-right {
+  text-align: right; }
+
+.gray {
+  background-color: #F7F7F8; }
+
+.small-font {
+  font-size: 0.75rem; }
+
+.full-width {
+  width: 100%; }
+
+li {
+  list-style-type: disc;
+  margin-bottom: 4%;
+  margin-left: 15px; }
+
+@media (min-width: 49.0625rem) {
+  #main-nav {
+    height: 109px; } }
+
+nav {
+  line-height: 60px; }
+  @media (min-width: 49.0625rem) {
+    nav {
+      line-height: 109px; } }
+  nav ul {
+    position: absolute;
+    width: 100%;
+    z-index: 9999; }
+    @media (min-width: 49.0625rem) {
+      nav ul {
+        position: relative;
+        width: auto; } }
+  nav li {
+    background-color: #f5f5f6;
+    border-bottom: 1px solid #FFF;
+    display: none;
+    list-style-type: none;
+    margin: 0;
+    width: 100%; }
+    @media (min-width: 49.0625rem) {
+      nav li {
+        background: none;
+        display: inline-block !important;
+        width: auto; } }
+    nav li a {
+      font-size: 20px;
+      font-weight: 300;
+      padding: 8px; }
+      @media (min-width: 49.0625rem) {
+        nav li a {
+          padding: 14px 10px; } }
+    nav li a:active, nav li a:visited, nav li a:hover, nav li a:focus {
+      color: #00417c; }
+
+.hamburger {
+  position: absolute;
+  text-align: right;
+  right: 10px;
+  top: 0; }
+  .hamburger a {
+    padding: 30px 20px; }
+    @media (min-width: 62.5rem) {
+      .hamburger a {
+        padding: 35px; } }
+
+.logo {
+  -webkit-box-align: center;
+  -webkit-align-items: center;
+  -ms-flex-align: center;
+  align-items: center;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  margin: 0px 15px; }
+  .logo img {
+    padding: 10px 0px;
+    width: 150px; }
+    @media (min-width: 62.5rem) {
+      .logo img {
+        padding: 0px;
+        width: 200px; } }
+
+#top-bar {
+  background-color: #004a7c;
+  min-height: 42px; }
+  #top-bar p {
+    color: #fff;
+    font-size: 0.75rem;
+    line-height: 42px;
+    margin: 0; }
+  #top-bar a {
+    color: #fff; }
+
+.hero-image {
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  border-top: 5px solid #003660;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex; }
+  .hero-image:before {
+    content: "";
+    display: block;
+    padding-top: 28.6vw; }
+  .hero-image h1 {
+    color: #fff;
+    display: block;
+    font-size: 1.875rem;
+    font-weight: 300;
+    margin: 0 auto;
+    position: relative;
+    text-align: center;
+    text-shadow: 0px 1px 7px #000;
+    width: 90%; }
+    @media (min-width: 62.5rem) {
+      .hero-image h1 {
+        font-size: 3.375rem; } }
+
+.hero-image-home {
+  background-image: url("http://republicservices.jobs/Views/Client/5bf6e702-6bdb-48f6-8bff-6789e4087c92/images/hero-home.jpg"); }
+
+.hero-image-driver {
+  background-image: url("http://republicservices.jobs/Views/Client/5bf6e702-6bdb-48f6-8bff-6789e4087c92/images/hero-driver.jpg"); }
+
+.hero-image-driver-two {
+  background-image: url("http://republicservices.jobs/Views/Client/5bf6e702-6bdb-48f6-8bff-6789e4087c92/images/hero-driver-2.jpg"); }
+
+.hero-image-tech {
+  background-image: url("http://republicservices.jobs/Views/Client/5bf6e702-6bdb-48f6-8bff-6789e4087c92/images/hero-tech.jpg"); }
+
+.breadcrumbs {
+  margin-bottom: 10px; }
+  .breadcrumbs li {
+    display: -webkit-inline-box;
+    display: -webkit-inline-flex;
+    display: -ms-inline-flexbox;
+    display: inline-flex;
+    margin: 5px 0px; }
+
+#job-search {
+  background-color: #F5F5F6;
+  border-bottom: 1px solid #cbcbcb;
+  border-top: 1px solid #cbcbcb;
+  padding: 1% 0; }
+  #job-search h3 {
+    font-size: 1.5rem;
+    padding: 20px;
+    text-align: left;
+    width: 100%; }
+    @media (min-width: 62.5rem) {
+      #job-search h3 {
+        padding: 0 5% 0 0;
+        text-align: right; } }
+  #job-search .col {
+    -webkit-flex-basis: 100%;
+    -ms-flex-preferred-size: 100%;
+    flex-basis: 100%; }
+    @media (min-width: 62.5rem) {
+      #job-search .col {
+        -webkit-flex-basis: inherit;
+        -ms-flex-preferred-size: inherit;
+        flex-basis: inherit; } }
+  #job-search input, #job-search select {
+    margin-bottom: 20px;
+    width: 100%; }
+    @media (min-width: 62.5rem) {
+      #job-search input, #job-search select {
+        margin: 0;
+        width: 90%; } }
+
+#search-button {
+  width: 100%; }
+  @media (min-width: 62.5rem) {
+    #search-button {
+      width: auto; } }
+
+#map-search {
+  display: block;
+  font-size: 0.75rem;
+  margin: 20px 0px; }
+  @media (min-width: 62.5rem) {
+    #map-search {
+      display: -webkit-box;
+      display: -webkit-flex;
+      display: -ms-flexbox;
+      display: flex;
+      margin: 0px 0px 0px 10px;
+      font-size: 1rem; } }
+
+footer li {
+  display: inline-block;
+  list-style-type: none;
+  margin: 0; }
+
+.top-footer {
+  background-color: #f7f8f8;
+  border-top: 2px solid #c7c8ca;
+  padding-bottom: 35px; }
+  .top-footer .col {
+    text-align: center; }
+  .top-footer a {
+    color: #00B0F0;
+    display: block;
+    margin: 15px 0px 7px;
+    padding: 7px 0px 4px; }
+
+.bottom-footer {
+  background-color: #77787b;
+  color: #fff;
+  padding: 12px 0px; }
+  .bottom-footer li + li::before {
+    content: " | "; }
+  .bottom-footer ul {
+    margin-bottom: 15px; }
+    @media (min-width: 62.5rem) {
+      .bottom-footer ul {
+        margin-bottom: 0px; } }
+
+#social-icons a {
+  display: inline-block; }
+
+.twitter-stack {
+  color: #0084b4; }
+
+.linkedin-stack {
+  color: #0077b5; }
+
+.instagram-stack {
+  color: #517fa4; }
+
+.youtube-stack {
+  color: #e52d27; }
+
+#glassdoor {
+  border-radius: 6px;
+  height: 29px;
+  position: relative;
+  top: 1px;
+  width: 30px; }
+
+.JobListTable {
+  width: 100%; }
+  .JobListTable tr:nth-child(n+3) td {
+    border-top: 1px solid #cbcbcb;
+    padding: 14px 8px; }
+
+.coloriginaljobtitle {
+  width: 50%; }
+
+.coljobcategory {
+  width: 25%; }
+
+.collocation {
+  width: 25%; }
+
+.jobFilterSearch {
+  background-color: #FFF;
+  border: 2px solid #00B0F0;
+  color: #00B0F0;
+  cursor: pointer;
+  display: inline-block;
+  font-size: 1.125em;
+  font-weight: 600;
+  line-height: 1.125rem;
+  text-align: center;
+  text-decoration: none;
+  white-space: nowrap;
+  width: 80px; }
+
+.job-filter input {
+  width: 90%; }
+
+th {
+  padding: 25px 10px 10px; }
+
+.jobFilterReset {
+  display: block;
+  padding: 10px;
+  position: relative; }
+
+.pager .current {
+  background-color: #00B0F0;
+  color: #fff;
+  margin: 0 .5%;
+  padding: 6px 5px; }
+
+.pager a {
+  color: #00B0F0;
+  display: inline;
+  font-size: .875rem;
+  margin: 0 .5%;
+  padding: 6px 5px; }
+
+.pager .pager-prev-arrow, .pager .pager-next-arrow {
+  border: none;
+  font-size: 1.125rem;
+  text-decoration: none; }
+
+.pager_counts {
+  float: left; }
+
+.pager:nth-of-type(2) {
+  padding-top: 2%; }
+
+/* Make Table Responsive */
+@media only screen and (max-width: 49.0625rem) {
+  /* Force table to not be like tables anymore */
+  table {
+    border-collapse: collapse !important; }
+  table,
+  tbody,
+  td,
+  tr {
+    display: block; }
+  .JobListTable tr:first-child, th, td.job-filter, .job-filter-button-div, td:nth-child(4) {
+    display: none; }
+  .JobListTable td {
+    border: none !important;
+    width: 100%; }
+  .coljobtitle a {
+    display: block;
+    padding: 10px 0px; }
+    .coljobtitle a:hover {
+      background-color: #c0c0c0;
+      -webkit-transition: 0.3s;
+      -o-transition: 0.3s;
+      transition: 0.3s; }
+  /*Label the data*/
+  .JobListTable td:before {
+    color: #000;
+    display: block;
+    padding-bottom: 8px; }
+  .JobListTable td:nth-of-type(1):before {
+    content: "Job Title"; }
+  .JobListTable td:nth-of-type(2):before {
+    content: "Category"; }
+  .JobListTable td:nth-of-type(3):before {
+    content: "Location"; }
+  /*Format the cells*/
+  .pager {
+    padding-bottom: 25px; }
+  .JobListTable tr:nth-child(even) {
+    background-color: #f7f8f8; } }
+
+.jobdescription-label {
+  font-weight: 600; }
+
+.jobdescriptiontbl {
+  margin: 1% 0; }
+  .jobdescriptiontbl * {
+    font-size: 1rem !important;
+    color: #444 !important;
+    font-family: "Open Sans", sans-serif !important; }
+  .jobdescriptiontbl ul {
+    list-style: disc;
+    margin: 10px 0 0 0; }
+    .jobdescriptiontbl ul li {
+      margin: 0 0 0 30px; }
+
+#job-details h1 {
+  color: #00B0F0 !important;
+  font-size: 2.125rem !important;
+  margin: 25px; }
+
+#job-details .desc {
+  line-height: 1.35 !important;
+  margin-left: 15px; }
+
+#job-details .show-job-descr {
+  display: block;
+  margin-left: -15px; }
+
+.sf_applybtn {
+  background-color: #F38A00;
+  border: 2px solid #F38A00;
+  color: #FFF;
+  font-weight: 600;
+  line-height: 1.125rem;
+  margin: 20px 0px;
+  padding: 12px 29px;
+  text-align: center;
+  text-decoration: none;
+  white-space: nowrap; }
+  .sf_applybtn:hover, .sf_applybtn:visited, .sf_applybtn:active {
+    color: #FFF;
+    text-decoration: none; }
+
+.applyBtnTopDiv a {
+  display: block; }
+
+.applyBtnBottomDiv a {
+  display: inline-block; }
+
+.job-fields > div {
+  margin-bottom: 20px; }
+
+.talent-form a {
+  background-color: #003399;
+  color: #FFF;
+  display: block;
+  font-size: 1.25rem;
+  margin-top: 20px;
+  padding: 20px;
+  text-align: center; }
+  .talent-form a span {
+    display: block;
+    font-size: 1rem; }
+  .talent-form a:hover {
+    text-decoration: none; }
+
+.campus-events {
+  display: none;
+  padding: 20px;
+  width: 100%; }
+
+#campus-table {
+  text-align: left;
+  width: 100%; }
+  #campus-table thead {
+    background-color: #00B0F0;
+    border-bottom: 2px solid #004a7c;
+    border-top: 2px solid #004a7c;
+    color: #FFF;
+    font-size: 1.125rem;
+    font-weight: bold; }
+  #campus-table th {
+    padding: 15px; }
+  #campus-table td {
+    padding: 5px 0px; }
+  #campus-table .school-name {
+    font-weight: bold;
+    padding: 15px 0px 0px 0px; }
+
+
+.shadow {
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
