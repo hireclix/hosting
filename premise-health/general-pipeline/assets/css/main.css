@@ -3617,7 +3617,13 @@
 
 #two iframe {
     width:75%; 
-    height:350px;
+    height:550px;
+}
+
+@media screen and (max-width: 1680px) {
+    #two iframe {
+        height:400px;
+    }
 }
 
 @media screen and (max-width: 736px) {
