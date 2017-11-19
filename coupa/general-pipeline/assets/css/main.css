@@ -2027,11 +2027,11 @@
 					}
 
 					.wrapper > .inner > .main.accent2 a {
-						color: #d83841;
+						color: #fff;
 					}
 
                     .wrapper > .inner > .main.accent2 a:hover, .wrapper > .inner > .main.accent2 a:focus, .wrapper > .inner > .main.accent2 a:active {
-                                            color: #d83841;
+                                            color: #fff;
                                         }
 
 					.wrapper > .inner > .main.accent2 strong, .wrapper > .inner > .main.accent2 b {
