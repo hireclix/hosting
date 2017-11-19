@@ -1,4 +1,4 @@
-/* HireClix 2017 | www.hireclix.com */
+/* © 2017 HireClix  | www.hireclix.com | creative@hireclix.com */
 
 @import url(font-awesome.min.css);
 @import url('https://fonts.googleapis.com/css?family=Montserrat:300,300i,400,400i,500,500i,700,700i|Roboto+Condensed:300,300i,400,400i,700,700i');
@@ -903,7 +903,7 @@
 	.icon {
 		text-decoration: none;
 		border-bottom: none;
-		cursor: default;
+		/*cursor: default;*/
 		position: relative;
 	}
 
@@ -1686,23 +1686,7 @@
 					width: 60%;
 				}
 
-/*.one {
-    background: url(https://hireclix.github.io/hosting/overlake/images/feature1.jpg);
-    background-size: cover;
-    background-position: 90% 50%;
-}
 
-/*.two {
-    background: url(https://hireclix.github.io/hosting/overlake/images/feature2.jpg);
-    background-size: cover;
-    background-position: 50% 50%;
-}
-
-.three {
-    background: url(https://hireclix.github.io/hosting/overlake/images/feature3.jpg);
-    background-size: cover;
-    background-position: 55% 50%;
-}*/
 
 		@media screen and (max-width: 1680px) {
 
@@ -3635,16 +3619,7 @@
 		}
 
     
-			/*#banner > .slider > div {
-				background: url(https://hireclix.github.io/hosting/overlake/images/hero.jpg);
-                background-position: 60% 10%;
-				background-size: cover;
-				height: 100%;
-				position: absolute;
-				top: 0;
-				right: 0;
-				width: 100%;
-			}*/
+		
 
 				#banner > .slider > article.visible {
 					opacity: 1;
