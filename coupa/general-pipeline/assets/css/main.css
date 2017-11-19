@@ -3985,7 +3985,7 @@
 
 .video-section iframe {
     height: 325px;
-    width: 80%;
+    width: 100%;
 }
 
 @media screen and (max-width: 736px) {
