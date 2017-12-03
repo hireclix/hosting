@@ -1792,7 +1792,7 @@
 			height: 100%;
 			background-color: #f7f7f7;
 			opacity: 1;
-            background: linear-gradient(to bottom,rgba(0,0,0,.25),rgba(0,0,0,.25)), url(/images/banner-3.jpg);
+            background: linear-gradient(to bottom,rgba(0,0,0,.25),rgba(0,0,0,.25)), url(https://hireclix.github.io/hosting/ingram-micro/images/banner-3.jpg);
             background-size: cover;   
             background-attachment: fixed;
             background-position: 50% 50%; 
@@ -3114,7 +3114,7 @@
 			}
 
 		#wrapper > .main.alt {
-            background: url(/images/cta_bg3.jpg);
+            background: url(https://hireclix.github.io/hosting/ingram-micro/images/cta_bg3.jpg);
             background-size: cover;
 			background-color: #fff;
             background-position: center
