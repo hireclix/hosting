@@ -153,6 +153,10 @@
         color: #fff !important;
 	}
 
+.job a {
+    color: #27b2ca !important;
+}
+
 		a strong {
 			-moz-transition: color 0.2s ease-in-out;
 			-webkit-transition: color 0.2s ease-in-out;
