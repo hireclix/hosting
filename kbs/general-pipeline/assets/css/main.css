@@ -1002,7 +1002,7 @@
 
 			ul.icons li {
 				display: inline-block;
-				padding: 0 1.25rem 0 0;
+				padding: 0 .25rem 0 0;
 			}
 
 				ul.icons li:last-child {
@@ -1739,7 +1739,9 @@
 		}
 
 			#header > .logo img {
-				width: 15rem;
+                text-align: center;
+                margin: 0 auto;
+				width: 100%;
                 padding: .5rem;
 			}
 
@@ -1760,6 +1762,8 @@
 			#header.alt > .logo {
                 text-align: center;
 		  }
+            
+            
 		}
 
 		@media screen and (max-width: 736px) {
@@ -1772,7 +1776,10 @@
 				#header > .logo {
 					left: 1rem;
 				}
-
+            
+            #header > .logo {
+                content: url(https://hireclix.github.io/hosting/kbs/logos/Koch_Lockup_INV_FHR_GP_Molex_GRD_mobile.png);
+            }
 
 		}
 
@@ -1960,7 +1967,7 @@
 		@media screen and (max-width: 736px) {
 
 			#banner .content {
-				padding: 6.5rem 1.5rem 1rem 1.5rem ;
+				padding: 11.5rem 1.5rem 1rem 1.5rem ;
 			}
             
             #four .content {
@@ -3316,11 +3323,137 @@
         color: #bfbfbf;
 	}
 
+    #footer ul.top-footer-links {
+        display: block;
+        padding-left:0;
+    }
+
+    #footer ul.top-footer-links li {
+        display: inline-block;
+        padding: 0 0 0 1.25rem;
+    }
+
+    #footer ul.top-footer-links a {
+        font-size: .75rem;
+        color: #444 !important;
+    }
+
+    #footer ul.bottom-footer-links {
+        display: block;
+        padding-left:0;
+    }
+
+    #footer ul.bottom-footer-links li {
+        display: inline-block;
+        padding: 0 0 0 1.25rem;
+    }
+
+    #footer ul.bottom-footer-links a {
+        font-size: .9rem;
+        font-weight: 300;
+        color: #002d5b !important;
+    }
+
+    #footer p {
+        font-size: .75rem;
+        color: #444;
+    }
+
+    #footer .footer-logo {
+        text-align: left;
+        padding-left:2em; 
+        padding-bottom: .25em;
+    }
+
+    #footer .copyright-dmobile {
+            display: none;
+        }
+
+    @media screen and (max-width: 736px) {
+            #footer .footer-logo {
+            text-align: center;
+        }
+        
+        #footer p.follow-text {
+            text-align: center !important;
+        }
+        
+        #footer .icons {
+            text-align: center !important;
+        }
+        
+        #footer .copyright-desktop {
+            display: none;
+        }
+        
+        #footer .copyright-mobile {
+            display: inherit !important;
+        }
+        
+        #footer p.disclaimer {
+            text-align: center !important;
+        }
+    }
+
+    #footer p.disclaimer {
+            text-align: left;
+            font-size: .9rem;
+            color: #444;
+            padding-left: 1.25rem;
+        }
+
+    #footer p.disclaimer .text-link {
+        font-weight: 600;
+        color: #00a8e1 !important;
+    }
+
+    #footer p.follow-text {
+        text-align: left;
+        padding-left: 2.25rem;
+        color: #00a8e1;
+        font-weight: 600;
+        margin-bottom:.5rem;
+    }
 
 
-		#footer a {
+        #footer .icons {
+            text-align: left;
+            padding-left: 1.75rem;
+        }
+
+		#footer .icons a {
 			color: #00a8e1 !important;
 		}
+
+        #footer .icons .facebook-icon, #footer .icons .linkedin-icon, #footer .icons .twitter-icon, #footer .icons .youtube-icon, #footer .icons .instagram-icon, #footer .icons .glassdoor-icon {
+            height: 25px;
+            width: 25px;
+        }
+
+        #footer .icons .facebook-icon:hover {
+            content: url(https://hireclix.github.io/hosting/kbs/icons/facebook_hover.png); 
+        }
+
+        #footer .icons .linkedin-icon:hover {
+            content: url(https://hireclix.github.io/hosting/kbs/icons/linkedin_hover.png); 
+        }
+
+
+        #footer .icons .twitter-icon:hover {
+            content: url(https://hireclix.github.io/hosting/kbs/icons/twitter_hover.png); 
+        }
+
+        #footer .icons .youtube-icon:hover {
+            content: url(https://hireclix.github.io/hosting/kbs/icons/youtube_hover.png); 
+        }
+    
+        #footer .icons .instagram-icon:hover {
+            content: url(https://hireclix.github.io/hosting/kbs/icons/instagram_hover.png); 
+        }
+
+        #footer .icons .glassdoor-icon:hover {
+            content: url(https://hireclix.github.io/hosting/kbs/icons/glassdoor_hover.png); 
+        }
 
 		#footer > .inner {
 			display: -moz-flex;
@@ -3362,11 +3495,7 @@
 				margin-right: 0;
 			}
 
-		#footer .copyright {
-			color: #acacac;
-			margin-top: 1rem;
-			text-align: center;
-		}
+		
 
 		@media screen and (max-width: 1280px) {
 
@@ -3374,9 +3503,7 @@
 				padding: 1rem 0 0 0 ;
 			}
 
-				#footer .copyright {
-					margin-top: 1rem;
-				}
+				
 
 		}
 
@@ -3411,9 +3538,7 @@
 							width: 50%;
 						}
 
-				#footer .copyright {
-					margin-top: 1rem;
-				}
+				
 
 		}
 
@@ -3427,10 +3552,7 @@
 					margin: 0 0 2.25rem 0;
 				}
 
-				#footer .copyright {
-					margin-top: 1rem;
-				}
-
+				
 		}
 
 		@media screen and (max-width: 480px) {
