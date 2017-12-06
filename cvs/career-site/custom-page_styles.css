@@ -545,3 +545,80 @@
     color: #000!important;
     background-color: rgba(255,255,255,.75);
 }
+
+/* Meet the Team Page */
+
+#mtt-hero .hero-content.hero-full-image {
+    min-height: 425px;
+    position: relative;
+    background: url(https://recruit.smashfly.com/SmashFlyMedia/Images/14319/14319_1464_residencies-hero.jpg) 20% center/cover no-repeat
+}
+
+@media only screen and (max-width: 750px) {
+        #mtt-hero .hero-content.hero-full-image {
+    min-height: 200px;
+    }
+    
+    #mtt-hero .hero-content.hero-full-image .text-overlay h1 {
+        padding-left:0;
+    }
+    
+    #mtt-hero .hero-content.hero-full-image .text-overlay h1:before {
+    left: -16px !important;
+}
+}
+
+@media (min-width: 64rem){    
+    #mtt-hero .hero-content.hero-full-image .text-overlay {
+        top:60px;
+    }
+}
+
+#mtt-hero .hero-content.hero-full-image .text-overlay h1:before {
+    background-image: url(https://recruit.smashfly.com/SmashFlyMedia/Images/14319/14319_1476_flipped_heart.png),none;
+    background-size: 20px;
+    background-repeat: no-repeat;
+    content: "";
+    height: 20px;
+    left: 6px;
+    position: absolute;
+    top: 10;
+    width: 20px; 
+}
+
+#mtt-hero .hero-content.hero-full-image .text-overlay h1 {
+    max-width: 450px;
+}
+
+#mtt-hero .hero-content.hero-full-image .text-overlay p {
+    max-width: 450px;
+    width: 450px;
+}
+
+#mtt-hero .hero-content.hero-full-image .text-overlay {
+    max-width: 500px;
+}
+
+@media only screen and (max-width: 750px) {
+    #mtt-hero .hero-content.hero-full-image .text-overlay {
+        max-width: 300px;
+    }
+    
+    #mtt-hero .hero-content.hero-full-image {
+    min-height: 325px !important;
+}
+}
+
+#residencies .video-wrapper {
+    position: relative;
+    width: 64em;
+}
+
+@media only screen and (max-width: 750px) {
+    #residencies .video-wrapper {
+    position: relative;
+    width: 20em;
+    }
+}
+
+.owl-carousel .item-video{height:300px}
