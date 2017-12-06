@@ -1,0 +1,547 @@
+/* CVS Custom Page Stylesheet | HireClix 2017 | creative@hireclix.com */
+
+
+/* Awards & Recognition Page */
+
+#awards-hero .hero-content.hero-full-image .text-overlay h1 {
+    max-width: 100%;
+}
+
+#awards-hero .hero-content.hero-full-image .text-overlay {
+    max-width: 100%;
+}
+
+@media only screen and (max-width: 750px) {
+    #awards-hero .hero-content.hero-full-image .text-overlay {
+        max-width: 300px;
+    }
+    
+    #awards-hero .hero-content.hero-full-image {
+    min-height: 325px !important;
+}
+}
+
+#awards-hero .hero-content.hero-full-image {
+    background: #e9e9e9;
+    min-height: 300px;
+}
+
+#awards-hero .hero-content.hero-full-image .text-overlay p {
+    width: 90%;
+    color: #646464;
+}
+
+#awards .video-wrapper {
+    position: relative;
+    padding-bottom: 35%;
+    height: 0;
+    overflow: hidden;
+    max-width: 100%;
+    clear: both;
+    display: flex;
+    margin: 0 auto;
+    width: 100%;
+}
+
+#awards .video-wrapper iframe {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    border: 0;
+}
+
+@media only screen and (max-width: 750px) {
+    #awards .video-wrapper {
+        padding-bottom: 65%;
+    }
+}
+
+#awards .award-box {
+    background-color: #e9e9e9;
+    color: #000;
+    margin: 0 0 32px;
+}
+
+#awrads.three-col .award-box {
+    min-height: 520px;
+}
+
+#awards.four-col .award-box {
+    min-height: 540px;
+}
+
+#awards .award-box .image-wrapper {
+    width: 100%;
+    max-width: 100%;
+    padding: 0;
+}
+
+#awards .award-box .image-wrapper img {
+    width: 100%;
+    max-width: 100%;
+    margin: 0 auto;
+    display: block;
+    border: 0;
+}
+
+#awards .award-box .image-wrapper img:hover {
+    opacity: .75;
+}
+
+#awards .award-box .content-wrapper {
+    padding: 32px;
+}
+
+#awards .award-box .content-wrapper h4 {
+    font-size: 20px;
+    line-height: 24px;
+}
+
+#awards .award-box .content-wrapper p {
+    font-size: 15px;
+}
+
+/* Residencies Page */
+
+#residencies-hero .hero-content.hero-full-image {
+    min-height: 325px;
+    position: relative;
+    background: url(/images/residencies-hero.jpg) 20% center/cover no-repeat
+}
+
+@media only screen and (max-width: 750px) {
+        #residencies-hero .hero-content.hero-full-image {
+    min-height: 200px;
+    }
+    
+    #residencies-hero .hero-content.hero-full-image .text-overlay h1 {
+        padding-left:0;
+    }
+    
+    #residencies-hero .hero-content.hero-full-image .text-overlay h1:before {
+    left: -16px !important;
+}
+}
+
+@media (min-width: 64rem){    
+    #residencies-hero .hero-content.hero-full-image .text-overlay {
+        top:100px;
+    }
+}
+
+#residencies-hero .hero-content.hero-full-image .text-overlay h1:before {
+    background-image: url(/icons/flipped_heart.svg),none;
+    background-size: 20px;
+    background-repeat: no-repeat;
+    content: "";
+    height: 20px;
+    left: 6px;
+    position: absolute;
+    top: 10;
+    width: 20px; 
+}
+
+#residencies {
+    background: #e9e9e9;
+}
+
+#residencies .body-copy {
+    background: #fff;
+    padding: 32px;
+}
+
+#residencies .body-copy ul {
+    list-style: disc;
+}
+
+#residencies .body-copy ul.indent {
+    margin-right: 0px;
+    padding-left: 30px;
+    padding-right: 0px;
+}
+
+#residencies .body-copy a {
+    color: #c00;
+}
+
+#residencies .body-copy a:hover {
+    text-decoration: underline;
+}
+
+@media only screen and (min-width: 750px) {
+    #residencies .first {
+        padding-left: 0 !important;
+    }
+
+    #residencies .second {
+        padding-right: 0 !important;
+    }
+    
+    #residencies .full-width {
+        padding: 0 !important;
+    }
+}
+
+#residencies .color-box-teal {
+    background-color: #37baab;
+    color: #fff;
+    margin: 0 0 32px;
+    float: left;
+}
+
+#residencies .color-box-orange {
+    background-color: #ea7600;
+    color: #fff;
+    margin: 0 0 32px;
+    float: left;
+}
+
+#residencies .color-box-teal>div.content-wrapper, #residencies .color-box-orange>div.content-wrapper {
+    float: right;
+    padding: 32px 32px 0 0;
+    width: calc(64% - 32px);
+    min-height: 225px;
+}
+
+#residencies .color-box-teal .content-wrapper h3, #residencies .color-box-orange .content-wrapper h3 {
+     font-size: 1.75em;
+     line-height: 1.25em;
+}
+
+#residencies .color-box-teal>div.image-wrapper {
+    float: left;
+    padding: 2px;
+    width: 36%;
+    position: relative;
+}
+
+#residencies .color-box-orange>div.image-wrapper {
+    float: left;
+    padding: 2px 2px 2px 20px;
+    width: 36%;
+    position: relative;
+}
+
+#residencies .color-box-teal .content-wrapper a, #residencies .color-box-orange .content-wrapper a {
+    color: #fff;
+}
+
+#residencies .color-box-teal .content-wrapper a:hover, #residencies .color-box-orange .content-wrapper a:hover {
+    text-decoration: underline;
+}
+
+#residencies .color-box-teal .image-wrapper {
+    padding-top:35px !important;
+}
+
+#residencies .color-box-orange .image-wrapper {
+    padding-top: 50px !important;
+}
+
+#residencies .color-box-teal .image-wrapper img, #residencies .color-box-orange .image-wrapper img  {
+    width: 100%;
+}
+
+#residencies .related-content {
+    float: left;
+    margin: 0 auto;
+    width: 100%;
+    background: #fff;
+}
+
+#residencies .related-content .related-content-img-wrap {
+    width: 35%;
+    float: left;
+}
+
+@media only screen and (max-width: 750px) {
+    #residencies .related-content .related-content-img-wrap {
+        width: 100% !important;
+    }
+    #residencies .related-content .related-content-link-wrap {
+        width: 100% !important;
+        padding-top: 0 !important;
+    }
+}
+
+#residencies .related-content .related-content-img-wrap img {
+    width: 100%;
+    max-width: 100%;
+}
+
+#residencies .related-content .related-content-link-wrap {
+    display: inline-block;
+    width: calc(65% - 64px);
+    padding: 40px 32px 0 32px;
+}
+
+#residencies .related-content .related-content-link-wrap h4 {
+    font-size: 1.75em;
+    line-height: 1em;
+}
+
+#residencies .related-content .related-content-link-wrap p {
+    color: #646464;
+}
+
+#residencies .related-content .related-content-link-wrap a {
+    color:#c00;
+}
+
+#residencies .related-content .related-content-link-wrap a:hover {
+    text-decoration: underline;
+}
+
+/* How to Apply Page */
+
+#howtoapply-hero .hero-content.hero-full-image .text-overlay h1 {
+    max-width: 100%;
+}
+
+#howtoapply-hero .hero-content.hero-full-image .text-overlay {
+    max-width: 60%;
+}
+
+@media only screen and (max-width: 750px) {
+    #howtoapply-hero .hero-content.hero-full-image .text-overlay {
+        max-width: 300px;
+    }
+    
+    #howtoapply-hero .hero-content.hero-full-image {
+    min-height: 325px !important;
+}
+}
+
+@media (min-width: 64rem){    
+    #howtoapply-hero .hero-content.hero-full-image .text-overlay {
+        top:25px;
+    }
+}
+
+#howtoapply-hero .hero-content.hero-full-image {
+    background: #e9e9e9;
+    min-height: 250px;
+}
+
+#howtoapply-hero .hero-content.hero-full-image .text-overlay p {
+    width: 90%;
+    color: #646464;
+}
+
+#howtoapply {
+    background: #e9e9e9;
+}
+
+#howtoapply .body-copy {
+    background: #fff;
+    padding: 32px;
+    width: 100%;
+    margin: 1em auto 0;
+}
+
+#howtoapply .body-copy h3 {
+    padding-top: 1.25em;
+    text-align: center;
+}
+
+#howtoapply .body-copy .hta-graphic {
+    background-image: url(/images/hta-Infographic_Sm_2.png);
+    background-size: contain;
+    background-position: center;
+    background-repeat: no-repeat;
+    padding-bottom: 1296%;
+}
+
+@media screen and (min-width: 550px) {
+    #howtoapply .body-copy .hta-graphic {
+    background-image: url(/images/hta-Infographic_big_2.png);
+    padding-bottom: 260%;
+}
+}    
+    
+@media only screen and (min-width: 750px) {
+    #howtoapply .full-width {
+        padding: 0 !important;
+    }
+}
+
+    
+#howtoapply .health-info {
+    background: #fff;
+    padding: 2em;
+    margin: 0 auto;
+}
+    
+#howtoapply .health-info h2 {
+    text-align: center;
+    font-size: 2.25em;
+    line-height: 1em;
+    position: relative;
+    max-width: 335px;
+    margin: 0 auto .5em;    
+}
+    
+#howtoapply .health-info h2:before {    
+    content: '';
+    background-image: url(/icons/heading-bracket-red.png);
+    position: absolute;
+    left: -12px;
+    top: -8px;
+    height: 13px;
+    width: 13px; 
+}
+
+@media only screen and (max-width: 750px) {
+    #howtoapply .health-info h2:before {    
+        left: 65px;
+        top: -5px;
+        height: 13px;
+        width: 13px; 
+    }   
+}
+    
+#howtoapply .health-info p {
+    font-size: 0.6em;
+    line-height: normal;
+    max-width: 635px;
+    margin: 0 auto;
+}
+
+/* Pharm F&R Page */
+
+#pharmfr-hero .hero-content.hero-full-image {
+    min-height: 325px;
+    position: relative;
+    background: url(/images/residencies-hero.jpg) 20% center/cover no-repeat
+}
+
+@media only screen and (max-width: 750px) {
+        #pharmfr-hero .hero-content.hero-full-image {
+    min-height: 200px;
+    }
+    
+    #pharmfr-hero .hero-content.hero-full-image .text-overlay h1 {
+        padding-left:30px;
+    }
+    
+    #pharmfr-hero .hero-content.hero-full-image .text-overlay h1:before {
+    left: 15px !important;
+}
+}
+
+@media (min-width: 64rem){    
+    #pharmfr-hero .hero-content.hero-full-image .text-overlay {
+        top:70px;
+    }
+}
+
+#pharmfr-hero .hero-content.hero-full-image .text-overlay h1:before {
+    background-image: url(/icons/flipped_heart.svg),none;
+    background-size: 20px;
+    background-repeat: no-repeat;
+    content: "";
+    height: 20px;
+    left: 6px;
+    position: absolute;
+    top: 10;
+    width: 20px; 
+}
+
+#pharmfr {
+    background: #e9e9e9;
+}
+
+#pharmfr .body-copy {
+        flex-wrap: wrap;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    background: #fff;
+    padding: 32px;
+    width: 100%;
+    margin: 0 auto;
+}
+
+#pharmfr .residency-box {
+    background-color: #e9e9e9;
+    color: #000;
+    margin: 0 0 32px;
+}
+
+#pharmfr.two-col .item-2 {
+    padding: 0 10px;
+}
+
+#pharmfr.three-col1 .residency-box {
+    min-height: 450px;
+}
+
+#pharmfr.three-col2 .residency-box {
+    min-height: 515px;
+}
+
+#pharmfr.two-col .residency-box, #pharmfr.two-col .color-box-red {
+    min-height: 460px;
+}
+
+#pharmfr .residency-box .image-wrapper {
+    width: 100%;
+    max-width: 100%;
+    padding: 0;
+}
+
+#pharmfr .residency-box .image-wrapper img {
+    width: 100%;
+    max-width: 100%;
+    margin: 0 auto;
+    display: block;
+    border: 0;
+}
+
+#pharmfr .residency-box .image-wrapper img:hover {
+    opacity: .75;
+}
+
+#pharmfr .residency-box .content-wrapper {
+    padding: 32px;
+}
+
+#pharmfr .residency-box .content-wrapper h4 {
+    font-size: 20px;
+    line-height: 24px;
+}
+
+#pharmfr .residency-box .content-wrapper a {
+    color: #000;
+}
+
+#pharmfr .residency-box .content-wrapper a:hover {
+    color: #c00;
+}
+
+#pharmfr .residency-box .content-wrapper p {
+    font-size: 15px;
+}
+
+#pharmfr .color-box-red {
+    background: #c00;
+    color: #fff;
+    padding: 32px;
+}
+
+#pharmfr .color-box-red h1 {
+    color: #fff;
+}
+
+.btn-white {
+    color: #000!important;
+    background-color: #fff;
+    border: none;
+}
+.btn-white:focus,
+.btn-white:hover {
+    color: #000!important;
+    background-color: rgba(255,255,255,.75);
+}
