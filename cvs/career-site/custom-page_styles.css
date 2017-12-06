@@ -108,7 +108,7 @@
 #residencies-hero .hero-content.hero-full-image {
     min-height: 325px;
     position: relative;
-    background: url(/images/residencies-hero.jpg) 20% center/cover no-repeat
+    background: url(https://recruit.smashfly.com/SmashFlyMedia/Images/14319/14319_1464_residencies-hero.jpg) 20% center/cover no-repeat
 }
 
 @media only screen and (max-width: 750px) {
@@ -132,7 +132,7 @@
 }
 
 #residencies-hero .hero-content.hero-full-image .text-overlay h1:before {
-    background-image: url(/icons/flipped_heart.svg),none;
+    background-image: url(https://recruit.smashfly.com/SmashFlyMedia/Images/14319/14319_1476_flipped_heart.png),none;
     background-size: 20px;
     background-repeat: no-repeat;
     content: "";
@@ -347,7 +347,7 @@
 }
 
 #howtoapply .body-copy .hta-graphic {
-    background-image: url(/images/hta-Infographic_Sm_2.png);
+    background-image: url(https://recruit.smashfly.com/SmashFlyMedia/Images/14319/14319_1462_hta-Infographic_Sm_2.png);
     background-size: contain;
     background-position: center;
     background-repeat: no-repeat;
@@ -356,7 +356,7 @@
 
 @media screen and (min-width: 550px) {
     #howtoapply .body-copy .hta-graphic {
-    background-image: url(/images/hta-Infographic_big_2.png);
+    background-image: url(https://recruit.smashfly.com/SmashFlyMedia/Images/14319/14319_1461_hta-Infographic_big_2.png);
     padding-bottom: 260%;
 }
 }    
@@ -385,7 +385,7 @@
     
 #howtoapply .health-info h2:before {    
     content: '';
-    background-image: url(/icons/heading-bracket-red.png);
+    background-image: url(https://recruit.smashfly.com/SmashFlyMedia/Images/14319/14319_1477_heading-bracket-red.png);
     position: absolute;
     left: -12px;
     top: -8px;
@@ -414,7 +414,7 @@
 #pharmfr-hero .hero-content.hero-full-image {
     min-height: 325px;
     position: relative;
-    background: url(/images/residencies-hero.jpg) 20% center/cover no-repeat
+    background: url(https://recruit.smashfly.com/SmashFlyMedia/Images/14319/14319_1464_residencies-hero.jpg) 20% center/cover no-repeat
 }
 
 @media only screen and (max-width: 750px) {
@@ -438,7 +438,7 @@
 }
 
 #pharmfr-hero .hero-content.hero-full-image .text-overlay h1:before {
-    background-image: url(/icons/flipped_heart.svg),none;
+    background-image: url(https://recruit.smashfly.com/SmashFlyMedia/Images/14319/14319_1476_flipped_heart.png),none;
     background-size: 20px;
     background-repeat: no-repeat;
     content: "";
