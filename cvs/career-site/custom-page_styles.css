@@ -536,14 +536,14 @@
 }
 
 .btn-white {
-    color: #000!important;
-    background-color: #fff;
-    border: none;
+    color: #fff!important;
+    background-color: transparent;
+    border: 2px solid #fff;
 }
 .btn-white:focus,
 .btn-white:hover {
-    color: #000!important;
-    background-color: rgba(255,255,255,.75);
+    color: #c00!important;
+    background-color: #fff;
 }
 
 /* Meet the Team Page */
@@ -611,7 +611,8 @@
 
 #residencies .video-wrapper {
     position: relative;
-    width: 64em;
+    width: 44em;
+    margin: 0 auto;
 }
 
 @media only screen and (max-width: 750px) {
@@ -622,3 +623,449 @@
 }
 
 .owl-carousel .item-video{height:300px}
+
+
+/* Internships Page */
+
+#internships-hero .hero-content.hero-full-image {
+    min-height: 525px;
+    position: relative;
+    background: url(https://recruit.smashfly.com/SmashFlyMedia/Images/14319/14319_1479_hero-internship.png) 20% center/cover no-repeat
+}
+
+@media only screen and (max-width: 750px) {
+        #internships-hero .hero-content.hero-full-image {
+    min-height: 775px;
+    }
+    
+    #internships-hero .hero-content.hero-full-image .text-overlay h1 {
+        padding-left:30px;
+        width:350px;
+    }
+    
+    #internships-hero .hero-content.hero-full-image .text-overlay {
+        left:0px;
+    }
+    
+    #internships-hero .hero-content.hero-full-image .text-overlay h1:before {
+    left: 15px !important;
+}
+    
+    #internships-hero .hero-content.hero-full-image .mobile-hero {
+    display: inherit !important;
+}
+}
+
+@media (min-width: 64rem){    
+    #internships-hero .hero-content.hero-full-image .text-overlay {
+        top:40px;
+    }
+}
+
+#internships-hero .hero-content.hero-full-image .text-overlay h1:before {
+    background-image: url(https://recruit.smashfly.com/SmashFlyMedia/Images/14319/14319_1476_flipped_heart.png),none;
+    background-size: 20px;
+    background-repeat: no-repeat;
+    content: "";
+    height: 20px;
+    left: 6px;
+    position: absolute;
+    top: 10;
+    width: 20px; 
+}
+
+#internships-hero .hero-content.hero-full-image .text-overlay h3 {
+    left: 25px;
+    position: relative;
+    margin-bottom: 0;
+}
+
+#internships-hero .hero-content.hero-full-image .text-overlay p {
+    top:10px
+}
+
+#internships-hero .hero-content.hero-full-image .mobile-hero {
+    display: none;
+}
+
+
+#internships-hero2 .hero-content.hero-full-image {
+    min-height: 680px;
+    position: relative;
+    background: url(https://recruit.smashfly.com/SmashFlyMedia/Images/14319/14319_1481_hero-internship2.png) top center/cover no-repeat
+}
+
+@media only screen and (max-width: 750px) {
+        #internships-hero2 .hero-content.hero-full-image {
+    min-height: 1200px;
+    }
+    
+    #internships-hero2 .hero-content.hero-full-image .text-overlay h1 {
+        padding-left:30px;
+        width:350px;
+    }
+    
+    #internships-hero2 .hero-content.hero-full-image .text-overlay {
+        left:0px;
+    }
+    
+    #internships-hero2 .hero-content.hero-full-image .text-overlay h1:before {
+    left: 15px !important;
+}
+    
+    #internships-hero2 .hero-content.hero-full-image .mobile-hero {
+    display: inherit !important;
+}
+}
+
+@media (min-width: 64rem){    
+    #internships-hero2 .hero-content.hero-full-image .text-overlay {
+        top:40px;
+        max-width:600px;
+    }
+    
+    #internships-hero2 .hero-content.hero-full-image .text-overlay h1 {
+        max-width:600px;
+    }
+}
+
+@media screen and (min-width: 800px) {
+#internships-hero2 .hero-content.hero-full-image .text-overlay ul span:not(.tile-text) {
+    font-size: 4.5rem;
+    display: inline-block;
+    line-height: 60px;
+}
+}
+
+#internships-hero2 .hero-content.hero-full-image .text-overlay h1:before {
+    background-image: url(https://recruit.smashfly.com/SmashFlyMedia/Images/14319/14319_1476_flipped_heart.png),none;
+    background-size: 20px;
+    background-repeat: no-repeat;
+    content: "";
+    height: 20px;
+    left: 6px;
+    position: absolute;
+    top: 10;
+    width: 20px; 
+}
+
+#internships-hero2 .hero-content.hero-full-image .text-overlay h3 {
+    left: 25px;
+    position: relative;
+    margin-bottom: 0;
+}
+
+#internships-hero2 .hero-content.hero-full-image .text-overlay p {
+    top:10px
+}
+
+#internships-hero2 .hero-content.hero-full-image .mobile-hero {
+    display: none;
+}
+
+
+@media only screen and (min-width: 750px) {
+#internships-hero2 .hero-content.hero-full-image .text-overlay ul {
+    display: -ms-flexbox;
+    display: -webkit-flex;
+    display: flex;
+    -webkit-flex-direction: row;
+    -ms-flex-direction: row;
+    flex-direction: row;
+    -webkit-flex-wrap: wrap;
+    -ms-flex-wrap: wrap;
+    flex-wrap: wrap;
+    -webkit-justify-content: space-between;
+    -ms-flex-pack: justify;
+    justify-content: space-between;
+    -webkit-align-content: center;
+    -ms-flex-line-pack: center;
+    align-content: center;
+    -webkit-align-items: center;
+    -ms-flex-align: center;
+    align-items: center;
+    max-width: 670px;
+}
+    
+
+
+#internships-hero2 .hero-content.hero-full-image .text-overlay li:first-of-type {
+    -webkit-order: 0;
+    -ms-flex-order: 0;
+    order: 0;
+    -webkit-flex: 0 1 auto;
+    -ms-flex: 0 1 auto;
+    flex: 0 1 calc(50% - 26px);
+    -webkit-align-self: stretch;
+    -ms-flex-item-align: stretch;
+    align-self: stretch;
+    width: calc(50% - 26px);
+}
+
+#internships-hero2 .hero-content.hero-full-image .text-overlay li:nth-of-type(2) {
+    -webkit-order: 0;
+    -ms-flex-order: 0;
+    order: 0;
+    -webkit-flex: 0 1 auto;
+    -ms-flex: 0 1 auto;
+    flex: 0 1 calc(50% - 27px);
+    -webkit-align-self: stretch;
+    -ms-flex-item-align: stretch;
+    align-self: stretch;
+    width: calc(50% - 27px);
+}
+
+#internships-hero2 .hero-content.hero-full-image .text-overlay li:nth-of-type(3) {
+    -webkit-order: 0;
+    -ms-flex-order: 0;
+    order: 0;
+    -webkit-flex: 0 2 100%;
+    -ms-flex: 0 2 100%;
+    flex: 0 2 calc(100% - 26px);
+    -webkit-align-self: stretch;
+    -ms-flex-item-align: stretch;
+    align-self: stretch;
+    width: calc(100% - 26px);
+}
+    
+    #internships-hero2 .hero-content.hero-full-image .text-overlay li {
+    margin: 13px;
+}
+    
+}
+
+#internships-hero2 .hero-content.hero-full-image .text-overlay .red {
+    padding-right: 19%;
+}
+
+
+
+#internships-hero2 .hero-content.hero-full-image .text-overlay li {
+    padding: 20px 15px 30px;
+    font-size: 1.5rem;
+    line-height: 30px;
+    font-weight: 600;
+}
+
+#internships-hero2 .hero-content.hero-full-image .text-overlay li.gray:before {
+    width: 207px !important;
+    height: 88px !important;
+    background-image: url(https://recruit.smashfly.com/SmashFlyMedia/Images/14319/14319_1482_internship_icon.png);
+    content: "";
+    display: block;
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin-bottom: 15px;
+}
+
+@media screen and (min-width: 800px)
+    {
+#internships-hero2 .hero-content.hero-full-image .text-overlay li.gray:before {
+    margin-right: 14%;
+    display: inline-block;
+    vertical-align: middle;
+    margin-bottom: 0;
+        }
+        
+#internships-hero2 .hero-content.hero-full-image .text-overlay li.gray .tile-text {
+    display: inline-block;
+    width: calc(86% - 207px);
+    vertical-align: middle;
+}
+}
+
+
+
+#internships-hero2 .hero-content.hero-full-image .text-overlay li.red {
+    background-color: #c00;
+    color: #fff;
+}
+
+#internships-hero2 .hero-content.hero-full-image .text-overlay li.blue {
+    background-color: #b8e3eb;
+}
+
+#internships-hero2 .hero-content.hero-full-image .text-overlay li.gray {
+    background-color: #d1cccc;
+}
+
+
+
+
+
+#internships .lite-blue_bg {
+    background: #b8e3eb;
+}
+
+#internships .red_bg {
+    background: #c00;
+    color: #fff
+}
+
+#internships .orange_bg {
+    background: #cb6500;
+    color: #fff
+}
+
+#internships .quote_bg {
+    background: url(https://recruit.smashfly.com/SmashFlyMedia/Images/14319/14319_1484_quote-internship.jpg);
+    background-size: cover;
+    color: #fff;
+    height: 500px;   
+}
+
+@media screen and (max-width: 750px) {
+    
+    
+    .quote .container {
+        align-items: flex-end !important;
+    }
+    
+    #internships .quote_bg  p:first-of-type {
+    font-size: 1.25em !important;
+}
+    
+    #internships .quote_bg p:first-of-type:before, #internships .quote_bg p:first-of-type:after {
+         font-size: 4rem !important;
+    }
+}
+
+#internships .quote_bg .content-wrapper {
+    background: rgba(0,0,0,.75);
+    padding: 60px 70px;
+}
+
+#internships .quote_bg  p:first-of-type {
+    font-size: 1.75em;
+}
+
+#internships .quote_bg p:first-of-type:before {
+    display: inline;
+    margin-right: 9px;
+    content: '\201C';
+    font-size: 7rem;
+    line-height: 0;
+    vertical-align: middle;
+    font-weight: 500;
+}
+
+#internships .quote_bg p:first-of-type:after {
+    display: inline;
+    margin-left: 9px;
+    content: '\201D';
+    font-size: 7rem;
+    line-height: 0;
+    vertical-align: bottom;
+    font-weight: 500;
+    top: 0.5vw;
+    position: relative;
+}
+
+@media screen and (min-width: 1000px) {
+#internships .quote_bg p:first-of-type:before {
+    margin-left: calc(-3vw - 7px);
+    font-size: 6vw;
+ }
+   
+    #internships .quote_bg p:first-of-type:after {    
+    margin-left: .5rem;
+    font-size: 6vw;
+    }
+}
+
+#internships .orange_bg .content-wrapper .btn-white:hover {
+    color: #cb6500 !important;
+}
+
+#internships .purple_bg {
+    background: #93277e;
+    color: #fff
+}
+
+#internships .purple_bg .content-wrapper .btn-white:hover {
+    color: #93277e !important;
+}
+
+#internships .container {
+    align-items: center;
+  justify-content: center;
+}
+
+#internships .item-1 {
+   padding: 0 !important; 
+}
+
+#internships .item-2 {
+    padding: 0 !important;
+    flex: 1;
+}
+
+@media only screen and (max-width: 750px) {
+    #internships .item-2 {
+        order: 2;
+    }
+    
+    #internships .content-wrapper {
+        padding: 0 2em !important;
+    }
+    
+    #internships .quote_bg .content-wrapper {
+        padding: 2em 2em !important;
+    }
+    
+    #internships .quote_bg .item-2 {
+        flex: 1 1 auto;
+    }
+    
+    #internships .red_bg .content-wrapper .btn-white, #internships .orange_bg .content-wrapper .btn-white {
+    width:100% !important;
+    max-width:1000px !important;
+}
+}
+
+ /*#internships .image-intern {
+   background: url(/images/tab-intern-v2.jpg);
+    align-self: auto;
+    width: 50%;
+    background-position: center !important;
+}*/
+
+#internships .image-intern img {
+    width: 100%;
+    max-width: 100%;
+}
+
+#internships .content-wrapper {
+    padding: 0 7em;
+}
+
+#internships .content-wrapper p {
+    font-weight: 300;
+}
+
+#internships .red_bg .content-wrapper .btn-white, #internships .orange_bg .content-wrapper .btn-white {
+    width:75%;
+    max-width:800px;
+}
+
+#internships.text-callout {
+    background: #c00;
+}
+
+@media only screen and (min-width: 750px) {
+    #internships.text-callout .icon {
+    width: 56px !important;
+    height: 70px !important;
+    }
+}
+
+#internships.text-callout .icon {
+    width: 32px;
+    height: 40px;
+    background: url(https://recruit.smashfly.com/SmashFlyMedia/Images/14319/14319_1483_internship_icon2.png);
+    display: inline-block;
+    background-repeat: no-repeat;
+    background-size: contain;
+    vertical-align: sub;
+    margin: 0 5px;
+}
