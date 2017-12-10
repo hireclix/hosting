@@ -2207,6 +2207,11 @@ iframe {
     margin-top: -25px;
 }
 
+.testimonials p {
+    margin: .25em 0 1em 0;
+}
+
+/*
 .testimonials .tagline h3 {
     margin-top: -.4em;
     letter-spacing: .15em;
@@ -2219,6 +2224,10 @@ iframe {
     font-weight: normal;
     margin-top: -30px;
     margin-bottom: .75em !important;
+}*/
+
+.testimonials .tagline img {
+    width: 275px;
 }
 
 @media screen and (min-width: 980px) {
