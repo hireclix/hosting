@@ -3,8 +3,19 @@
     src: url(https://hireclix.github.io/hosting/corecivic/fonts/AkzidGroBQMd.otf);
 }
 
+@font-face {
+    font-family: CoreCivic_Light;
+    src: url(https://hireclix.github.io/hosting/corecivic/fonts/AkzidGroBQLig.otf);
+}
 
-#fw-container {
- 
- font-family: 'CoreCivic_Bold', Helvetica, sans-serif !important;
+
+/* This is the styling for the Feed Title link in the header container*/
+.fw-feed-title a:link {
+  font-family: 'CoreCivic_Bold', Helvetica, sans-serif !important;
+}
+
+
+/* This is the styling for the Feed Item content in the body container*/
+.fw-feed-item-content-module {
+    font-family: 'CoreCivic_Light', Helvetica, sans-serif !important;
 }
