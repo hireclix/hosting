@@ -1,0 +1,10 @@
+@font-face {
+    font-family: CoreCivic_Bold;
+    src: url(https://hireclix.github.io/hosting/corecivic/fonts/AkzidGroBQMd.otf);
+}
+
+
+#fw-container {
+ 
+ font-family: 'CoreCivic_Bold', Helvetica, sans-serif !important;
+}
