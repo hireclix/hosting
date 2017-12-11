@@ -10,7 +10,7 @@
 
 
 /* This is the styling for the Feed Title link in the header container*/
-.fw-feed-title a:link {
+.fw-feed-item-title {
   font-family: 'CoreCivic_Bold', Helvetica, sans-serif !important;
 }
 
