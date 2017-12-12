@@ -1497,3 +1497,420 @@
     background: linear-gradient(to bottom, rgba(255,255,255,0) 0%,#000000 98%);
 }
 
+
+/* Workforce Initiatives Page */
+
+#wfi-hero .hero-content.hero-full-image {
+    min-height: 425px;
+    position: relative;
+    background: url(https://recruit.smashfly.com/SmashFlyMedia/Images/14319/14319_1543_hero-inclusion.png) 20% center/cover no-repeat
+}
+
+@media only screen and (max-width: 750px) {
+        #wfi-hero .hero-content.hero-full-image {
+    min-height: 800px;
+    }
+    
+    #wfi-hero .hero-content.hero-full-image .text-overlay h1 {
+        padding-left:30px;
+        width:350px;
+    }
+    
+    #wfi-hero .hero-content.hero-full-image .text-overlay {
+        left:0px;
+    }
+    
+    #wfi-hero .hero-content.hero-full-image .text-overlay h1:before {
+    left: 15px !important;
+}
+    
+    #wfi-hero .hero-content.hero-full-image .mobile-hero {
+    display: inherit !important;
+}
+}
+
+@media (min-width: 64rem){    
+    #wfi-hero .hero-content.hero-full-image .text-overlay {
+        top:40px;
+        max-width: 600px;
+    }
+    
+    #wfi-hero .hero-content.hero-full-image .text-overlay h1 {
+        max-width: 600px;
+    }
+    
+    #wfi-hero .hero-content.hero-full-image .text-overlay p {
+        width: 500px;
+    }
+}
+
+#wfi-hero .hero-content.hero-full-image .text-overlay h1:before {
+    background-image: url(https://recruit.smashfly.com/SmashFlyMedia/Images/14319/14319_1476_flipped_heart.png),none;
+    background-size: 20px;
+    background-repeat: no-repeat;
+    content: "";
+    height: 20px;
+    left: 6px;
+    position: absolute;
+    top: 10;
+    width: 20px; 
+}
+
+#wfi-hero .hero-content.hero-full-image .text-overlay h3 {
+    left: 25px;
+    position: relative;
+    margin-bottom: 0;
+}
+
+#wfi-hero .hero-content.hero-full-image .text-overlay p {
+    top:10px
+}
+
+#wfi-hero .hero-content.hero-full-image .mobile-hero {
+    display: none;
+}
+
+
+
+#wfi-hero2 .hero-content.hero-full-image {
+    min-height: 525px;
+    position: relative;
+    background: url(https://recruit.smashfly.com/SmashFlyMedia/Images/14319/14319_1490_quote-david.png) 20% center/cover no-repeat
+}
+
+@media only screen and (max-width: 750px) {
+        #wfi-hero2 .hero-content.hero-full-image {
+    min-height: 955px;
+    }
+    
+    #wfi-hero2 .hero-content.hero-full-image .text-overlay h1 {
+        padding-left:30px;
+        width:350px;
+    }
+    
+    #wfi-hero2 .hero-content.hero-full-image .text-overlay h3 {
+        width:325px;
+    }
+    
+    #wfi-hero2 .hero-content.hero-full-image .text-overlay {
+        left:0px;
+    }
+    
+    #wfi-hero2 .hero-content.hero-full-image .text-overlay h1:before {
+    left: 15px !important;
+}
+    
+    #wfi-hero2 .hero-content.hero-full-image .mobile-hero {
+    display: inherit !important;
+}
+}
+
+@media (min-width: 64rem){    
+    #wfi-hero2 .hero-content.hero-full-image .text-overlay {
+        top:120px;
+        left:80px;
+        max-width: 555px;
+    }
+    
+    #wfi-hero2 .hero-content.hero-full-image .text-overlay h1 {
+        max-width: 550px;
+    }
+    
+    #wfi-hero2 .hero-content.hero-full-image .text-overlay p {
+        width: 500px;
+    }
+}
+
+#wfi-hero2 .hero-content.hero-full-image .text-overlay h3:before {
+    display: inline;
+    margin-right: 9px;
+    content: '\201C';
+    font-size: 4.5rem;
+    line-height: 0;
+    vertical-align: -webkit-baseline-middle;
+    font-weight: 500;
+    color: #d1cccc;
+    margin-left: -40px;
+    
+}
+
+#wfi-hero2 .hero-content.hero-full-image .text-overlay p:nth-of-type(1):after {
+    display: inline;
+    margin-left: 9px;
+    content: '\201D';
+    font-size: 4.5rem;
+    line-height: 0;
+    vertical-align: -webkit-baseline-middle;
+    font-weight: 500;
+    top: 0.5vw;
+    position: relative;
+    float: right;
+    margin-top: 3rem;
+    font-style: normal;
+    color: #d1cccc;
+}
+
+#wfi-hero2 .hero-content.hero-full-image .text-overlay h3 {
+    left: 25px;
+    position: relative;
+    margin-bottom: 0;
+    font-size: 1.35em;
+}
+
+#wfi-hero2 .hero-content.hero-full-image .text-overlay p {
+    top:10px
+}
+
+#wfi-hero2 .hero-content.hero-full-image .text-overlay p.name {
+    font-size: 1em;
+}
+
+#wfi-hero2 .hero-content.hero-full-image .mobile-hero {
+    display: none;
+}
+
+
+
+
+#wfi .lite-blue_bg {
+    background: #b8e3eb;
+}
+
+#wfi .dark-blue_bg {
+    background: #00334b;
+    color: #fff;
+}
+
+#wfi .red_bg {
+    background: #c00;
+    color: #fff
+}
+
+#wfi .orange_bg {
+    background: #cb6500;
+    color: #fff
+}
+
+#wfi .quote_bg {
+    background: url(https://recruit.smashfly.com/SmashFlyMedia/Images/14319/14319_1492_smiling-people.jpg);
+    background-size: cover;
+    color: #fff;
+    height: 500px;   
+    padding-left: 12em;
+}
+
+@media screen and (max-width: 750px) {
+    
+    
+    .quote .container {
+        align-items: flex-end !important;
+    }
+    
+    #wfi .quote_bg  p:first-of-type {
+    font-size: 1.5em !important;
+}
+    
+    #wfi .quote_bg p:first-of-type:before, #wfi .quote_bg p:first-of-type:after {
+         font-size: 4rem !important;
+    }
+    
+    #wfi .quote_bg {
+    background-position: right;
+}
+}
+
+#wfi .quote_bg .content-wrapper {
+    background: rgba(0,0,0,.75);
+    padding: 30px 30px;
+}
+
+#wfi .quote_bg  p:first-of-type {
+    font-size: 1.25em;
+}
+ 
+
+
+#wfi .orange_bg .content-wrapper .btn-white:hover {
+    color: #cb6500 !important;
+}
+
+#wfi .purple_bg {
+    background: #93277e;
+    color: #fff
+}
+
+#wfi .purple_bg .content-wrapper .btn-white:hover {
+    color: #93277e !important;
+}
+
+#wfi .container {
+    align-items: center;
+  justify-content: center;
+}
+
+#wfi .item-1 {
+   padding: 0 !important; 
+}
+
+#wfi .item-2 {
+    padding: 0 !important;
+    flex: 1;
+}
+
+@media only screen and (max-width: 750px) {
+    #wfi .item-2 {
+        order: 2;
+    }
+    
+    #wfi .content-wrapper {
+        padding: 0 2em !important;
+    }
+    
+    #wfi .quote_bg .content-wrapper {
+        padding: 2em 2em !important;
+    }
+    
+    #wfi .quote_bg .item-2 {
+        flex: 1 1 auto !important;
+    }
+    
+    #wfi .red_bg .content-wrapper .btn-white, #wfi .orange_bg .content-wrapper .btn-white {
+    width:100% !important;
+    max-width:1000px !important;
+}
+    
+    #wfi .quote_bg {
+        padding-left:0;
+    }
+    
+    #wfi .quote_bg .content-wrapper p {
+        font-size:1em !important;
+    }
+    
+    #wfi .quote_bg .content-wrapper h1 {
+        margin-bottom:.25em !important;
+    }
+}
+
+
+#wfi .image-container img {
+    width: 100%;
+    max-width: 100%;
+}
+
+#wfi .content-wrapper {
+    padding: 0 4em;
+}
+
+#wfi .content-wrapper p {
+    font-weight: 300;
+    line-height: 1.5;
+}
+
+#wfi .red_bg .content-wrapper .btn-white, #wfi.orange_bg .content-wrapper .btn-white {
+    width:75%;
+    /*max-width:800px;*/
+}
+
+#wfi.text-callout {
+    background: #c00;
+}
+
+@media only screen and (min-width: 750px) {
+    #wfi.text-callout .icon {
+    width: 56px !important;
+    height:70px !important;
+    }
+    
+}
+
+@media only screen and (max-width: 750px) {
+    #wfi .video-label {
+        display: none !important;
+    }
+    
+    #wfi .text-callout br {
+        display: none !important;
+    }
+ 
+}
+
+#wfi.text-callout .icon {
+    width: 27px;
+    height: 35px;
+    background: url(https://recruit.smashfly.com/SmashFlyMedia/Images/14319/14319_1548_wfi_icon.png);
+    display: inline-block;
+    background-repeat: no-repeat;
+    background-size: contain;
+    vertical-align: sub;
+    margin: 0 5px;
+}
+
+#wfi a.video-link {
+    position: relative;
+    padding: 0 !important;
+    display: block;
+}
+
+
+
+#wfi a.video-link:before {
+    border-radius: 50%;
+    border: 2px solid #fff;
+    z-index: 5;
+    height: 45px;
+    margin-left: -23px;
+    margin-top: -23px;
+    width: 45px;
+    content: "";
+    left: 50%;
+    position: absolute;
+    top: 50%;
+    transition: all 0.2s ease-in-out;
+}
+
+#wfi a.video-link:after {
+        content: "";
+    left: 50%;
+    position: absolute;
+    top: 50%;
+    transition: all 0.2s ease-in-out;
+    z-index: 5;
+    border: 11px solid transparent;
+    border-left: 16px solid white;
+    margin-left: -4px;
+    margin-top: -10px;
+}
+
+@media only screen and (min-width: 750px) {
+    #wfi a.video-link:before {
+        height: 95px;
+        margin-left: -45px;
+        margin-top: -45px;
+        width: 95px;
+    }
+    
+    #wfi a.video-link:after {
+        border: 26px solid transparent;
+    border-left: 41px solid white;
+    margin-left: -12px;
+    margin-top: -22px;
+    }
+}
+
+#wfi .video-label {
+    display: block;
+    color: white;
+    left: 0;
+    margin: 0;
+    padding: 50% 2em 1em 1em;
+    position: absolute;
+    bottom: 0;
+    width: 100% !important;
+    z-index: 2;
+    font-size: 2rem;
+    line-height: 1.2;
+    font-weight: 900;
+    background: linear-gradient(to bottom, rgba(255,255,255,0) 0%,#000000 98%);
+}
+
