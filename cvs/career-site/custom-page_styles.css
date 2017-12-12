@@ -1914,3 +1914,954 @@
     background: linear-gradient(to bottom, rgba(255,255,255,0) 0%,#000000 98%);
 }
 
+/* Minute Clinic Page */
+
+#mc-hero .hero-content.hero-full-image {
+    min-height: 325px;
+    position: relative;
+    background: url(https://recruit.smashfly.com/SmashFlyMedia/Images/14319/14319_1556_clinicalpract.jpg) 20% center/cover no-repeat
+}
+
+@media only screen and (max-width: 750px) {
+        #mc-hero .hero-content.hero-full-image {
+    min-height: 200px;
+    }
+    
+    #mc-hero .hero-content.hero-full-image .text-overlay h1 {
+        padding-left:.25em;
+    }
+    
+    #mc-hero .hero-content.hero-full-image .text-overlay h1:before {
+    left: -10px !important;
+}
+    
+    #mc-hero .hero-content.hero-full-image .text-overlay h1 {
+        max-width: 300px;
+    }
+}
+
+@media (min-width: 64rem){    
+    #mc-hero .hero-content.hero-full-image .text-overlay {
+        top:100px;
+        width: 550px
+    }
+    
+    #mc-hero .hero-content.hero-full-image .text-overlay h1 {
+        width: 550px;
+        max-width: 550px;
+    }
+}
+
+#mc-hero .hero-content.hero-full-image .text-overlay h1:before {
+    background-image: url(https://recruit.smashfly.com/SmashFlyMedia/Images/14319/14319_1476_flipped_heart.png),none;
+    background-size: 20px;
+    background-repeat: no-repeat;
+    content: "";
+    height: 20px;
+    left: 6px;
+    position: absolute;
+    top: 10;
+    width: 20px; 
+}
+
+#mc {
+    background: #e9e9e9;
+}
+
+#mc .body-copy {
+    background: #fff;
+    padding: 32px;
+}
+
+#mc .body-copy ul {
+    list-style: disc;
+}
+
+#mc .body-copy ul.indent {
+    margin-right: 0px;
+    padding-left: 30px;
+    padding-right: 0px;
+}
+
+#mc .body-copy a {
+    color: #c00;
+}
+
+
+@media only screen and (min-width: 750px) {
+    #mc .first {
+        padding-left: 0 !important;
+    }
+
+    #mc .second {
+        padding-right: 0 !important;
+    }
+    
+    #mc .full-width {
+        padding: 0 !important;
+    }
+}
+
+#mc .color-box-teal {
+    background-color: #37baab;
+    color: #fff;
+    margin: 0 0 32px;
+    float: left;
+}
+
+#mc .color-box-red {
+    background-color: #c00;
+    color: #fff;
+    margin: 0 0 32px;
+    float: left;
+    position: relative;
+}
+
+#mc .color-box-teal>div.content-wrapper {
+    float: right;
+    padding: 32px 32px 0 0;
+    width: calc(64% - 32px);
+    min-height: 255px;
+}
+
+#mc .color-box-red>div.content-wrapper {
+    float: none;
+    padding: 32px 32px 0px 20px;
+    width: 100%;
+    min-height: 235px;
+}
+
+#mc .color-box-teal .content-wrapper h3, #mc .color-box-red .content-wrapper h3 {
+     font-size: 1.75em;
+     line-height: 1.25em;
+}
+
+#mc .color-box-teal>div.image-wrapper {
+    float: left;
+    padding: 2px;
+    width: 36%;
+    position: relative;
+}
+
+#mc .color-box-red>div.image-wrapper {
+    float: left;
+    position: absolute !important;
+    top: 55px;
+    right: 20px;
+    padding: 0 !important;
+}
+
+#mc .color-box-teal .content-wrapper a, #mc .color-box-red .content-wrapper a {
+    color: #fff;
+}
+
+#mc .color-box-teal .content-wrapper a:hover, #mc .color-box-red .content-wrapper a:hover {
+    text-decoration: underline;
+}
+
+#mc .color-box-teal .image-wrapper {
+    padding-top:35px !important;
+}
+
+#mc .color-box-red .image-wrapper {
+    padding-top: 50px !important;
+}
+
+#mc .color-box-teal .image-wrapper img, #mc .color-box-red .image-wrapper img  {
+    width: 100%;
+}
+
+#mc .related-content {
+    float: left;
+    margin: 0 auto;
+    width: 100%;
+    background: #fff;
+}
+
+#mc .related-content .related-content-img-wrap {
+    width: 35%;
+    float: left;
+}
+
+@media only screen and (max-width: 750px) {
+    #mc .related-content .related-content-img-wrap {
+        width: 100% !important;
+    }
+    #mc .related-content .related-content-link-wrap {
+        width: 100% !important;
+        padding-top: 0 !important;
+    }
+}
+
+#mc .related-content .related-content-img-wrap img {
+    width: 100%;
+    max-width: 100%;
+}
+
+#mc .related-content .related-content-link-wrap {
+    display: inline-block;
+    width: calc(65% - 64px);
+    padding: 40px 32px 0 32px;
+}
+
+#mc .related-content .related-content-link-wrap h4 {
+    font-size: 1.75em;
+    line-height: 1em;
+}
+
+#mc .related-content .related-content-link-wrap p {
+    color: #646464;
+}
+
+#mc .related-content .related-content-link-wrap a {
+    color:#c00;
+}
+
+#mc .related-content .related-content-link-wrap a:hover {
+    text-decoration: underline;
+}
+
+#mc .minute-stats {
+    background: #c00 url(https://recruit.smashfly.com/SmashFlyMedia/Images/14319/14319_1557_check-up.jpg) no-repeat;
+    background-size: 480px;
+    padding: 314px 0 0;
+    margin-bottom: 20px;
+    clear: both;
+}
+
+@media screen and (min-width: 480px) {
+#mc .minute-stats {
+    background-size: 680px;
+    padding: 445px 0 0;
+}
+}
+
+@media screen and (min-width: 680px) {
+#mc .minute-stats {
+    padding: 0 0 0 35%;
+    background-position: -200px top;
+}
+}
+
+@media screen and (min-width: 800px) {
+#mc .minute-stats {
+    margin: 0 10px 20px;
+}
+}
+
+@media screen and (min-width: 1020px) {
+#mc .minute-stats {
+    background-position: left top;
+    padding-left: 490px;
+    margin: 0 1.5873% 20px;
+}
+}
+
+
+
+
+@media screen and (min-width: 680px) {
+#mc .minute-stats ul {
+    padding: 25px 35px 25px 25px !important;
+}
+}
+
+#mc .minute-stats ul {
+    background: #c00;
+    padding: 25px 20px;
+   display: table;
+    width: 100%;
+}
+
+.minute-stats li:first-of-type {
+    border-top: 2px solid #000;
+}
+
+.minute-stats li {
+    padding: 18px 0 20px;
+    border-bottom: 2px solid #000;
+    color: #fff;
+    font-weight: bold;
+    display: block;
+    text-align: center;
+    box-sizing: border-box;
+    white-space: nowrap;
+    font-size: 14px;
+}
+
+@media screen and (min-width: 680px) {
+.minute-stats li:nth-child(2) {
+    border-right: 1px solid #000;
+}
+}
+
+@media screen and (min-width: 680px) {
+.minute-stats li:nth-child(n+2) {
+    width: 50%;
+    float: left;
+}
+}
+
+@media screen and (min-width: 680px) {
+.minute-stats li:last-of-type {
+    border-left: 1px solid #000;
+}
+}
+
+@media screen and (min-width: 680px) {
+.minute-stats li:nth-child(n+2) {
+    width: 50%;
+    float: left;
+}
+}
+
+.minute-stats li:first-of-type:before {
+    content: url(https://recruit.smashfly.com/SmashFlyMedia/Images/14319/14319_1558_stat1.png);
+}
+
+.minute-stats li:nth-child(2):before {
+    content: url(https://recruit.smashfly.com/SmashFlyMedia/Images/14319/14319_1559_stat2.png);
+}
+
+.minute-stats li:last-of-type:before {
+    content: url(https://recruit.smashfly.com/SmashFlyMedia/Images/14319/14319_1560_stat3.png);
+}
+
+@media screen and (min-width: 680px) {
+.minute-stats li:before {
+    height: 132px;
+}
+}
+
+.minute-stats li:before {
+    display: block;
+}
+
+
+#tweet-my-jobs {
+    display: none;
+    margin: 0 1.5873% 32px;
+}
+
+
+@media screen and (min-width: 1020px) {
+#tweet-my-jobs {
+    display: block;
+}
+}
+
+@media screen and (min-width: 1020px) {
+.careerarc-mobile {
+    display: none;
+}
+}
+
+@media screen and (min-width: 800px) {
+.minute-home-content {
+    display: flex;
+}
+}
+
+@media screen and (min-width: 800px) {
+.minute-home-content div {
+    width: 24%;
+    margin: 1%;
+    padding: 0;
+}
+}
+
+.minute-home-content p {
+    padding-top:.5em;
+}
+
+.minute-home-content a {
+    text-decoration: underline;
+}
+
+#mc .btn-wrapper {
+    text-align: center;
+} 
+
+#mc .body-copy.red {
+    background: #c00;
+    color: #fff;
+}
+
+#mc .body-copy.red .btn {
+    max-width: 320px;
+}
+
+.college-tables {
+    margin: 0 0 1.25em;
+    max-width: 490px;
+}
+
+.college-tables table {
+    width: 100%;
+    margin: 0 0 1.25em;
+}
+
+.college-tables th {
+    color: #fff;
+    background: #c00;
+    border: 1px solid #c00;
+    text-align: left;
+}
+
+.college-tables th, .college-tables td {
+    vertical-align: middle;
+    padding: 15px;
+}
+
+.college-tables td {
+    width: 50%;
+    border: 1px solid #999;
+}
+
+.sponsors {
+    width: 100%;
+    list-style: none;
+    padding: 20px 0 1px;
+    text-align: center;
+    font-size: 0;
+}
+
+
+.sponsors li.sponsor1 {
+    background: url(https://recruit.smashfly.com/SmashFlyMedia/Images/14319/14319_1561_sponsor1.png) no-repeat center top;
+    height: 104px;
+}
+
+
+    
+.sponsors li.sponsor2 {
+    background: url(https://recruit.smashfly.com/SmashFlyMedia/Images/14319/14319_1562_sponsor2.png) no-repeat center top;
+    height: 140px;
+}
+
+
+
+.sponsors li.sponsor3 {
+    background: url(https://recruit.smashfly.com/SmashFlyMedia/Images/14319/14319_1563_sponsor3.png) no-repeat center top;
+    height: 140px;
+}
+
+
+    
+
+.sponsors li {
+    display: block;
+    margin-bottom: 20px;
+}
+
+@media screen and (min-width: 800px) {
+.sponsors li {
+    display: inline-block;
+    width: 33.33%;
+    height: 140px !important;
+}
+}
+
+
+/* Military Clinic Page */
+
+#military-hero .hero-content.hero-full-image {
+    min-height: 325px;
+    position: relative;
+    background: url(https://recruit.smashfly.com/SmashFlyMedia/Images/14319/14319_1564_military-cp-header-v4.jpg) 20% center/cover no-repeat
+}
+
+@media only screen and (max-width: 750px) {
+        #military-hero .hero-content.hero-full-image {
+    min-height: 200px;
+    }
+    
+    #military-hero .hero-content.hero-full-image .text-overlay h1 {
+        padding-left:.25em;
+    }
+    
+    #military-hero .hero-content.hero-full-image .text-overlay h1:before {
+    left: -10px !important;
+}
+    
+    #military-hero .hero-content.hero-full-image .text-overlay h1 {
+        max-width: 300px;
+    }
+}
+
+@media (min-width: 64rem){    
+    #military-hero .hero-content.hero-full-image .text-overlay {
+        top:70px;
+        width: 550px
+    }
+    
+    #military-hero .hero-content.hero-full-image .text-overlay h1 {
+        width: 550px;
+        max-width: 550px;
+    }
+}
+#military-hero .hero-content.hero-full-image .text-overlay h1:before {
+    background-image: url(https://recruit.smashfly.com/SmashFlyMedia/Images/14319/14319_1476_flipped_heart.png),none;
+    background-size: 20px;
+    background-repeat: no-repeat;
+    content: "";
+    height: 20px;
+    left: 6px;
+    position: absolute;
+    top: 10;
+    width: 20px; 
+}
+
+.rewards-logos {
+    width: 100%;
+    text-align: center;
+}
+
+.rewards-logos img {
+    max-width: 180px;
+}
+
+@media screen and (min-width: 800px) {
+.rewards-logos img {
+    max-width: calc(20% - 40px);
+}
+}
+
+#military {
+    background: #e9e9e9;
+}
+
+
+#military .color-boxes {
+    width: 100%;
+    display: block;
+}
+
+@media screen and (min-width: 800px) {
+#military .color-boxes {
+    display: inline-flex !important;
+    justify-content: space-between !important;
+    flex-wrap: wrap !important;
+}
+}
+
+
+#military .color-boxes>div:nth-child(1) {
+    background: #ea7600;
+    color: #fff;
+}
+
+#military .color-boxes>div:nth-child(2) {
+    background: #a7ce39;
+    color: #fff;
+}
+
+#military .color-boxes>div:nth-child(3) {
+    background: #93277e;
+    color: #fff;
+}
+
+#military .color-boxes>div:nth-child(4) {
+    background: #8c8c8c;
+    color: #fff;
+}
+
+
+#military .color-boxes>div {
+    padding: 20px 10px 10px;
+    background: #fe9f;
+    margin: 20px 0;
+}
+
+
+@media screen and (min-width: 800px) {
+#military .color-boxes>div {
+    width: 48%;
+    box-sizing: border-box;
+    padding: 20px 40px 50px 40px !important;
+    position: relative;
+}
+}
+
+
+#military .color-boxes>div a {
+    color: white;
+    font-weight: bold;
+}
+
+@media screen and (min-width: 800px) {
+#military .color-boxes>div a {
+    position: absolute;
+    bottom: 20px;
+    left: 40px;
+}
+}
+
+
+#military .serving {
+    background: white;
+}
+
+@media screen and (min-width: 800px) {
+#military .serving {
+    position: relative;
+    min-height: 465px;
+}
+}
+
+
+#military .serving h2 {
+    color: #d00000;
+    font-size: 30px;
+    padding: 50px 10px 15px;
+    margin-bottom: 0;
+}
+
+
+@media screen and (min-width: 800px) {
+#military .serving h2 {
+    max-width: 50%;
+    font-size: 70px !important;
+    line-height: 80px;
+    margin-left: 40px;
+    z-index: 9999;
+    position: relative;
+}
+}
+
+
+#military .serving p {
+    padding: 0 10px 0px;
+    font-size: 19px;
+    color: #8c8c8c;
+}
+
+@media screen and (min-width: 800px) {
+#military .serving p {
+    max-width: 40%;
+    font-size: 25px !important;
+    line-height: 30px;
+    margin-left: 40px;
+    position: relative;
+    z-index: 9999;
+}
+}
+
+
+#military .serving img {
+    height: auto;
+    max-width: 100%;
+}
+
+
+@media screen and (min-width: 800px) {
+#military .serving img {
+    position: absolute;
+    top: 0;
+    right: 0;
+}
+}
+
+
+#military .values {
+    background: white;
+    margin: 40px 0;
+    padding-bottom: 20px;
+    padding: 30px;
+}
+
+
+@media screen and (min-width: 800px) {
+#military .values {
+    padding: 30px;
+    position: relative;
+}
+}
+
+
+#military .values img {
+    display: block;
+    width: 130px;
+    margin: 0 auto 30px;
+}
+
+@media screen and (min-width: 800px) {
+#military .values img {
+    top: 10px;
+    right: 20px;
+    position: absolute;
+}
+}
+
+@media screen and (min-width: 800px) {
+#military .values p:first-of-type {
+    max-width: calc(100% - 150px) !important;
+    display: block;
+}
+}
+
+#military .values p span {
+    color: #cc0000;
+    font-weight: bold;
+}
+
+#military .military-profiles {
+    padding:0 30px;
+}
+
+#military .military-profiles ul {
+    width: 80%;
+    margin: 0 auto;
+    list-style: none;
+}
+
+
+@media screen and (min-width: 800px) {
+#military .military-profiles ul {
+    width: 100% !important;
+    display: inline-flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 10px;
+}
+}
+
+@media screen and (min-width: 800px) {
+#military .military-profiles ul>li {
+    width: 28% !important;
+    margin:0 auto 20px;
+    text-align: center;
+}
+}
+
+#military .military-profiles ul>li p {
+    color: #c00;
+    font-size: 30px;
+    font-weight: bold;
+    display: block;
+    text-align: center;
+    margin-top: 20px;
+}
+
+
+@media screen and (min-width: 800px) {
+.profile-info {
+    max-width: 30%;
+    display: inline-block;
+    vertical-align: top;
+}
+}
+
+.profile-info img {
+    width: 100%;
+    max-width: 258px;
+    display: table;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+
+
+.profile-info .profile-name {
+    color: #cc0000;
+    font-weight: bold;
+    text-align: left;
+    display: block;
+    margin: 20px 0 20px;
+    font-size: 25px;
+}
+
+@media screen and (min-width: 800px) {
+.profile-info .profile-name {
+    color: #cc0000;
+    font-weight: bold;
+    text-align: center;
+    display: block;
+    margin-top: 20px;
+    font-size: 25px;
+}
+
+}
+.profile-summary {
+    max-width: 100%;
+    display: block;
+}
+    
+    @media screen and (min-width: 800px) {
+.profile-summary {
+    max-width: calc(68% - 40px);
+    display: inline-block;
+    vertical-align: top;
+    margin: 0 20px;
+    position: relative;
+}
+    }
+
+.profile-summary h3 {
+    color: #d00000;
+    font-size: 22px;
+    margin-top: 0;
+}
+
+.profile-summary p {
+    color: #666666;
+    font-size: 18px !important;
+    font-weight: normal !important;
+    padding: 0 !important;
+    margin: 0 0 10px;
+    text-align: left !important;
+    line-height: 20px;
+}
+
+@media screen and (max-width: 800px) {
+   .profile-summary p {
+
+    font-size: 13px !important;
+    line-height: 15px;
+} 
+    
+    .profile-summary h3 {
+    color: #d00000;
+    font-size: 16px;
+    margin-top: 0;
+        line-height: 18px;
+}
+}
+
+
+
+.linkedin-anchor {
+    background: #cc0000;
+    color: white;
+    margin-bottom: 20px;
+    padding: 8px 10px;
+}  
+    
+    .linkedin-anchor:hover, .linkedin-anchor:visited  { 
+        color:#fff;
+    }
+    
+
+    .military-intro .btn {
+        max-width: 320px;
+    }  
+
+    
+
+#military .community {
+    background: #b8e3eb;
+    padding: 30px 0;
+    margin-bottom: 30px;
+}
+    
+    @media screen and (min-width: 800px) {
+#military .community {
+    display: inline-flex;
+    width: 100%;
+}
+    }
+    
+
+#military .community img {
+    display: block;
+    margin: 0 auto;
+    width: 210px;
+}    
+    
+    @media screen and (min-width: 800px) {
+#military .community img {
+    width: 210px !important;
+    height: 89px !important;
+    margin-right: 60px !important;
+    margin-top: 20px !important;
+}
+    }
+
+
+ #military .community h2 {
+    color: #cd2027;
+    
+}
+    
+    #military .community p {
+    color: #646464;
+    line-height: 18px;
+    padding: 0 20px 0 0;
+}
+    
+    
+#military .job-list {
+    background: white;
+    margin: 40px 0;
+    padding: 30px;
+    box-sizing: border-box;
+    width: 100%;
+}     
+    
+    @media screen and (min-width: 800px) {
+#military .job-list {
+    clear: both;
+    margin-top: 20px !important;
+}
+    }
+  
+
+
+/*#military .job-list ul {
+    margin: 0 30px !important;
+} */   
+    
+    @media screen and (min-width: 800px) {
+#military .job-list ul {
+    -webkit-column-count: 2;
+    -moz-column-count: 2;
+    column-count: 2;
+}
+    }
+
+
+#military .job-list ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+    
+#military .job-list ul li {
+    display: block;
+    padding: 0 !important;
+    margin: 10px 0 !important;
+}   
+    
+#military .job-list ul li a {
+    color: #cc0000 !important;
+    font-size: 14px;
+    line-height: 12px;
+    font: initial;
+    font-family: "Helvetica Neue", Helvetica, Sans-serif, Arial;
+}    
+
+.military-bya .item-1:first-of-type {
+    padding-left:0 !important;
+}
+
+.military-bya .item-1:nth-of-type(2) {
+    padding-right:0 !important;
+}
+
+
+
+.military-bya .body-copy:nth-of-type(2) {
+    background: #00334b !important;
+    color: #fff;
+}
+
+.military-bya .body-copy:nth-of-type(3) {
+    background: #c00 !important;
+    color: #fff;
+}
+
+.military-bya .btn:nth-of-type(2) {
+    max-width: 300px;
+}
