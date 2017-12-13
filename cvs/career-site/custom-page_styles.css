@@ -3754,7 +3754,7 @@
 
 
 
-#whycvs .video-wrapper {
+#whycvs .video-wrapper, #mc .video-wrapper {
     position: relative;
     padding-bottom: 35%;
     height: 0;
@@ -3766,7 +3766,7 @@
     width: 100%;
 }
 
-#whycvs .video-wrapper iframe {
+#whycvs .video-wrapper iframe, #mc .video-wrapper iframe {
     position: absolute;
     top: 0;
     left: 0;
@@ -3776,7 +3776,7 @@
 }
 
 @media only screen and (max-width: 750px) {
-    #whycvs .video-wrapper {
+    #whycvs .video-wrapper, #mc .video-wrapper {
         padding-bottom: 65%;
     }
 }
@@ -3790,3 +3790,133 @@ ul.indent {
 ul.indent li {
     list-style: disc;
 }
+
+
+/* Meet the Team/Video Page */
+
+#mtt-hero .hero-content.hero-full-image {
+    min-height: 325px;
+    position: relative;
+    background: url(https://recruit.smashfly.com/SmashFlyMedia/Images/14319/14319_1648_home-slide-3-lg.jpg) 20% center/cover no-repeat
+}
+
+@media only screen and (max-width: 750px) {
+        #mtt-hero .hero-content.hero-full-image {
+    min-height: 200px !important;
+    }
+    
+    #mtt-hero .hero-content.hero-full-image .text-overlay h1 {
+        padding-left:.25em;
+    }
+    
+    #mtt-hero .hero-content.hero-full-image .text-overlay h1:before {
+    left: -10px !important;
+}
+    
+    #mtt-hero .hero-content.hero-full-image .text-overlay h1 {
+        max-width: 300px;
+    }
+}
+
+@media (min-width: 64rem){    
+    #mtt-hero .hero-content.hero-full-image .text-overlay {
+        top:100px;
+        width: 550px
+    }
+    
+    #mtt-hero .hero-content.hero-full-image .text-overlay h1 {
+        width: 550px;
+        max-width: 550px;
+    }
+}
+
+#mtt-hero .hero-content.hero-full-image .text-overlay h1:before {
+    background-image: url(https://recruit.smashfly.com/SmashFlyMedia/Images/14319/14319_1476_flipped_heart.png),none;
+    background-size: 20px;
+    background-repeat: no-repeat;
+    content: "";
+    height: 20px;
+    left: 6px;
+    position: absolute;
+    top: 10;
+    width: 20px; 
+}
+
+#portfolio {  
+    margin: 1rem 0;
+    -webkit-column-count: 4; 
+    -moz-column-count: 4;
+    column-count: 4;
+    -webkit-column-gap: 1rem;
+    -moz-column-gap: 1rem;
+    column-gap: 1rem;
+    -webkit-column-width: 25%;
+    -moz-column-width: 25%;
+    column-width: 25%;
+}
+
+@media only screen and (max-width: 750px) {
+   #portfolio {  
+    margin: 1rem 0;
+    -webkit-column-count: 1; 
+    -moz-column-count: 1;
+    column-count: 1;
+    -webkit-column-gap: 1rem;
+    -moz-column-gap: 1rem;
+    column-gap: 1rem;
+
+} 
+    
+}
+
+.tile { 
+    -webkit-transform: scale(0);
+    transform: scale(0);
+    -webkit-transition: all 350ms ease;
+    transition: all 350ms ease;
+    min-height: 225px;
+}
+.tile:hover > .video-link img { 
+ opacity: .5;
+}
+
+.scale-anm {
+  transform: scale(1);
+}
+
+
+
+.tile img {
+    max-width: 100%;
+    width: 100%;
+    height: auto;
+    margin-bottom: 1rem;
+  
+}
+
+.btn-portfolio {
+    font-size: 1rem;
+    font-weight: normal;
+    text-decoration: none;
+    cursor: pointer;
+    display: inline-block;
+    line-height: normal;
+    padding: .5rem 1rem !important;
+    margin: 0;
+    height: auto;
+    border: 1px solid;
+    vertical-align: middle;
+    -webkit-appearance: none;
+    color: #00334b !important;
+    background-color: rgba(0, 0, 0, 0);
+}
+
+.btn-portfolio:hover {
+  text-decoration: none;
+    background-color: #00334b;
+    color: #fff !important;
+}
+
+
+
+
