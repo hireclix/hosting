@@ -3389,3 +3389,382 @@
     margin-top: 20px !important;
 }
     }
+
+
+/* Why CVS Page */
+
+#whycvs-hero .hero-content.hero-full-image {
+    min-height: 375px;
+    position: relative;
+    background: url(https://recruit.smashfly.com/SmashFlyMedia/Images/14319/14319_1611_whycvs-hero.jpg) 20% center/cover no-repeat
+}
+
+@media only screen and (max-width: 750px) {
+        #whycvs-hero .hero-content.hero-full-image {
+    min-height: 675px;
+    }
+    
+    #whycvs-hero .hero-content.hero-full-image .text-overlay h1 {
+        padding-left:30px;
+        width:350px;
+    }
+    
+    #whycvs-hero .hero-content.hero-full-image .text-overlay {
+        left:0px;
+    }
+    
+    #whycvs-hero .hero-content.hero-full-image .text-overlay h1:before {
+    left: 15px !important;
+}
+    
+    #whycvs-hero .hero-content.hero-full-image .mobile-hero {
+    display: inherit !important;
+}
+}
+
+@media (min-width: 64rem){    
+    #whycvs-hero .hero-content.hero-full-image .text-overlay {
+        top:90px;
+        max-width: 550px;
+    }
+    
+    #whycvs-hero .hero-content.hero-full-image .text-overlay h1 {
+        max-width: 550px;
+    }
+    
+    #whycvs-hero .hero-content.hero-full-image .text-overlay p {
+        width: 500px;
+    }
+}
+
+#whycvs-hero .hero-content.hero-full-image .text-overlay h1:before {
+    background-image: url(https://recruit.smashfly.com/SmashFlyMedia/Images/14319/14319_1476_flipped_heart.png),none;
+    background-size: 20px;
+    background-repeat: no-repeat;
+    content: "";
+    height: 20px;
+    left: 6px;
+    position: absolute;
+    top: 10;
+    width: 20px; 
+}
+
+#whycvs-hero .hero-content.hero-full-image .text-overlay h3 {
+    left: 25px;
+    position: relative;
+    margin-bottom: 0;
+}
+
+#whycvs-hero .hero-content.hero-full-image .text-overlay p {
+    top:10px
+}
+
+#whycvs-hero .hero-content.hero-full-image .mobile-hero {
+    display: none;
+}
+
+
+#whycvs {
+    background: #e9e9e9;
+}
+
+#whycvs .body-copy {
+    background: #fff;
+    padding: 32px;
+}
+
+#whycvs .body-copy ul {
+    list-style: disc;
+}
+
+#whycvs .body-copy ul.indent {
+    margin-right: 0px;
+    padding-left: 30px;
+    padding-right: 0px;
+}
+
+#whycvs .body-copy a {
+    color: #c00;
+}
+
+
+@media only screen and (min-width: 750px) {
+    #whycvs .first {
+        padding-left: 0 !important;
+    }
+
+    #whycvs .second {
+        padding-right: 0 !important;
+    }
+    
+    #whycvs .full-width {
+        padding: 0 !important;
+    }
+}
+
+#whycvs .color-box-teal {
+    background-color: #37baab;
+    color: #fff;
+    margin: 0 0 32px;
+    float: left;
+}
+
+#whycvs .color-box-red {
+    background-color: #c00;
+    color: #fff;
+    margin: 0 0 32px;
+    float: left;
+    position: relative;
+}
+
+#whycvs .color-box-teal>div.content-wrapper {
+    float: right;
+    padding: 32px 32px 0 0;
+    width: calc(64% - 32px);
+    min-height: 255px;
+}
+
+#whycvs .color-box-red>div.content-wrapper {
+    float: none;
+    padding: 32px 32px 0px 20px;
+    width: 100%;
+    min-height: 235px;
+}
+
+#whycvs .color-box-teal .content-wrapper h3, #whycvs .color-box-red .content-wrapper h3 {
+     font-size: 1.75em;
+     line-height: 1.25em;
+}
+
+#whycvs .color-box-teal>div.image-wrapper {
+    float: left;
+    padding: 2px;
+    width: 36%;
+    position: relative;
+}
+
+#whycvs .color-box-red>div.image-wrapper {
+    float: left;
+    position: absolute !important;
+    top: 55px;
+    right: 20px;
+    padding: 0 !important;
+}
+
+#whycvs .color-box-teal .content-wrapper a, #whycvs .color-box-red .content-wrapper a {
+    color: #fff;
+}
+
+#whycvs .color-box-teal .content-wrapper a:hover, #whycvs .color-box-red .content-wrapper a:hover {
+    text-decoration: underline;
+}
+
+#whycvs .color-box-teal .image-wrapper {
+    padding-top:35px !important;
+}
+
+#whycvs .color-box-red .image-wrapper {
+    padding-top: 50px !important;
+}
+
+#whycvs .color-box-teal .image-wrapper img, #mc .color-box-red .image-wrapper img  {
+    width: 100%;
+}
+
+#whycvs .related-content {
+    float: left;
+    margin: 0 auto;
+    width: 100%;
+    background: #fff;
+}
+
+#whycvs .related-content .related-content-img-wrap {
+    width: 35%;
+    float: left;
+}
+
+@media only screen and (max-width: 750px) {
+    #whycvs .related-content .related-content-img-wrap {
+        width: 100% !important;
+    }
+    #whycvs .related-content .related-content-link-wrap {
+        width: 100% !important;
+        padding-top: 0 !important;
+    }
+}
+
+#whycvs .related-content .related-content-img-wrap img {
+    width: 100%;
+    max-width: 100%;
+}
+
+#whycvs .related-content .related-content-link-wrap {
+    display: inline-block;
+    width: calc(65% - 64px);
+    padding: 40px 32px 0 32px;
+}
+
+#whycvs .related-content .related-content-link-wrap h4 {
+    font-size: 1.75em;
+    line-height: 1em;
+}
+
+#whycvs .related-content .related-content-link-wrap p {
+    color: #646464;
+}
+
+#whycvs .related-content .related-content-link-wrap a {
+    color:#c00;
+}
+
+#whycvs .related-content .related-content-link-wrap a:hover {
+    text-decoration: underline;
+}
+
+#whycvs .minute-stats {
+    background: #c00 url(https://recruit.smashfly.com/SmashFlyMedia/Images/14319/14319_1557_check-up.jpg) no-repeat;
+    background-size: 480px;
+    padding: 314px 0 0;
+    margin-bottom: 20px;
+    clear: both;
+}
+
+@media screen and (min-width: 480px) {
+#mwhycvs .minute-stats {
+    background-size: 680px;
+    padding: 445px 0 0;
+}
+}
+
+@media screen and (min-width: 680px) {
+#whycvs .minute-stats {
+    padding: 0 0 0 35%;
+    background-position: -200px top;
+}
+}
+
+@media screen and (min-width: 800px) {
+#whycvs .minute-stats {
+    margin: 0 10px 20px;
+}
+}
+
+@media screen and (min-width: 1020px) {
+#whycvs .minute-stats {
+    background-position: left top;
+    padding-left: 490px;
+    margin: 0 1.5873% 20px;
+}
+}
+
+
+
+
+@media screen and (min-width: 680px) {
+#whycvs .minute-stats ul {
+    padding: 25px 35px 25px 25px !important;
+}
+}
+
+#whycvs .minute-stats ul {
+    background: #c00;
+    padding: 25px 20px;
+   display: table;
+    width: 100%;
+}
+
+
+
+#whycvs .video-wrapper {
+    position: relative;
+    padding-bottom: 35%;
+    height: 0;
+    overflow: hidden;
+    max-width: 100%;
+    clear: both;
+    display: flex;
+    margin: 0 auto;
+    width: 100%;
+}
+
+#whycvs .video-wrapper iframe {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    border: 0;
+}
+
+@media only screen and (max-width: 750px) {
+    #whycvs .video-wrapper {
+        padding-bottom: 65%;
+    }
+}
+
+
+
+
+.minute-stats li:first-of-type {
+    border-top: 2px solid #000;
+}
+
+.minute-stats li {
+    padding: 18px 0 20px;
+    border-bottom: 2px solid #000;
+    color: #fff;
+    font-weight: bold;
+    display: block;
+    text-align: center;
+    box-sizing: border-box;
+    white-space: nowrap;
+    font-size: 14px;
+}
+
+@media screen and (min-width: 680px) {
+.minute-stats li:nth-child(2) {
+    border-right: 1px solid #000;
+}
+}
+
+@media screen and (min-width: 680px) {
+.minute-stats li:nth-child(n+2) {
+    width: 50%;
+    float: left;
+}
+}
+
+@media screen and (min-width: 680px) {
+.minute-stats li:last-of-type {
+    border-left: 1px solid #000;
+}
+}
+
+@media screen and (min-width: 680px) {
+.minute-stats li:nth-child(n+2) {
+    width: 50%;
+    float: left;
+}
+}
+
+.minute-stats li:first-of-type:before {
+    content: url(https://recruit.smashfly.com/SmashFlyMedia/Images/14319/14319_1558_stat1.png);
+}
+
+.minute-stats li:nth-child(2):before {
+    content: url(https://recruit.smashfly.com/SmashFlyMedia/Images/14319/14319_1559_stat2.png);
+}
+
+.minute-stats li:last-of-type:before {
+    content: url(https://recruit.smashfly.com/SmashFlyMedia/Images/14319/14319_1560_stat3.png);
+}
+
+@media screen and (min-width: 680px) {
+.minute-stats li:before {
+    height: 132px;
+}
+}
+
+.minute-stats li:before {
+    display: block;
+}
