@@ -2865,3 +2865,254 @@
 .military-bya .btn:nth-of-type(2) {
     max-width: 300px;
 }
+
+
+/* How To Apply Page */
+
+.gray-search #job-search-partial {
+    background-color: #e9e9e9;
+}
+
+.gray-search #job-search-partial h2 {
+    color:#000;
+}
+
+.gray-search .search-map a {
+    color:#000;
+}
+
+.vjt-docs {
+    margin: 40px auto;
+    text-align: center;
+}
+
+
+
+.vjt-retail-doc {
+    background: #00334b;
+}
+
+.vjt-pbm-doc {
+    background: #b8e3eb;
+}
+
+@media screen and (min-width: 800px) {
+.vjt-retail-doc {
+    margin-right: 5%;
+}
+}
+
+
+
+.vjt-retail-doc, .vjt-pbm-doc {
+    padding: 15px;
+    margin-bottom: 10px;
+    position: relative;
+}
+
+@media screen and (min-width: 800px) {
+.vjt-retail-doc, .vjt-pbm-doc {
+    padding: 20px;
+    width: 300px;
+    display: inline-block;
+}
+}
+
+.vjt-retail-doc h2 {
+    background-image: url(https://recruit.smashfly.com/SmashFlyMedia/Images/14319/14319_1593_icon-building-white.png);
+}
+
+.vjt-pbm-doc h2 {
+    background-image: url(https://recruit.smashfly.com/SmashFlyMedia/Images/14319/14319_1594_icon-tasks-blue.png);
+}
+
+.vjt-retail-doc h2, .vjt-pbm-doc h2 {
+    margin: 0;
+    width: 80px;
+    background-repeat: no-repeat;
+    background-position: top left;
+    background-size: contain;
+    font-size: 24px;
+    text-align: left;
+    padding-left: 135px;
+    line-height: 32px;
+}
+
+.vjt-retail-doc * {
+    color: #fff;
+}
+
+.vjt-pbm-doc * {
+    color: #00334b;
+}
+
+@media screen and (min-width: 800px) {
+.vjt-retail-doc h2 {
+    font-size: 28px;
+    padding-left: 157px;
+    width: 90px;
+}
+    
+    .vjt-pbm-doc h2 {
+    font-size: 28px;
+    padding-left: 127px;
+    width: 90px;
+        margin-left: .5em;
+}
+}
+
+.vjt-retail-doc a, .vjt-pbm-doc a {
+    border: 1px solid;
+    padding: 10px;
+    display: block;
+    margin: auto;
+    text-align: center;
+    font-weight: bold;
+    width: 124px;
+    font-size: 12px;
+    line-height: 120%;
+}
+
+.vjt-issues {
+    background: #c00;
+    padding: 20px;
+}
+
+@media screen and (min-width: 800px) {
+.vjt-issues {
+    padding: 20px 160px;
+}
+}
+
+
+.vjt-issues p {
+    color: #fff;
+    margin: 0;
+    padding-left: 80px;
+    background-image: url(/images/icon-speech.png);
+    background-size: 62px auto;
+    background-position: top left;
+    background-repeat: no-repeat;
+    padding: 1em 0;
+}
+
+@media screen and (min-width: 800px) {
+.vjt-issues p {
+    text-align: center;
+    padding-left: 100px;
+}
+}
+
+.vjt.embed-container {
+    width: 80%;
+    margin: 40px auto;
+    padding-bottom: 44.35% !important;
+}
+
+
+.vjt.embed-container {
+    height: 0;
+    margin-bottom: 1em;
+    overflow: hidden;
+    padding-bottom: 56.25%;
+    padding-top: 30px;
+    position: relative;
+    max-width: 100%;
+}
+
+.vjt.embed-container iframe {
+    height: 100%;
+    left: 0;
+    position: absolute;
+    top: 0;
+    width: 100%;
+}
+
+.vjt-menu {
+    background: #37baab;
+    padding: 20px 20px 0;
+}
+
+@media screen and (min-width: 800px) {
+.vjt-menu {
+    margin:0;
+}
+}
+
+
+
+@media screen and (min-width: 800px) {
+.vjt-menu ul {
+    text-align: center;
+    display: -ms-flexbox;
+    display: -webkit-flex;
+    display: flex;
+    -webkit-flex-direction: row;
+    -ms-flex-direction: row;
+    flex-direction: row;
+    -webkit-flex-wrap: nowrap;
+    -ms-flex-wrap: nowrap;
+    flex-wrap: nowrap;
+    -webkit-justify-content: space-between;
+    -ms-flex-pack: justify;
+    justify-content: space-between;
+    -webkit-align-content: flex-start;
+    -ms-flex-line-pack: start;
+    align-content: flex-start;
+    -webkit-align-items: flex-start;
+    -ms-flex-align: start;
+    align-items: flex-start;
+}
+}
+
+
+.vjt-menu li {
+    display: block;
+    font-size: 22px;
+}
+
+@media screen and (min-width: 550px) {
+.vjt-menu li {
+    font-size: 18px;
+}
+}
+
+@media screen and (min-width: 800px) {
+.vjt-menu li {
+    margin: 0 10px;
+}
+}
+
+@media screen and (min-width: 1020px) {
+.vjt-menu li {
+    margin: 0 1em;
+}
+}
+
+.vjt-menu a.vjt-active {
+    border-bottom: 5px solid #c00;
+}
+
+.vjt-menu a {
+    display: inline-block;
+    color: #fff;
+    font-size: 1em;
+    font-weight: bold;
+    margin-bottom: .5em;
+    padding-bottom: .5em;
+}
+
+@media screen and (min-width: 800px) {
+.vjt-menu a {
+    padding-bottom: 1em;
+    margin-bottom: 0;
+}
+}
+
+
+
+
+
+
+
+
