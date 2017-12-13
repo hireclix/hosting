@@ -2973,6 +2973,10 @@
     line-height: 120%;
 }
 
+.vjt-retail-doc a:visited {
+    color: #fff !important;
+}
+
 .vjt-issues {
     background: #c00;
     padding: 20px;
