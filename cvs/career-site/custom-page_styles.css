@@ -3136,6 +3136,22 @@
 }
 } 
 
+.vjt-pbm .body-copy .hta-graphic {
+    background-image: url(https://recruit.smashfly.com/SmashFlyMedia/Images/14319/14319_1599_cvs-infographic-PBM-final.png) !important;
+    background-size: 100% !important;
+    background-position: center;
+    background-repeat: no-repeat;
+    padding-bottom: 600% !important;
+}
+
+@media screen and (min-width: 550px) {
+    .vjt-pbm .body-copy .hta-graphic {
+    background-image: url(https://recruit.smashfly.com/SmashFlyMedia/Images/14319/14319_1599_cvs-infographic-PBM-final.png) !important;
+    padding-bottom: 460% !important;
+        background-size: contain !important;
+}
+} 
+
 
 
 
