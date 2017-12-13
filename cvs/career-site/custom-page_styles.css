@@ -2365,12 +2365,14 @@
 
 .mc-menu {
     background: #37baab;
-    padding: 20px 175px 0;
+    padding: 20px 125px 0;
+    margin:1em auto 0;
 }
 
 @media screen and (min-width: 800px) {
 .mc-menu {
     margin:1em auto 0;
+    padding: 20px 175px 0;
 }
 }
 
