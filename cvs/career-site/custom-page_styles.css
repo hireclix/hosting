@@ -3363,19 +3363,19 @@
 
 
 
-.benefits .community:nth-of-type(2) {
+.benefits .community:nth-of-type(1) {
     background: #37baab !important;
     color: #fff;
 }
 
 
-.benefits .community:nth-of-type(2) {
+.benefits .community:nth-of-type(1) {
     background: #c00;
     padding: 30px;
 }
     
     @media screen and (min-width: 800px) {
-.benefits .community:nth-of-type(2) {
+.benefits .community:nth-of-type(1) {
     display: inline-flex;
     width: 100%;
     padding: 30px 0;
@@ -3383,14 +3383,14 @@
     }
     
 
-.benefits .community:nth-of-type(2) img {
+.benefits .community:nth-of-type(1) img {
     display: block;
     margin: 0 auto;
     width: 210px;
 }    
     
     @media screen and (min-width: 800px) {
-.benefits .community:nth-of-type(2) img {
+.benefits .community:nth-of-type(1) img {
     width: 225px !important;
     height:155px !important;
     margin-right: 10px !important;
@@ -3398,19 +3398,19 @@
 }
     }
 
-.benefits .community:nth-of-type(3) {
+.benefits .community:nth-of-type(2) {
     background: #a7c745 !important;
     color: #fff;
 }
 
-.benefits .community:nth-of-type(3) {
+.benefits .community:nth-of-type(2) {
     background: #c00;
     padding: 30px;
 
 }
     
     @media screen and (min-width: 800px) {
-.benefits .community:nth-of-type(3) {
+.benefits .community:nth-of-type(2) {
     display: inline-flex;
     width: 100%;
     padding: 30px 0;
@@ -3418,14 +3418,14 @@
     }
     
 
-.benefits .community:nth-of-type(3) img {
+.benefits .community:nth-of-type(2) img {
     display: block;
     margin: 0 auto;
     width: 210px;
 }    
     
     @media screen and (min-width: 800px) {
-.benefits .community:nth-of-type(3) img {
+.benefits .community:nth-of-type(2) img {
     width: 225px !important;
     height:155px !important;
     margin-right: 10px !important;
@@ -3434,19 +3434,19 @@
     }
 
 
-.benefits .community:nth-of-type(4) {
+.benefits .community:nth-of-type(3) {
     background: #c00 !important;
     color: #fff;
 }
 
-.benefits .community:nth-of-type(4) {
+.benefits .community:nth-of-type(3) {
     background: #c00;
     padding: 30px;
     margin-bottom: 30px;
 }
     
     @media screen and (min-width: 800px) {
-.benefits .community:nth-of-type(4) {
+.benefits .community:nth-of-type(3) {
     display: inline-flex;
     width: 100%;
     padding: 30px 0;
@@ -3454,14 +3454,14 @@
     }
     
 
-.benefits .community:nth-of-type(4) img {
+.benefits .community:nth-of-type(3) img {
     display: block;
     margin: 0 auto;
     width: 210px;
 }    
     
     @media screen and (min-width: 800px) {
-.benefits .community:nth-of-type(4) img {
+.benefits .community:nth-of-type(3) img {
     width: 225px !important;
     height:155px !important;
     margin-right: 10px !important;
