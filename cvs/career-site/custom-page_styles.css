@@ -2363,6 +2363,83 @@
 }
 
 
+.mc-menu {
+    background: #37baab;
+    padding: 20px 175px 0;
+}
+
+@media screen and (min-width: 800px) {
+.mc-menu {
+    margin:1em auto 0;
+}
+}
+
+
+
+@media screen and (min-width: 800px) {
+.mc-menu ul {
+    text-align: center;
+    display: -ms-flexbox;
+    display: -webkit-flex;
+    display: flex;
+    -webkit-flex-direction: row;
+    -ms-flex-direction: row;
+    flex-direction: row;
+    -webkit-flex-wrap: nowrap;
+    -ms-flex-wrap: nowrap;
+    flex-wrap: nowrap;
+    -webkit-justify-content: space-between;
+    -ms-flex-pack: justify;
+    justify-content: space-between;
+    -webkit-align-content: flex-start;
+    -ms-flex-line-pack: start;
+    align-content: flex-start;
+    -webkit-align-items: flex-start;
+    -ms-flex-align: start;
+    align-items: flex-start;
+}
+}
+
+
+.mc-menu li {
+    display: block;
+    font-size: 22px;
+}
+
+@media screen and (min-width: 550px) {
+.mc-menu li {
+    font-size: 18px;
+}
+}
+
+@media screen and (min-width: 800px) {
+.mc-menu li {
+    margin: 0 30px;
+}
+}
+
+
+.mc-menu a.mc-active {
+    border-bottom: 5px solid #c00;
+}
+
+.mc-menu a {
+    display: inline-block;
+    color: #fff;
+    font-size: 1em;
+    font-weight: bold;
+    margin-bottom: .5em;
+    padding-bottom: .5em;
+}
+
+@media screen and (min-width: 800px) {
+.mc-menu a {
+    padding-bottom: 1em;
+    margin-bottom: 0;
+}
+}
+
+
 /* Military Clinic Page */
 
 #military-hero .hero-content.hero-full-image {
@@ -3702,69 +3779,12 @@
     }
 }
 
-
-
-
-.minute-stats li:first-of-type {
-    border-top: 2px solid #000;
+ul.indent {
+    margin-right: 0px;
+    padding-left: 30px;
+    padding-right: 0px;
 }
 
-.minute-stats li {
-    padding: 18px 0 20px;
-    border-bottom: 2px solid #000;
-    color: #fff;
-    font-weight: bold;
-    display: block;
-    text-align: center;
-    box-sizing: border-box;
-    white-space: nowrap;
-    font-size: 14px;
-}
-
-@media screen and (min-width: 680px) {
-.minute-stats li:nth-child(2) {
-    border-right: 1px solid #000;
-}
-}
-
-@media screen and (min-width: 680px) {
-.minute-stats li:nth-child(n+2) {
-    width: 50%;
-    float: left;
-}
-}
-
-@media screen and (min-width: 680px) {
-.minute-stats li:last-of-type {
-    border-left: 1px solid #000;
-}
-}
-
-@media screen and (min-width: 680px) {
-.minute-stats li:nth-child(n+2) {
-    width: 50%;
-    float: left;
-}
-}
-
-.minute-stats li:first-of-type:before {
-    content: url(https://recruit.smashfly.com/SmashFlyMedia/Images/14319/14319_1558_stat1.png);
-}
-
-.minute-stats li:nth-child(2):before {
-    content: url(https://recruit.smashfly.com/SmashFlyMedia/Images/14319/14319_1559_stat2.png);
-}
-
-.minute-stats li:last-of-type:before {
-    content: url(https://recruit.smashfly.com/SmashFlyMedia/Images/14319/14319_1560_stat3.png);
-}
-
-@media screen and (min-width: 680px) {
-.minute-stats li:before {
-    height: 132px;
-}
-}
-
-.minute-stats li:before {
-    display: block;
+ul.indent li {
+    list-style: disc;
 }
