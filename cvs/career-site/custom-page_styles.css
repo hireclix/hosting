@@ -4360,6 +4360,29 @@ ul.checkmarks li:before {
     margin: 0 5px;
 }
 
+#pharmacist-managed.text-callout {
+    background: #c00;
+}
+
+@media only screen and (min-width: 750px) {
+    #pharmacist-managed.text-callout .icon {
+    width: 102px !important;
+    height:72px !important;
+    }
+    
+}
+
+#pharmacist-managed.text-callout .icon {
+    width: 50px;
+    height: 35px;
+    background: url(https://recruit.smashfly.com/SmashFlyMedia/Images/14319/14319_1698_laptop_icon.png);
+    display: inline-block;
+    background-repeat: no-repeat;
+    background-size: contain;
+    vertical-align: sub;
+    margin: 0 5px;
+}
+
 @media only screen and (max-width: 750px) {
     #pharmacist .video-label {
         display: none !important;
