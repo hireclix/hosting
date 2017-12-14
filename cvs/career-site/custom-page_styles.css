@@ -4492,7 +4492,7 @@ ul.checkmarks li:before {
 
 @media screen and (min-width: 800px) {
 .pharm-menu li {
-    /*margin: 0 30px;*/
+    margin: 0 auto;
 }
 }
 
