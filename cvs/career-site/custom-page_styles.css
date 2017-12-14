@@ -4406,6 +4406,29 @@ ul.checkmarks li:before {
     margin: 0 5px;
 }
 
+#pharmacist-longterm.text-callout {
+    background: #c00;
+}
+
+@media only screen and (min-width: 750px) {
+    #pharmacist-longterm.text-callout .icon {
+    width: 58px !important;
+    height:80px !important;
+    }
+    
+}
+
+#pharmacist-longterm.text-callout .icon {
+    width: 30px;
+    height: 42px;
+    background: url(https://recruit.smashfly.com/SmashFlyMedia/Images/14319/14319_1705_clipboard_icon.png);
+    display: inline-block;
+    background-repeat: no-repeat;
+    background-size: contain;
+    vertical-align: sub;
+    margin: 0 5px;
+}
+
 @media only screen and (max-width: 750px) {
     #pharmacist .video-label {
         display: none !important;
