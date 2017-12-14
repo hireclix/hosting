@@ -4100,9 +4100,56 @@ ul.indent li {
     background: #b8e3eb;
 }
 
+
+#pharmacist .lite-blue_bg.retail .half {
+    width: 44%;
+    display: inline-block;
+    vertical-align: top;
+    margin-right: 1em;
+}
+
+@media screen and (max-width: 750px) {
+    #pharmacist .lite-blue_bg.retail .half {
+        width: 100%;
+    }
+}
+
+#pharmacist .lite-blue_bg.retail .half ul {
+    font-weight: 300;
+    font-size:14px;
+    margin-left:2em;
+}
+
+#pharmacist .lite-blue_bg.retail .half ul li {
+    padding-bottom:.5em;
+}
+
+ul.checkmarks li:before {
+    display: inline-block;
+    margin-right: 8px;
+    font-family: 'FontAwesome';
+    content: "\f00c";
+    margin-left: -24px;
+}
+
+
+
+
+
 #pharmacist .dark-blue_bg {
     background: #003247;
     color: #fff;
+}
+
+
+#pharmacist .lite-blue_bg.overview .content-wrapper, #pharmacist .dark-blue_bg.overview .content-wrapper{
+    padding:4em;
+}
+
+@media only screen and (max-width: 750px) {
+    #pharmacist .lite-blue_bg.overview .content-wrapper, #pharmacist .dark-blue_bg.overview .content-wrapper{
+    padding:2em !important;
+}
 }
 
 /*#pharmacist .lite-blue_bg p {
@@ -4194,13 +4241,31 @@ ul.indent li {
     flex: 1;
 }
 
+#pharmacist .item-3 {
+    -webkit-box-flex: 1;
+    -ms-flex: 1 1 auto;
+    flex: 1 1 auto
+}
+
+@media (min-width: 64rem) {
+    #pharmacist .item-3 {
+        -webkit-box-flex: 4;
+        -ms-flex: 4;
+        flex: 4
+    }
+}
+
 @media only screen and (max-width: 750px) {
     #pharmacist .item-2 {
         order: 2;
     }
     
+    #pharmacist .item-3 {
+        order: 2;
+    }
+    
     #pharmacist .content-wrapper {
-        padding: 2em !important;
+        padding: 0 2em !important;
     }
     
     #pharmacist .quote_bg .content-wrapper {
@@ -4236,7 +4301,7 @@ ul.indent li {
 }
 
 #pharmacist .content-wrapper {
-    padding: 4em;
+    padding: 0 4em;
 }
 
 #pharmacist .content-wrapper p {
@@ -4261,13 +4326,6 @@ ul.indent li {
     
 }
 
-@media only screen and (max-width: 750px) {
-    #pharmacist .video-label {
-        display: none !important;
-    }
- 
-}
-
 #pharmacist.text-callout .icon {
     width: 27px;
     height: 37px;
@@ -4278,6 +4336,37 @@ ul.indent li {
     vertical-align: sub;
     margin: 0 5px;
 }
+
+#pharmacist-retail.text-callout {
+    background: #c00;
+}
+
+@media only screen and (min-width: 750px) {
+    #pharmacist-retail.text-callout .icon {
+    width: 92px !important;
+    height:65px !important;
+    }
+    
+}
+
+#pharmacist-retail.text-callout .icon {
+    width: 46px;
+    height: 32px;
+    background: url(https://recruit.smashfly.com/SmashFlyMedia/Images/14319/14319_1693_us_icon.png);
+    display: inline-block;
+    background-repeat: no-repeat;
+    background-size: contain;
+    vertical-align: sub;
+    margin: 0 5px;
+}
+
+@media only screen and (max-width: 750px) {
+    #pharmacist .video-label {
+        display: none !important;
+    }
+ 
+}
+
 
 #pharmacist a.video-link {
     position: relative;
