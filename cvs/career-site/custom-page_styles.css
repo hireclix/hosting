@@ -5132,3 +5132,42 @@ ul.checkmarks li:before {
     background: linear-gradient(to bottom, rgba(255,255,255,0) 0%,#000000 98%);
 }
 
+/* Fellowship Page */
+
+#fellowship-hero .hero-content.hero-full-image {
+    min-height: 325px;
+    position: relative;
+    background: url(https://recruit.smashfly.com/SmashFlyMedia/Images/14319/14319_1726_fellowships-cp-header.jpg) 20% center/cover no-repeat
+}
+
+@media only screen and (max-width: 750px) {
+        #fellowship-hero .hero-content.hero-full-image {
+    min-height: 200px;
+    }
+    
+    #fellowship-hero .hero-content.hero-full-image .text-overlay h1 {
+        padding-left:0;
+    }
+    
+    #fellowship-hero .hero-content.hero-full-image .text-overlay h1:before {
+    left: -16px !important;
+}
+}
+
+@media (min-width: 64rem){    
+    #fellowship-hero .hero-content.hero-full-image .text-overlay {
+        top:100px;
+    }
+}
+
+#fellowship-hero .hero-content.hero-full-image .text-overlay h1:before {
+    background-image: url(https://recruit.smashfly.com/SmashFlyMedia/Images/14319/14319_1476_flipped_heart.png),none;
+    background-size: 20px;
+    background-repeat: no-repeat;
+    content: "";
+    height: 20px;
+    left: 6px;
+    position: absolute;
+    top: 10;
+    width: 20px; 
+}
