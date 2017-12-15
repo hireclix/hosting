@@ -5115,3 +5115,20 @@ ul.checkmarks li:before {
     color:#fff;
     padding: 22px !important;
 }
+
+.analytics .video-label {
+    display: block;
+    color: white;
+    left: 0;
+    margin: 0;
+    padding: 20% 2em 1em 1em !important;
+    position: absolute;
+    bottom: 0;
+    width: 100% !important;
+    z-index: 2;
+    font-size: 2rem;
+    line-height: 1.2;
+    font-weight: 900;
+    background: linear-gradient(to bottom, rgba(255,255,255,0) 0%,#000000 98%);
+}
+
