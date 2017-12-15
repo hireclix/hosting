@@ -4776,3 +4776,342 @@ ul.checkmarks li:before {
 }
 }
 
+/* Analytics Page */
+
+.analytics-menu {
+    background: #37baab;
+    padding:20px 20px 0;
+}
+
+@media screen and (min-width: 800px) {
+.analytics-menu {
+    margin:0 auto;
+}
+}
+
+
+
+@media screen and (min-width: 800px) {
+.analytics-menu ul {
+    text-align: center;
+    display: -ms-flexbox;
+    display: -webkit-flex;
+    display: flex;
+    -webkit-flex-direction: row;
+    -ms-flex-direction: row;
+    flex-direction: row;
+    -webkit-flex-wrap: nowrap;
+    -ms-flex-wrap: nowrap;
+    flex-wrap: nowrap;
+    -webkit-justify-content: space-between;
+    -ms-flex-pack: justify;
+    justify-content: space-between;
+    -webkit-align-content: flex-start;
+    -ms-flex-line-pack: start;
+    align-content: flex-start;
+    -webkit-align-items: flex-start;
+    -ms-flex-align: start;
+    align-items: flex-start;
+}
+}
+
+
+.analytics-menu li {
+    display: block;
+    font-size: 22px;
+}
+
+@media screen and (min-width: 550px) {
+.analytics-menu li {
+    font-size: 18px;
+}
+}
+
+@media screen and (min-width: 800px) {
+.analytics-menu li {
+    margin: 0 auto;
+}
+}
+
+@media screen and (min-width: 1020px) {
+.analytics-menu li {
+    margin: 0 auto;
+}
+}
+
+.analytics-menu a.analytics-active {
+    border-bottom: 5px solid #c00;
+}
+
+.analytics-menu a {
+    display: inline-block;
+    color: #fff;
+    font-size: 1em;
+    font-weight: bold;
+    margin-bottom: .5em;
+    padding-bottom: .5em;
+}
+
+@media screen and (min-width: 800px) {
+.analytics-menu a {
+    padding-bottom: 1em;
+    margin-bottom: 0;
+}
+}
+
+
+.infographic {
+    margin: 2em 0 32px;
+    width: 100%;
+    background: #fff;
+}
+
+
+.infographic>h2 {
+    background: #c00;
+    color: #fff;
+    margin: 0;
+    line-height: 50px;
+    text-align: center;
+}
+
+.infographic .content-wrapper:nth-of-type(1) {
+    padding: 3rem 1rem 0;
+}
+
+@media screen and (min-width: 751px) {
+.infographic .content-wrapper:nth-of-type(1) {
+    padding: 32px;
+}
+}
+
+.infographic .content-wrapper:nth-of-type(2) {
+    padding: 0 1rem;
+}
+
+@media screen and (min-width: 751px) {
+.infographic .content-wrapper:nth-of-type(2) {
+    padding: 32px;
+}
+}
+
+@media only screen and (min-width: 751px) {
+ .infographic .content-wrapper {
+    float: left !important;
+    width: 50% !important;
+}
+}
+
+.infographic p {
+    color: #000000;
+    clear: both;
+    text-align: center;
+}
+
+
+.infographic .content-wrapper p {
+    text-align: left;
+    width: calc(100% - 16px);
+}
+
+@media screen and (min-width: 800px) {
+.module.lead-copy-home.tiles-home .infographic .content-wrapper p {
+    width: auto;
+}
+}
+
+
+.infographic .content-wrapper:nth-of-type(1) h3 {
+    position: relative;
+    display: inline-block;
+    padding-left: 60px;
+    min-height: 54px;
+    font-size: 1.125rem;
+}
+
+@media screen and (min-width: 430px) {
+.infographic .content-wrapper:nth-of-type(1) h3 {
+    font-size: 2.25rem;
+    padding-left: 84px;
+}
+}
+    
+
+.infographic .content-wrapper:nth-of-type(1) h3:before {
+    content: "";
+    background: url(https://recruit.smashfly.com/SmashFlyMedia/Images/14319/14319_1715_icon-sm-people-v2.png) no-repeat;
+    background-size: contain;
+    display: inline-block;
+    width: 50px;
+    height: 36px;
+    position: absolute;
+    left: 0;
+}    
+    
+
+@media screen and (min-width: 430px) {
+.infographic .content-wrapper:nth-of-type(1) h3:before {
+    height: 54px;
+    width: 75px;
+}
+}
+
+.infographic .content-wrapper:nth-of-type(1) h3 span {
+    font-size: .8125rem;
+    line-height: .65625rem;
+    display: block;
+    color: #c00;
+}   
+        
+@media screen and (min-width: 430px) {
+.infographic .content-wrapper:nth-of-type(1) h3 span {
+    font-size: 1.125rem;
+    line-height: 1.25rem;
+}
+}
+        
+
+.infographic .content-wrapper:nth-of-type(2) h3 {
+    position: relative;
+    display: inline-block;
+    min-height: 52px;
+    font-size: 1.125rem;
+    padding-left: 50px;
+}          
+        
+        @media screen and (min-width: 430px) {
+.infographic .content-wrapper:nth-of-type(2) h3 {
+    font-size: 2.25rem;
+    padding-left: 70px;
+}
+}
+        
+
+.infographic .content-wrapper:nth-of-type(2) h3:before {
+    content: "";
+    background: url(https://recruit.smashfly.com/SmashFlyMedia/Images/14319/14319_1714_icon-sm-cash.png) no-repeat;
+    background-size: contain;
+    display: inline-block;
+    vertical-align: top;
+    display: inline-block;
+    width: 50px;
+    height: 36px;
+    position: absolute;
+    left: 0;
+}          
+        
+@media screen and (min-width: 430px) {
+.infographic .content-wrapper:nth-of-type(2) h3:before {
+    width: 63px;
+    height: 52px;
+}
+}
+
+
+.infographic .content-wrapper:nth-of-type(2) h3 span {
+    font-size: .8125rem;
+    line-height: .65625rem;
+    display: block;
+    color: #c00 !important;
+}               
+        
+     @media screen and (min-width: 430px) {
+.infographic .content-wrapper:nth-of-type(2) h3 span {
+    font-size: 1.125rem;
+    line-height: 1.25rem;
+    color: #c00;
+}
+}
+    
+#cvs-rss-feed {
+    width: 100%;
+    background: #911e78;
+    padding: 1rem;
+    margin-bottom: 1em;
+}    
+    
+@media screen and (min-width: 800px) {
+#cvs-rss-feed {
+    width: 100%;
+    padding: 1rem 2rem;
+}
+}
+    
+#cvs-rss-feed h3 {
+    color: #FFF;
+    margin: 0;
+    margin-bottom: 15px;
+    font-size: 1.5rem;
+}
+    
+
+#cvs-rss-feed iframe {
+    width: 100%;
+    border: 0;
+    padding: 0;
+    margin-bottom: 1rem;
+    min-height: 330px;
+}        
+    
+@media screen and (min-width: 800px) {
+#cvs-rss-feed iframe {
+    min-height: 210px;
+}
+    }
+
+    .blue-meet {
+        background: #003348;
+        display: flex;
+        width: 100%;
+        margin-bottom: 2em;
+        color: #fff;
+        min-height:225px
+    } 
+    
+    .blue-meet .item-3 {
+        padding:32px 52px;
+    }
+    
+    .blue-meet .item-4 {
+        position: relative;
+        width: 50%;
+    }
+
+    .blue-meet .item-4 img {
+        position: absolute;
+        right: 0;
+        bottom:0;
+        width: 75%;
+    }
+
+@media screen and (max-width: 750px) {
+    .blue-meet .item-4 img {
+        display: none;
+    }
+}
+
+.articles {
+    display: flex;
+    width: 100%;
+    margin-bottom: 2em;
+}
+
+.articles .item-1:first-of-type {
+    padding-left:0 !important;
+}
+
+.articles .item-1:nth-of-type(2) {
+    padding-right:0 !important;
+}
+
+.articles .redbg {
+    background: #c00;
+    color:#fff;
+    padding: 22px !important;
+}
+
+.articles .greenbg {
+    background: #a7ce39;
+    color:#fff;
+    padding: 22px !important;
+}
