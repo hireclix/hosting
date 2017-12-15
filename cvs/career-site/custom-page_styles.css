@@ -2446,6 +2446,14 @@
 
 /* Military Clinic Page */
 
+.bya {
+    -ms-flex-wrap: wrap;
+    flex-wrap: wrap;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex
+}
+
 #military-hero .hero-content.hero-full-image {
     min-height: 325px;
     position: relative;
