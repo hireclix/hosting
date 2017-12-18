@@ -38,6 +38,8 @@
     overflow: hidden;
     max-width: 100%;
     clear: both;
+    display: -webkit-box;
+    display: -ms-flexbox;
     display: flex;
     margin: 0 auto;
     width: 100%;
@@ -5180,4 +5182,366 @@ ul.checkmarks li:before {
     position: absolute;
     top: 10;
     width: 20px; 
+}
+
+/*Analytics Team Page */
+
+
+
+.team-wrapper {
+    margin: 0 1.5873% 26px;
+    color: #fff;
+    max-width: 901px;
+    clear: both;
+}
+
+@media screen and (min-width: 550px) {
+.team-wrapper {
+    padding: 10px 35px 15px;
+    background-color: #fff;
+    clear: both;
+}
+}
+
+.team-wrapper .row {
+    margin-bottom: 10px;
+}
+
+
+
+
+
+@media screen and (min-width: 550px) {
+.team-wrapper>.row {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    flex-wrap: wrap;
+}
+}
+
+
+
+@media screen and (min-width: 550px) {
+.team-wrapper>.row>.col-1 {
+    float: left;
+}
+}
+@media screen and (min-width: 550px) {
+.team-wrapper>.row>.col-1, .team-wrapper>.row>.col-2 {
+    width: 48.9%;
+}
+}
+
+@media screen and (min-width: 800px) {
+.team-wrapper>.row>.col-1, .team-wrapper>.row>.col-2 {
+    width: 49.2%;
+}
+}
+@media screen and (min-width: 1020px) {
+.team-wrapper>.row>.col-1, .team-wrapper>.row>.col-2 {
+    width: 49.4%;
+}
+}
+
+
+.team-wrapper>div:nth-child(1) .box-3 .full {
+    background-color: #93277e;
+}
+
+@media screen and (min-width: 550px) {
+.team-wrapper>div:nth-child(1) .box-3 .full {
+    padding: 0px 28px 220px;
+}
+}
+
+
+.box-3 .full {
+    padding: 13px 6px 220px;
+    margin-bottom: 10px;
+}
+
+.box-3 .text-wrapper {
+    width: 81%;
+    float: right;
+}
+
+@media screen and (min-width: 550px) {
+.box-3 .text-wrapper {
+    width: 72%;
+}
+}
+    
+
+.box-3 img {
+    width: 16%;
+    float: left;
+    padding-top:4em;
+}
+    
+    @media screen and (min-width: 550px) {
+.box-3 img {
+    width: 22%;
+}
+    }
+
+    
+    
+.box-3 .text-wrapper h3 {
+    font-size: 1.3em;
+    margin: 17px 0 0 !important;
+    text-align: left !important;
+}
+
+    @media screen and (min-width: 550px) {
+.box-3 .text-wrapper h3 {
+    font-size: 1.4em;
+    margin: 32px 0 0;
+    font-weight: 500;
+}
+    }
+
+
+.box-3 .text-wrapper h4 {
+    margin: 4px 0px !important;
+    font-style: italic;
+    font-size: 0.75em;
+}
+
+    
+.box-3 .text-wrapper p {
+    margin-top: 15px !important;
+    font-size: 0.75em;
+    line-height: 1.3;
+}
+    
+    @media screen and (min-width: 550px) {
+.box-3 .text-wrapper p {
+    margin-top: 25px;
+    line-height: 1.4;
+    font-size: .8em;
+}
+    }
+
+    
+
+
+
+    @media screen and (min-width: 550px) {
+.box-3 .row {
+    margin-bottom: 0;
+}
+    }
+    
+    
+   .box-3 .row .col-1 {
+    float: left;
+}
+
+
+.graphic-1 {
+    background: url(https://recruit.smashfly.com/SmashFlyMedia/Images/14319/14319_1753_3-miles.png),#003348;
+    background-size: cover;
+}
+.graphic-1, .graphic-2, .graphic-3 {
+    padding-top: 48.5%;
+    display: block;
+}
+    
+    .graphic-1 p,  .graphic-2 p,  .graphic-3 p {
+    display: none;
+}
+    
+
+
+
+    
+.box-3 .row .col-2 {
+    float: right;
+}
+
+
+.box-3 .row .col-1, .box-3 .row .col-2 {
+    width: 48.5%;
+}
+
+@media screen and (min-width: 550px) { 
+   .box-3 .row .col-1, .box-3 .row .col-2 {
+    width: 48.5%;
+} 
+}
+
+
+a.fancybox {
+    text-decoration: none;
+    position: relative;
+}
+
+.vid-1 {
+    background-image: url(https://recruit.smashfly.com/SmashFlyMedia/Images/14319/14319_1752_stephanie-civalie.jpg);
+    background-size: cover;
+}
+    
+    .vid-2 {
+    background: url(https://recruit.smashfly.com/SmashFlyMedia/Images/14319/14319_1750_play-button2.png) top center,url(https://recruit.smashfly.com/SmashFlyMedia/Images/14319/14319_1751_bob-darin.jpg) top right;
+    background-size: cover;
+}
+    
+   .vid-3 {
+    background: url(/images/play-button2.png) top center,url(https://recruit.smashfly.com/SmashFlyMedia/Images/14319/14319_1749_stephen-holodak2.jpg) top right;
+    background-size: cover;
+}
+
+.vid-1,  .vid-4, .vid-5,  .vid-6,  .vid-7 {
+    padding-top: 48.5%;
+}    
+    
+    @media screen and (min-width: 550px) { 
+        .team-wrapper>.row>.col-2 {
+
+    margin-left: 8px;
+}
+    }
+
+
+.team-wrapper p.row {
+    padding: 63px 30px 72px;
+    font-size: 1.3em;
+    font-weight: 700;
+    line-height: 1.3;
+    background-color: #93277e;
+}    
+    
+    @media screen and (min-width: 550px) {
+.team-wrapper p.row {
+    font-weight: 500;
+    padding: 46px 50px 46px 72px;
+    font-size: 1.4em;
+    line-height: 1.4;
+}
+    }
+    
+.team-wrapper p.row:before {
+    content: "";
+    width: 10px;
+    height: 10px;
+    background: url(https://recruit.smashfly.com/SmashFlyMedia/Images/14319/14319_1748_flipped_heart_white.png);
+    position: relative;
+    right: 15px;
+    background-size: contain;
+    display: block;
+}
+    
+    @media screen and (min-width: 550px) {
+.team-wrapper p.row:before {
+    width: 13px;
+    height: 13px;
+}
+    }
+
+    
+.team-wrapper>div:nth-child(3)>div.box-3 {
+    margin-top: 10px;
+}
+    
+    @media screen and (min-width: 550px) {
+.team-wrapper>div:nth-child(3)>div.box-3 {
+    margin-top: 0;
+}
+    }
+    
+    
+    @media screen and (min-width: 550px) {
+        .team-wrapper>.row>.col-2 {
+    float: right;
+    margin-left: 10px;
+}
+    }
+    
+    @media screen and (min-width: 800px) {
+.team-wrapper>.row>.col-1, #analytics-team-and-support .team-wrapper>.row>.col-2 {
+    width: 49.2%;
+}
+    }
+
+.team-wrapper>div:nth-child(3)>div.box-3 .full {
+    padding: 13px 6px 0;
+    background-color: #003348;
+}    
+    
+    @media screen and (min-width: 550px) {
+.team-wrapper>div:nth-child(3)>div.box-3 .full {
+    padding: 0px 26px 220px;
+}
+}
+
+.graphic-2 {
+    background: url(https://recruit.smashfly.com/SmashFlyMedia/Images/14319/14319_1747_5-years-2.png) no-repeat,#93277e;
+    background-size: cover;
+    width: 100% !important;
+    background-size: contain;
+    background-position: center;
+    background-size: 78%;
+}
+        
+    .graphic-3 {
+    background: url(https://recruit.smashfly.com/SmashFlyMedia/Images/14319/14319_1746_22-percent.png),#93277e;
+    background-size: cover;
+}
+
+.vid-5 {
+    background-image: url(https://recruit.smashfly.com/SmashFlyMedia/Images/14319/14319_1745_carrie-flynn.jpg);
+    background-size: cover;
+}
+    
+.team-wrapper>div:nth-child(4) div.col-2.box-3 .full {
+    background-color: #003348;
+}
+
+        @media screen and (min-width: 550px) {
+.team-wrapper>div:nth-child(4)>div.box-3 .full {
+    padding: 0px 27px 220px !important;
+}
+        }
+        
+        
+.team-wrapper>div:nth-child(4) div.col-1.box-3 .full {
+    padding: 420px 6px 213px;
+    background-color: #003348;
+}
+
+        
+        @media screen and (min-width: 550px) {
+.team-wrapper>div:nth-child(4) div.col-1.box-3 .row {
+    margin-bottom: 202px;
+}
+        }
+
+        
+ .vid-6 {
+    background-image: url(https://recruit.smashfly.com/SmashFlyMedia/Images/14319/14319_1744_cj-okeefe.jpg);
+    background-size: cover;
+}
+        
+.vid-7 {
+    background: url(https://recruit.smashfly.com/SmashFlyMedia/Images/14319/14319_1743_emily-kipping-v2.jpg);
+    background-size: cover;
+}
+
+
+@media screen and (max-width: 549px) {
+.vid-2, .vid-3 {
+    text-decoration: none;
+    padding-top: 100% !important; 
+}
+    .team-wrapper>.row>a {
+    display: block !important;
+}
+}
+
+@media screen and (max-width: 550px) {
+.graphic-1, .graphic-2, .graphic-3 {
+    padding-top: 48.5% !important;
+    display: block !important;
+}
 }
