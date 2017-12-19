@@ -5229,18 +5229,18 @@ ul.checkmarks li:before {
 }
 @media screen and (min-width: 550px) {
 .team-wrapper>.row>.col-1, .team-wrapper>.row>.col-2 {
-    width: 48.9%;
+    width: 48%;
 }
 }
 
 @media screen and (min-width: 800px) {
 .team-wrapper>.row>.col-1, .team-wrapper>.row>.col-2 {
-    width: 49.2%;
+    width: 38%;
 }
 }
 @media screen and (min-width: 1020px) {
 .team-wrapper>.row>.col-1, .team-wrapper>.row>.col-2 {
-    width: 49.4%;
+    width: 48%;
 }
 }
 
