@@ -1001,7 +1001,8 @@
     color: #93277e !important;
 }
 
-#internships .container {
+
+#internships .container.quote_bg  {
     align-items: center;
   justify-content: center;
 }
@@ -1021,7 +1022,7 @@
     }
     
     #internships .content-wrapper {
-        padding: 0 2em !important;
+        padding: 1em 2em !important;
     }
     
     #internships .quote_bg .content-wrapper {
@@ -1032,20 +1033,60 @@
         flex: 1 1 auto;
     }
     
-    #internships .red_bg .content-wrapper .btn-white, #internships .orange_bg .content-wrapper .btn-white {
-    width:100% !important;
-    max-width:1000px !important;
+   
 }
+
+
+#internships .image-container {
+		border: 0;
+		display: inline-block; !important
+		position: relative !important;
+    width: 100%;
+	   height: 100%;
 }
+
 
 
 #internships .image-container img {
+    height: 100%;
     width: 100%;
-    max-width: 100%;
 }
 
+#internships .image-container img.center {
+			-moz-object-position: center;
+			-webkit-object-position: center;
+			-ms-object-position: center;
+			object-position: center;
+            -moz-object-fit: cover;
+			-webkit-object-fit: cover;
+			-ms-object-fit: cover;
+			object-fit: cover;
+		}
+
+		#internships .image-container img.right {
+			-moz-object-position: right;
+			-webkit-object-position: right;
+			-ms-object-position: right;
+			object-position: right;
+            -moz-object-fit: cover;
+			-webkit-object-fit: cover;
+			-ms-object-fit: cover;
+			object-fit: cover;
+		}
+
+        #internships .image-container img.left {
+			-moz-object-position: left;
+			-webkit-object-position: left;
+			-ms-object-position: left;
+			object-position: left;
+            -moz-object-fit: cover;
+			-webkit-object-fit: cover;
+			-ms-object-fit: cover;
+			object-fit: cover;
+		}
+
 #internships .content-wrapper {
-    padding: 0 7em;
+    padding: 3em 7em;
 }
 
 #internships .content-wrapper p {
@@ -1053,10 +1094,7 @@
     line-height: 1.5;
 }
 
-#internships .red_bg .content-wrapper .btn-white, #internships .orange_bg .content-wrapper .btn-white {
-    width:75%;
-    max-width:800px;
-}
+
 
 #internships.text-callout {
     background: #c00;
@@ -1333,8 +1371,7 @@
 #diversity .purple_bg .content-wrapper .btn-white:hover {
     color: #93277e !important;
 }
-
-#diversity .container {
+#diversity .container.quote_bg  {
     align-items: center;
   justify-content: center;
 }
@@ -1354,7 +1391,7 @@
     }
     
     #diversity .content-wrapper {
-        padding: 0 2em !important;
+        padding: 1em 2em !important;
     }
     
     #diversity .quote_bg .content-wrapper {
@@ -1384,13 +1421,59 @@
 }
 
 
-#diversity .image-container img {
+
+
+
+#diversity .image-container {
+		border: 0;
+		display: inline-block; !important
+		position: relative !important;
     width: 100%;
-    max-width: 100%;
+	   height: 100%;
 }
 
+
+
+#diversity .image-container img {
+    height: 100%;
+    width: 100%;
+}
+
+#diversity .image-container img.center {
+			-moz-object-position: center;
+			-webkit-object-position: center;
+			-ms-object-position: center;
+			object-position: center;
+            -moz-object-fit: cover;
+			-webkit-object-fit: cover;
+			-ms-object-fit: cover;
+			object-fit: cover;
+		}
+
+		#diversity .image-container img.right {
+			-moz-object-position: right;
+			-webkit-object-position: right;
+			-ms-object-position: right;
+			object-position: right;
+            -moz-object-fit: cover;
+			-webkit-object-fit: cover;
+			-ms-object-fit: cover;
+			object-fit: cover;
+		}
+
+        #diversity .image-container img.left {
+			-moz-object-position: left;
+			-webkit-object-position: left;
+			-ms-object-position: left;
+			object-position: left;
+            -moz-object-fit: cover;
+			-webkit-object-fit: cover;
+			-ms-object-fit: cover;
+			object-fit: cover;
+		}
+
 #diversity .content-wrapper {
-    padding: 0 4em;
+    padding: 3em 4em;
 }
 
 #diversity .content-wrapper p {
@@ -1398,10 +1481,7 @@
     line-height: 1.5;
 }
 
-#diversity .red_bg .content-wrapper .btn-white, #diversity.orange_bg .content-wrapper .btn-white {
-    width:75%;
-    /*max-width:800px;*/
-}
+
 
 #diversity.text-callout {
     background: #c00;
@@ -1437,6 +1517,8 @@
     position: relative;
     padding: 0 !important;
     display: block;
+    height: 100%;
+    width: 100%;
 }
 
 
