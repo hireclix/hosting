@@ -931,6 +931,13 @@
 
 @media screen and (max-width: 750px) {
     
+    #internships.quote {
+        padding-bottom: 20em;
+    }
+    
+    #diversity.quote {
+        padding-bottom: 20em;
+    }
     
     .quote .container {
         align-items: flex-end !important;
@@ -5768,3 +5775,523 @@ a.fancybox {
 }
 
 
+/* Retail Page */
+
+#retail-hero .hero-content.hero-full-image {
+    min-height: 525px;
+    position: relative;
+    background: url(https://recruit.smashfly.com/SmashFlyMedia/Images/14319/14319_1796_hero_retail.jpg) 100% center/cover no-repeat
+}
+
+#retail-hero .hero-content.hero-full-image .text-overlay {
+    max-width: 640px;
+}
+
+#retail-hero .hero-content.hero-full-image .text-overlay h1 {
+    max-width: 580px;
+}
+
+#retail-hero .hero-content.hero-full-image .text-overlay p {
+    width: 480px;
+}
+
+@media only screen and (max-width: 750px) {
+    #retail-hero .hero-content.hero-full-image {
+    min-height: 525px;
+    position: relative;
+    background: url(https://recruit.smashfly.com/SmashFlyMedia/Images/14319/14319_1796_hero_retail.jpg) 0% center/cover no-repeat
+}
+    
+        #retail-hero .hero-content.hero-full-image {
+    min-height: 1000px;
+    }
+    
+    #retail-hero .hero-content.hero-full-image .text-overlay h1 {
+        padding-left:30px;
+        width:350px;
+    }
+    
+    #retail-hero .hero-content.hero-full-image .text-overlay p {
+    width: 300px;
+}
+    
+    #retail-hero .hero-content.hero-full-image .text-overlay {
+        left:0px;
+    }
+    
+    #retail-hero .hero-content.hero-full-image .text-overlay h1:before {
+    left: 15px !important;
+}
+    
+    #retail-hero .hero-content.hero-full-image .mobile-hero {
+    display: inherit !important;
+}
+}
+
+@media (min-width: 64rem){    
+    #retail-hero .hero-content.hero-full-image .text-overlay {
+        top:40px;
+    }
+}
+
+#retail-hero .hero-content.hero-full-image .text-overlay h1:before {
+    background-image: url(https://recruit.smashfly.com/SmashFlyMedia/Images/14319/14319_1476_flipped_heart.png),none;
+    background-size: 20px;
+    background-repeat: no-repeat;
+    content: "";
+    height: 20px;
+    left: 6px;
+    position: absolute;
+    top: 10;
+    width: 20px; 
+}
+
+#retail-hero .hero-content.hero-full-image .text-overlay h3 {
+    left: 25px;
+    position: relative;
+    margin-bottom: 0;
+}
+
+#retail-hero .hero-content.hero-full-image .text-overlay p {
+    top:10px
+}
+
+#retail-hero .hero-content.hero-full-image .mobile-hero {
+    display: none;
+}
+
+
+#retail-hero2 .hero-content.hero-full-image {
+    min-height: 680px;
+    position: relative;
+    background: url(https://recruit.smashfly.com/SmashFlyMedia/Images/14319/14319_1795_hero-pharmacy-male-heart.png) top center/cover no-repeat
+}
+
+@media only screen and (max-width: 750px) {
+        #retail-hero2 .hero-content.hero-full-image {
+    min-height: 1200px;
+    }
+    
+    #retail-hero2 .hero-content.hero-full-image .text-overlay h1 {
+        padding-left:30px;
+        width:350px;
+    }
+    
+    #retail-hero2 .hero-content.hero-full-image .text-overlay {
+        left:0px;
+    }
+    
+    #retail-hero2 .hero-content.hero-full-image .text-overlay h1:before {
+    left: 15px !important;
+}
+    
+    #retail-hero2 .hero-content.hero-full-image .mobile-hero {
+    display: inherit !important;
+}
+}
+
+@media (min-width: 64rem){    
+    #retail-hero2 .hero-content.hero-full-image .text-overlay {
+        top:40px;
+        max-width:650px;
+    }
+    
+    #retail-hero2 .hero-content.hero-full-image .text-overlay h1 {
+        max-width:600px;
+    }
+}
+
+@media screen and (min-width: 800px) {
+#retail-hero2 .hero-content.hero-full-image .text-overlay ul li:first-of-type span:not(.tile-text) {
+    font-size: 3.75rem;
+    display: inline-block;
+    line-height: 60px;
+}
+}
+
+#retail-hero2 .hero-content.hero-full-image .text-overlay ul span:not(.tile-text) {
+    font-size: 4.5rem;
+    display: inline-block;
+    line-height: 60px;
+}
+}
+
+#retail-hero2 .hero-content.hero-full-image .text-overlay h1:before {
+    background-image: url(https://recruit.smashfly.com/SmashFlyMedia/Images/14319/14319_1476_flipped_heart.png),none;
+    background-size: 20px;
+    background-repeat: no-repeat;
+    content: "";
+    height: 20px;
+    left: 6px;
+    position: absolute;
+    top: 10;
+    width: 20px; 
+}
+
+#retail-hero2 .hero-content.hero-full-image .text-overlay h3 {
+    left: 25px;
+    position: relative;
+    margin-bottom: 0;
+}
+
+#retail-hero2 .hero-content.hero-full-image .text-overlay p {
+    top:10px
+}
+
+#retail-hero2 .hero-content.hero-full-image .mobile-hero {
+    display: none;
+}
+
+
+@media only screen and (min-width: 750px) {
+#retail-hero2 .hero-content.hero-full-image .text-overlay ul {
+    display: -ms-flexbox;
+    display: -webkit-flex;
+    display: flex;
+    -webkit-flex-direction: row;
+    -ms-flex-direction: row;
+    flex-direction: row;
+    -webkit-flex-wrap: wrap;
+    -ms-flex-wrap: wrap;
+    flex-wrap: wrap;
+    -webkit-justify-content: space-between;
+    -ms-flex-pack: justify;
+    justify-content: space-between;
+    -webkit-align-content: center;
+    -ms-flex-line-pack: center;
+    align-content: center;
+    -webkit-align-items: center;
+    -ms-flex-align: center;
+    align-items: center;
+    max-width: 670px;
+}
+    
+
+
+#retail-hero2 .hero-content.hero-full-image .text-overlay li:first-of-type {
+    -webkit-order: 0;
+    -ms-flex-order: 0;
+    order: 0;
+    -webkit-flex: 0 1 auto;
+    -ms-flex: 0 1 auto;
+    flex: 0 1 calc(50% - 26px);
+    -webkit-align-self: stretch;
+    -ms-flex-item-align: stretch;
+    align-self: stretch;
+    width: calc(50% - 26px);
+}
+
+#retail-hero2 .hero-content.hero-full-image .text-overlay li:nth-of-type(2) {
+    -webkit-order: 0;
+    -ms-flex-order: 0;
+    order: 0;
+    -webkit-flex: 0 1 auto;
+    -ms-flex: 0 1 auto;
+    flex: 0 1 calc(50% - 27px);
+    -webkit-align-self: stretch;
+    -ms-flex-item-align: stretch;
+    align-self: stretch;
+    width: calc(50% - 27px);
+}
+
+#retail-hero2 .hero-content.hero-full-image .text-overlay li:nth-of-type(3) {
+    -webkit-order: 0;
+    -ms-flex-order: 0;
+    order: 0;
+    -webkit-flex: 0 2 100%;
+    -ms-flex: 0 2 100%;
+    flex: 0 2 calc(100% - 26px);
+    -webkit-align-self: stretch;
+    -ms-flex-item-align: stretch;
+    align-self: stretch;
+    width: calc(100% - 26px);
+}
+    
+    #retail-hero2 .hero-content.hero-full-image .text-overlay li {
+    margin: 13px;
+}
+    
+}
+
+#retail-hero2 .hero-content.hero-full-image .text-overlay .red {
+    padding-right: 4%;
+}
+
+
+
+#retail-hero2 .hero-content.hero-full-image .text-overlay li {
+    padding: 20px 15px 30px;
+    font-size: 1.5rem;
+    line-height: 30px;
+    font-weight: 600;
+}
+
+
+#retail-hero2 .hero-content.hero-full-image .text-overlay li.gray:before {
+    width: 176px !important;
+    height: 136px !important;
+    background-image: url(https://recruit.smashfly.com/SmashFlyMedia/Images/14319/14319_1794_no-smoking_icon.png);
+    content: "";
+    display: block;
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin-bottom: 15px;
+}
+
+@media screen and (min-width: 800px)
+    {
+#retail-hero2 .hero-content.hero-full-image .text-overlay li.gray:before {
+    margin-right: 14%;
+    display: inline-block;
+    vertical-align: middle;
+    margin-bottom: 0;
+        }
+        
+#retail-hero2 .hero-content.hero-full-image .text-overlay li.gray .tile-text {
+    display: inline-block;
+    width: calc(86% - 207px);
+    vertical-align: middle;
+}
+}
+
+
+
+#retail-hero2 .hero-content.hero-full-image .text-overlay li.red {
+    background-color: #c00;
+    color: #fff;
+}
+
+#retail-hero2 .hero-content.hero-full-image .text-overlay li.blue {
+    background-color: #b8e3eb;
+}
+
+#retail-hero2 .hero-content.hero-full-image .text-overlay li.gray {
+    background-color: #d1cccc;
+}
+
+
+
+
+
+#retail .lite-blue_bg {
+    background: #b8e3eb;
+}
+
+#retail .red_bg {
+    background: #c00;
+    color: #fff
+}
+
+#retail .orange_bg {
+    background: #cb6500;
+    color: #fff
+}
+
+#retail .quote_bg {
+    background: url(https://recruit.smashfly.com/SmashFlyMedia/Images/14319/14319_1484_quote-internship.jpg);
+    background-size: cover;
+    color: #fff;
+    height: 500px;   
+}
+
+@media screen and (max-width: 750px) {
+    
+    
+    .quote .container {
+        align-items: flex-end !important;
+    }
+    
+    #retail .quote_bg  p:first-of-type {
+    font-size: 1.25em !important;
+}
+    
+    #retail .quote_bg p:first-of-type:before, #retail .quote_bg p:first-of-type:after {
+         font-size: 4rem !important;
+    }
+}
+
+#retail .quote_bg .content-wrapper {
+    background: rgba(0,0,0,.75);
+    padding: 60px 70px;
+}
+
+#retail .quote_bg  p:first-of-type {
+    font-size: 1.75em;
+}
+
+#retail .quote_bg p:first-of-type:before {
+    display: inline;
+    margin-right: 9px;
+    content: '\201C';
+    font-size: 7rem;
+    line-height: 0;
+    vertical-align: middle;
+    font-weight: 500;
+}
+
+#retail .quote_bg p:first-of-type:after {
+    display: inline;
+    margin-left: 9px;
+    content: '\201D';
+    font-size: 7rem;
+    line-height: 0;
+    vertical-align: bottom;
+    font-weight: 500;
+    top: 0.5vw;
+    position: relative;
+}
+
+@media screen and (min-width: 1000px) {
+#retail .quote_bg p:first-of-type:before {
+    margin-left: calc(-3vw - 7px);
+    font-size: 6vw;
+ }
+   
+    #retail .quote_bg p:first-of-type:after {    
+    margin-left: .5rem;
+    font-size: 6vw;
+    }
+}
+
+#retail .orange_bg .content-wrapper .btn-white:hover {
+    color: #cb6500 !important;
+}
+
+#retail .purple_bg {
+    background: #93277e;
+    color: #fff
+}
+
+#retail .purple_bg .content-wrapper .btn-white:hover {
+    color: #93277e !important;
+}
+
+#retail .dark-blue_bg {
+    background: #00334b;
+    color: #fff;
+}
+
+
+
+#retail .container.quote_bg  {
+    align-items: center;
+  justify-content: center;
+}
+
+#retail .item-1 {
+   padding: 0 !important; 
+}
+
+#retail .item-2 {
+    padding: 0 !important;
+    flex: 1;
+}
+
+@media only screen and (max-width: 750px) {
+    #retail .item-2 {
+        order: 2;
+    }
+    
+    #retail .content-wrapper {
+        padding: 1em 2em !important;
+    }
+    
+    #retail .quote_bg .content-wrapper {
+        padding: 2em 2em !important;
+    }
+    
+    #retail .quote_bg .item-2 {
+        flex: 1 1 auto;
+    }
+    
+   
+}
+
+
+#retail .image-container {
+		border: 0;
+		display: inline-block; !important
+		position: relative !important;
+    width: 100%;
+	   height: 100%;
+}
+
+
+
+#retail .image-container img {
+    height: 100%;
+    width: 100%;
+}
+
+#retail .image-container img.center {
+			-moz-object-position: center;
+			-webkit-object-position: center;
+			-ms-object-position: center;
+			object-position: center;
+            -moz-object-fit: cover;
+			-webkit-object-fit: cover;
+			-ms-object-fit: cover;
+			object-fit: cover;
+		}
+
+		#retail .image-container img.right {
+			-moz-object-position: right;
+			-webkit-object-position: right;
+			-ms-object-position: right;
+			object-position: right;
+            -moz-object-fit: cover;
+			-webkit-object-fit: cover;
+			-ms-object-fit: cover;
+			object-fit: cover;
+		}
+
+        #retail .image-container img.left {
+			-moz-object-position: left;
+			-webkit-object-position: left;
+			-ms-object-position: left;
+			object-position: left;
+            -moz-object-fit: cover;
+			-webkit-object-fit: cover;
+			-ms-object-fit: cover;
+			object-fit: cover;
+		}
+
+#retail .content-wrapper {
+    padding: 3em 7em;
+}
+
+#retail .content-wrapper p {
+    font-weight: 300;
+    line-height: 1.5;
+}
+
+
+
+#retail.text-callout {
+    background: #c00;
+    margin-top:3em;
+}
+
+@media only screen and (min-width: 750px) {
+    #retail.text-callout .icon {
+    width: 79px !important;
+    height: 59px !important;
+    }
+    
+    #retail.text-callout {
+    background: #c00;
+    margin-top:0em;
+}
+}
+
+
+#retail.text-callout .icon {
+    width: 53px;
+    height: 40px;
+    background: url(https://recruit.smashfly.com/SmashFlyMedia/Images/14319/14319_1793_retail-store_icon.png);
+    display: inline-block;
+    background-repeat: no-repeat;
+    background-size: contain;
+    vertical-align: sub;
+    margin: 0 5px;
+}
