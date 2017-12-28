@@ -768,7 +768,11 @@ section#clients2 .copyrights {
 }
 
 section#clients2 a {
-    color: #fff;
+    color: #fff !important;
+}
+
+section#clients2 a:hover {
+    color: #fff !important;
 }
 
 
