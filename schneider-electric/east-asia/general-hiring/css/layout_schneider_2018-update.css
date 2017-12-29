@@ -1680,3 +1680,13 @@ bottom: 0;
 .lightbox-target:target a.lightbox-close {
 top: 0px;
 }
+
+ul.jobs {
+    padding-top:1em;
+    padding-left:2em;
+}
+
+ul.jobs a {
+    font-size: 1.25em;
+    text-decoration: underline;
+}
