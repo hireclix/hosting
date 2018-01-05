@@ -588,6 +588,11 @@ https://recruit.smashfly.com/SmashFlyMedia/Images/13195/13195_1007_career-paths-
     background: #fff !important;
 }
 
+.rsOverflow {
+    width: 100% !important;
+    height: 100% !important;
+}
+
 .coloredBlock {
   padding: 12px;
   background: rgba(255,0,0,0.6);
