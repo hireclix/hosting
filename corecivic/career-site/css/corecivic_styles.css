@@ -1103,6 +1103,10 @@ http://jobs.corecivic.com/Views/Client/8dc4a657-f3b9-4967-bf13-de8e447ff866/imag
         display: none;
     }
     
+    .nursing-background {
+        display: none;
+    }
+    
     .mobile-only {
         display: inherit !important;
     }
@@ -1130,6 +1134,100 @@ http://jobs.corecivic.com/Views/Client/8dc4a657-f3b9-4967-bf13-de8e447ff866/imag
 .overlay {
         width: 100% !important;
     }
+
+
+
+/* Nursing Page */
+
+.nursing-background {
+  background: url(http://jobs.corecivic.com/Views/Client/8dc4a657-f3b9-4967-bf13-de8e447ff866/images/nursing-header.jpg);
+  background-size: contain;
+  background-position: center center;
+  background-repeat: no-repeat;
+  height: 0;
+  padding-top: 38.98%; }
+
+.nursing-background .overlay h1 {
+  color: #fff;
+  font-weight: normal;
+  font-size: 3.25em;
+  margin-bottom: 0; 
+  line-height: 1.25em;
+}
+
+.nursing-background .light {
+    font-family: light, Helvetica, sans-serif;
+}
+
+.nursing-background .overlay h2 {
+  color: #fff;
+  font-size: 1.5em;
+  font-weight: normal;
+  margin-top: 0; }
+
+.nursing-background .overlay {
+    text-align: left;
+    padding-left: 5em;
+}
+
+#nursing {
+    padding: 0 40px;
+    margin-top:-3em;
+}
+
+#nursing p {
+    font-size: 1.1em;
+}
+
+#nursing .light {
+    font-family: light, Helvetica, sans-serif;
+    color: #a12221;
+}
+
+#nursing h1 {
+    font-family: medium, Helvetica, sans-serif;
+    color: #0f0f3f;
+    font-size: 2.25em;
+}
+
+#nursing h2 {
+    font-family: light, Helvetica, sans-serif;
+    color: #a12221;
+    font-size: 2.25em;
+}
+
+#nursing h3 {
+    font-size:1.5em;
+    font-family: medium, Helvetica, sans-serif;
+}
+
+#nursing h3.red {
+    color: #a12221;
+}
+
+#nursing h3.blue {
+    color: #0f0f3f;
+}
+
+#nursing a {
+    color: #a12221; 
+    font-family: light, Helvetica, sans-serif;
+    text-decoration: underline;
+}
+
+#nursing .button {
+    color: #fff; 
+    font-family: medium, Helvetica, sans-serif;
+    text-decoration: none;
+}
+
+#nursing .button:hover {
+    color: #fff !important; 
+}
+
+#nursing a:hover {
+    color: #801b1a !important; 
+}
     
 *!
  * Bootstrap v3.3.7 (http://getbootstrap.com)
