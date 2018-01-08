@@ -991,10 +991,10 @@ header p {
 					height: 5em;
 					line-height: 5em;
 					position: absolute;
-					right: -0.5em;
-					top: 0;
+					right: 0;
+					top: -12px;
                     text-align: left;
-                    padding-right: 1.5em;
+                    padding-right: 0em;
 				}
             
             #header ul.icons li {
