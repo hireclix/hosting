@@ -1009,6 +1009,7 @@ header p {
     padding: 2em 0;
     position: relative;
     text-align: center;
+    width: 100%;
 }
 
 #hero h2 {
