@@ -6467,7 +6467,7 @@ a.fancybox {
     box-sizing: border-box;
     transform: translate(0, 0);
     max-width: 100%;
-    min-height: 100%;
+    min-height: 50%;
     margin: 0;
     left: 0;
   }
