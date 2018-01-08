@@ -6370,3 +6370,342 @@ a.fancybox {
     vertical-align: sub;
     margin: 0 5px;
 }
+
+/* Distribution Page */
+
+/* Minute Clinic Page */
+
+#distribution-hero .hero-content.hero-full-image {
+    min-height: 325px;
+    position: relative;
+    background: url(https://recruit.smashfly.com/SmashFlyMedia/Images/14319/14319_1882_distribution_header.jpg) 20% center/cover no-repeat
+}
+
+#distribution-hero .hero-content.hero-full-image h1 {
+    color: 
+}
+
+@media only screen and (max-width: 750px) {
+        #distribution-hero .hero-content.hero-full-image {
+    min-height: 200px;
+    }
+    
+    #distribution-hero .hero-content.hero-full-image .text-overlay h1 {
+        padding-left:.25em;
+    }
+    
+    #distribution-hero .hero-content.hero-full-image .text-overlay h1:before {
+    left: -10px !important;
+}
+    
+    #distribution-hero .hero-content.hero-full-image .text-overlay h1 {
+        max-width: 300px;
+    }
+}
+
+@media (min-width: 64rem){    
+    #distribution-hero .hero-content.hero-full-image .text-overlay {
+        top:100px;
+        width: 550px
+    }
+    
+    #distribution-hero .hero-content.hero-full-image .text-overlay h1 {
+        width: 550px;
+        max-width: 550px;
+    }
+}
+
+#distribution-hero .hero-content.hero-full-image .text-overlay h1:before {
+    background-image: url(https://recruit.smashfly.com/SmashFlyMedia/Images/14319/14319_1476_flipped_heart.png),none;
+    background-size: 20px;
+    background-repeat: no-repeat;
+    content: "";
+    height: 20px;
+    left: 6px;
+    position: absolute;
+    top: 10;
+    width: 20px; 
+}
+
+#distribution {
+    background: #e9e9e9;
+}
+
+#distribution .body-copy {
+    background: #fff;
+    padding: 32px;
+}
+
+#distribution .body-copy ul {
+    list-style: disc;
+}
+
+#distribution .body-copy ul.indent {
+    margin-right: 0px;
+    padding-left: 30px;
+    padding-right: 0px;
+}
+
+#distribution .body-copy a {
+    color: #c00;
+}
+
+
+#distribution #wrapper.disciplines {
+  min-height: 0;
+  display: inline-block;
+  position: relative;
+  left: 50%;
+  margin: 0px 0;
+  transform: translate(-50%, 0);
+  background-color: #fff;
+  max-width: 1050px;
+  padding: 0 30px 30px;
+}
+@media (max-width: 550px) {
+  #distribution #wrapper.disciplines {
+    box-sizing: border-box;
+    transform: translate(0, 0);
+    max-width: 100%;
+    min-height: 100%;
+    margin: 0;
+    left: 0;
+  }
+}
+
+#distribution .disciplines h2 {
+  color:#c00;
+  font-size: 24px;
+  line-height: 34px;
+  letter-spacing: 1px;
+  display: block;
+  background-color: #fefffa;
+  margin: 0;
+  cursor: pointer;
+}
+#distribution .disciplines p {
+  font-size: 16px;
+  line-height: 20px;
+  position: relative;
+  overflow: hidden;
+  max-height: 800px;
+  opacity: 1;
+  transform: translate(0, 0);
+  margin-top: 14px;
+  z-index: 2;
+  transition: all 500ms ease;
+    padding-right:1em;
+    clear: both !important
+}
+
+#distribution .disciplines img {
+  position: relative;
+  overflow: hidden;
+  opacity: 1;
+  z-index: 2;
+  transition: all 500ms ease;
+  transform: translate(0, 0);
+    float: left;
+    width: 325px;
+    padding-right: 1em; 
+    padding-top: 0em;
+    clear: both !important;
+}
+    
+#distribution .disciplines p,
+#distribution .disciplines ul li span:before,
+#distribution .disciplines ul li span:after,
+#distribution .disciplines img {
+  transition: all 0.25s ease-in-out;
+}
+#distribution .disciplines ul {
+  list-style: none !important;
+  padding: 0;
+  margin: 0;
+}
+#distribution .disciplines ul li {
+  position: relative;
+  padding: 0;
+  margin: 0;
+  padding-bottom: 4px;
+  padding-top: 18px;
+  border-top: 1px dotted #dce7eb;
+}
+#distribution .disciplines ul li span {
+  position: absolute;
+  transform: translate(-6px, 0);
+  margin-top: 9px;
+  right: 0;
+}
+#distribution .disciplines ul li span:before,
+#distribution .disciplines ul li span:after {
+  content: "";
+  position: absolute;
+  background-color: #000;
+  width: 3px;
+  height: 16px;
+}
+#distribution .disciplines ul li span:before {
+  transform: translate(2px, 0) rotate(45deg);
+}
+#distribution .disciplines ul li span:after {
+  transform: translate(2px, 0) rotate(-45deg);
+}
+#distribution .disciplines ul li input[type=checkbox] {
+  position: absolute;
+  cursor: pointer;
+  width: 100%;
+  height: 100%;
+  z-index: 1;
+  opacity: 0;
+  display: inherit !important;
+}
+#distribution .disciplines ul li input[type=checkbox]:checked ~ p, #distribution .disciplines ul li input[type=checkbox]:checked ~ img {
+  margin-top: 0;
+  max-height: 0;
+  opacity: 0;
+  transform: translate(0, 50%);
+}
+#distribution .disciplines ul li input[type=checkbox]:checked ~ span:before {
+  margin-top: 9px;
+  height: 9px;
+  transform: translate(2px, 0) rotate(45deg);
+}
+#distribution .disciplines ul li input[type=checkbox]:checked ~ span:after {
+  margin-top: 9px;
+  height: 9px;
+  transform: translate(-2px, 0) rotate(-45deg);
+}
+#distribution .disciplines ul li:nth-of-type(1) {
+  border-top: none;
+  animation-delay: 0.5s;
+}
+#distribution .disciplines ul li:nth-of-type(2) {
+  animation-delay: 0.75s;
+}
+#distribution .disciplines ul li:nth-of-type(3) {
+  animation-delay: 1s;
+}
+#distribution .disciplines ul li:last-of-type {
+  padding-bottom: 0;
+}
+
+
+
+#distribution .color-box-green {
+    background-color: #a7ce39;
+    color: #fff;
+    margin: 0 0 32px;
+    float: left;
+}
+
+#distribution .color-box-orange {
+    background-color: #ea7600;
+    color: #fff;
+    margin: 0 0 32px;
+    float: left;
+    position: relative;
+}
+
+#distribution .color-box-green>div.content-wrapper {
+    float: right;
+    padding: 32px 32px 0 0;
+    width: calc(64% - 32px);
+    min-height: 255px;
+}
+
+#distribution .color-box-orange>div.content-wrapper {
+    float: right;
+    padding: 32px 32px 0 0;
+    width: calc(64% - 32px);
+    min-height: 255px;
+}
+
+#distribution .color-box-green .content-wrapper h3, #distribution .color-box-orange .content-wrapper h3 {
+     font-size: 1.75em;
+     line-height: 1.25em;
+}
+
+#distribution .color-box-green>div.image-wrapper {
+    float: left;
+    padding: 12px;
+    width: 36%;
+    position: relative;
+}
+
+#distribution .color-box-orange>div.image-wrapper {
+    float: left;
+    padding: 12px;
+    width: 36%;
+    position: relative;
+}
+
+#distribution .color-box-green .content-wrapper a, #distribution .color-box-orange .content-wrapper a {
+    color: #fff;
+}
+
+#distribution .color-box-green .content-wrapper a:hover, #distribution .color-box-orange .content-wrapper a:hover {
+    text-decoration: underline;
+}
+
+#distribution .color-box-green .image-wrapper {
+    padding-top:35px !important;
+}
+
+#distribution .color-box-orange .image-wrapper {
+    padding-top: 50px !important;
+}
+
+#distribution .color-box-green .image-wrapper img, #distribution .color-box-orange .image-wrapper img  {
+    width: 100%;
+}
+
+#distribution .related-content {
+    float: left;
+    margin: 0 auto;
+    width: 100%;
+    background: #fff;
+}
+
+#distribution .related-content .related-content-img-wrap {
+    width: 35%;
+    float: left;
+}
+
+@media only screen and (max-width: 750px) {
+    #distribution .related-content .related-content-img-wrap {
+        width: 100% !important;
+    }
+    #distribution .related-content .related-content-link-wrap {
+        width: 100% !important;
+        padding-top: 0 !important;
+    }
+}
+
+#distribution .related-content .related-content-img-wrap img {
+    width: 100%;
+    max-width: 100%;
+}
+
+#distribution .related-content .related-content-link-wrap {
+    display: inline-block;
+    width: calc(65% - 34px);
+    padding: 40px 32px 0 32px;
+}
+
+#distribution .related-content .related-content-link-wrap h4 {
+    font-size: 1.75em;
+    line-height: 1em;
+}
+
+#distribution .related-content .related-content-link-wrap p {
+    color: #646464;
+}
+
+#distribution .related-content .related-content-link-wrap a {
+    color:#c00;
+}
+
+#distribution .related-content .related-content-link-wrap a:hover {
+    text-decoration: underline;
+}
