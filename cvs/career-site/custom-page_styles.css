@@ -1,4 +1,4 @@
-/* CVS Custom Page Stylesheet | HireClix 2017 | creative@hireclix.com */
+/* CVS Custom Page Stylesheet | HireClix 2018 | creative@hireclix.com */
 
 
 /* Awards & Recognition Page */
@@ -2610,7 +2610,7 @@
 }
 
 
-/* Military Clinic Page */
+/* Military Page */
 
 .bya {
     -ms-flex-wrap: wrap;
@@ -6379,13 +6379,11 @@ a.fancybox {
     background: url(https://recruit.smashfly.com/SmashFlyMedia/Images/14319/14319_1882_distribution_header.jpg) 20% center/cover no-repeat
 }
 
-#distribution-hero .hero-content.hero-full-image h1 {
-    color: 
-}
+
 
 @media only screen and (max-width: 750px) {
         #distribution-hero .hero-content.hero-full-image {
-    min-height: 200px;
+    min-height: 600px;
     }
     
     #distribution-hero .hero-content.hero-full-image .text-overlay h1 {
@@ -6399,6 +6397,10 @@ a.fancybox {
     #distribution-hero .hero-content.hero-full-image .text-overlay h1 {
         max-width: 300px;
     }
+    
+     #distribution-hero .hero-content.hero-full-image .mobile-hero {
+    display: inherit !important;
+}
 }
 
 @media (min-width: 64rem){    
@@ -6425,13 +6427,17 @@ a.fancybox {
     width: 20px; 
 }
 
+#distribution-hero .hero-content.hero-full-image .mobile-hero {
+    display: none;
+}
+
 #distribution {
-    background: #e9e9e9;
+    background: #fff;
 }
 
 #distribution .body-copy {
     background: #fff;
-    padding: 32px;
+    padding: 0 4em;
 }
 
 #distribution .body-copy ul {
@@ -6671,6 +6677,12 @@ a.fancybox {
 }
 
 @media only screen and (max-width: 750px) {
+    #distribution .body-copy {
+    background: #fff;
+    padding: 0 ;
+}
+    
+    
     #distribution .related-content .related-content-img-wrap {
         width: 100% !important;
     }
