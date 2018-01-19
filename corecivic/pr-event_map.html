@@ -4,7 +4,7 @@
 <title>PR Event Map</title>
 <style>
     #map_wrapper {
-    height: 450px;
+    height: 400px;
 }
 
 #map_canvas {
@@ -83,7 +83,7 @@ function initialize() {
 
     // Override our map zoom level once our fitBounds function runs (Make sure it only runs once)
     var boundsListener = google.maps.event.addListener((map), 'bounds_changed', function(event) {
-        this.setZoom(10);
+        this.setZoom(9);
         google.maps.event.removeListener(boundsListener);
     });
     
