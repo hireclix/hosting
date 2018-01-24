@@ -1,4 +1,4 @@
-/* HireClix 2017 | www.hireclix.com | creative@hireclix.com */
+/* HireClix 2018 | www.hireclix.com | creative@hireclix.com */
 
 @import url(font-awesome.min.css);
 @import url("https://fonts.googleapis.com/css?family=Lato:300,400,700,300i,400i,700i");
@@ -1811,7 +1811,7 @@
 			height: 100%;
 			/*opacity: 0.4;*/
             background: #de256b;
-            background-image: url(/images/hero.jpg); 
+            background-image: url(https://hireclix.github.io/hosting/hill-knowlton/images/hero.jpg); 
             background-image: linear-gradient(rgba(222,37,107,.8),rgba(222,37,107,.8)), url(/images/hero.jpg); 
             background-size: cover;   
             background-attachment: fixed;
@@ -3077,7 +3077,7 @@
 			}
 
 		#wrapper > .main.alt {
-            background: url(/images/bg-pink.jpg) repeat-y 0 0;
+            background: url(https://hireclix.github.io/hosting/hill-knowlton/images/bg-pink.jpg) repeat-y 0 0;
             background-size: contain;
 			background-color: #fff;
 		}
