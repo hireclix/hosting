@@ -6375,6 +6375,18 @@ a.fancybox {
     margin: 0 5px;
 }
 
+#retail .dark-blue_bg ul {
+    list-style: disc;
+}
+
+#retail .dark-blue_bg ul.indent {
+    margin-right: 0px;
+    padding-left: 30px;
+    padding-right: 0px;
+    font-size:.9em;
+    line-height: 1.5em;
+}
+
 /* Distribution Page */
 
 #distribution-hero .hero-content.hero-full-image {
@@ -7183,64 +7195,83 @@ ul.quick-facts li::before, ul.nine-cities li::before {
 
 
 #nursing {
-    background: #e9e9e9;
+    background: #fff;
 }
 
-#nursing .contentSlider {
-  width: 100%;
-}
-#nursing .contentSlider,
-#nursing .contentSlider .rsOverflow,
-#nursing .contentSlider .rsSlide,
-#nursing .contentSlider .rsVideoFrameHolder,
-#nursing .contentSlider .rsThumbs {
-  background: #eee;
-  color: #000;
+#nursing .body-copy {
+    background: #fff;
+    padding: 32px;
 }
 
-#nursing .contentSlider .rsSlide,
-#nursing .contentSlider .rsOverflow {
-  background: #fff;
+#nursing .body-copy ul {
+    list-style: disc;
 }
-#nursing .contentSlider h3 {
-  font-size: 24px;
-  line-height: 31px;
-  margin: 12px 0 8px;
-  font-weight: bold;
+
+#nursing .body-copy ul.indent {
+    margin-right: 0px;
+    padding-left: 30px;
+    padding-right: 0px;
+}
+
+#nursing .body-copy a {
     color: #c00;
 }
 
 
-#nursing .contentSlider .content {
-    padding:2em 5em 2em 16em;
+#nursing .intro .content-wrapper {
+    display: block;
+    padding-bottom: 0;
 }
 
-
-#nursing .contentSlider img {
-  max-width: 100%;
-  height: auto;
-  display: block;
-    padding:2em;
+@media screen and (min-width: 800px) {
+#nursing .intro .content-wrapper {
     float: left;
+    width: calc(50% - 64px);
+    padding-bottom: 0;
 }
-#nursing .content-slider-bg {
-  width: 86%;
-  padding: 24px 7%;
-  background: #eee;
 }
 
-@media (max-width: 800px) {
-   #nursing .contentSlider img {
-  margin: 0 auto;
-    float: none;
-} 
-    
-    #nursing .contentSlider .content {
-    padding: 3em 1em;
+@media (min-width: 800px) {
+#nursing .intro .content-wrapper {
+    float: left !important;
+    width: 70% !important;
+    box-sizing: border-box;
 }
-    
 }
 
+}
+@media (min-width: 1000px) {
+#nursing .intro .content-wrapper {
+    width: calc(70% - 70px) !important;
+}
+}
+
+#nursing img.hs-icon {
+    display: block;
+    margin:0 auto;
+}
+
+@media (min-width: 800px) {
+#nursing img.hs-icon {
+    float: right;
+    width: 20%;
+    margin: 35px;
+    box-sizing: border-box;
+    max-width: 247px;
+}
+}
+
+.nursing .content-wrapper {
+    padding: 3em 6em !important;
+}
+
+.nursing ul.indent {
+    margin-right: 0px;
+    padding-left: 30px;
+    padding-right: 0px;
+    font-size:.9em;
+    line-height: 1.5em;
+}
 
 /* Corporate Page */
 
