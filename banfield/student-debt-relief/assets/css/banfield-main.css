@@ -2386,3 +2386,9 @@ ul.icons {
     width:400px;
     height: 500px;
 }
+
+@media screen and (max-width: 767px) {
+    .live-chat {
+        display: none;
+    }
+}
