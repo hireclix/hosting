@@ -1,4 +1,4 @@
-/* HireClix 2017 | www.hireclix.com */
+/* HireClix 2018 | www.hireclix.com */
 
 @import url(font-awesome.min.css);
 
@@ -5563,4 +5563,12 @@
     .blue-strip {
     font-size: 95%;
 }
+}
+
+.live-chat {
+    position: fixed;
+    bottom: 0;
+    right:0;
+    width:100%;
+    height: 100%;
 }
