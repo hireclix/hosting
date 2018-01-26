@@ -2416,7 +2416,7 @@ ul.icons {
   height: 100%;
 }
 
-.live-chat-mobile p {
+.live-chat-mobile span {
     display: inline-block;
     vertical-align: middle;
     margin-bottom: 0;
