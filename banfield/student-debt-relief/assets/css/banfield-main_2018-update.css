@@ -2422,6 +2422,10 @@ ul.icons {
     padding:1em 1em;
 }
 
+.mobile-only {
+    display: none;
+}
+
 @media screen and (max-width: 767px) {
     .blue-icons {
         -webkit-flex-direction: column;
@@ -2438,32 +2442,17 @@ ul.icons {
     .blue-icons p {
     width: 100%;
 }
-
-}
-/*
-ul.blue-icons {
-    list-style: none;
     
+    .desktop-only {
+        display: none;
+    }    
     
+    .mobile-only {
+        display:inherit;
+    }
+
 }
 
-ul.blue-icons li {
-    list-style-position: inside;
-    text-indent: -1.75em;
-}
-
-ul.blue-icons li:before {
-    content: "";
-    width:50px;
-    height:50px;
-    background:url(/images/low-interest_icon.png);
-    background-size: 50px;
-    display: block;
-    float: left;
-    margin-right: 35px;
-}
-
-*/
 /*Live Chat */
 
 .live-chat {
