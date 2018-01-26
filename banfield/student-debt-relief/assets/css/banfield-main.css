@@ -2388,6 +2388,8 @@ ul.icons {
 }
 
 .live-chat-mobile {
+    bottom: 0;
+    position: fixed;
     display: none;
 }
 
