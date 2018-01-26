@@ -2384,11 +2384,19 @@ ul.icons {
     bottom: 0;
     left:0;
     width:400px;
-    height: 500px;
+    height: 500px;  
+}
+
+.live-chat-mobile {
+    display: none;
 }
 
 @media screen and (max-width: 767px) {
     .live-chat {
         display: none;
+    }
+    
+    .live-chat-mobile {
+        display: inherit;
     }
 }
