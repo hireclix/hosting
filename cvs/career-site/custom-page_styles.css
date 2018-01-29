@@ -6742,7 +6742,7 @@ a.fancybox {
 #cc-hero .hero-content.hero-full-image {
     min-height: 325px;
     position: relative;
-    background: url(https://recruit.smashfly.com/SmashFlyMedia/Images/14319/14319_1889_customercare_header.jpg) 20% center/cover no-repeat
+    background: url(https://recruit.smashfly.com/SmashFlyMedia/Images/14319/14319_2017_customercare_header_v2.jpg) 20% center/cover no-repeat
 }
 
 #cc-hero .hero-content.hero-full-image h1 {
@@ -6751,7 +6751,7 @@ a.fancybox {
 
 @media only screen and (max-width: 750px) {
         #cc-hero .hero-content.hero-full-image {
-    min-height: 200px;
+    min-height: 800px;
     }
     
     #cc-hero .hero-content.hero-full-image .text-overlay h1 {
@@ -6765,8 +6765,18 @@ a.fancybox {
     #cc-hero .hero-content.hero-full-image .text-overlay h1 {
         max-width: 300px;
     }
+    
+    #cc-hero .hero-content.hero-full-image .mobile-hero {
+    display: inherit !important;
+}
 }
 
+@media only screen and (max-width: 500px) {
+#cc-hero .hero-content.hero-full-image {
+    min-height: 600px;
+    }
+    
+}
 @media (min-width: 64rem){    
     #cc-hero .hero-content.hero-full-image .text-overlay {
         top:100px;
@@ -6791,7 +6801,11 @@ a.fancybox {
     width: 20px; 
 }
 
-#cc {
+#cc-hero .hero-content.hero-full-image .mobile-hero {
+    display: none;
+}
+
+#cc, #cc2 {
     background: #e9e9e9;
 }
 
@@ -6846,13 +6860,13 @@ a.fancybox {
 #cc img.hs-icon {
     display: block;
     margin:0 auto;
+    margin-bottom: 20px;
 }
 
 @media (min-width: 800px) {
 #cc img.hs-icon {
     float: right;
     width: 20%;
-    margin: 35px;
     box-sizing: border-box;
     max-width: 247px;
 }
@@ -6868,6 +6882,14 @@ ul.quick-facts, ul.nine-cities {
 ul.nine-cities {
     column-count: 3;
     padding-top:1em;
+}
+
+ul.nine-cities a {
+    color: #000 !important;
+}
+
+ul.nine-cities a:hover {
+    color: #c00 !important;
 }
 
 @media (max-width: 800px) {
@@ -7137,6 +7159,106 @@ ul.quick-facts li::before, ul.nine-cities li::before {
     transform: rotate(180deg);
 } 
 }
+
+
+#cc2 .item-1 {
+   padding: 0 !important; 
+}
+
+#cc2 .item-2 {
+    padding: 0 !important;
+    flex: 2;
+}
+
+@media only screen and (min-width: 64rem) {
+    #cc .item-1:first-of-type {
+        padding-left:0 !important;
+    }
+    
+    #cc .item-1:nth-of-type(3) {
+        padding-right:0 !important;
+    }
+    
+    #cc .video .item-1 {
+        padding-right:0 !important;
+        padding-left: 0 !important;
+    }
+}
+
+@media only screen and (max-width: 750px) {
+    #cc2 .item-2 {
+        order: 2;
+    }
+    
+    #cc2 .content-wrapper {
+        padding: 1em 2em !important;
+    }
+    
+    #cc2 .quote_bg .content-wrapper {
+        padding: 2em 2em !important;
+    }
+    
+    #cc2 .quote_bg .item-2 {
+        flex: 1 1 auto;
+    }
+    
+   
+}
+
+
+#cc2 .image-container {
+		border: 0;
+		display: inline-block; !important
+		position: relative !important;
+    width: 100%;
+	   height: 100%;
+}
+
+
+
+#cc2 .image-container img {
+    height: 100%;
+    width: 100%;
+}
+
+#cc2 .image-container img.center {
+			-moz-object-position: center;
+			-webkit-object-position: center;
+			-ms-object-position: center;
+			object-position: center;
+            -moz-object-fit: cover;
+			-webkit-object-fit: cover;
+			-ms-object-fit: cover;
+			object-fit: cover;
+		}
+
+		#cc2 .image-container img.right {
+			-moz-object-position: right;
+			-webkit-object-position: right;
+			-ms-object-position: right;
+			object-position: right;
+            -moz-object-fit: cover;
+			-webkit-object-fit: cover;
+			-ms-object-fit: cover;
+			object-fit: cover;
+		}
+
+        #cc2 .image-container img.left {
+			-moz-object-position: left;
+			-webkit-object-position: left;
+			-ms-object-position: left;
+			object-position: left;
+            -moz-object-fit: cover;
+			-webkit-object-fit: cover;
+			-ms-object-fit: cover;
+			object-fit: cover;
+		}
+
+#cc2 .content-wrapper {
+    padding: 3em 1em;
+}
+
+
 
 
 /* Nursing Page */
