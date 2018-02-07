@@ -232,7 +232,7 @@ section#intro {
     section#intro {
     background-position: center center;    
 	-webkit-background-size: cover;
-	padding: 10em 0 0 0;
+	padding: 10em 0 1em 0;
 }
 
     #intro h2 br {
