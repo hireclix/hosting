@@ -1307,6 +1307,10 @@ ul {
     color: #3dcd58;
 }
 
+.quote-author {
+   margin-left: 2em; 
+}
+
 .quote-author .name {
     font-family: 'Nunito', sans-serif;
     font-size: 18px;
