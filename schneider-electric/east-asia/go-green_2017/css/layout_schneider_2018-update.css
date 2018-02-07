@@ -78,6 +78,10 @@ a {
 	text-decoration: none;
 }
 
+a:hover {
+    color:#fff;
+}
+
 .icon {
 		text-decoration: none;
 		border-bottom: none;
