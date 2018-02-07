@@ -1283,11 +1283,8 @@ ul {
 }
 
 .open-quote {
-    font-size: 7rem;
-    top: 5px;
-    left: -50px;
     position: absolute;
-    font-size: 7em;
+    font-size: 6em;
     color: #3dcd58;
     top: 9px;
     z-index: -1;
@@ -1300,8 +1297,8 @@ ul {
 
 .close-quote {
     position: absolute;
-    font-size: 7em;
-    bottom: -54px;
+    font-size: 6em;
+    bottom: -45px;
     right: -29px;
     color: #3dcd58;
 }
