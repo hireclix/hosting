@@ -184,7 +184,8 @@ a:hover, a:focus, a:active {
 	}
 
 	h3 {
-		font-size: 1.35em;
+		font-size: 1.6em;
+        line-height: 1.25em;
 	}
 
 	h4 {
@@ -894,17 +895,7 @@ input[type="submit"].big,
 			opacity: 0.25;
 		}
 
-		@media screen and (max-width: 480px) {
-
-			input[type="submit"],
-			input[type="reset"],
-			input[type="button"],
-			button,
-			.button {
-				padding: 0;
-			}
-
-		}
+		
 
 /* Page Wrapper */
 
@@ -1069,6 +1060,7 @@ header p {
 
 		#wrapper .inner {
 			max-width: 40em;
+            padding: 0 1em;
 		}
 
 		#wrapper footer {
