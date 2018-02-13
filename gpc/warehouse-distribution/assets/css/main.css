@@ -1804,7 +1804,7 @@
 			height: 100%;
 			background-color: #f7f7f7;
 			opacity: 1;
-            background: linear-gradient(to bottom,rgba(0,0,0,.25),rgba(0,0,0,.25)), url(/images/GPG_hero.jpg);
+            background: linear-gradient(to bottom,rgba(0,0,0,.25),rgba(0,0,0,.25)), url(https://hireclix.github.io/hosting/gpc/images/GPG_hero.jpg);
             background-size: cover;   
             background-attachment: fixed;
 		}
@@ -2918,7 +2918,7 @@
 			}
 
 		#wrapper > .main.accent2 {
-			background: url(/images/GPG_bg.jpg);
+			background: url(https://hireclix.github.io/hosting/gpc/images/GPG_bg.jpg);
             background-size: cover;
             background-repeat: no-repeat;
             background-position: 0% 50%;
@@ -3128,7 +3128,7 @@
 			}
 
 		#wrapper > .main.alt {
-            background: url(/images/GPG_bg.jpg);
+            background: url(https://hireclix.github.io/hosting/gpc/images/GPG_bg.jpg);
             background-position: left;
             background-size: cover;
 			background-color: #fff;
