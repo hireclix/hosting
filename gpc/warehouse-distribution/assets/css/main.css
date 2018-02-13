@@ -159,7 +159,7 @@
 	}
 
 .job a {
-    color: #014680 !important;
+    color: #fff !important;
 }
 
 .job a:hover {
@@ -529,9 +529,9 @@
 		input[type="button"].job,
 		button.job,
 		.button.job {
-			background-color:#fff;
+			background-color:#014680;
 		    border: 3px solid #014680;
-		    color: #014680 !important;
+		    color: #fff !important;
 		  }
 
 			input[type="submit"].job:hover,
@@ -539,8 +539,8 @@
 			input[type="button"].job:hover,
 			button.job:hover,
 			.button.job:hover {
-				background: #014680;
-                border: 3px solid #014680;
+				background: #003866;
+                border: 3px solid #003866;
                 color: #fff !important;
                 text-decoration: none;
 			}
@@ -550,8 +550,8 @@
 			input[type="button"].job:active,
 			button.job:active,
 			.button.job:active {
-				background: #014680;
-                border: 3px solid #fff;
+				background: #003866;
+                border: 3px solid #003866;
                 color: #fff !important;
                 text-decoration: none;
 			}
