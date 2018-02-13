@@ -1,0 +1,455 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=0">
+        <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+        <title>Drive With Uber</title>
+        <style type="text/css">
+            /* CLIENT-SPECIFIC STYLES */
+            body, table, td, a { -webkit-text-size-adjust: 100%; -ms-text-size-adjust: 100%; }
+            table, td { mso-table-lspace: 0pt; mso-table-rspace: 0pt; }
+            img { -ms-interpolation-mode: bicubic; }
+            @font-face {
+              font-family: 'ClanPro-Book';
+              src: url("/fonts/ClanPro-Book.otf") format("opentype");
+            }
+            @font-face {
+              font-family: 'ClanPro-News';
+              src: url("/fonts/ClanPro-News.otf") format("opentype");
+            }
+            /* RESET STYLES */
+            img { border: 0; height: auto; line-height: 100%; outline: none; text-decoration: none; }
+            table { border-collapse: collapse !important; }
+            body { height: 100% !important; margin: 0 !important; padding: 0 !important; width: 100% !important; }
+            /* iOS BLUE LINKS */
+            a[x-apple-data-detectors] {
+            color: inherit !important;
+            text-decoration: none !important;
+            font-size: inherit !important;
+            font-family: inherit !important;
+            font-weight: inherit !important;
+            line-height: inherit !important;
+            }
+            a {
+            color: #12939a;
+            font-weight: 400;
+            text-decoration: none;
+            }
+            img {
+            max-width: 100%;
+            }
+            h1, .h1 {
+            Margin-top: 0;
+            margin-bottom: 20px;
+            font-size: 24px;
+            line-height: 32px;
+            font-weight: 700;
+            }
+            h2, .h2 {
+            Margin-top: 0;
+            font-size: 16px;
+            line-height: 20px;
+            font-weight: 700;
+            }
+            h3, .h3 {
+            font-size: 14px;
+            line-height: 18px;
+            font-weight: 700;
+            text-transform: uppercase;
+            }
+            .wrapper {
+            padding: 20px 10px;
+            }
+            .content {
+            font-family: ClanPro-Book, "Helvetica Neue", Helvetica, sans-serif;
+            font-size: 13px;
+            line-height: 22px;
+            color: #000;
+            }
+            .info {
+            padding: 15px 10px;
+            font-family: ClanPro-Book, "Helvetica Neue", Helvetica, sans-serif;
+            font-size: 12px;
+            line-height: 20px;
+            color: #fff;
+            }
+            .info a {
+            font-family: ClanPro-Book, "Helvetica Neue", Helvetica, sans-serif;
+            font-size: 12px;
+            line-height: 20px;
+            color: #fff;
+            text-decoration: underline;
+            }
+            .header {
+            padding: 0 0 10px 0;
+            }
+            .social-link {
+            padding: 0 10px;
+            }
+            .banner img {
+            display: block;
+            }
+            .main-content-wrap {
+            background-color: #fff;
+            }
+            .main-content {
+            padding: 30px;
+            }
+            .secondary-content-wrap {
+            padding-top: 40px;
+            }
+            .content-with-img {
+            padding-bottom: 40px;
+            }
+            .left-img, .right-img {
+            background-color: #fff;
+            }
+            .left-img img, .right-img img {
+            display: block;
+            }
+            .left-img-content, .right-img-content {
+            padding: 30px;
+            background-color: #fff;
+            font-family: ClanPro-Book, "Helvetica Neue", Helvetica, sans-serif;
+            font-size: 13px;
+            line-height: 22px;
+            color: #000;
+            }
+            .footer-content {
+            padding: 30px 10px;
+            font-family: ClanPro-Book, "Helvetica Neue", Helvetica, sans-serif;
+            font-size: 12px;
+            line-height: 20px;
+            color: #fff;
+            }
+            .footer-content a {
+            font-family: ClanPro-Book, "Helvetica Neue", Helvetica, sans-serif;
+            font-size: 12px;
+            line-height: 20px;
+            color: #fff;
+            }
+            .mobile-only {
+            display: none;    
+            }
+            /* MOBILE STYLES */
+            @media screen and (max-width: 589px) {
+            .main-content {
+            padding: 20px !important;
+            }
+            .footer-content {
+            padding: 15px 20px !important;
+            display: block !important;
+            width: 100% !important;
+            max-width: 300px !important;
+            margin: 0 auto !important;    
+            }
+            .footer-content.graphic {
+            padding:0 !important;        
+            }    
+            }
+            @media screen and (max-width: 480px) {
+            .info-wrap {
+            padding: 10px 10px 20px 10px;
+            }
+            .info {
+            display: block !important;
+            width: 100% !important;
+            padding: 10px 0 0 0 !important;
+            text-align: center !important;
+            }
+            .header {
+            display: block !important;
+            width: 100% !important;
+            padding: 0 !important;
+            text-align: center !important;
+            }
+            .social-links {
+            width: 100% !important;
+            }
+            .social-link {
+            padding: 20px 10px !important;
+            }
+            .left-img, .right-img {
+            display: block !important;
+            width: 100% !important;
+            max-width: 300px !important;
+            margin: 0 auto !important;
+            }
+            .left-img-content, .right-img-content {
+            display: block !important;
+            width: 100% !important;
+            max-width: 260px !important;
+            margin: 0 auto !important;
+            padding: 20px !important;
+            }    
+            .mobile-only {
+            display: inherit;        
+            }   
+            .desktop-only {
+            display: none !important;        
+            }     
+            }
+            /* ANDROID CENTER FIX */
+            div[style*="margin: 16px 0;"] { margin: 0 !important; }
+        </style>
+    </head>
+    <body bgcolor="#F8F8F8" style="background-color: #F8F8F9; min-width:100%; width: 100%; margin: 0 !important; padding: 0;">
+        <!--[if (gte mso 9)|(IE)]>
+  <table align="center" width="590" style="max-width:100%;">
+  <tr><td>
+<![endif]-->
+        <!-- START wrapper -->
+        <table align="center" bgcolor="#F8F8F9" border="0" cellpadding="0" cellspacing="0" width="100%" style="width:100%;">
+            <tbody>
+                <tr>
+                    <td class="wrapper" align="center" valign="top">
+                    <!-- START logo -->
+                    <table align="center" border="0" cellpadding="0" cellspacing="0" width="100%" style="max-width:590px;">
+                        <tbody>
+                            <tr>
+                                <td align="left" valign="middle" class="header content" width="50%">
+                                <img src="/img/Uber_logo.png" alt="Logo" width="100">
+                                </td>
+                                <td align="right" valign="middle" class="header content" width="50%">
+                                <table class="social-links" cellpadding="0" cellspacing="0">
+                                    <tbody>
+                                        <tr>
+                                            <td valign="center" align="middle" width="10" class="social-link">
+                                            <a href="https://www.facebook.com/uber" target="_blank"><img src="/img/facebook_icon.png" alt="Facebook"></a>
+                                            </td>
+                                            <td align="center" valign="middle" width="18" class="social-link">
+                                            <a href="https://twitter.com/uber" target="_blank"><img src="/img/twitter_icon.png" alt="Twitter"></a>
+                                            </td>
+                                            <td align="center" valign="middle" width="18" class="social-link">
+                                            <a href="https://www.linkedin.com/company/uber-com/" target="_blank"><img src="/img/linkedin_icon.png" alt="LinkedIn"></a>
+                                            </td>
+                                            <td align="center" valign="middle" width="18" class="social-link">
+                                            <a href="https://www.instagram.com/uber/" target="_blank"><img src="/img/instagram_icon.png" alt="Instagram"></a>
+                                            </td>
+                                        </tr>
+                                    </tbody>
+                                </table>
+                                </td>
+                            </tr>
+                        </tbody>
+                    </table>
+                    <!-- END logo -->
+                    <!-- START banner -->
+                    <table align="center" border="0" cellpadding="0" cellspacing="0" width="100%" style="max-width:590px;">
+                        <tbody>
+                            <tr>
+                                <td align="left" valign="middle" class="banner content">
+                                <img src="/img/Uber_email-header_v1.jpg" alt="banner" width="100%">
+                                </td>
+                            </tr>
+                        </tbody>
+                    </table>
+                    <!-- END banner -->
+                    <!-- START main content -->
+                    <table align="center" border="0" cellpadding="0" cellspacing="0" width="100%" style="max-width:590px;">
+                        <tbody>
+                            <tr>
+                                <td class="main-content-wrap">
+                                <!-- START content -->
+                                <table align="center" border="0" cellpadding="0" cellspacing="0" width="100%">
+                                    <tbody>
+                                        <tr>
+                                            <td class="main-content content" align="left">
+                                            <h1>
+Drive with Uber and be your own boss.</h1>
+                                                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea <a href="#">commodo consequat</a>.</p>
+                                                <p>Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+                                           
+                                                <!--[if mso]>
+  <v:roundrect xmlns:v="urn:schemas-microsoft-com:vml" xmlns:w="urn:schemas-microsoft-com:office:word" href="#" style="height:36px;v-text-anchor:middle;width:155px;" strokecolor="#12939a" fillcolor="#12939a">
+    <w:anchorlock/>
+    <center style="color:#ffffff;font-family:Helvetica,sans-serif;font-size:14px;">SIGN UP NOW &rarr;</center>
+  </v:roundrect>
+<![endif]-->
+                                            <a href="#" style="background-color:#12939a;border:1px solid #12939a;color:#ffffff;display:inline-block;font-size:14px;line-height:38px;text-align:center;text-decoration:none;width:155px;-webkit-text-size-adjust:none;mso-hide:all;">SIGN UP NOW &rarr;</a>
+
+                                            </td>
+                                        </tr>
+                                    </tbody>
+                                </table>
+                                <!-- END content -->
+                                </td>
+                            </tr>
+                        </tbody>
+                    </table>
+                    <!-- END main content -->
+                    <!-- START secondary content -->
+                    <table align="center" border="0" cellpadding="0" cellspacing="0" width="100%" style="max-width:590px;">
+                        <tbody>
+                            <tr>
+                                <td class="secondary-content-wrap">
+                                <!-- START content -->
+                                <table align="center" border="0" cellpadding="0" cellspacing="0" width="100%">
+                                    <tbody>
+                                        <tr>
+                                            <td class="secondary-content content" align="left">
+                                                <h1><span style="font-family: ClanPro-News, Helvetica Neue, Helvetica, sans-serif;">Work that puts you first</span><br>
+                                                Drive when you want, earn what you need</h1>
+                                            <!-- START archive -->
+                                            <table align="center" border="0" cellpadding="0" cellspacing="0" width="100%">
+                                                <tbody>
+                                                    <tr>
+                                                        <td class="content-with-img" align="center" valign="top">
+                                                        <!-- START content + image -->
+                                                        <table cellpadding="0" cellspacing="0" border="0" width="100%">
+                                                            <tbody>
+                                                                <tr>
+                                                                    <td class="left-img" align="left" valign="middle" width="30%">
+                                                                    <img src="/img/benefits_icon1.png" width="100%" height="auto" alt="Set your own schedule">
+                                                                    </td>
+                                                                    <td class="left-img-content" align="left" valign="middle" width="60%">
+                                                                    <h2>Set your own schedule</h2>
+                                                                    <p>You can drive with Uber anytime, day or night, 365 days a year. When you drive is always up to you, so it never interferes with the important things in your life.</p>
+                                                                    </td>
+                                                                </tr>
+                                                            </tbody>
+                                                        </table>
+                                                        <!-- END content + image -->
+                                                        </td>
+                                                    </tr>
+                                                    <tr>
+                                                        <td class="content-with-img" align="center" valign="top">
+                                                        <!-- START content + image -->
+                                                        <table cellpadding="0" cellspacing="0" border="0" width="100%">
+                                                            <tbody>
+                                                                <tr>
+                                                                    <td class="right-img mobile-only" align="left" valign="middle" width="30%">
+                                                                    <img src="/img/benefits_icon2.png" width="100%" height="auto" alt="Earn more at every turn">
+                                                                    </td>
+                                                                    <td class="right-img-content" align="left" valign="middle" width="60%">
+                                                                    <h2>Earn more at every turn</h2>
+                                                                    <p>Trip fares start with a base amount, then increase with time and distance. And when demand is higher than normal, drivers earn more.</p>
+                                                                    </td>
+                                                                    <td class="right-img desktop-only" align="left" valign="middle" width="30%">
+                                                                    <img src="/img/benefits_icon2.png" width="100%" height="auto" alt="Earn more at every turn">
+                                                                    </td>
+                                                                </tr>
+                                                            </tbody>
+                                                        </table>
+                                                        <!-- END content + image -->
+                                                        </td>
+                                                    </tr>
+                                                    <tr>
+                                                        <td class="content-with-img" align="center" valign="top">
+                                                        <!-- START content + image -->
+                                                        <table cellpadding="0" cellspacing="0" border="0" width="100%">
+                                                            <tbody>
+                                                                <tr>
+                                                                    <td class="left-img" align="left" valign="middle" width="30%">
+                                                                    <img src="/img/benefits_icon3.png" width="100%" height="auto" alt="Let the app lead the way">
+                                                                    </td>
+                                                                    <td class="left-img-content" align="left" valign="middle" width="60%">
+                                                                    <h2>Let the app lead the way</h2>
+                                                                    <p>Just tap and go. You’ll get turn-by-turn directions, tools to help you earn more, and 24/7 support. And if you don’t have a smartphone, we can connect you to one.</p>
+                                                                    </td>
+                                                                </tr>
+                                                            </tbody>
+                                                        </table>
+                                                        <!-- END content + image -->
+                                                        </td>
+                                                    </tr>
+                                                </tbody>
+                                            </table>
+                                            <!-- END archive -->
+                                            </td>
+                                        </tr>
+                                    </tbody>
+                                </table>
+                                <!-- END content -->
+                                </td>
+                            </tr>
+                        </tbody>
+                    </table>
+                    <!-- END secondary content -->
+                    </td>
+                </tr>
+            </tbody>
+        </table>
+        <!-- END wrapper -->
+        <!--[if (gte mso 9)|(IE)]>
+  </td></tr></table>
+<![endif]-->
+        <!-- START footer wrapper -->
+                <table align="center" bgcolor="#f8f8f9" border="0" cellpadding="0" cellspacing="0" width="100%" style="max-width:1600px;">
+            <tbody>
+                <tr>
+                    <td align="center" valign="top" width="100%">
+                    <!--[if (gte mso 9)|(IE)]>
+        <table align="center" width="590" style="max-width:100%;">
+        <tr><td>
+      <![endif]-->   
+                    <table align="center" border="0" cellpadding="0" cellspacing="0" width="100%" style="max-width:590px;">
+                        <tbody>
+                            <tr>
+                               
+                                            <td align="center" valign="bottom" class="footer-content graphic" style="padding:0; line-height:0;">
+                                            <img src="/img/landscape-graphic.png">
+                                            </td>
+                                        
+                            </tr>
+                        </tbody>
+                    </table>
+                      
+                    <!-- END footer content -->
+                    <!--[if (gte mso 9)|(IE)]>
+        </td></tr></table>
+      <![endif]-->
+                    </td>
+                </tr>
+            </tbody>
+        </table>
+        <table align="center" bgcolor="#000" border="0" cellpadding="0" cellspacing="0" width="100%" style="max-width:590px;">
+            <tbody>
+                <tr>
+                    <td align="center" valign="top" width="100%">
+                    <!--[if (gte mso 9)|(IE)]>
+        <table align="center" width="590" style="max-width:100%;">
+        <tr><td>
+      <![endif]-->   
+                    <table align="center" border="0" cellpadding="0" cellspacing="0" width="100%" style="max-width:590px;">
+                        <tbody>
+                            <tr>
+                               
+                                            <td width=30% align="center" valign="middle" class="footer-content">
+                                            <img style="width:75px" src="/img/Uber_logo_white.png">
+                                            </td>
+                                       
+                                            
+                                           
+                                            
+                                            <td width="30%" align="center" valign="middle" class="footer-content">
+                                            <!--[if mso]>
+  <v:roundrect xmlns:v="urn:schemas-microsoft-com:vml" xmlns:w="urn:schemas-microsoft-com:office:word" href="#" style="height:36px;v-text-anchor:middle;width:175px;" strokecolor="#12939a" fillcolor="#12939a">
+    <w:anchorlock/>
+    <center style="color:#ffffff;font-family:Helvetica,sans-serif;font-size:14px;">BECOME A DRIVER</center>
+  </v:roundrect>
+<![endif]-->
+                                            <a href="#" style="background-color:#000;border:2px solid #fff;color:#ffffff;display:inline-block;font-size:14px;line-height:38px;text-align:center;text-decoration:none;width:175px;-webkit-text-size-adjust:none;mso-hide:all;">BECOME A DRIVER</a>
+                                            </td>
+                                
+                                             <td width=39% align="center" valign="middle" class="footer-content">
+                                                 <a href="https://privacy.uber.com/" target="_blank">Privacy</a> | <a href="https://www.uber.com/legal/terms/us/" target="_blank">Terms</a> | <a href="https://accessibility.uber.com/" target="_blank">Accessibility</a>
+                                            <br>    
+                                            &copy; 2018 Uber Technologies Inc.
+                                            </td>
+                                        
+                            </tr>
+                        </tbody>
+                    </table>
+                      
+                    <!-- END footer content -->
+                    <!--[if (gte mso 9)|(IE)]>
+        </td></tr></table>
+      <![endif]-->
+                    </td>
+                </tr>
+            </tbody>
+        </table>
+        <!-- END footer wrapper -->
+    </body>
+</html>
