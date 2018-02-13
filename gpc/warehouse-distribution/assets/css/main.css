@@ -162,6 +162,10 @@
     color: #014680 !important;
 }
 
+.job a:hover {
+    color: #fff !important;
+}
+
 		a strong {
 			-moz-transition: color 0.2s ease-in-out;
 			-webkit-transition: color 0.2s ease-in-out;
@@ -536,7 +540,7 @@
 			button.job:hover,
 			.button.job:hover {
 				background: #014680;
-                border: 3px solid #fff;
+                border: 3px solid #014680;
                 color: #fff !important;
                 text-decoration: none;
 			}
