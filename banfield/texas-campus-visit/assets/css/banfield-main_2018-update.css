@@ -1515,7 +1515,11 @@ iframe {
         background-repeat: no-repeat;
         background-position: center 0%;
         text-align: left;
-       padding: 3em 5em 3em 5em;
+       padding: 3em 1em 3em 1em;
+    }
+    
+    .hero-break {
+        display: none;
     }
 }
 /*
