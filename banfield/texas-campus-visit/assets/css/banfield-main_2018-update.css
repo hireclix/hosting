@@ -681,14 +681,12 @@
 /* Image */
 
 	.image {
-		border-radius: 6px;
 		border: 0;
 		display: inline-block;
 		position: relative;
 	}
 
 		.image img {
-			border-radius: 6px;
 			display: block;
 		}
 
@@ -960,7 +958,7 @@
 		display: inline-block;
 		font-weight: 400;
 		height: 2.25em;
-		line-height: 2.75em;
+		line-height: 2.65em;
 		padding: 0 2em;
 		text-align: center;
 		text-decoration: none;
@@ -1446,13 +1444,13 @@ input[type="submit"].royalcanin,
 
 #hero {
     
-    background-image: linear-gradient(to right, rgba(0,0,0,0.45), rgba(0,0,0,0.15), rgba(0,0,0,0.15)), url("https://hireclix.github.io/hosting/banfield/images/texas_am-campus_hero.jpg");
+    background-image: linear-gradient(to right, rgba(0,0,0,0.45), rgba(0,0,0,0.15), rgba(0,0,0,0.15)), url("https://hireclix.github.io/hosting/banfield/images/banfield_hero.jpg");
     background-attachment: fixed;
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center 0%;
     text-align: left;
-    padding: 3em 9em 3em 9em;
+    padding: 8em 9em 8em 9em;
 } 
 
 @media screen and (min-width: 981px) { 
@@ -1466,7 +1464,7 @@ input[type="submit"].royalcanin,
     position: relative;
     color: #fff;
     font-weight: bold;
-    font-size: 2.25em;
+    font-size: 3em;
     text-shadow: 2px 2px 5px rgba(0,0,0,0.5);
     text-align: center;
 }
@@ -1501,7 +1499,7 @@ iframe {
     #hero {
         
         background-position: center 15%;
-        padding: 3em 9em 3em 9em;
+        padding: 10em 9em 10em 9em;
     }
     
    
@@ -1513,9 +1511,9 @@ iframe {
         background-attachment: scroll;
         background-size: cover;
         background-repeat: no-repeat;
-        background-position: center 0%;
+        background-position: center 50%;
         text-align: left;
-       padding: 3em 1em 3em 1em;
+       padding: 8em 1em 8em 1em;
     }
     
     .hero-break {
@@ -1537,9 +1535,9 @@ iframe {
 
 
 @media screen and (max-width: 500px) {
-    #hero {
+    /*#hero {
         background-position: 30% 50%;
-    }
+    }*/
     .desktop {
         display: none;
     }
@@ -1694,11 +1692,11 @@ iframe {
 /* CTA */
 
 	#cta {
-		background-image: linear-gradient(to right, rgba(0,0,0,0.25), rgba(0,0,0,0.25), rgba(0,0,0,0.25)), url("https://hireclix.github.io/hosting/banfield/images/lilian_bg.jpg");
-        background-position: center 0%;
+		background-image: linear-gradient(to right, rgba(0,0,0,0.25), rgba(0,0,0,0.25), rgba(0,0,0,0.25)), url("https://hireclix.github.io/hosting/banfield/images/banfield_hero.jpg");
+        background-position: center 30%;
         background-attachment: fixed;
         background-repeat: no-repeat;
-        background-color: #73c6cb;
+        background-color: #f5f5f5;
 		color: #fff;
 		padding: 4em 0 4em 0;
 		text-align: center;
@@ -1713,11 +1711,11 @@ iframe {
 
     @media screen and (max-width: 960px) {
         #cta {
-            background-image: linear-gradient(to right, rgba(0,0,0,0.45), rgba(0,0,0,0.15), rgba(0,0,0,0.15)), url("https://hireclix.github.io/hosting/banfield/images/lilian_bg.jpg");
+            background-image: linear-gradient(to right, rgba(0,0,0,0.45), rgba(0,0,0,0.15), rgba(0,0,0,0.15)), url("https://hireclix.github.io/hosting/banfield/images/banfield_hero.jpg");
         background-attachment: scroll;
         background-size: cover;
         background-repeat: no-repeat;
-        background-position: center 0%;
+        background-position: center 30%;
             background-attachment: scroll;
         }
     }
@@ -2597,7 +2595,8 @@ ul.icons {
 
 	.spotlights {
         background: #fff;
-		box-shadow: 0 0 2em 0 rgba(0, 0, 0, 0.1);
+		border-radius: 6px;
+		box-shadow: 0 2px 0 0 #e5e5e5;
 		margin: 0 0 2em 0;
 	}
 
@@ -2620,8 +2619,24 @@ ul.icons {
 			.spotlights > div .image {
 				border-radius: 0;
 				position: relative;
-                border-radius: 6px;
 			}
+
+.spotlights .image.first {
+				border-radius: 6px 6px 0 0;
+			}
+
+				.spotlights .image.first img {
+					border-radius: 6px 6px 0 0;
+				}
+
+			.spotlights .image.last {
+				border-radius: 0 0 0 6px;
+				
+			}
+
+				.spotlights .image.last img {
+					border-radius: 0 0 0 6px;
+				}
 
 				.spotlights > div .image img {
 					border-radius: 0;
@@ -2748,3 +2763,62 @@ ul.icons {
 			-ms-object-fit: cover;
 			object-fit: cover;
 		}
+
+.petpartners-img {
+    background: url(https://hireclix.github.io/hosting/banfield/images/pet-partners-feature.jpg);
+    background-size: cover;
+    background-position: center;
+}
+
+.bluepearl-img {
+    background: url(https://hireclix.github.io/hosting/banfield/images/bluepearl_feature.jpg);
+    background-size: cover;
+    background-position: center;
+}
+
+.banfield-img {
+    background: url(https://hireclix.github.io/hosting/banfield/images/lilian_bg.jpg);
+    background-size: cover;
+    background-position: center;
+}
+
+.royalcanin-img {
+    background: url(https://hireclix.github.io/hosting/banfield/images/royalcanin_feature.jpg);
+    background-size: cover;
+    background-position: center;
+}
+
+.agenda {
+    color: #000;
+}
+
+.agenda h2 {
+    color: #2DCCD3;
+}
+
+.agenda h3 {
+    color: #005695;
+    font-size:1.5em
+}
+
+.agenda h5 {
+    font-size:1em;
+    font-weight: bold;
+    margin-bottom: 0;
+}
+
+.agenda .blue {
+    color: #005695;
+    font-weight: bold;
+}
+
+.agenda .desc {
+    margin-bottom:1em;
+    margin-left: 40px;
+}
+
+.agenda img {
+    width:35px;
+    float: left;
+    padding-top:5px;
+}
