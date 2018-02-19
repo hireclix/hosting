@@ -956,10 +956,9 @@
 		color: #ffffff;
 		cursor: pointer;
 		display: inline-block;
-		font-weight: 400;
-		height: 2.25em;
-		line-height: 2.65em;
-		padding: 0 2em;
+        font-size: 16px;
+		font-weight: bold;
+		padding: .65em 2em .5em 2em;
 		text-align: center;
 		text-decoration: none;
 		white-space: nowrap;
@@ -1450,7 +1449,7 @@ input[type="submit"].royalcanin,
     background-repeat: no-repeat;
     background-position: center 0%;
     text-align: left;
-    padding: 8em 9em 8em 9em;
+    padding: 12em 9em 12em 9em;
 } 
 
 @media screen and (min-width: 981px) { 
@@ -1499,7 +1498,7 @@ iframe {
     #hero {
         
         background-position: center 15%;
-        padding: 10em 9em 10em 9em;
+        padding: 12em 9em 12em 9em;
     }
     
    
