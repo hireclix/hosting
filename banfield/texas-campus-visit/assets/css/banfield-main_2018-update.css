@@ -1443,13 +1443,13 @@ input[type="submit"].royalcanin,
 
 #hero {
     
-    background-image: linear-gradient(to right, rgba(0,0,0,0.45), rgba(0,0,0,0.15), rgba(0,0,0,0.15)), url("https://hireclix.github.io/hosting/banfield/images/banfield_hero.jpg");
+    background-image: linear-gradient(to right, rgba(0,0,0,0.45), rgba(0,0,0,0.15), rgba(0,0,0,0.15)), url("https://hireclix.github.io/hosting/banfield/images/Banfield_Lilian_hero.jpg");
     background-attachment: fixed;
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center 0%;
     text-align: left;
-    padding: 18em 9em 8em 9em;
+    padding: 10em 9em 10em 9em;
 } 
 
 @media screen and (min-width: 981px) { 
@@ -1497,8 +1497,8 @@ iframe {
 @media screen and (max-width: 1260px) {
     #hero {
         
-        background-position: center 15%;
-        padding: 18em 9em 8em 9em;
+        background-position: center 0%;
+        padding: 10em 9em 10em 9em;
     }
     
    
@@ -1510,7 +1510,7 @@ iframe {
         background-attachment: scroll;
         background-size: cover;
         background-repeat: no-repeat;
-        background-position: center 50%;
+        background-position: center 20%;
         text-align: left;
        padding: 8em 1em 8em 1em;
     }
@@ -1691,8 +1691,8 @@ iframe {
 /* CTA */
 
 	#cta {
-		background-image: linear-gradient(to right, rgba(0,0,0,0.25), rgba(0,0,0,0.25), rgba(0,0,0,0.25)), url("https://hireclix.github.io/hosting/banfield/images/banfield_hero.jpg");
-        background-position: center 30%;
+		background-image: linear-gradient(to right, rgba(0,0,0,0.25), rgba(0,0,0,0.25), rgba(0,0,0,0.25)), url("https://hireclix.github.io/hosting/banfield/images/Banfield_Lilian_hero.jpg");
+        background-position: center 20%;
         background-attachment: fixed;
         background-repeat: no-repeat;
         background-color: #f5f5f5;
@@ -1710,11 +1710,11 @@ iframe {
 
     @media screen and (max-width: 960px) {
         #cta {
-            background-image: linear-gradient(to right, rgba(0,0,0,0.45), rgba(0,0,0,0.15), rgba(0,0,0,0.15)), url("https://hireclix.github.io/hosting/banfield/images/banfield_hero.jpg");
+            background-image: linear-gradient(to right, rgba(0,0,0,0.45), rgba(0,0,0,0.15), rgba(0,0,0,0.15)), url("/images/Banfield_Lilian_hero.jpg");
         background-attachment: scroll;
         background-size: cover;
         background-repeat: no-repeat;
-        background-position: center 30%;
+        background-position: center 20%;
             background-attachment: scroll;
         }
     }
@@ -2389,7 +2389,7 @@ ul.icons {
 
 .header img {
     width: 155em;
-    padding: 1em;
+    /*padding: 1em;*/
 }
 
 
