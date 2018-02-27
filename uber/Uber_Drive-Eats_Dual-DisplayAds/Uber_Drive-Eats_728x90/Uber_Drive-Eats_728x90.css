@@ -1,0 +1,72 @@
+body {
+  width: 728px;
+  height: 90px;
+  margin: 0 auto;
+}
+.container_728x90 {
+  position: absolute;
+  width: 728px;
+  height: 90px;
+  margin-top: 0px;
+  margin-left: 0px;
+  cursor: pointer;
+  background-color: #000000;
+  opacity: 0;
+}
+.container_dc {
+  position: absolute;
+  margin-top: 0px;
+  margin-left: 0px;
+  width: 728px;
+  height: 90px;
+  background-color: #FFFFFF;
+  background-image: url('uber_background.png');
+  background-size: cover;    
+  background-repeat: no-repeat;
+  /*border: 1px solid black;*/
+}
+
+#cta_dc {
+  position: absolute;
+  margin-top: 7%;
+  margin-left: 43%;
+  width: 133px;
+  height: 26px;
+  background-image: url('uber_deliver-cta.png');
+  background-size: cover;         
+  background-repeat: no-repeat;
+  cursor: pointer;
+}
+#cta_dc2 {
+  position: absolute;
+  margin-top: 7%;
+  margin-left: 23%;
+  width: 125px;
+  height: 26px;
+  background-image: url('uber_drive-cta.png');
+  background-size: cover;     
+  background-repeat: no-repeat;
+  cursor: pointer;
+}
+
+#headline {
+  position: absolute;
+  margin-top: .5%;
+  margin-left: 22%;
+  width: 401px;
+  height: 38px;
+  background-image: url('uber_headline.png');
+  background-size: cover;     
+  background-repeat: no-repeat;
+}
+
+.logo_dc {
+  position: absolute;
+  margin-top: 5px;
+  margin-left: 5px;
+  background-image: url('uber_logo.png');
+  background-size: cover; 
+  background-repeat: no-repeat;
+  width:154px;
+  height:76px;
+}
