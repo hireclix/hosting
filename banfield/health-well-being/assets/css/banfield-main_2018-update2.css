@@ -2573,3 +2573,33 @@ ul.icons {
 .chat-link {
     color: #5c5c5c !important;
 }
+
+.ribbon {
+    position: absolute;
+    top:0;
+    left: 0;
+    width: 300px; 
+    animation-duration: 5s;
+    animation-delay: 2s;
+    animation-iteration-count: infinite;
+}
+
+@media screen and (max-width: 767px) {
+    .ribbon {
+        display: none;
+    }
+    
+    .mobile-ribbon {
+        display: inherit !important;
+    }
+}
+
+.mobile-ribbon {
+    background: #ed8b00;
+    text-align: center;
+    color: #fff;
+    font-size: 16px;
+    font-family: Calibri,Candara,Segoe,Segoe UI,Optima,Arial,sans-serif; 
+    padding: 1em .25em;
+    display: none;
+}
