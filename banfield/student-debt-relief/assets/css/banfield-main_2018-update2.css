@@ -100,7 +100,7 @@
 
 	body, input, select, textarea {
 		color: #777;
-		font-family: FFMetaOT, Arial,sans-serif;
+		font-family: Calibri, Candara, Segoe, "Segoe UI", Optima, Arial, sans-serif;
 		font-size: 14pt;
 		font-weight: 300;
 		line-height: 1.5em;
@@ -139,7 +139,7 @@
 		color: #646464;
 		line-height: 1em;
 		margin: 0 0 0.5em 0;
-        font-family: FFMetaOT, Arial,sans-serif;
+        font-family: FFMetaOT;
 	}
 
 		h1 a, h2 a, h3 a, h4 a, h5 a, h6 a {
@@ -162,11 +162,15 @@
 		
 	}
 
+    h3.title {
+       font-size: 1.25em; 
+    }
+
 	h4 {
 		font-size: 1em;
 		line-height: 1.25em;
 		letter-spacing: 0;
-        color: #666;
+        color: #ED8B00;
         font-weight: bold;
         margin: 0 0 1em 0;
 	}
@@ -275,7 +279,7 @@
 	header h4 + p,
 	header h5 + p,
 	header h6 + p {
-		/*font-size: 0.8em;*/
+		font-size: 0.8em;
 		margin-top: -0.5em;
 		line-height: 1.5em;
 	}
@@ -779,7 +783,7 @@
 			cursor: default;
 			list-style: none;
 			padding-left: 0;
-            font-family: FFMetaOT, Arial,sans-serif;
+            font-family: FFMetaOT;
 		}
 
 			ul.actions li {
@@ -936,8 +940,9 @@
 		cursor: pointer;
 		display: inline-block;
 		font-weight: 400;
-		font-size: 16px;
-		padding: .65em 2em .5em 2em;
+		height: 2.25em;
+		line-height: 2.75em;
+		padding: 0 2em;
 		text-align: center;
 		text-decoration: none;
 		white-space: nowrap;
@@ -1344,13 +1349,13 @@
 
 #hero {
     
-    background-image: linear-gradient(to right, rgba(0,0,0,0.1), rgba(0,0,0,0.1), rgba(0,0,0,0.1)), url("https://hireclix.github.io/hosting/banfield/images/Banfield_Lilian_hero.jpg");
+    background-image: linear-gradient(to right, rgba(0,0,0,0.45), rgba(0,0,0,0.15), rgba(0,0,0,0.15)), url("https://hireclix.github.io/hosting/banfield/images/lilian_bg.jpg");
     background-attachment: fixed;
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center 0%;
     text-align: left;
-    padding:6em 9em 6em 3em;
+    padding: 8em 9em 8em 9em;
 } 
 
 @media screen and (min-width: 981px) { 
@@ -1389,75 +1394,16 @@
 .desktop {
     width: 450px;
 }
-
+/*
 iframe {
-    height: 275px;
-}
-
-
-.hero-container {
-    text-align: left;
-    display: -ms-flexbox;
-    display: -webkit-flex;
-    display: flex;
-    -webkit-flex-direction: row;
-    -ms-flex-direction: row;
-    flex-direction: row;
-    -webkit-flex-wrap: nowrap;
-    -ms-flex-wrap: nowrap;
-    flex-wrap: nowrap;
-    -webkit-justify-content: space-between;
-    -ms-flex-pack: justify;
-    justify-content: space-between;
-    -webkit-align-content: flex-start;
-    -ms-flex-line-pack: start;
-    align-content: flex-start;
-    -webkit-align-items: flex-start;
-    -ms-flex-align: start;
-    align-items: flex-start;
-}
-
-.hero-container .img-wrapper {
-    width: 25%;
-}
-
-.hero-container img {
-    vertical-align: middle;
-    width: 100%;
-}
-
-.hero-container h1 {
-    vertical-align: middle;
-    width: 75%;
-    padding:1.75em .75em 1em;
-}
-
-
-
-@media screen and (max-width: 767px) {
-    .hero-container {
-        -webkit-flex-direction: column;
-    -ms-flex-direction: column;
-    flex-direction: column;
-        text-align: center !important;
-}
-    
-    .hero-container .img-wrapper {
-    width: 50%;
-        margin: 0 auto;
-}
-    
-    .hero-container h1 {
-    width: 100%;
-}
-}
-
+    height: 300px;
+}*/
 
 @media screen and (max-width: 1260px) {
     #hero {
         
-        background-position: center 0%;
-        padding: 8em 9em 8em 3em;
+        background-position: center 15%;
+        padding: 6em 9em 6em 9em;
     }
     
    
@@ -1466,13 +1412,13 @@ iframe {
 
 @media screen and (max-width: 960px) {
     #hero {
-        background-image: linear-gradient(to right, rgba(0,0,0,0.1), rgba(0,0,0,0.1), rgba(0,0,0,0.1)), url("https://hireclix.github.io/hosting/banfield/images/Banfield_Lilian_hero.jpg");
+        background-image: linear-gradient(to right, rgba(0,0,0,0.45), rgba(0,0,0,0.15), rgba(0,0,0,0.15)), url("https://hireclix.github.io/hosting/banfield/images/lilian_bg.jpg");
         background-attachment: scroll;
         background-size: cover;
         background-repeat: no-repeat;
         background-position: center 0%;
         text-align: left;
-        padding: 4em 5em 4em 3em;
+        padding: 4em 5em 4em 5em;
     }
 }
 /*
@@ -1506,9 +1452,6 @@ iframe {
     .mobile br {
         display: inherit;
     }
-    iframe {
-    height: 200px;
-}
 }
 
 /* Banner */
@@ -1650,7 +1593,7 @@ iframe {
 			margin: -2em 0 0 0;
 			padding: 0;
 			text-align: center;
-            font-family: FFMetaOT,Arial,sans-serif;
+            font-family: FFMetaOT;
 		}
 
 			#footer .copyright a {
@@ -1674,11 +1617,11 @@ iframe {
 /* CTA */
 
 	#cta {
-		background-image: linear-gradient(to right, rgba(0,0,0,0.1), rgba(0,0,0,0.1), rgba(0,0,0,0.1)), url("https://hireclix.github.io/hosting/banfield/images/Banfield_Lilian_hero.jpg");
+		background-image: linear-gradient(to right, rgba(0,0,0,0.25), rgba(0,0,0,0.25), rgba(0,0,0,0.25)), url("https://hireclix.github.io/hosting/banfield/images/lilian_bg.jpg");
         background-position: center 0%;
         background-attachment: fixed;
         background-repeat: no-repeat;
-        background-color: #f5f5f5;
+        background-color: #73c6cb;
 		color: #fff;
 		padding: 4em 0 4em 0;
 		text-align: center;
@@ -1693,7 +1636,7 @@ iframe {
 
     @media screen and (max-width: 960px) {
         #cta {
-            background-image: linear-gradient(to right, rgba(0,0,0,0.1), rgba(0,0,0,0.1), rgba(0,0,0,0.1)), url("https://hireclix.github.io/hosting/banfield/images/Banfield_Lilian_hero.jpg");
+            background-image: linear-gradient(to right, rgba(0,0,0,0.45), rgba(0,0,0,0.15), rgba(0,0,0,0.15)), url("https://hireclix.github.io/hosting/banfield/images/lilian_bg.jpg");
         background-attachment: scroll;
         background-size: cover;
         background-repeat: no-repeat;
@@ -2403,7 +2346,7 @@ ul.icons {
 		#footer .menu a{
 			color: #999;
 			text-decoration: underline;
-            font-family: FFMetaOT, Arial,sans-serif;
+            font-family: FFMetaOT;
             font-size: 1em;
 		}
 
@@ -2411,7 +2354,7 @@ ul.icons {
 #footer .menu li {
 			color: #999;
 			text-decoration: none;
-            font-family: FFMetaOT, Arial,sans-serif;
+            font-family: FFMetaOT;
             font-size: .9em;
 		}
 
@@ -2433,7 +2376,7 @@ ul.icons {
 			margin: -2em 0 0 0;
 			padding: 0;
 			text-align: center;
-            font-family: FFMetaOT, Arial,sans-serif;
+            font-family: FFMetaOT;
 		}
 
 .footnote {
@@ -2525,12 +2468,12 @@ ul.icons {
 }
 
 .live-chat-mobile {
-    font-family: FFMetaOT, Arial,sans-serif;
+    font-family: FFMetaOT;
     font-weight:bold;
     right:0;
     bottom: 0;
     position: fixed;
-    /*display: none;*/
+    display: none;
     background: #fff;
     width: 150px;
     height: 60px;
@@ -2572,4 +2515,34 @@ ul.icons {
 
 .chat-link {
     color: #5c5c5c !important;
+}
+
+.ribbon {
+    position: absolute;
+    top:0;
+    left: 0;
+    width: 300px; 
+    animation-duration: 5s;
+    animation-delay: 2s;
+    animation-iteration-count: infinite;
+}
+
+@media screen and (max-width: 767px) {
+    .ribbon {
+        display: none;
+    }
+    
+    .mobile-ribbon {
+        display: inherit !important;
+    }
+}
+
+.mobile-ribbon {
+    background: #ed8b00;
+    text-align: center;
+    color: #fff;
+    font-size: 16px;
+    font-family: Calibri,Candara,Segoe,Segoe UI,Optima,Arial,sans-serif; 
+    padding: 1em .25em;
+    display: none;
 }
