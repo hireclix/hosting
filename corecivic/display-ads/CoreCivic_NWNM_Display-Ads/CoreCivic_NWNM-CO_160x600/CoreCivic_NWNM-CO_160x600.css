@@ -1,0 +1,72 @@
+body {
+  width: 160px;
+  height: 600px;
+  margin: 0 auto;
+  position: relative;
+}
+
+.cc-ad {
+    width: 160px;
+    height: 600px;
+    background: url(bg.jpg)no-repeat center;
+    background-size: cover;
+}
+
+
+ .copy1 {
+      position: absolute;
+       width: 155px;
+      left: 3px;
+      top: 130px;
+     opacity: 0;
+      animation:fade 15s;
+     -webkit-animation:fade 15s;
+    animation-iteration-count: 1;
+    }
+      
+      .copy2 {
+      position: absolute;
+       width: 155px;
+      left: 3px;
+      top: 130px;
+          animation:fade2 15s;
+-webkit-animation:fade2 15s;
+    animation-iteration-count: 1;
+    }
+    
+    .cta {
+      position: absolute;
+      width: 150px;
+      left: 5px;
+      top: 530px;
+        cursor: pointer;
+            -webkit-transition-duration: 0.3s;
+    transition-duration: 0.3s;
+    -webkit-transition-property: transform;
+    transition-property: transform;
+    }
+      
+      .cta:hover {
+          transform: scale(1.1)
+      }
+
+   @keyframes fade
+{
+  0%   {opacity:0;}
+  16.77% { opacity: 1}
+  33.54% { opacity: 0}
+  50.631% { opacity: 0}
+  67.08% { opacity: 1} 
+  83.85% { opacity: 0}    
+  100% { opacity: 0;}
+}
+@keyframes fade2
+{
+  0%   {opacity:0;}
+  16.77% { opacity: 0}
+  33.54% { opacity: 1 }
+  50.631% { opacity: 0}
+  67.08% { opacity: 0 }
+  83.85% { opacity: 1 }    
+  100% { opacity: 1;}
+}
