@@ -16,7 +16,7 @@ body {
  .copy1 {
       position: absolute;
        width: 355px;
-      left: 0px;
+      left: 1px;
       top: 32px;
      opacity: 0;
       animation:fade 15s;
@@ -27,8 +27,8 @@ body {
       .copy2 {
       position: absolute;
        width: 355px;
-      left: 5px;
-      top: 29px;
+      left: -2px;
+      top: 27px;
           animation:fade2 15s;
 -webkit-animation:fade2 15s;
     animation-iteration-count: 1;
@@ -38,7 +38,7 @@ body {
       position: absolute;
       width: 160px;
       left: 410px;
-      top: 45px;
+      top: 41px;
         cursor: pointer;
             -webkit-transition-duration: 0.3s;
     transition-duration: 0.3s;

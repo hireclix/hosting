@@ -1,13 +1,13 @@
 body {
-  width: 728px;
-  height: 90px;
+  width: 300px;
+  height: 250px;
   margin: 0 auto;
   position: relative;
 }
 
 #cc-ad {
-    width: 728px;
-    height: 90px;
+    width: 300px;
+    height: 250px;
     background: url(bg.jpg)no-repeat center;
     background-size: cover;
 }
@@ -15,9 +15,9 @@ body {
 
  .copy1 {
       position: absolute;
-       width: 355px;
+       width: 300px;
       left: 0px;
-      top: 32px;
+      top: 160px;
      opacity: 0;
       animation:fade 15s;
      -webkit-animation:fade 15s;
@@ -26,9 +26,9 @@ body {
       
       .copy2 {
       position: absolute;
-       width: 355px;
-      left: 5px;
-      top: 29px;
+       width: 275px;
+      left: 10px;
+      top: 152px;
           animation:fade2 15s;
 -webkit-animation:fade2 15s;
     animation-iteration-count: 1;
@@ -36,9 +36,9 @@ body {
     
     .cta {
       position: absolute;
-      width: 160px;
-      left: 410px;
-      top: 45px;
+      width: 150px;
+      left: 75px;
+      top: 205px;
         cursor: pointer;
             -webkit-transition-duration: 0.3s;
     transition-duration: 0.3s;
