@@ -1109,6 +1109,10 @@ http://jobs.corecivic.com/Views/Client/8dc4a657-f3b9-4967-bf13-de8e447ff866/imag
         display: none;
     }
     
+    .rmoms-background {
+        display: none;
+    }
+    
     .mobile-only {
         display: inherit !important;
     }
@@ -1228,6 +1232,99 @@ http://jobs.corecivic.com/Views/Client/8dc4a657-f3b9-4967-bf13-de8e447ff866/imag
 }
 
 #nursing a:hover {
+    color: #801b1a !important; 
+}
+
+
+/* RMOMS Page */
+
+.rmoms-background {
+  background: url(/images/rmoms-header.jpg);
+  background-size: contain;
+  background-position: center center;
+  background-repeat: no-repeat;
+  height: 0;
+  padding-top: 38.98%; }
+
+.rmoms-background .overlay h1 {
+  color: #fff;
+  font-weight: normal;
+  font-size: 3.25em;
+  margin-bottom: 0; 
+  line-height: 1.25em;
+}
+
+.rmoms-background .light {
+    font-family: light, Helvetica, sans-serif;
+}
+
+.rmoms-background .overlay h2 {
+  color: #fff;
+  font-size: 1.5em;
+  font-weight: normal;
+  margin-top: 0; }
+
+.rmoms-background .overlay {
+    text-align: left;
+    padding-left: 5em;
+}
+
+#rmoms {
+    padding: 0 40px;
+    margin-top:-3em;
+}
+
+#rmoms p {
+    font-size: 1.1em;
+}
+
+#rmoms .light {
+    font-family: light, Helvetica, sans-serif;
+    color: #a12221;
+}
+
+#rmoms h1 {
+    font-family: medium, Helvetica, sans-serif;
+    color: #0f0f3f;
+    font-size: 2.25em;
+}
+
+#rmoms h2 {
+    font-family: light, Helvetica, sans-serif;
+    color: #a12221;
+    font-size: 2.25em;
+}
+
+#nursing h3 {
+    font-size:1.5em;
+    font-family: medium, Helvetica, sans-serif;
+}
+
+#rmoms h3.red {
+    color: #a12221;
+}
+
+#nursing h3.blue {
+    color: #0f0f3f;
+}
+
+#rmoms a {
+    color: #a12221; 
+    font-family: light, Helvetica, sans-serif;
+    text-decoration: underline;
+}
+
+#rmoms .button {
+    color: #fff; 
+    font-family: medium, Helvetica, sans-serif;
+    text-decoration: none;
+}
+
+#rmoms .button:hover {
+    color: #fff !important; 
+}
+
+#rmoms a:hover {
     color: #801b1a !important; 
 }
     
