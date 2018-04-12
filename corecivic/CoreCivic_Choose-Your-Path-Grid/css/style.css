@@ -48,6 +48,31 @@ h3.smaller {
   margin-bottom: 17px;    
 }
 
+@media screen and (max-width: 1215px) and (min-width: 62em) {
+   h3.smaller {
+      font-size: 1.15em;
+      margin-top: 5px;
+      margin-bottom: 17px;    
+    } 
+}
+
+@media screen and (max-width: 1095px) and (min-width: 62em) {
+   h3.small {
+      font-size: 1.3em;
+      margin-top: 2px;
+    } 
+}
+
+@media screen and (max-width: 62em) {
+    .row.first {
+        padding-bottom:0;
+    }
+    
+    .row.second {
+        padding-top:0;
+    }
+}
+
 p {    
   color: #fff;
   font-size:14px;    
