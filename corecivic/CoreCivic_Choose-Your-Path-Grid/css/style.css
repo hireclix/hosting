@@ -1,12 +1,12 @@
 @font-face {
   font-family: 'light';
-  src: url("/fonts/AkzidGroBQLig.otf");
+  src: url("../fonts/AkzidGroBQLig.otf");
   font-weight: normal;
   font-style: normal; }
 
 @font-face {
   font-family: 'medium';
-  src: url("/fonts/AkzidGroBQMd.otf");
+  src: url("../fonts/AkzidGroBQMd.otf");
   font-weight: normal;
   font-style: normal; }
 
@@ -71,49 +71,49 @@ a {
 }
 
 .photo.security {
-    background-image: url(/img/security.jpg);
+    background-image: url(../img/security.jpg);
     background-size: cover;
     background-position: center;
 }
 
 .photo.community {
-    background-image: url(/img/community.jpg);
+    background-image: url(../img/community.jpg);
     background-size: cover;
     background-position: center;
 }
 
 .photo.corporate {
-    background-image: url(/img/corporate.jpg);
+    background-image: url(../img/corporate.jpg);
     background-size: cover;
     background-position: center;
 }
 
 .photo.transcor {
-    background-image: url(/img/transcor.jpg);
+    background-image: url(../img/transcor.jpg);
     background-size: cover;
     background-position: center;
 }
 
 .photo.healthcare {
-    background-image: url(/img/healthcare.jpg);
+    background-image: url(../img/healthcare.jpg);
     background-size: cover;
     background-position: center;
 }
 
 .photo.fsm {
-    background-image: url(/img/fsm.jpg);
+    background-image: url(../img/fsm.jpg);
     background-size: cover;
     background-position: center;
 }
 
 .photo.rmoms {
-    background-image: url(/img/rmoms.jpg);
+    background-image: url(../img/rmoms.jpg);
     background-size: cover;
     background-position: center;
 }
 
 .photo.education {
-    background-image: url(/img/education.jpg);
+    background-image: url(../img/education.jpg);
     background-size: cover;
     background-position: center;
 }
