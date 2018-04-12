@@ -1,0 +1,176 @@
+@font-face {
+  font-family: 'light';
+  src: url("/fonts/AkzidGroBQLig.otf");
+  font-weight: normal;
+  font-style: normal; }
+
+@font-face {
+  font-family: 'medium';
+  src: url("/fonts/AkzidGroBQMd.otf");
+  font-weight: normal;
+  font-style: normal; }
+
+@font-face {
+  font-family: 'Glyphicons Regular';
+  src: url("../fonts/glyphicons-regular.eot");
+  src: url("../fonts/glyphicons-regular.eot?#iefix") format("embedded-opentype"), url("../fonts/glyphicons-regular.woff2") format("woff2"), url("../fonts/glyphicons-regular.woff") format("woff"), url("../fonts/glyphicons-regular.ttf") format("truetype"), url("../fonts/glyphicons-regular.svg#glyphiconsregular") format("svg"); }
+
+
+body {
+  margin: 0;
+  font-family: light, Helvetica, sans-serif;
+  text-align: center;
+}
+
+h1, h2 {
+  margin: 0;    
+  font-family: medium, Helvetica, sans-serif;    
+  color: #0f0f3f;
+  padding: 10px;
+}
+
+h3 {
+  font-family: light, Helvetica, sans-serif;    
+  color: #fff;
+  font-size: 1.75em;
+  margin-bottom: 17px;
+  margin-top: 10px    
+}
+
+h3.small {
+  font-size: 1.3em;
+  margin-top: 12px;
+}
+
+h3.smaller {
+  font-size: 1.15em;
+  margin-top: 14px;
+  margin-bottom: 17px;    
+}
+
+p {    
+  color: #fff;
+  font-size:14px;    
+}
+
+a {
+    text-decoration: none;
+}
+
+.header {
+    text-align: center;
+}
+
+.image-container {
+  display: block;
+  max-width: 300px;    
+  height: 200px;
+  overflow: hidden; 
+  padding: .5em 0; 
+  margin: 0 auto;
+}
+
+.photo.security {
+    background-image: url(/img/security.jpg);
+    background-size: cover;
+    background-position: center;
+}
+
+.photo.community {
+    background-image: url(/img/community.jpg);
+    background-size: cover;
+    background-position: center;
+}
+
+.photo.corporate {
+    background-image: url(/img/corporate.jpg);
+    background-size: cover;
+    background-position: center;
+}
+
+.photo.transcor {
+    background-image: url(/img/transcor.jpg);
+    background-size: cover;
+    background-position: center;
+}
+
+.photo.healthcare {
+    background-image: url(/img/healthcare.jpg);
+    background-size: cover;
+    background-position: center;
+}
+
+.photo.fsm {
+    background-image: url(/img/fsm.jpg);
+    background-size: cover;
+    background-position: center;
+}
+
+.photo.rmoms {
+    background-image: url(/img/rmoms.jpg);
+    background-size: cover;
+    background-position: center;
+}
+
+.photo.education {
+    background-image: url(/img/education.jpg);
+    background-size: cover;
+    background-position: center;
+}
+
+.photo {
+  position: relative;
+  margin: 0 auto;
+  height: 100%;
+  overflow: hidden;
+  border: 3px solid #0f0f3f;
+}
+
+.photo-overlay {
+  position: absolute;
+  margin: 0 auto;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  background-color: rgba(16,16,63,.7);
+}
+
+.photo .photo-overlay {
+  transition: transform .8s ease-out;
+}
+
+.photo .photo-overlay {
+  transform: translateY(75%);
+}
+
+.photo:hover .photo-overlay {
+  transform: translateY(0%);
+}
+
+.photo:focus .photo-overlay {
+  transform: translateY(0%);
+}
+
+.caption {
+    padding: 0 1.5em;
+}
+
+.button {
+  font-family: medium, Helvetica, sans-serif;    
+  display: block;
+  margin: 0 auto;
+  margin-top: 10px;
+  padding: 10px;
+  width: 50%;
+  color: #fff;
+  background-color: #a12221;    
+  font-size: 15px;
+  text-decoration: none;
+  transition: transform .3s ease-in;
+  cursor: pointer;
+}
+
+.button:hover {
+  background-color: #801b1a;
+}
