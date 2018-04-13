@@ -1,3 +1,7 @@
+/* HireClix 2018 | www.hireclix.com | creative@hireclix.com */
+
+
+/* CoreCivic Fonts */
 @font-face {
   font-family: 'light';
   src: url("../fonts/AkzidGroBQLig.otf");
@@ -16,6 +20,7 @@
   src: url("../fonts/glyphicons-regular.eot?#iefix") format("embedded-opentype"), url("../fonts/glyphicons-regular.woff2") format("woff2"), url("../fonts/glyphicons-regular.woff") format("woff"), url("../fonts/glyphicons-regular.ttf") format("truetype"), url("../fonts/glyphicons-regular.svg#glyphiconsregular") format("svg"); }
 
 
+/* General Styles */
 body {
   margin: 0;
   font-family: light, Helvetica, sans-serif;
@@ -63,16 +68,6 @@ h3.smaller {
     } 
 }
 
-@media screen and (max-width: 62em) {
-    .row.first {
-        padding-bottom:0;
-    }
-    
-    .row.second {
-        padding-top:0;
-    }
-}
-
 p {    
   color: #fff;
   font-size:14px;    
@@ -86,6 +81,7 @@ a {
     text-align: center;
 }
 
+/* Career Path Boxes */
 .image-container {
   display: block;
   max-width: 300px;    
@@ -170,15 +166,6 @@ a {
 }
 
 .photo:hover .photo-overlay {
-  transform: translateY(0%);
-}
-
-.tap {
-    cursor:default;
-    height: 200px;
-}
-
-.tap:focus .photo-overlay {
   transform: translateY(0%);
 }
 
