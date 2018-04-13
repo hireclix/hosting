@@ -173,6 +173,10 @@ a {
   transform: translateY(0%);
 }
 
+.photo div:hover .photo-overlay {
+  transform: translateY(0%);
+}
+
 .tap {
     cursor:default;
     height: 200px;
