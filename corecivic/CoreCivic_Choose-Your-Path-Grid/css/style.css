@@ -173,7 +173,12 @@ a {
   transform: translateY(0%);
 }
 
-.photo:focus .photo-overlay {
+.tap {
+    cursor:default;
+    height: 200px;
+}
+
+.tap:focus .photo-overlay {
   transform: translateY(0%);
 }
 
