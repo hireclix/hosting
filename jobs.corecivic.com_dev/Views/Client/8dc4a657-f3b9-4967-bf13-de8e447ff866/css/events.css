@@ -1,0 +1,270 @@
+@charset "utf-8";
+
+@font-face {
+  font-family: 'Smashfly Icons';
+  src: url('../../../../Content/SmashflyStyles/fonts/smashfly-icons.woff') format('woff');
+  font-weight: normal;
+  font-style: normal;
+}
+.sf-icon,
+[class^="sfi-"],
+[class*=" sfi-"] {
+  display: inline-block;
+  font: normal normal normal 14px/1 'Smashfly Icons';
+  font-size: inherit;
+  speak: none;
+  text-rendering: auto;
+  text-transform: none;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+.sfi-link:before {
+  content: "";
+}
+/*Event Grid*/
+.event-crumbs .native-breadcrumbs{
+    padding-left: 0;
+}
+.k-grid {
+    border: 0;
+    margin: 25px 0;
+}
+
+.k-pager-wrap, .k-grid-header-wrap, .k-header, .k-grid-header, th.k-header {
+    background-image: none !important;
+    border: 0 !important;
+}
+.k-link {
+        color: #0f0f3f!important;
+    border: 1px solid #c0c0c0;
+    text-align: center;
+    text-decoration: none;
+    border-radius: unset!important;
+}
+
+/*Header*/
+.k-grid .k-header {
+    font-weight: bold !important;
+    background-color: #0f0f3f;
+}
+.k-header .k-link {
+    color: #fff!important;
+    font-size: 16px;
+    border: none;
+}
+.k-i-arrow-n {
+    display: none;
+}
+.k-header .k-link:after {
+    font-family: 'Glyphicons Regular';
+    content: "\e728";
+    position: relative;
+    left: 10px;
+    top: 2px;
+    font-size: 12px;
+    text-decoration: none !important;
+ }
+.k-grid-content, .k-grid-content a, .k-grid td{
+    color: #0f0f3f;
+    font-size: 16px;
+}
+.k-grid-content a {
+    text-decoration: underline;
+}
+.k-alt {
+    background-color: #fff;
+}
+.k-grid .k-grid-header {
+    padding: 0 !important;
+    background-color: #fff;
+}
+/*Header*/
+.k-header {
+    
+}
+/*Filter*/
+.k-grid .k-filtercell .k-dropdown {
+    display: block;
+}
+
+.k-grid .k-header input[type=text] {
+    border: 1px solid black !important;
+}
+
+.k-grid .k-filter-row th, .k-grid td {
+    border: 0 !important;
+}
+
+.k-grid .k-filter-row th {
+    padding-bottom: 20px !important;
+}
+@media screen and (max-width: 767px) {
+    .k-filter-row {
+        display: none!important;
+    }
+}
+.k-grid .k-list-container {
+    height: 220px !important;
+}
+/*Filter*/
+
+/*Detail*/
+.k-grid tr:hover, .k-state-hover {
+    background-color: #fff;/*#00a9e0;*/
+}
+
+.k-grid table {
+    font-size: 12px !important;
+    border-collapse: collapse!important;
+}
+
+.k-grid td[role="gridcell"] > a {
+    /*text-decoration: none ;
+    color: #00467f ;*/
+}
+
+.k-grid .k-grid-content {
+    overflow-y: hidden;
+    height: auto !important;
+}
+.k-grid-content tr {
+    border-bottom: 1px solid #ebebeb;
+ }
+/*Detail*/
+
+/*Pager*/
+.k-grid .sf-previous {
+    padding: 0 20px 0 6px;
+    border-radius: 4px;
+    text-decoration: none !important;
+    width: 50px !important;
+}
+
+.k-grid .sf-next {
+    padding: 0 6px;
+    border-radius: 4px;
+    border-right-color: #cccccc;
+    border-right-style: solid;
+    border-right-width: 1px;
+    text-decoration: none !important
+}
+
+.k-grid .pagerTop {
+    border-bottom: none !important;
+    background-color: #fff;
+}
+.k-pager-wrap {
+    background-color: #fff;
+}
+.k-grid .k-pager-wrap:not(.pagerTop) {
+    border-top: 5px solid #a12221 !important;
+}
+.k-state-selected {
+    background-color: #a12221;
+    border-color: #a12221;
+    border-radius: unset!important;
+}
+/*Pager*/
+
+/*Footer*/
+/*Footer*/
+
+/*Event Grid*/
+
+/*Event Details*/
+.event-row {
+    /*padding: 20px;*/
+}
+
+.event-row .event-label {
+    /*color: #0096D6;*/
+    font-weight: bold;
+    padding: 0 5px 5px;
+    white-space: nowrap;
+    display: inline-block;
+    width: 150px;
+    vertical-align: top;
+}
+
+.event-row .event-value {
+    display: inline-block;
+}
+.description-value {
+    margin-bottom: 20px;
+}
+.new-cal {
+    /*background-color: #CCC;*/   
+}
+
+.calendar, .add-to-calendar-checkbox {
+    cursor: pointer;
+}
+
+#directions {
+    width: 300px;
+    height: 200px;
+}
+
+label.add-to-calendar-checkbox {
+    padding: 5px;
+}
+
+input.add-to-calendar-checkbox[type="checkbox"] {
+display: none;
+}
+
+.sf-toolbar {
+    border-width: 0 !important;
+    float: right !important;
+    border-radius: 0 !important;
+}
+
+.register-button {
+    /*border: 1px solid black;
+    border-radius: 5px;
+    padding: 5px;*/
+}
+
+.sf-event-map {
+    width: 300px;
+    height: 200px;
+}
+
+.register-button-expired {
+    opacity: 0.65; 
+    cursor: not-allowed;
+}
+/*Event Details*/
+
+/*@media only screen and (max-width: 400px), (max-device-width: 400px) and (min-device-width: 400px) {
+    table, thead, tbody, td, tr {
+        display: block !important;
+    }
+
+    th {
+        width: 0;
+        display: none;
+    }
+}
+
+@media only screen and (max-width: 768px), (max-device-width: 768px) and (min-device-width: 768px) {
+    table, thead, tbody, td, tr {
+        display: block !important;
+    }
+
+    th {
+        width: 0;
+        display: none;
+    }
+}*/
+
+.k-pager-refresh {
+    margin: 0 !important;
+}
+
+@media print {
+  a[href]:after {
+    content: none !important;
+  }
+}
