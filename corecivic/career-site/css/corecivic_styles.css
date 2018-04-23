@@ -2778,3 +2778,28 @@ hr {
 .footer-sub li {
     font-size: 1.25rem;
 }
+
+#terms {
+    padding: 100px 40px 0px;
+}
+
+#terms p {
+    font-size: 1.1em;
+}
+
+#terms .light {
+    font-family: light, Helvetica, sans-serif;
+    color: #a12221;
+}
+
+#terms h2 {
+    font-family: light, Helvetica, sans-serif;
+    color: #a12221;
+    font-size: 2.25em;
+}
+
+#terms h3 {
+    font-family: light, Helvetica, sans-serif;
+    color: #0f0f3f;
+    font-size: 1.25em;
+}
