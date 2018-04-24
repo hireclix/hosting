@@ -7,24 +7,28 @@
 }
 
 #hero-img {
+  position: relative;
+  display: table;    
   background-size: cover;
   background-position: right;
   background-repeat: no-repeat;
+  width: 100%;    
   height: 375px;
   margin-top:90px;    
 }
 
 #hero-img .headline {
     position: relative;
+    display: table-cell;
+    vertical-align: middle;
     font-family: medium, Helvetica, sans-serif;
     width: 100%;
     padding: 70px 60px;
 }
-
 #hero-img .headline h1 {
   color: #fff;
   font-weight: normal;
-  font-size: 4.25em;
+  font-size: 3.25em;
   margin-bottom: 0; 
   line-height: 1.25em;
 }
@@ -97,11 +101,21 @@
     color: #0f0f3f;
 }
 
+#lp-body .button {
+    white-space: nowrap;
+}
+
 /* Benefits Page */
 
 .benefits-bg {
     background: url(
-http://jobs.corecivic.com/Views/Client/8dc4a657-f3b9-4967-bf13-de8e447ff866/images/benefits/benefits-header.jpg);
+../../8dc4a657-f3b9-4967-bf13-de8e447ff866/images/benefits-header_updated.jpg);
+}
+
+@media screen and (max-width: 767px) {
+.benefits-bg {
+  background: url(https://recruit.smashfly.com/SmashFlyMedia/Images/13195/13195_2621_benefits-header_mobile.jpg);
+}    
 }
 
 /* Healthcare Page */
