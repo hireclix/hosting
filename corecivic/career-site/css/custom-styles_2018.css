@@ -86,6 +86,7 @@
 #lp-body h3 {
     font-size:1.5em;
     font-family: medium, Helvetica, sans-serif;
+    margin-top:0; margin-bottom:0;
 }
 
 #lp-body h3.red {
