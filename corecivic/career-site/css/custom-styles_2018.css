@@ -126,10 +126,17 @@
   background: url(http://jobs.corecivic.com/Views/Client/8dc4a657-f3b9-4967-bf13-de8e447ff866/images/nursing-header.jpg);
 }
 
+#hero-img.healthcare-bg .headline h1 {
+  font-size: 4.25em;
+}
+
 @media screen and (max-width: 767px) {
 .healthcare-bg {
   background: url(https://recruit.smashfly.com/SmashFlyMedia/Images/13195/13195_2605_healthcare-header_mobile.jpg);
-}    
+}  
+    #hero-img.healthcare-bg .headline h1 {
+  font-size: 3.25em;
+}
 }
 
 .mobile-nursing-img {
@@ -144,6 +151,8 @@
         display:inherit;
     }
 }
+
+/* 
 
 
 
