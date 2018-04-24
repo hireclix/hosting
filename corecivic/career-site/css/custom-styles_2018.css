@@ -114,7 +114,10 @@
 @media screen and (max-width: 767px) {
 .benefits-bg {
   background: url(https://recruit.smashfly.com/SmashFlyMedia/Images/13195/13195_2621_benefits-header_mobile.jpg);
-}    
+}
+    #hero-img.benefits-bg .headline h1 {
+  font-size: 2.25em;
+}
 }
 
 /* Healthcare Page */
@@ -127,15 +130,6 @@
 .healthcare-bg {
   background: url(https://recruit.smashfly.com/SmashFlyMedia/Images/13195/13195_2605_healthcare-header_mobile.jpg);
 }    
-}
-
-#hero-img.healthcare-bg .overlay h1 {
-  font-size: 4.25em;
-}
-
-#hero-img.healthcare-bg .overlay {
-    text-align: left;
-    padding-left: 5em;
 }
 
 .mobile-nursing-img {
