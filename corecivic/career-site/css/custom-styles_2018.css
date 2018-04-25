@@ -168,54 +168,17 @@ https://recruit.smashfly.com/SmashFlyMedia/Images/13195/13195_2624_education-hea
 }
 } 
 
-
 /* Who We Are Page */
 
-.whoweare-background {
-  background: url(http://jobs.corecivic.com/Views/Client/8dc4a657-f3b9-4967-bf13-de8e447ff866/images/who-we-are/who-we-are-header_v1.jpg);
-  background-size: contain;
-  background-position: center center;
-  background-repeat: no-repeat;
-  height: 0;
-  padding-top: 38.98%; }
-
-.whoweare-background .overlay h1 {
-  color: #fff;
-  font-weight: normal;
-  font-size: 3.5em; 
-  margin-bottom: 0; }
-
-.whoweare-background .overlay h2 {
-  color: #fff;
-  font-size: 1.5em;
-  font-weight: normal;
-  margin-top: 0; }
-
-.whoweare-background .overlay {
-    text-align: left;
-    padding-left: 5em;
-    padding-top:1.5em;
-    top:25%;
+.whoweare-bg {
+  background: url(https://recruit.smashfly.com/SmashFlyMedia/Images/13195/13195_2627_we-are-corecivic_header_updated.jpg);
 }
 
-#about {
-    padding: 0 40px;
+@media screen and (max-width: 767px) {
+.whoweare-bg {
+  background: url(https://recruit.smashfly.com/SmashFlyMedia/Images/13195/13195_2628_we-are-corecivic_header_mobile.jpg);
 }
-
-#about p {
-    font-size: 1.2em;
-}
-
-#about .light {
-    font-family: light, Helvetica, sans-serif;
-    color: #a12221;
-}
-
-#about h1 {
-    font-family: medium, Helvetica, sans-serif;
-    color: #0f0f3f;
-    font-size: 3.5em;
-}
+} 
 
 /* Culture Page */
 
