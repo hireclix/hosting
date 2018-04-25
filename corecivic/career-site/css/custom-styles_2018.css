@@ -53,6 +53,7 @@
     #hero-img .headline {
         text-align: center;
         padding: 250px 0 60px;
+        top: 30px;
     }
     
     #hero-img .headline h1 {
@@ -152,8 +153,20 @@
     }
 }
 
-/* 
+/* Education Page */
 
+.education-bg {
+  background: url(
+https://recruit.smashfly.com/SmashFlyMedia/Images/13195/13195_2623_education-header.jpg);
+}
+
+
+@media screen and (max-width: 767px) {
+.education-bg {
+  background: url(
+https://recruit.smashfly.com/SmashFlyMedia/Images/13195/13195_2624_education-header_mobile.jpg);
+}
+} 
 
 
 /* Who We Are Page */
@@ -388,81 +401,7 @@ http://jobs.corecivic.com/Views/Client/8dc4a657-f3b9-4967-bf13-de8e447ff866/imag
     color: #801b1a !important; 
 }
 
-/* Programs Page */
 
-.programs-background {
-  background: url(
-https://recruit.smashfly.com/SmashFlyMedia/Images/13195/13195_1008_programs-header.jpg);
-  background-size: contain;
-  background-position: center center;
-  background-repeat: no-repeat;
-  height: 0;
-  padding-top: 38.98%; }
-
-.programs-background .overlay h1 {
-  color: #fff;
-  font-weight: normal;
-  font-size: 3.25em;
-  margin-bottom: 0; 
-  line-height: 1.25em;
-}
-
-.programs-background .overlay h2 {
-  color: #fff;
-  font-size: 1.5em;
-  font-weight: normal;
-  margin-top: 0; }
-
-.programs-background .overlay {
-    text-align: left;
-    padding-left: 5em;
-}
-
-#programs {
-    padding: 0 40px;
-    margin-top:-3em;
-}
-
-#programs p {
-    font-size: 1.1em;
-}
-
-#programs .light {
-    font-family: light, Helvetica, sans-serif;
-    color: #a12221;
-}
-
-#programs h1 {
-    font-family: medium, Helvetica, sans-serif;
-    color: #0f0f3f;
-    font-size: 2.25em;
-}
-
-#programs h2 {
-    font-family: light, Helvetica, sans-serif;
-    color: #a12221;
-    font-size: 2.25em;
-}
-
-#programs a {
-    color: #a12221; 
-    font-family: light, Helvetica, sans-serif;
-    text-decoration: underline;
-}
-
-#programs .button {
-    color: #fff; 
-    font-family: medium, Helvetica, sans-serif;
-    text-decoration: none;
-}
-
-#programs .button:hover {
-    color: #fff !important; 
-}
-
-#programs a:hover {
-    color: #801b1a !important; 
-}
 
 /* Career Paths Page */
 
