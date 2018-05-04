@@ -1371,6 +1371,14 @@
 		}
 
 		@media screen and (max-width: 480px) {
+            
+            input[type="submit"],
+	input[type="reset"],
+	input[type="button"],
+	button,
+	.button {
+		font-size: .8rem;
+	}
 
 			.spotlight > ul {
 				width: 100%;
@@ -2062,6 +2070,11 @@
 		}
 
 		@media screen and (max-width: 480px) {
+            
+             #banner h3 {
+            font-size:.8rem;
+
+        }
 
 			#banner .content {
 				padding: 15rem 1.5rem 4rem 1.5rem ;
