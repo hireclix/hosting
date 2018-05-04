@@ -204,7 +204,7 @@
 		-ms-transition: background-color 0.2s ease-in-out, border-bottom-color 0.2s ease-in-out, color 0.2s ease-in-out;
 		transition: background-color 0.2s ease-in-out, border-bottom-color 0.2s ease-in-out, color 0.2s ease-in-out;
 		text-decoration: none;
-        color: #fff !important;
+        color: #f3791f !important;
 	}
 
 		a strong {
