@@ -420,7 +420,7 @@
 		display: inline-block;
 		font-weight: 400;
         letter-spacing: .075rem;
-        padding: 6px 12px;
+        padding: 6px 25px;
 		text-align: center;
 		text-decoration: none;
 		white-space: nowrap;
@@ -529,8 +529,8 @@
 		input[type="button"].special,
 		button.special,
 		.button.special {
-			background-color:#5CB8B0;
-		    border: 1px solid #5CB8B0;
+			background-color:#de256b;
+		    border: 2px solid #de256b;
 		    color: #fff !important;
 		}
 
@@ -540,7 +540,7 @@
 			button.special:hover,
 			.button.special:hover {
 				background-color: #6ECDB2;
-                border: 1px solid #6ECDB2;
+                border: 2px solid #de256b;
                 color: #fff !important;
                 -webkit-transform: scale(1.1);
                 transform: scale(1.1);
@@ -553,7 +553,7 @@
 			button.special:active,
 			.button.special:active {
 				background-color: #00609C;
-                border: 1px solid #00609C;
+                border: 2px solid #de256b;
                 color: #fff !important;
                 -webkit-transform: scale(1.1);
                 transform: scale(1.1);
@@ -2747,12 +2747,12 @@
 				#wrapper > .main.accent1 input[type="button"].special,
 				#wrapper > .main.accent1 button.special,
 				#wrapper > .main.accent1 .button.special {
-					background-color: #ffffff;
+					background-color: #de256b;
 					box-shadow: none;
-					color: #23b1ec !important;
+					color: #fff !important;
 				}
 
-					#wrapper > .main.accent1 input[type="submit"].special:hover,
+					/*#wrapper > .main.accent1 input[type="submit"].special:hover,
 					#wrapper > .main.accent1 input[type="reset"].special:hover,
 					#wrapper > .main.accent1 input[type="button"].special:hover,
 					#wrapper > .main.accent1 button.special:hover,
@@ -2766,7 +2766,7 @@
 					#wrapper > .main.accent1 button.special:active,
 					#wrapper > .main.accent1 .button.special:active {
 						background-color: rgba(255, 255, 255, 0.75);
-					}
+					} */
 
 			#wrapper > .main.accent1 label {
 				color: #ffffff;
