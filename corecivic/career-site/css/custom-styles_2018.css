@@ -74,6 +74,11 @@
     color: #a12221;
 }
 
+#lp-body .light-blue {
+    font-family: light, Helvetica, sans-serif;
+    color: #0f0f3f;
+}
+
 #lp-body h1 {
     font-family: medium, Helvetica, sans-serif;
     margin-top:0; 
@@ -197,6 +202,26 @@ https://recruit.smashfly.com/SmashFlyMedia/Images/13195/13195_2624_education-hea
 }
 } 
 
+/* News Page */
+
+.news-bg {
+  background: url(/Views/Client/8dc4a657-f3b9-4967-bf13-de8e447ff866/images/news-header.jpg);
+  }
+
+@media screen and (max-width: 767px) {
+.news-bg {
+  background: url(/Views/Client/8dc4a657-f3b9-4967-bf13-de8e447ff866/images/news-header_mobile.jpg);
+}
+}
+    
+#lp-body.news a {
+    color: #0f0f3f;
+    font-weight: bold;
+}
+
+#lp-body.news a:hover {
+    text-decoration: underline;
+}
 
 /* Culture Page */
 
