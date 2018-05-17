@@ -55,10 +55,6 @@
         padding: 250px 0 60px;
         top: 30px;
     }
-    
-    #hero-img .headline h1 {
-      font-size: 3.25em;
-    }
 }
 
 #lp-body {
@@ -223,59 +219,27 @@ https://recruit.smashfly.com/SmashFlyMedia/Images/13195/13195_2624_education-hea
     text-decoration: underline;
 }
 
+
 /* Culture Page */
 
-.culture-background {
-  background: url(
-http://jobs.corecivic.com/Views/Client/8dc4a657-f3b9-4967-bf13-de8e447ff866/images/culture/culture-header.jpg);
-  background-size: contain;
-  background-position: center center;
-  background-repeat: no-repeat;
-  height: 0;
-  padding-top: 38.98%; }
+.culture-bg {
+  background: url(https://recruit.smashfly.com/SmashFlyMedia/Images/13195/13195_2776_culture-header.jpg);
+  }
 
-.culture-background .overlay h1 {
-  color: #fff;
-  font-weight: normal;
+#hero-img.culture-bg .headline h1 {
   font-size: 2.5em;
-  margin-bottom: 0; }
-
-.culture-background .overlay h2 {
-  color: #fff;
-  font-size: 1.5em;
-  font-weight: normal;
-  margin-top: 0; }
-
-.culture-background .overlay {
-    text-align: left;
-    padding-left: 5em;
 }
 
-#culture {
-    padding: 0 40px;
-    margin-top:-3em;
+@media screen and (max-width: 767px) {
+.culture-bg {
+  background: url(https://recruit.smashfly.com/SmashFlyMedia/Images/13195/13195_2777_culture-header_mobile.jpg);
+}
+    
+    #hero-img.culture-bg .headline h1 {
+  font-size: 2.25em;
+}
 }
 
-#culture p {
-    font-size: 1.1em;
-}
-
-#culture .light {
-    font-family: light, Helvetica, sans-serif;
-    color: #a12221;
-}
-
-#culture h1 {
-    font-family: medium, Helvetica, sans-serif;
-    color: #0f0f3f;
-    font-size: 2.25em;
-}
-
-#culture .bio {
-    float: right;
-    width: 450px;
-    margin: 0 3em
-}
 
 /* Benefits Page */
 
@@ -556,8 +520,6 @@ https://recruit.smashfly.com/SmashFlyMedia/Images/13195/13195_1007_career-paths-
 
 /* Military-Form Page */
 
-
-
 #military-form {
     padding: 200px 0 0 0;
     margin-top:-3em;
@@ -798,81 +760,6 @@ https://recruit.smashfly.com/SmashFlyMedia/Images/13195/13195_1007_career-paths-
 }
 
 
-
-/* News Page */
-
-.news-background {
-  background: url(
-http://jobs.corecivic.com/Views/Client/8dc4a657-f3b9-4967-bf13-de8e447ff866/images/news/news-header_v2.jpg);
-  background-size: contain;
-  background-position: center center;
-  background-repeat: no-repeat;
-  height: 0;
-  padding-top: 38.98%; }
-
-.news-background .overlay h1 {
-  color: #fff;
-  font-weight: normal;
-  font-size: 3.25em;
-  margin-bottom: 0; }
-
-.news-background .overlay h2 {
-  color: #fff;
-  font-size: 1.5em;
-  font-weight: normal;
-  margin-top: 0; }
-
-.news-background .overlay {
-    text-align: left;
-    padding-left: 5em;
-}
-
-#news {
-    padding: 0 40px;
-    margin-top:-3em;
-}
-
-#news p {
-    font-size: 1.1em;
-}
-
-#news .light {
-    font-family: light, Helvetica, sans-serif;
-    color: #a12221;
-}
-
-#news .light-blue {
-    font-family: light, Helvetica, sans-serif;
-    color: #0f0f3f;
-}
-
-#news h1 {
-    font-family: medium, Helvetica, sans-serif;
-    color: #0f0f3f;
-    font-size: 2.25em;
-    line-height: 1.25em;
-}
-
-#news h2 {
-    font-family: light, Helvetica, sans-serif;
-    color: #a12221;
-    font-size: 2.25em;
-}
-
-#news h3 {
-    font-family: medium, Helvetica, sans-serif;
-    color: #0f0f3f;
-    font-size: 1.5em;
-}
-
-#news a {
-    color: #0f0f3f;
-    font-weight: bold;
-}
-
-#news a:hover {
-    text-decoration: underline;
-}
 
 /* Security Page */
 
@@ -1234,9 +1121,7 @@ http://jobs.corecivic.com/Views/Client/8dc4a657-f3b9-4967-bf13-de8e447ff866/imag
 @media screen and (max-width: 1020px) {
     .overlay h1 {
         margin-top: -1em;
-    }
-    
-    
+    } 
 }
 
 .overlay {
@@ -1245,100 +1130,7 @@ http://jobs.corecivic.com/Views/Client/8dc4a657-f3b9-4967-bf13-de8e447ff866/imag
 
 
 
-/* Nursing Page */
-
-.nursing-background {
-  background: url(http://jobs.corecivic.com/Views/Client/8dc4a657-f3b9-4967-bf13-de8e447ff866/images/nursing-header.jpg);
-  background-size: contain;
-  background-position: center center;
-  background-repeat: no-repeat;
-  height: 0;
-  padding-top: 38.98%; }
-
-.nursing-background .overlay h1 {
-  color: #fff;
-  font-weight: normal;
-  font-size: 3.25em;
-  margin-bottom: 0; 
-  line-height: 1.25em;
-}
-
-.nursing-background .light {
-    font-family: light, Helvetica, sans-serif;
-}
-
-.nursing-background .overlay h2 {
-  color: #fff;
-  font-size: 1.5em;
-  font-weight: normal;
-  margin-top: 0; }
-
-.nursing-background .overlay {
-    text-align: left;
-    padding-left: 5em;
-}
-
-#nursing {
-    padding: 0 40px;
-    margin-top:-3em;
-}
-
-#nursing p {
-    font-size: 1.1em;
-}
-
-#nursing .light {
-    font-family: light, Helvetica, sans-serif;
-    color: #a12221;
-}
-
-#nursing h1 {
-    font-family: medium, Helvetica, sans-serif;
-    color: #0f0f3f;
-    font-size: 2.25em;
-}
-
-#nursing h2 {
-    font-family: light, Helvetica, sans-serif;
-    color: #a12221;
-    font-size: 2.25em;
-}
-
-#nursing h3 {
-    font-size:1.5em;
-    font-family: medium, Helvetica, sans-serif;
-}
-
-#nursing h3.red {
-    color: #a12221;
-}
-
-#nursing h3.blue {
-    color: #0f0f3f;
-}
-
-#nursing a {
-    color: #a12221; 
-    font-family: light, Helvetica, sans-serif;
-    text-decoration: underline;
-}
-
-#nursing .button {
-    color: #fff; 
-    font-family: medium, Helvetica, sans-serif;
-    text-decoration: none;
-}
-
-#nursing .button:hover {
-    color: #fff !important; 
-}
-
-#nursing a:hover {
-    color: #801b1a !important; 
-}
-
-
-    
+ 
 
 
 /* Carousel */
