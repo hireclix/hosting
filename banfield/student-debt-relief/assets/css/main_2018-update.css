@@ -4956,7 +4956,8 @@
 							#banner > .items section.accent2 input[type="button"].special:hover,
 							#banner > .items section.accent2 button.special:hover,
 							#banner > .items section.accent2 .button.special:hover {
-								background-color: #6cbfc4;
+								background-color: #2dccd3;
+                                opacity: .75;
 							}
 
 							#banner > .items section.accent2 input[type="submit"].special:active,
@@ -4964,7 +4965,8 @@
 							#banner > .items section.accent2 input[type="button"].special:active,
 							#banner > .items section.accent2 button.special:active,
 							#banner > .items section.accent2 .button.special:active {
-								background-color: #7cc8cd;
+								background-color: #2dccd3;
+                                opacity: .75;
 							}
 
 				#banner > .items section.accent3 {
