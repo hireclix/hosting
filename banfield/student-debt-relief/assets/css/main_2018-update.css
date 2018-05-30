@@ -5626,12 +5626,13 @@
 .ribbon {
     position: absolute;
     top:0;
-    left: 0;
+    right: 0;
     width: 250px; 
     animation-duration: 5s;
     animation-delay: 2s;
     animation-iteration-count: infinite;
 }
+
 
 @media screen and (max-width: 767px) {
     .ribbon {
@@ -5651,4 +5652,9 @@
     font-family: Calibri,Candara,Segoe,Segoe UI,Optima,Arial,sans-serif; 
     padding: 1em .25em;
     display: none;
+}
+
+.custom-link a {
+    color: #2dccd3 !important;
+    font-weight: bold;
 }
