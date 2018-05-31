@@ -2414,3 +2414,9 @@ ul.icons {
         font-size: 1.25em !important;
     }
 }
+
+.custom-link a {
+    color: #ED8B00 !important;
+    font-weight: bold;
+    text-decoration: underline;
+}
