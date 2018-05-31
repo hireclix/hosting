@@ -2546,3 +2546,9 @@ ul.icons {
     padding: 1em .25em;
     display: none;
 }
+
+.custom-link a {
+    color: #ED8B00 !important;
+    font-weight: bold;
+    text-decoration: underline;
+}
