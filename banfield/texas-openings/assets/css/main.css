@@ -4057,3 +4057,9 @@ ul.icons li:last-child {
 .chat-link {
     color: #5c5c5c !important;
 }
+
+.custom-link a {
+    color: #ED8B00 !important;
+    font-weight: bold;
+    text-decoration: underline;
+}
