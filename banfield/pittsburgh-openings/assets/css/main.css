@@ -4073,3 +4073,9 @@ ul.icons li:last-child {
     text-align: right !important;
     margin: 0 0 3em 0 !important;
 }
+
+.custom-link a {
+    color: #ED8B00 !important;
+    font-weight: bold;
+    text-decoration: underline;
+}
