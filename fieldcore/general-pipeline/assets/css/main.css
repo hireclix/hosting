@@ -217,7 +217,7 @@
 		a:hover {
 			text-decoration: none;
 			border-bottom-color: transparent;
-			color: #f3791f !important;
+			color: #000 !important;
 		}
 
 			a:hover strong {
