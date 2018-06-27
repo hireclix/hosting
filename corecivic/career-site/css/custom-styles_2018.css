@@ -240,60 +240,19 @@ https://recruit.smashfly.com/SmashFlyMedia/Images/13195/13195_2624_education-hea
 }
 }
 
+/* Community Page */
 
-/* Benefits Page */
-
-.benefits-background {
-  background: url(
-http://jobs.corecivic.com/Views/Client/8dc4a657-f3b9-4967-bf13-de8e447ff866/images/benefits/benefits-header.jpg);
-  background-size: contain;
-  background-position: center center;
-  background-repeat: no-repeat;
-  height: 0;
-  padding-top: 38.98%; }
-
-.benefits-background .overlay h1 {
-  color: #fff;
-  font-weight: normal;
-  font-size: 2.25em;
-  margin-bottom: 0; }
-
-.benefits-background .overlay h2 {
-  color: #fff;
-  font-size: 1.5em;
-  font-weight: normal;
-  margin-top: 0; }
-
-.benefits-background .overlay {
-    text-align: left;
-    padding-left: 5em;
+.community-bg {
+  background: url(https://recruit.smashfly.com/SmashFlyMedia/Images/13195/13195_3154_community-header_updated.jpg);
 }
 
-#benefits {
-    padding: 0 40px;
-    margin-top:-3em;
+@media screen and (max-width: 767px) {
+.community-bg {
+  background: url(https://recruit.smashfly.com/SmashFlyMedia/Images/13195/13195_3155_community-header_mobile.jpg);
 }
+} 
 
-#benefits p {
-    font-size: 1.1em;
-}
 
-#benefits .light {
-    font-family: light, Helvetica, sans-serif;
-    color: #a12221;
-}
-
-#benefits h1 {
-    font-family: medium, Helvetica, sans-serif;
-    color: #0f0f3f;
-    font-size: 2.25em;
-}
-
-#benefits h2 {
-    font-family: light, Helvetica, sans-serif;
-    color: #a12221;
-    font-size: 2.25em;
-}
 
 /* FSM Page */
 
