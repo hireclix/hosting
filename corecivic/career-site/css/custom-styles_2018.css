@@ -288,83 +288,17 @@ https://recruit.smashfly.com/SmashFlyMedia/Images/13195/13195_2624_education-hea
 }
 } 
 
+/* Career Paths Page */
 
-
-/* FSM Page */
-
-.fsm-background {
-  background: url(
-http://jobs.corecivic.com/Views/Client/8dc4a657-f3b9-4967-bf13-de8e447ff866/images/fsm/fsm_header.jpg);
-  background-size: contain;
-  background-position: center center;
-  background-repeat: no-repeat;
-  height: 0;
-  padding-top: 38.98%; }
-
-.fsm-background .overlay h1 {
-  color: #fff;
-  font-weight: normal;
-  font-size: 3.25em;
-  margin-bottom: 0; 
-  line-height: 1.25em;
+.career-paths-bg {
+   background: url(https://recruit.smashfly.com/SmashFlyMedia/Images/13195/13195_3200_career-paths-header_updated.jpg); 
 }
 
-.fsm-background .overlay h2 {
-  color: #fff;
-  font-size: 1.5em;
-  font-weight: normal;
-  margin-top: 0; }
-
-.fsm-background .overlay {
-    text-align: left;
-    padding-left: 5em;
+@media screen and (max-width: 767px) {
+.career-paths-bg {
+  background: url(https://recruit.smashfly.com/SmashFlyMedia/Images/13195/13195_3201_career-paths-header_mobile.jpg);
 }
-
-#fsm {
-    padding: 0 40px;
-    margin-top:-3em;
-}
-
-#fsm p {
-    font-size: 1.1em;
-}
-
-#fsm .light {
-    font-family: light, Helvetica, sans-serif;
-    color: #a12221;
-}
-
-#fsm h1 {
-    font-family: medium, Helvetica, sans-serif;
-    color: #0f0f3f;
-    font-size: 2.25em;
-}
-
-#fsm h2 {
-    font-family: light, Helvetica, sans-serif;
-    color: #a12221;
-    font-size: 2.25em;
-}
-
-#fsm a {
-    color: #a12221; 
-    font-family: light, Helvetica, sans-serif;
-    text-decoration: underline;
-}
-
-#fsm .button {
-    color: #fff; 
-    font-family: medium, Helvetica, sans-serif;
-    text-decoration: none;
-}
-
-#fsm .button:hover {
-    color: #fff !important; 
-}
-
-#fsm a:hover {
-    color: #801b1a !important; 
-}
+} 
 
 
 
