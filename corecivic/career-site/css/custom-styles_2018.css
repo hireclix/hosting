@@ -276,6 +276,18 @@ https://recruit.smashfly.com/SmashFlyMedia/Images/13195/13195_2624_education-hea
 }
 } 
 
+/* FMS Page */
+
+.fms-bg {
+  background: url(https://recruit.smashfly.com/SmashFlyMedia/Images/13195/13195_3198_fms-header_updated.jpg);
+}
+
+@media screen and (max-width: 767px) {
+.fms-bg {
+  background: url(https://recruit.smashfly.com/SmashFlyMedia/Images/13195/13195_3199_fms-header_mobile.jpg);
+}
+} 
+
 
 
 /* FSM Page */
