@@ -182,7 +182,6 @@ https://recruit.smashfly.com/SmashFlyMedia/Images/13195/13195_2624_education-hea
 } 
 
 
-
 /* RMOMS Page */
 
 .rmoms-bg {
@@ -197,6 +196,7 @@ https://recruit.smashfly.com/SmashFlyMedia/Images/13195/13195_2624_education-hea
   font-size: 2em;
 }
 } 
+
 
 /* News Page */
 
@@ -261,6 +261,18 @@ https://recruit.smashfly.com/SmashFlyMedia/Images/13195/13195_2624_education-hea
 @media screen and (max-width: 767px) {
 .corporate-bg {
   background: url(https://recruit.smashfly.com/SmashFlyMedia/Images/13195/13195_3162_corporate-header_mobile.jpg);
+}
+} 
+
+/* Security Page */
+
+.security-bg {
+  background: url(https://recruit.smashfly.com/SmashFlyMedia/Images/13195/13195_3164_security-header_updated.jpg);
+}
+
+@media screen and (max-width: 767px) {
+.security-bg {
+  background: url(https://recruit.smashfly.com/SmashFlyMedia/Images/13195/13195_3164_security-header_updated.jpg);
 }
 } 
 
