@@ -303,12 +303,12 @@ https://recruit.smashfly.com/SmashFlyMedia/Images/13195/13195_2624_education-hea
 /* Veterans Page */
 
 .veterans-bg {
-   background: url(/Views/Client/8dc4a657-f3b9-4967-bf13-de8e447ff866/images/veterans-header_updated.jpg); 
+   background: url(https://recruit.smashfly.com/SmashFlyMedia/Images/13195/13195_3217_veterans-header_updated.jpg); 
 }
 
 @media screen and (max-width: 767px) {
 .veterans-bg {
-  background: url(/Views/Client/8dc4a657-f3b9-4967-bf13-de8e447ff866/images/veterans-header_mobile.jpg);
+  background: url(https://recruit.smashfly.com/SmashFlyMedia/Images/13195/13195_3218_veterans-header_mobile.jpg);
 }
 }
 
