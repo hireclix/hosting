@@ -300,83 +300,19 @@ https://recruit.smashfly.com/SmashFlyMedia/Images/13195/13195_2624_education-hea
 }
 } 
 
+/* Veterans Page */
 
-
-/* Career Paths Page */
-
-.career-paths-background {
-  background: url(
-https://recruit.smashfly.com/SmashFlyMedia/Images/13195/13195_1007_career-paths-header.jpg);
-  background-size: contain;
-  background-position: center center;
-  background-repeat: no-repeat;
-  height: 0;
-  padding-top: 38.98%; }
-
-.career-paths-background .overlay h1 {
-  color: #fff;
-  font-weight: normal;
-  font-size: 3.25em;
-  margin-bottom: 0; 
-  line-height: 1.25em;
+.veterans-bg {
+   background: url(/Views/Client/8dc4a657-f3b9-4967-bf13-de8e447ff866/images/veterans-header_updated.jpg); 
 }
 
-.career-paths-background .overlay h2 {
-  color: #fff;
-  font-size: 1.5em;
-  font-weight: normal;
-  margin-top: 0; }
-
-.career-paths-background .overlay {
-    text-align: left;
-    padding-left: 5em;
+@media screen and (max-width: 767px) {
+.veterans-bg {
+  background: url(/Views/Client/8dc4a657-f3b9-4967-bf13-de8e447ff866/images/veterans-header_mobile.jpg);
+}
 }
 
-#career-paths {
-    padding: 0 40px;
-    margin-top:-3em;
-}
 
-#career-paths p {
-    font-size: 1.1em;
-}
-
-#career-paths .light {
-    font-family: light, Helvetica, sans-serif;
-    color: #a12221;
-}
-
-#career-paths h1 {
-    font-family: medium, Helvetica, sans-serif;
-    color: #0f0f3f;
-    font-size: 2.25em;
-}
-
-#career-paths h2 {
-    font-family: light, Helvetica, sans-serif;
-    color: #a12221;
-    font-size: 2.25em;
-}
-
-#career-paths a {
-    color: #a12221; 
-    font-family: light, Helvetica, sans-serif;
-    text-decoration: underline;
-}
-
-#career-paths .button {
-    color: #fff; 
-    font-family: medium, Helvetica, sans-serif;
-    text-decoration: none;
-}
-
-#career-paths .button:hover {
-    color: #fff !important; 
-}
-
-#career-paths a:hover {
-    color: #801b1a !important; 
-}
 
 .teacher-spotlight {
     border: 3px solid #0f0f3f;
