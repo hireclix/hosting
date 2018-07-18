@@ -1,0 +1,16 @@
+body {
+    width: 100vw;
+    height: 100vh;    
+    overflow: hidden;
+    margin: 0;
+}
+
+.bg-img {
+    width: 100vw;
+    height: 100vh; 
+    background: url(https://hireclix.github.io/hosting/banfield/images/arizona-feature4.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: 50% 10%;
+    cursor: pointer;
+}
