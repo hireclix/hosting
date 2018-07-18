@@ -4009,6 +4009,22 @@ ul.icons li:last-child {
 }    
 }
 
+.video-embed-mobile {
+        display: none;
+    }
+
+@media screen and (max-width: 980px) {
+    .video-embed-mobile {
+        display: inherit;
+    }
+    
+    .video-embed-desktop {
+        display: none;
+    }
+}
+
+
+
 /*Live Chat */
 
 .live-chat {
@@ -4087,3 +4103,4 @@ ul.icons li:last-child {
     font-weight: bold;
     text-decoration: underline;
 }
+
