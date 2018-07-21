@@ -2552,3 +2552,8 @@ ul.icons {
     font-weight: bold;
     text-decoration: underline;
 }
+
+iframe.video {
+    width: 100%;
+    height: 325px;
+}
