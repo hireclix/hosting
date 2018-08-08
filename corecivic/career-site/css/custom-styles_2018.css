@@ -103,6 +103,12 @@
     color: #0f0f3f;
 }
 
+#lp-body h4 {
+    margin-top:0; 
+    margin-bottom:0;
+    font-size:1.25em;
+}
+
 #lp-body .button {
     white-space: nowrap;
 }
