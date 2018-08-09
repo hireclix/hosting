@@ -109,6 +109,10 @@
     font-size:1.25em;
 }
 
+#lp-body h4.blue {
+    color: #0f0f3f;
+}
+
 #lp-body .button {
     white-space: nowrap;
 }
@@ -172,6 +176,19 @@ https://recruit.smashfly.com/SmashFlyMedia/Images/13195/13195_2623_education-hea
 .education-bg {
   background: url(
 https://recruit.smashfly.com/SmashFlyMedia/Images/13195/13195_2624_education-header_mobile.jpg);
+}
+} 
+
+/* Programs Page */
+
+.programs-bg {
+  background: url(https://recruit.smashfly.com/SmashFlyMedia/Images/13195/13195_3569_programs-header.jpg);
+}
+
+
+@media screen and (max-width: 767px) {
+.programs-bg {
+  background: url(https://recruit.smashfly.com/SmashFlyMedia/Images/13195/13195_3568_programs-header_mobile.jpg);
 }
 } 
 
@@ -323,6 +340,9 @@ https://recruit.smashfly.com/SmashFlyMedia/Images/13195/13195_2624_education-hea
     font-family: light, Helvetica, sans-serif;
     text-decoration: underline;
 }
+
+
+
 
 
 
@@ -643,152 +663,13 @@ https://recruit.smashfly.com/SmashFlyMedia/Images/13195/13195_2624_education-hea
 /* Media Queries */
 
 @media screen and (max-width: 767px) {
-    
-    #benefits {
-    padding-top: 7em;     
-    margin-top:0em;
-}
-    
-    #news {
-    padding-top: 7em;     
-    margin-top:0em;
-}
-    
-      #about {
-    padding-top: 7em;     
-    margin-top:0em;
-}
-    
-     #security {
-    padding-top: 7em;     
-    margin-top:0em;
-}
-    
-    #community {
-    padding-top: 7em;     
-    margin-top:0em;
-}
-    
-    #corporate {
-    padding-top: 7em;     
-    margin-top:0em;
-}
-    
-    #benefits .button {
-        font-size: .9em;
-    }
-    
-    #culture {
-    margin-top:0em;
-}
-    #fsm {
-    margin-top:7em;
-}
-    
-    #benefits h1 {
-    line-height: 1.1em;    
-    font-size: 1.7em;
-}
-    
-    #news h1 {
-    line-height: 1.1em;    
-    font-size: 1.7em;
-}
-    
-    #security h1 {
-    line-height: 1.1em;    
-    font-size: 1.8em;
-}
-    
-    #community h1 {
-    line-height: 1.1em;    
-    font-size: 1.8em;
-}
-    
-    #corporate h1 {
-    line-height: 1.1em;    
-    font-size: 1.8em;
-}
-    
-    #fsm h1 {
-    line-height: 1.1em;    
-    font-size: 1.8em;
-}
-    
-    #about h1 {
-    font-size: 2.5em;
-}
-    #culture h1 {
-    padding-top: 2.5em;
-    line-height: 1.1em;    
-    font-size: 2.5em;
-}
-    .whoweare-background {
-        display: none;
-    }
-    
-    .culture-background {
-        display: none;
-    }
-    
-    .career-paths-background {
-        display: none;
-    }
-    
-     .benefits-background {
-        display: none;
-    }
-    
-    .news-background {
-        display: none;
-    }
-    
-    .security-background {
-        display: none;
-    }
-    
-    .community-background {
-        display: none;
-    }
-    
-    .corporate-background {
-        display: none;
-    }
-    
-    .fsm-background {
-        display: none;
-    }
-    
-    .military-background {
-        display: none;
-    }
-    
-    .programs-background {
-        display: none;
-    }
-    
-    .rmoms-background {
-        display: none;
-    }
-    
-    #rmoms {
-    padding: 100px 40px !important;
-    margin-top:-3em;
-}
-    
-    .mobile-only {
+     .mobile-only {
         display: inherit !important;
     }
     
     .desktop-only {
         display: none !important;
     }
-    
-    #culture .bio {
-    float: none;
-    width: 275px;
-    margin: 0 0 1em 0;
-}
 }
 
 
