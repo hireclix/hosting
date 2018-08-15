@@ -29,6 +29,12 @@ body {
   margin-top:90px;    
 }
 
+@media screen and (min-width: 1680px) {
+#hero-img {
+  height: 575px; 
+}
+}
+
 #hero-img .headline {
     position: relative;
     display: table-cell;
