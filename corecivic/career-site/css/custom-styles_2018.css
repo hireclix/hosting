@@ -2,6 +2,18 @@
 
 /* Global Landing Page Styles */
 
+@media screen and (min-width: 1280px) {
+body {
+    font-size: 150% !important;
+}
+}
+
+@media screen and (min-width: 1680px) {
+body {
+    font-size: 225% !important;
+}
+}
+
 .row {
     padding-bottom: 1.5em;
 }
