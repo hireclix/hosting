@@ -8,7 +8,11 @@
 .gallery .control-operator:nth-of-type(2):target ~ .controls .control-button:nth-of-type(2),
 .gallery .control-operator:nth-of-type(3):target ~ .controls .control-button:nth-of-type(3),
 .gallery .control-operator:nth-of-type(4):target ~ .controls .control-button:nth-of-type(4),
-.gallery .control-operator:nth-of-type(5):target ~ .controls .control-button:nth-of-type(5) {
+.gallery .control-operator:nth-of-type(5):target ~ .controls .control-button:nth-of-type(5),
+.gallery .control-operator:nth-of-type(6):target ~ .controls .control-button:nth-of-type(6),
+
+.gallery .control-operator:nth-of-type(7):target ~ .controls .control-button:nth-of-type(7)
+{
   color: black;
   color: rgba(0, 0, 0, 0.8);
 }
@@ -636,6 +640,388 @@
   -webkit-animation-delay: 26s;
   -o-animation-delay: 26s;
   animation-delay: 26s;
+}
+
+
+/* Six */
+
+@-webkit-keyframes controlAnimation-6 {
+  0% {
+    color: #666;
+    color: rgba(0, 0, 0, 0.4);
+  }
+
+  4.75%, 16.7% {
+    color: black;
+    color: rgba(0, 0, 0, 0.8);
+  }
+
+  21.45%, 100% {
+    color: #666;
+    color: rgba(0, 0, 0, 0.4);
+  }
+}
+
+@-o-keyframes controlAnimation-6 {
+  0% {
+    color: #666;
+    color: rgba(0, 0, 0, 0.4);
+  }
+
+  4.75%, 16.7% {
+    color: black;
+    color: rgba(0, 0, 0, 0.8);
+  }
+
+  21.45%, 100% {
+    color: #666;
+    color: rgba(0, 0, 0, 0.4);
+  }
+}
+
+@keyframes controlAnimation-6 {
+  0% {
+    color: #666;
+    color: rgba(0, 0, 0, 0.4);
+  }
+
+  4.75%, 16.7% {
+    color: black;
+    color: rgba(0, 0, 0, 0.8);
+  }
+
+  21.45%, 100% {
+    color: #666;
+    color: rgba(0, 0, 0, 0.4);
+  }
+}
+
+@-webkit-keyframes galleryAnimation-6 {
+  0% {
+    opacity: 0;
+  }
+
+  4.75%, 16.7% {
+    opacity: 1;
+  }
+
+  21.45%, 100% {
+    opacity: 0;
+  }
+}
+
+@-o-keyframes galleryAnimation-6 {
+  0% {
+    opacity: 0;
+  }
+
+  4.75%, 16.7% {
+    opacity: 1;
+  }
+
+  21.45%, 100% {
+    opacity: 0;
+  }
+}
+
+@keyframes galleryAnimation-6 {
+  0% {
+    opacity: 0;
+  }
+
+  4.75%, 16.7% {
+    opacity: 1;
+  }
+
+  21.45%, 100% {
+    opacity: 0;
+  }
+}
+
+.gallery .control-operator:nth-of-type(1):target ~ .item:nth-of-type(1) {
+  pointer-events: auto;
+  opacity: 1;
+}
+
+.gallery .control-operator:nth-of-type(2):target ~ .item:nth-of-type(2) {
+  pointer-events: auto;
+  opacity: 1;
+}
+
+.gallery .control-operator:nth-of-type(3):target ~ .item:nth-of-type(3) {
+  pointer-events: auto;
+  opacity: 1;
+}
+
+.gallery .control-operator:nth-of-type(4):target ~ .item:nth-of-type(4) {
+  pointer-events: auto;
+  opacity: 1;
+}
+
+.gallery .control-operator:nth-of-type(5):target ~ .item:nth-of-type(5) {
+  pointer-events: auto;
+  opacity: 1;
+}
+
+.gallery .control-operator:nth-of-type(6):target ~ .item:nth-of-type(6) {
+  pointer-events: auto;
+  opacity: 1;
+}
+
+.items-6.autoplay .control-button {
+  -webkit-animation: controlAnimation-6 42s infinite;
+  -o-animation: controlAnimation-6 42s infinite;
+  animation: controlAnimation-6 42s infinite;
+}
+
+.items-6.autoplay .item {
+  -webkit-animation: galleryAnimation-6 42s infinite;
+  -o-animation: galleryAnimation-6 42s infinite;
+  animation: galleryAnimation-6 42s infinite;
+}
+
+.items-6 .control-button:nth-of-type(1),
+.items-6 .item:nth-of-type(1) {
+  -webkit-animation-delay: -2s;
+  -o-animation-delay: -2s;
+  animation-delay: -2s;
+}
+
+.items-6 .control-button:nth-of-type(2),
+.items-6 .item:nth-of-type(2) {
+  -webkit-animation-delay: 5s;
+  -o-animation-delay: 5s;
+  animation-delay: 5s;
+}
+
+.items-6 .control-button:nth-of-type(3),
+.items-6 .item:nth-of-type(3) {
+  -webkit-animation-delay: 12s;
+  -o-animation-delay: 12s;
+  animation-delay: 12s;
+}
+
+.items-6 .control-button:nth-of-type(4),
+.items-6 .item:nth-of-type(4) {
+  -webkit-animation-delay: 19s;
+  -o-animation-delay: 19s;
+  animation-delay: 19s;
+}
+
+.items-6 .control-button:nth-of-type(5),
+.items-6 .item:nth-of-type(5) {
+  -webkit-animation-delay: 26s;
+  -o-animation-delay: 26s;
+  animation-delay: 26s;
+}
+
+.items-6 .control-button:nth-of-type(6),
+.items-6 .item:nth-of-type(6) {
+  -webkit-animation-delay: 33s;
+  -o-animation-delay: 33s;
+  animation-delay: 33s;
+}
+
+.gallery .control-button {
+  color: #666;
+  color: rgba(0, 0, 0, 0.4);
+}
+
+.gallery .control-button:hover {
+  color: black;
+  color: rgba(0, 0, 0, 0.8);
+}
+
+
+/* Seven */
+
+@-webkit-keyframes controlAnimation-7 {
+  0% {
+    color: #666;
+    color: rgba(0, 0, 0, 0.4);
+  }
+
+  4.07%, 14.3% {
+    color: black;
+    color: rgba(0, 0, 0, 0.8);
+  }
+
+  18.37%, 100% {
+    color: #666;
+    color: rgba(0, 0, 0, 0.4);
+  }
+}
+
+@-o-keyframes controlAnimation-7 {
+  0% {
+    color: #666;
+    color: rgba(0, 0, 0, 0.4);
+  }
+
+  4.07%, 14.3% {
+    color: black;
+    color: rgba(0, 0, 0, 0.8);
+  }
+
+  18.37%, 100% {
+    color: #666;
+    color: rgba(0, 0, 0, 0.4);
+  }
+}
+
+@keyframes controlAnimation-7 {
+  0% {
+    color: #666;
+    color: rgba(0, 0, 0, 0.4);
+  }
+
+  4.07%, 14.3% {
+    color: black;
+    color: rgba(0, 0, 0, 0.8);
+  }
+
+  18.37%, 100% {
+    color: #666;
+    color: rgba(0, 0, 0, 0.4);
+  }
+}
+
+@-webkit-keyframes galleryAnimation-7 {
+  0% {
+    opacity: 0;
+  }
+
+  4.07%, 14.3% {
+    opacity: 1;
+  }
+
+  18.37%, 100% {
+    opacity: 0;
+  }
+}
+
+@-o-keyframes galleryAnimation-7 {
+  0% {
+    opacity: 0;
+  }
+
+  4.07%, 14.3% {
+    opacity: 1;
+  }
+
+  18.37%, 100% {
+    opacity: 0;
+  }
+}
+
+@keyframes galleryAnimation-7 {
+  0% {
+    opacity: 0;
+  }
+
+  4.07%, 14.3% {
+    opacity: 1;
+  }
+
+  18.37%, 100% {
+    opacity: 0;
+  }
+}
+
+.gallery .control-operator:nth-of-type(1):target ~ .item:nth-of-type(1) {
+  pointer-events: auto;
+  opacity: 1;
+}
+
+.gallery .control-operator:nth-of-type(2):target ~ .item:nth-of-type(2) {
+  pointer-events: auto;
+  opacity: 1;
+}
+
+.gallery .control-operator:nth-of-type(3):target ~ .item:nth-of-type(3) {
+  pointer-events: auto;
+  opacity: 1;
+}
+
+.gallery .control-operator:nth-of-type(4):target ~ .item:nth-of-type(4) {
+  pointer-events: auto;
+  opacity: 1;
+}
+
+.gallery .control-operator:nth-of-type(5):target ~ .item:nth-of-type(5) {
+  pointer-events: auto;
+  opacity: 1;
+}
+
+.gallery .control-operator:nth-of-type(6):target ~ .item:nth-of-type(6) {
+  pointer-events: auto;
+  opacity: 1;
+}
+
+.gallery .control-operator:nth-of-type(7):target ~ .item:nth-of-type(7) {
+  pointer-events: auto;
+  opacity: 1;
+}
+
+.items-7.autoplay .control-button {
+  -webkit-animation: controlAnimation-7 49s infinite;
+  -o-animation: controlAnimation-7 49s infinite;
+  animation: controlAnimation-7 49s infinite;
+}
+
+.items-7.autoplay .item {
+  -webkit-animation: galleryAnimation-7 49s infinite;
+  -o-animation: galleryAnimation-7 49s infinite;
+  animation: galleryAnimation-7 49s infinite;
+}
+
+.items-7 .control-button:nth-of-type(1),
+.items-7 .item:nth-of-type(1) {
+  -webkit-animation-delay: -2s;
+  -o-animation-delay: -2s;
+  animation-delay: -2s;
+}
+
+.items-7 .control-button:nth-of-type(2),
+.items-7 .item:nth-of-type(2) {
+  -webkit-animation-delay: 5s;
+  -o-animation-delay: 5s;
+  animation-delay: 5s;
+}
+
+.items-7 .control-button:nth-of-type(3),
+.items-7 .item:nth-of-type(3) {
+  -webkit-animation-delay: 12s;
+  -o-animation-delay: 12s;
+  animation-delay: 12s;
+}
+
+.items-7 .control-button:nth-of-type(4),
+.items-7 .item:nth-of-type(4) {
+  -webkit-animation-delay: 19s;
+  -o-animation-delay: 19s;
+  animation-delay: 19s;
+}
+
+.items-7 .control-button:nth-of-type(5),
+.items-7 .item:nth-of-type(5) {
+  -webkit-animation-delay: 26s;
+  -o-animation-delay: 26s;
+  animation-delay: 26s;
+}
+
+.items-7 .control-button:nth-of-type(6),
+.items-7 .item:nth-of-type(6) {
+  -webkit-animation-delay: 33s;
+  -o-animation-delay: 33s;
+  animation-delay: 33s;
+}
+
+.items-7 .control-button:nth-of-type(7),
+.items-7 .item:nth-of-type(7) {
+  -webkit-animation-delay: 40s;
+  -o-animation-delay: 40s;
+  animation-delay: 40s;
 }
 
 .gallery .control-button {
