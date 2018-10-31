@@ -1812,7 +1812,7 @@
 			height: 100%;
 			/*opacity: 0.4;*/
             background: #fff;
-            background-image: url(/images/carfax_sales-hero-img.jpg); 
+            background-image: url(https://hireclix.github.io/hosting/carfax/images/carfax_sales-hero-img.jpg); 
             /*background-image: linear-gradient(rgba(0,0,0,0.15),rgba(0,0,0,0.15)), url(/images/carfax_sales-hero-img.jpg);*/ 
             background-size: cover;   
             background-attachment: fixed;
