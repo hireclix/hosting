@@ -101,7 +101,7 @@ body {
 .green-line {
     width: 15px;
     position: relative;
-    left: 190px;
+    left: 210px;
     top: -120px;
     transform: rotate(90deg)
 }
@@ -208,19 +208,19 @@ body {
 	}
     
     33% {
-		left: 190px;
+		left: 210px;
 	}
     
     60% {
-		left: 190px;
+		left: 210px;
 	}
     
     65% {
-		left: 190px;
+		left: 210px;
 	}
     
 	100% {
-		left: 190px;
+		left: 210px;
 	}
 }
 
