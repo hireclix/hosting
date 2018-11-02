@@ -25,8 +25,9 @@ body {
     height: 280px;
     background: url(bg.jpg)no-repeat center;
     background-size: cover;
-    background-position: -130px;
+    background-position: 90%;
     z-index: 1;
+    float: left;
 }
 
 .logo {
@@ -39,23 +40,32 @@ body {
 
 .copy-wrap {
     position: absolute;
-    width:150px;
-    height:150px;
+    width: 150px;
+    height:125px;
+    left: 0px;
+    top: 0px;
+    overflow: hidden;
+}
+
+.copy-cta-wrap {
+    position: absolute;
+    width: 150px;
+    height: 185px;
     left: 180px;
-    top: 30px;
+    top: 75px;
     overflow: hidden;
 }
 
 .copy1 {
     position: relative;
-    width: 150px;
+    width: 130px;
     top:-150px
 }
 
 .copy2 {
     position: relative;
-    width: 150px;
-    top:-120px
+    width: 130px;
+    top:-110px
 }
   
 .cta {
@@ -68,8 +78,8 @@ body {
     font-size:16px; 
     color:white; 
     cursor:pointer;
-    top: 210px;
-    left:180px;
+    top: 10px;
+    left:0px;
 }
 
 .cta .arrow {
@@ -87,6 +97,14 @@ body {
 .cta:hover .arrow {
     transform: translateX(9px);
 }
+
+.green-line {
+    width: 15px;
+    position: relative;
+    left: 210px;
+    top: -110px;
+    transform: rotate(90deg)
+}
       
 .animate-top1 {
 	position: relative;
@@ -102,6 +120,13 @@ body {
     animation-iteration-count: 2;
 }
 
+.animate-left2 {
+	position: relative;
+	animation: animate-left2 7s;
+    animation-timing-function: ease-in-out;
+    animation-iteration-count: 2;
+}
+
 .animate-right {
 	position: relative;
 	animation: animate-right 7s;
@@ -109,10 +134,17 @@ body {
     animation-iteration-count: 2;
 }
 
+.animate-left {
+	position: relative;
+	animation: animate-left 7s;
+    animation-timing-function: ease-in-out;
+    animation-iteration-count: 2;
+}
+
 
 @keyframes animate-top1 {
 	0% {
-		top: 10px;
+		top: -10px;
 	}
     
     25% {
@@ -154,42 +186,96 @@ body {
 	}
     
     65% {
-		top: -120px;
+		top: -110px;
 	}
     
 	100% {
-		top: -120px;
+		top: -110px;
+	}
+}
+
+@keyframes animate-left2 {
+	0% {
+		left: 450px;
+	}
+    
+    25% {
+		left: 450px;
+	}
+    
+    28% {
+		left: 450px;
+	}
+    
+    33% {
+		left: 210px;
+	}
+    
+    60% {
+		left: 210px;
+	}
+    
+    65% {
+		left: 210px;
+	}
+    
+	100% {
+		left: 210px;
 	}
 }
 
 @keyframes animate-right {
 	0% {
-		background-position: center;
         width: 336px;
 	}
     
     25% {
-		background-position: center;
         width: 336px;
 	}
     
     28% {
-		background-position: -130px;
         width: 168px;
 	}
     
     30% {
-		background-position: -130px;
         width: 168px;
 	}
     
     50% {
-		background-position: -130px;
         width: 168px;
 	}
     
 	100% {
-		background-position: -130px;
         width: 168px;
+	}
+}
+
+@keyframes animate-left {
+	0% {
+        left: 450px;
+	}
+    
+    25% {
+        left: 450px;
+	}
+    
+    28% {
+        left: 450px;
+	}
+    
+    30% {
+        left: 450px;
+	}
+    
+    38% {
+        left: 0px;
+	}
+    
+    50% {
+        left: 0px;
+	}
+    
+	100% {
+        left: 0px;
 	}
 }
