@@ -142,7 +142,7 @@ body {
 
 @keyframes animate-top1 {
 	0% {
-		top: -10px;
+		top: 10px;
 	}
     
     25% {
@@ -250,19 +250,19 @@ body {
 
 @keyframes animate-left {
 	0% {
-        left: -350px;
+        left: -450px;
 	}
     
     25% {
-        left: -350px;
+        left: -450px;
 	}
     
     28% {
-        left: -350px;
+        left: -450px;
 	}
     
     30% {
-        left: -350px;
+        left: -450px;
 	}
     
     38% {
