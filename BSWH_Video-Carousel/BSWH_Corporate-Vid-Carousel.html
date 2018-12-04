@@ -6,9 +6,7 @@
 <head>
 
   <meta charset="UTF-8">
-  <link rel="shortcut icon" type="image/x-icon" href="https://static.codepen.io/assets/favicon/favicon-8ea04875e70c4b0bb41da869e81236e54394d63638a1ef12fa558a4a835f1164.ico" />
-  <link rel="mask-icon" type="" href="https://static.codepen.io/assets/favicon/logo-pin-f2d2b6d2c61838f7e76325261b7195c27224080bc099486ddd6dccb469b8e8e6.svg" color="#111" />
-  <title>CodePen - Bootstrap 3 Youtube Carousel</title>
+  <title>BSWH - Corporate Video Carousel</title>
   
   
   
@@ -22,15 +20,13 @@ body {
           
 .youtube-carousel{
     
-  border: 4px solid #e25454;
+  border: 4px solid #0090ba;
 }
 
 .video-container { 
-   position: relative; /* keeps the aspect ratio */ 
-   padding-bottom: 56.25%; /* fine tunes the video positioning */ 
-   padding-top: 60px; overflow: hidden;
-   margin-bottom: -1px;
-   margin-right: -1px;   
+   position: relative; 
+    width: 100vw;
+    height: 100vh;
 }
 
 .video-container iframe,
@@ -89,7 +85,7 @@ body {
   transform: translate(0,-50%);
   -moz-border-radius: 0 90px 90px 0;
   -webkit-border-radius: 0 90px 90px 0;
-  background-color: #e25454;
+  background-color: #0090ba;
   display: inline-block;
   position: relative;
   float:left;
@@ -107,7 +103,7 @@ body {
   transform: translate(0,-50%);
   -moz-border-radius: 90px 0 0 90px;
   -webkit-border-radius: 90px 0 0 90px;
-  background-color: #e25454;
+  background-color: #0090ba;
   display: inline-block;
   position: relative;
   float:right;
@@ -181,17 +177,6 @@ body {
 
     </style>
 
-  <script>
-  window.console = window.console || function(t) {};
-</script>
-
-  
-  
-  <script>
-  if (document.location.search.match(/type=embed/gi)) {
-    window.parent.postMessage("resize", "*");
-  }
-</script>
 
 
 </head>
@@ -203,16 +188,10 @@ body {
       <div id="random_number1" class="carousel slide youtube-carousel"  data-ride="carousel" data-interval="6000">
         <div class="carousel-inner">
           <div class="video-container item active">
-            <div class="youtube-video" id='AO89eXKO0c4'></div>
-            <div class="carousel-caption">Video 1</div>
+            <div class="youtube-video" id='YDqYBZEI0_I'></div>
           </div>
           <div class="video-container item">
-            <div class="youtube-video" id='6MjRVkm9CF0'></div>
-            <div class="carousel-caption">Video 2</div>
-          </div>
-          <div class="video-container item ">
-            <div class="youtube-video" id='R8poo-zCK9g'></div>
-            <div class="carousel-caption">Video 3</div>
+            <div class="youtube-video" id='uUoOwWkdGCI'></div>
           </div>
         </div>
         <div class="controls">
@@ -228,8 +207,6 @@ body {
           </a>
         </div>
       </div>
-    
-    <script src="//static.codepen.io/assets/common/stopExecutionOnTimeout-41c52890748cd7143004e05d3c5f786c66b19939c4500ce446314d1748483e13.js"></script>
 
   <script src='https://cdnjs.cloudflare.com/ajax/libs/jquery/3.1.0/jquery.min.js'></script>
 <script src='https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/3.3.7/js/bootstrap.min.js'></script>
@@ -320,11 +297,6 @@ jQuery('.carousel').bind('slid.bs.carousel', function (event) {
     </script>
 
 
-
-  
-  
-
-  <script src="https://static.codepen.io/assets/editor/live/css_reload-2a5c7ad0fe826f66e054c6020c99c1e1c63210256b6ba07eb41d7a4cb0d0adab.js"></script>
 </body>
 
 </html>
