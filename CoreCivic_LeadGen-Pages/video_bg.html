@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>Nursing Video BG</title>
+<style>
+  * {
+        box-sizing: border-box;
+        margin: 0;
+   }
+
+/* Video styles */
+	video#vid_bg {
+        background: url('poster.jpg') no-repeat;
+        background-size: cover;
+        display: inline-block;
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        min-width: 100%;
+        min-height: 100%;
+        width: auto;
+        height: auto;
+        z-index: -100;
+        -ms-transform: translateX(-50%) translateY(-50%);
+        -moz-transform: translateX(-50%) translateY(-50%);
+        -webkit-transform: translateX(-50%) translateY(-50%);
+        transform: translateX(-50%) translateY(-50%);
+    }
+</style>
+</head>
+<body>   
+<video muted autoplay loop poster="poster.jpg" id="vid_bg" playsinline>
+  <source src="https://drive.google.com/uc?export=download&id=1OzVCE4pcDBOMXM-r3AfaxP0PDT4L3Sbs" type="video/mp4">
+</video>
+</body>
+</html>

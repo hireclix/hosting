@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>Nursing Video BG</title>
+<style>
+  * {
+        box-sizing: border-box;
+        margin: 0;
+   }
+
+/* Video styles */
+    .hero {
+        position: relative;
+        height:500px;
+        overflow: hidden;
+    }
+	.vid_bg {
+        background: url('poster.jpg') no-repeat;
+        background-size: cover;
+        display: inline-block;
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        min-width: 100%;
+        min-height: 100%;
+        width: auto;
+        height: auto;
+        z-index: -100;
+        -ms-transform: translateX(-50%) translateY(-50%);
+        -moz-transform: translateX(-50%) translateY(-50%);
+        -webkit-transform: translateX(-50%) translateY(-50%);
+        transform: translateX(-50%) translateY(-50%);
+    }
+</style>
+</head>
+<body>
+<div class="hero">    
+<iframe scrolling="no" frameBorder="0" class="vid_bg" src="video_bg.html"></iframe>
+</div>
+</body>
+</html>
