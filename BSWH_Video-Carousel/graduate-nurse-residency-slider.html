@@ -1,0 +1,776 @@
+<!DOCTYPE html>
+<html class="responsive" lang="en">
+<head>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />    
+    <meta http-equiv="X-UA-Compatible" content="IE=Edge" />
+    <title>Graduate Nurse Residency</title>
+    
+ <link rel="stylesheet" type="text/css" href="//cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.css"/>
+    <style><!--
+        /* General/Resets */
+        @import url('https://use.fontawesome.com/releases/v5.6.1/css/all.css');
+        @import url('https://fonts.googleapis.com/css?family=Source+Sans+Pro:300,300i,400,400i,600,600i,700,700i');
+
+        body {
+            margin: 0;
+            font-family: 'Source Sans Pro', sans-serif !important;
+            font-size: 16px;
+        }
+     
+        h1 {
+            font-size: 40px;
+            font-weight: 600;
+        }
+        h2 {
+            font-size: 20px;
+            font-weight: 700;
+        }
+        p {
+            font-size: 16px;
+            line-height: 26px;
+            color: #000;
+        }
+        a, a:visited {
+            color: inherit;
+        }
+        .btn {
+            padding: 10px 20px;
+            border: solid 1px #003ca7;
+            font-weight: 500;
+            border-radius: 0 !important;
+            font-size: 16px;
+            line-height: 20px;
+            background: #003ca7;
+            color: #fff;
+            text-decoration: none;
+            box-shadow: none !important;
+        }
+        .btn:hover {
+            opacity: 0.9;
+            box-shadow: none !important;
+            border-color: #003ca7 !important;
+        }
+        .btn:visited {
+            color: #fff;
+        }
+        .btn-wrap {
+            display: flex;
+            flex-wrap: wrap;
+        }
+        .btn-wrap .btn {
+            margin: 10px 15px 10px 0;
+        }
+        
+        /* Grid */ 
+        .container {
+            max-width: 1200px;
+            margin: 0 auto;
+            padding: 0 1.5em;
+        }
+        .row {
+            display: flex;
+            flex-direction: row;
+            flex-wrap: wrap;
+        }
+        .column {
+            flex-basis: 100%;
+            margin: 10px;
+            padding: 10px;
+        }
+        .vertical-center {
+            align-items: center;
+        }
+        @media screen and (min-width: 767px) {
+            .column {
+                flex: 1;
+            }
+            .col_20 {
+                flex: 2;
+            }
+            .col_25 {
+                flex: 2.5;
+            }
+            .col_33 {
+                flex: 3.3;
+            }
+            .col_50 {
+                flex: 5;
+            }
+            .col_66 {
+                flex: 6.6;
+            }
+            .col_75 {
+                flex: 7.5;
+            }
+            .col_80 {
+                flex: 8;
+            }
+        }
+        
+        /* Nav/Header */
+        .sign-in.btn {
+            padding: 5px 15px;
+            border: solid 1px #e1e1e1;
+            border-radius: 3px;
+            font-weight: bold;
+            font-size: 13px;
+            line-height: 20px;
+            text-transform: uppercase;
+            background: #fbfbfb;
+            color: #0c4b92;
+        }
+        .site-header {
+            background-color: #fff;
+            padding: 10px;
+            display: flex;
+            position: relative;
+            align-items: center;
+            justify-content: space-between;
+        }
+        .site-header__logo {
+            width: 250px;
+        }
+        .site-header__logo img {
+            width: 250px;
+        }
+        .site-header__nav-toggle-link {
+            display: block;
+            position: absolute;
+            right: 1em;    
+            color: #000;
+            font-size: 20px;
+            line-height: 1em;
+            text-decoration: none;
+            font-weight: bold;
+            padding: 5px 0 5px 5px;
+            z-index: 2;    
+        }
+        .site-header__nav-toggle-link-line {
+            display: block;
+            width: 1em;
+            height: 3px;
+            margin-bottom: 5px;
+            background-color: #0c4a91;
+            opacity: 0.99;
+            transition: .4s ease all;
+        }
+        .site-header__nav-toggle-link-line:last-child {
+            margin-bottom: 0;
+        }
+        .site-header--nav-open .site-header__nav-toggle-link-line:nth-child(1) {
+            transform: rotate(45deg) translateX(2px);
+            transform-origin: top left;
+        }
+        .site-header--nav-open .site-header__nav-toggle-link-line:nth-child(2) {
+            opacity: 0;  
+        }
+        .site-header--nav-open .site-header__nav-toggle-link-line:nth-child(3) {
+            transform: rotate(-45deg) translateX(2px);
+            transform-origin: bottom left;
+        }
+        .site-header__nav {
+            position: fixed;
+            display: block;
+            top: 9em;
+            bottom: 0;
+            left: 50px;
+            right: 0;
+            margin: 0;
+            background-color: #fff;
+            color: #fff;
+            font-weight: 600;
+            transform: translateX(100%);
+            padding-top: .5em;    
+        }
+        .site-header__nav > a {
+            color: #919191;
+            text-decoration: inherit;
+            font-weight: inherit;
+            display: block;
+            padding: .5em 1em;
+        }
+        .site-header__nav > a:hover,
+        .site-header__nav > a:focus,
+        .site-header__nav > a:active,
+        .site-header__nav > a.active {
+            color: #0c4a91;
+        }
+        
+        @media screen and (max-width: 768px) {
+              body {
+                  transition: .1s ease-out all;
+              }
+              .body--nav-open .site-header__nav {
+                  position: fixed;
+                  top: 9em;
+                  bottom: 0;
+                  left: 0;
+                  right: 0;
+                  transform: translateX(0%);
+                  transition: .3s ease-out all;  
+                  border-top: 2px solid #0c4b92; 
+                  width: 100%;
+                  z-index: 2;
+              } 
+        }
+        
+        @media screen and (min-width: 767px) {
+              .site-header {
+                  padding: 25px 0;
+                  align-items: start;
+                  justify-content: left;
+                  border-bottom: none;
+              }
+              .site-header__logo {
+                  margin-right: 5px;
+              }
+              .site-header__nav-toggle-link {
+                  display: none;
+              }
+              .site-header__nav {
+                  position: static;
+                  transform: none;
+                  background: none;
+                  font-size: 14px;
+                  line-height: 1em;
+                  padding: 0;
+                  margin-left: auto;
+              }
+              .site-header__nav > a {
+                  display: block;
+                  float: left;
+                  padding: 10px;
+              }
+              .site-header__nav:before {
+                  display: none;
+              }
+        }
+        #button-1018.x-btn-default-small {
+            background-color: #fec646;
+            border-color: #fec646;
+            color: #0c4b91 !important; 
+            padding: 6px 26px;
+        }
+        #button-1018.x-btn-default-small:hover {
+            background-color: #e4b23f;
+            border-color:#e4b23f;
+        }
+        #button-1018.x-btn-default-small .x-btn-inner {
+            font-size: 16px;
+        }
+
+        .portal-job-geo-search-widget-form-keyword {
+            padding: 1em 2em;
+        }
+        .portal-job-geo-search-widget-form-location {
+            padding: 1em 2em;
+        }
+        .portal-job-geo-search-widget-form-submit {
+            padding: 1em 2em;
+        }
+        @media screen and (max-width: 768px) {
+            .portal-job-geo-search-widget-form-keyword {
+                padding: 2em 2em 0;
+            }    
+        }
+        
+        /* To Top Button */
+        .scroll-to-top {
+          opacity: 0.7;    
+          width: 50px;
+          height: 50px;
+          text-align: center;
+          font-weight: bold;
+          text-decoration: none;
+          position: fixed;
+          bottom: 60px;
+          right: 20px;
+          display: none;
+          z-index: 2000;
+          border-radius: 2px;
+          background-color: #ffc547;
+          border: 1px solid #ffc547;    
+          transition: -webkit-transform 0.3s;
+          transition: transform 0.3s;
+          transition: transform 0.3s, -webkit-transform 0.3s;
+          overflow: hidden;
+        }
+        .scroll-to-top:before, .scroll-to-top:after {
+          content: '';
+          position: absolute;
+          display: block;
+          top: 20px;
+          background-color: #0c4b92;
+          height: 10px;
+          width: 2px;
+        }
+        .scroll-to-top:before {
+          -webkit-transform: rotate(-45deg);
+                  transform: rotate(-45deg);
+          left: 26px;
+          /*box-shadow: -8px 14px 0px 8px #1ba1fe;*/
+        }
+        .scroll-to-top:after {
+          -webkit-transform: rotate(45deg);
+                  transform: rotate(45deg);
+          right: 26px;
+        }
+        .scroll-to-top:focus {
+          outline: none;
+        }
+        
+        .scroll-to-top:hover {
+          border: 1px solid #e1e1e1;
+          background-color: #f8f8f8;
+        }
+
+        /* Hero */
+        .hero-img {
+            width: 100%;
+            height: 350px;
+            background: url(https://bswhealth.gr8people.com/index.gp?method=cappservices.getPublicImage&cdn=f5aae6c5f3e73f9cbe15a2315bc2243726517f10&cid=240&type=1);
+            background-size: cover;
+            background-position: center right;
+        }
+        .hero-img .overlay {
+            width: 40%;
+            height: 350px;
+            display:flex;
+            align-items: center;
+            animation: fadein 3s;
+        }
+        @keyframes fadein {
+            from { opacity: 0; }
+            to   { opacity: 1; }
+        }
+        .hero-img .overlay h1 {
+            color: #003ca7;
+            padding: 25px 40px 0;
+            margin: 0;
+        }  
+        .hero-img .overlay h1 span {
+            color: #008fbf;
+            display: block;
+        }
+        @media screen and (max-width: 940px) { 
+            .hero-img .overlay {
+                display: none;
+            }
+            .hero-img {
+                display: none;
+            }
+        }
+        
+        .mobile-hero-text {
+            display: none;
+        }
+        
+        .mobile-hero-text h1 {
+            color: #0c4a91;
+            padding: 25px 0 0;
+            margin: 0;
+        }
+        .mobile-hero-text h1 span {
+            color: #008fbf;
+            display: block;
+        }
+        
+        @media screen and (max-width: 940px) { 
+            .mobile-hero-text {
+                display: inherit;
+            }
+        }
+        
+        /* Grad Nurse Page */
+        .blue-bg-header {
+            background-color: #003ca7;
+            padding: 7px 33px;
+            position: relative;
+        }
+        .blue-bg-header:before {
+            width: 0;
+            height: 0;
+            border-top: 40px solid white;
+            border-left: 40px solid transparent;
+            position: absolute;
+            content: '';
+            right: 0;
+            top: 0;
+        }
+        .blue-bg-header h3 {
+            color: #fff;
+            font-size: 20px;
+            font-weight: 600;
+            margin: 0;
+        }
+        .grey-bg-header {
+            background-color: #f3f3f4;
+            margin: 0;
+            padding: 20px 33px;
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: space-between;
+        }
+        .grey-bg-header h3 {
+            color: #008fbf;
+            font-size: 20px;
+            font-weight: 600;
+            margin: 0;
+        }
+         @media screen and (max-width: 940px) { 
+            .grey-bg-header .btn {
+                margin-top:1em;
+            }
+        }
+        .grad-nurse h1 {
+            color: #003ca7;
+        }  
+        .grad-nurse h1 span {
+            color: #008fbf;
+        }
+        .slider h3 {
+            font-size: 32px;
+            font-weight: 600;
+            color: #003ca7;
+            margin: 0;
+        }  
+        .slider h3 span {
+            color: #008fbf;
+        }
+        .slider ul {
+            line-height: 1.75em;
+        }
+        .grad-nurse img.icon {
+            display: block;
+            margin:0 auto;
+            padding: 1em 0 3em;
+        }
+        
+        /* Slider */
+        @charset 'UTF-8';
+/* Slider */
+.slick-loading .slick-list
+{
+    background: #fff url('https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.9.0/ajax-loader.gif') center center no-repeat;
+}
+
+/* Icons */
+@font-face
+{
+    font-family: 'slick';
+    font-weight: normal;
+    font-style: normal;
+
+    src: url('https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.9.0/fonts/slick.eot');
+    src: url('https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.9.0/fonts/slick.eot?#iefix') format('embedded-opentype'), url('https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.9.0/fonts/slick.woff') format('woff'), url('./fonts/slick.ttf') format('truetype'), url('https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.9.0/fonts/slick.svg') format('svg');
+}
+
+/* Dots */
+.slick-dotted.slick-slider
+{
+    margin-bottom: 0px;
+}
+
+.slick-dots
+{
+    position: relative;
+    display: block;
+    top: -70px;
+    width: 100%;
+    padding: 0;
+
+    list-style: none;
+
+    text-align: center;
+}
+        @media screen and (min-width: 767px) {
+            .slick-dots {
+                width: 50%;
+                margin-left: 50%;  
+            }  
+        }
+.slick-dots li
+{
+    position: relative;
+
+    display: inline-block;
+
+    width: 20px;
+    height: 20px;
+    margin: 0 5px;
+    padding: 0;
+
+    cursor: pointer;
+}
+.slick-dots li button
+{
+    font-size: 0;
+    line-height: 0;
+
+    display: block;
+
+    width: 20px;
+    height: 20px;
+    padding: 5px;
+
+    cursor: pointer;
+
+    color: transparent;
+    border: 0;
+    outline: none;
+    background: transparent;
+}
+.slick-dots li button:hover,
+.slick-dots li button:focus
+{
+    outline: none;
+}
+.slick-dots li button:hover:before,
+.slick-dots li button:focus:before
+{
+    opacity: 1;
+}
+.slick-dots li button:before
+{
+    font-family: 'slick';
+    font-size: 16px;
+    line-height: 20px;
+
+    position: absolute;
+    top: 0;
+    left: 0;
+
+    width: 20px;
+    height: 20px;
+
+    content: '•';
+    text-align: center;
+
+    opacity: 1;
+    color: #bcbdc0;
+
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+}
+.slick-dots li.slick-active button:before
+{
+    opacity: 1;
+    color: #fcb128;
+}
+        
+        .slider {
+            width: 100%;
+            margin: 0 auto;
+        }
+        .slick-slide {
+            margin: 0px 20px;
+        }
+        .slick-slide img {
+            width: 100%;
+        }
+        .slick-slide {
+            transition: all ease-in-out .3s;
+            opacity: .2;
+        }
+        .slick-active {
+            opacity: 1;
+        }
+        .slick-current {
+            opacity: 1;
+        }
+        
+        
+        /* Footer */
+        .eoe p {
+            font-size: 12px;
+            line-height: 16px;
+        }
+        .footer {
+            background: #ffc547;
+            padding: 1px 0;
+        }
+        @media screen and (max-width: 768px) {
+            .footer {
+                padding: 1em 0;
+            }   
+        }
+        .footer p {
+            color: #999;
+            font-size: 14px;
+        }
+        .footer a {
+            color: #999;
+        }
+        @media screen and (max-width: 768px) {
+            .footer p {
+                text-align: center;
+                min-width: 100%;
+            }
+            .footer .social-icon-wrap {
+                text-align: center;
+                min-width: 100%;
+            }
+        }
+        @media screen and (min-width: 767px) {
+            .social-icon-wrap {
+                margin-left: auto;
+            }
+        }
+        .social-icon {
+            display: inline-block;
+            font-size: 1.35em;
+            text-align: center;
+        }
+        .social-icon a {
+            color: #0c4b92;
+            -webkit-transition: all 0.2s ease-in-out;
+            transition: all 0.2s ease-in-out;
+        }
+        .social-icon a .fa-circle {
+            color: transparent; 
+        }
+        .social-icon a:hover {
+            color: #fff;
+        }
+        .social-icon a:hover .fa-circle {
+            color: #0c4b92;
+        }
+        .social-icon .fa-stack {
+            display: inline-block;
+            height: 1.6em;
+            line-height: 1.6em;
+            position: relative;
+            vertical-align: middle;
+            width: 1.6em;
+        }
+        .social-icon .fa-circle {
+            font-size:1.6em;
+        }
+        
+--></style>
+</head>
+    
+<body>
+    
+    
+            <div class="grad-nurse">
+        <div class="container">
+            <div class="row">
+                    <section class="regular slider">
+                        <div>
+                          <div class="row vertical-center">    
+                          <div class="column">
+                                <img src="https://bswhealth.gr8people.com/index.gp?method=cappservices.getPublicImage&cdn=c63e9764b9b2d2dfba82c3e6c79c25427a3b798b&cid=240&type=1">  
+                          </div>  
+                          <div class="column">
+                              <h3><span>Why a</span> Nurse Residency Program?</h3> 
+                              <p>Today’s nursing resident is tomorrow’s changemaker. Across the ever-evolving healthcare industry, registered nurses have more responsibility than ever for managing complex patient conditions and for working with professionals across a broad continuum of care. A nurse residency program provides new professionals with the knowledge, skills and support to confidently fulfill their expanding roles.</p>
+                          </div>
+                        </div>      
+                        </div>
+                        <div>
+                          <div class="row vertical-center">    
+                          <div class="column">
+                                <img src="https://bswhealth.gr8people.com/index.gp?method=cappservices.getPublicImage&cdn=470317f46ffe965e0227b687ca7d23f9761fd02a&cid=240&type=1">  
+                          </div>  
+                          <div class="column">
+                              <h3><span>Why </span> choose us?</h3> 
+                              <p>Based on the Vizient® and American Association of Colleges of Nursing (Vizient/AACN) Nurse Residency Program™, our program is designed to promote quality, safety and reduce turnover rates for first-year nurses.</p>
+                          </div>
+                        </div>
+                        </div>
+                        <div>
+                          <div class="row vertical-center">    
+                          <div class="column">
+                                <img src="https://bswhealth.gr8people.com/index.gp?method=cappservices.getPublicImage&cdn=cf26adfced62ef1ab59ab2d5b453b0f31e7a82b4&cid=240&type=1">  
+                          </div>  
+                          <div class="column">
+                              <h3><span>Program</span> goals</h3> 
+                              <p>All Baylor Scott &amp; White Nurse Residency Program residents receive advanced instruction in:</p>
+                              <ul>
+                                  <li>Transitioning from entry-level nurse to competent professional</li>
+                                  <li>Development of effective clinical judgment</li>
+                                  <li>Ability to provide clinical leadership</li>
+                                  <li>Strengthening of commitment to nursing</li>
+                                  <li>Ability to incorporate research-based evidence into practice</li>
+                                  <li>Formulating individual career development plans</li>
+                              </ul>      
+                          </div>
+                        </div>
+                        </div>
+                    </section>
+            </div> 
+                </div>
+    </div>
+            
+     <script src='https://cdnjs.cloudflare.com/ajax/libs/jquery/2.1.3/jquery.min.js'></script>  
+<!-- Nav Script --> 
+<script>// <![CDATA[
+(function() {
+  var header = document.getElementById('site-header');
+  var toggleLink = document.querySelector('[href="#toggle-header-nav"]');
+  function handleNavToggleClick(e) {
+    e.preventDefault();
+    if (!header.classList.contains('site-header--nav-open')) {
+      openNav();
+    } else {
+      closeNav();
+    }
+  }
+  function openNav() {
+    // reads
+    var currentTitle = toggleLink.getAttribute('title');
+    var toggleTitle = toggleLink.getAttribute('data-toggle-title');
+    
+    // writes
+    header.classList.add('site-header--nav-open');
+    document.body.classList.add('body--nav-open');
+    toggleLink.setAttribute('title', toggleTitle);
+    toggleLink.setAttribute('data-toggle-title', currentTitle);
+  }
+  function closeNav() {
+    // reads
+    var currentTitle = toggleLink.getAttribute('title');
+    var toggleTitle = toggleLink.getAttribute('data-toggle-title');
+    // writes
+    header.classList.remove('site-header--nav-open');
+    document.body.classList.remove('body--nav-open');
+    toggleLink.setAttribute('title', toggleTitle);
+    toggleLink.setAttribute('data-toggle-title', currentTitle);
+  }
+  
+  toggleLink.addEventListener('click', handleNavToggleClick);
+})();
+// ]]></script>
+<!-- To Top Button Script -->
+<script>
+    $(window).scroll(function() {
+  if ($(this).scrollTop() > 100) {
+		$('.scroll-to-top').fadeIn();
+	} else {
+	  $('.scroll-to-top').fadeOut();
+	}
+});
+
+$('.scroll-to-top').on('click', function(e) {
+  e.preventDefault();
+	$('html, body').animate({scrollTop : 0}, 800);
+});
+    </script>
+  <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.min.js"></script>
+  <script type="text/javascript">
+    $(document).on('ready', function() {
+      $(".regular").slick({
+        dots: true,
+        infinite: true,
+        slidesToShow: 1,
+        slidesToScroll: 1,
+        arrows: false,
+        autoplay: true,
+        autoplaySpeed:10000,
+        speed: 1000,
+        fade: true
+      });
+    });
+</script>
+</body>
