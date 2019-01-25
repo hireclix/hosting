@@ -1,0 +1,6 @@
+<root>
+	<place name="Niagra Falls" latitude="43.0962" longitude="-79.0377" Info="This is the information area"/>
+	<place name="Yosemite Falls" latitude="37.7566" longitude="-119.5969" Info="This is the information area" />
+	<place name="Multnomah Falls" latitude="45.5762" longitude="-122.1158" Info="This is the information area" />
+	<place name="Snoqualmie Falls" latitude="47.5417" longitude="-121.8377" Info="This is the information area" />
+</root>

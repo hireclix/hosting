@@ -1,0 +1,98 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+
+<script src="https://code.jquery.com/jquery-3.2.1.min.js"></script>
+	<meta charset="UTF-8">
+	<title>Job Map</title>
+	<style>
+		#map {
+			height: 100%;
+		}
+		/* Optional: Makes the sample page fill the window. */
+		html, body {
+			height: 100%;
+			margin: 0;
+			padding: 0;
+		}
+	</style>
+    
+    </head>
+    
+    <body>
+    <div id="map"></div>
+	<script>
+	
+	function infoCallback(infowindow, marker) {
+    return function() { infowindow.open(map, marker); }; 
+}
+	function initMap() {
+		var mapOptions = {
+			zoom: 4,
+			center: new google.maps.LatLng(39.8283, -98.5795),
+			mapTypeId: 'roadmap'
+		};
+		
+	
+		var map = new google.maps.Map(document.getElementById('map'), mapOptions);
+		
+		
+		
+		
+		
+		$.ajax({
+	type: "GET",
+	async: true,
+	url: "testxml.xml",
+	dataType: "xml",
+	success:
+	function (xml) {
+		
+		
+	var places = xml.documentElement.getElementsByTagName("place");
+		
+		
+	for (var i = 0; i < places.length; i++) {
+	var lat = places[i].getAttribute('latitude');
+	var long = places[i].getAttribute('longitude');
+	var category = places[i].getAttribute('Info');
+	var latLng = new google.maps.LatLng(lat, long);
+	
+	var marker = new google.maps.Marker({
+		position:  latLng,
+		map: map,
+		category:places[i].info,
+		label:places[i].name
+
+	});
+	
+	var infowindow = new google.maps.InfoWindow({
+		content:category});
+	google.maps.event.addListener(marker, 'click', infoCallback(infowindow,marker));
+	
+	
+		
+		
+}
+	     
+        
+
+	}
+	
+	
+	
+}
+
+
+);
+	
+	}
+	</script>
+    
+    
+<script async defer
+        src="https://maps.googleapis.com/maps/api/js?key=AIzaSyCveeL0WsuLVrnupJFkn0eM1DOKAzKYPAk&callback=initMap">
+</script>
+</body>
+</html>

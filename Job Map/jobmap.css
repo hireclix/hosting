@@ -1,0 +1,378 @@
+.ui-tooltip
+{
+	font-size:13px !important;
+	padding:4px !important;
+}
+
+#mapDiv
+{
+	width:100%;
+	height:50%;
+}
+
+.bottom-dock {
+	position: absolute;
+	bottom: 0;
+	left: 0;
+	width: 100%;
+}
+
+.bottom-dock .footer-texts {
+	height: 40px;
+	position: relative;	
+	display: table-cell;
+	vertical-align: middle;
+}
+.bottom-dock .footer-texts  span, 
+.bottom-dock .footer-texts  div
+{
+	
+}
+.bottom-dock .footer-texts .texts-first
+{
+	display:inline;
+	float:left
+}
+
+.bottom-dock .logo {
+	position: absolute;
+}
+
+.bottom-dock .logo img {
+	border:0px;
+}
+.bottom-dock .footer-texts h3 {
+	font-size: 15px;
+	line-height: 38px;
+	margin: 0;
+	font-weight: normal;
+	font-family: 'Trebuchet MS',Helvetica,Sans-serif;
+	white-space: nowrap;
+	overflow: hidden;
+	text-overflow: ellipsis;
+}
+
+.bottom-dock .branded-bar  .view-all-link a:hover {
+	color: #88DFF7 !important;
+}
+
+.bottom-dock .branded-bar .view-all-link a {
+	color: #00BEF3 !important;
+}
+.bottom-dock .branded-bar h3 .number {
+	font-size: 24px;
+	line-height: 24px;
+}
+
+.loading-mask {
+	position: absolute;
+	z-index: 50000;
+	width: 128px;
+	height: 128px;
+	top: 50%;
+	left: 50%;
+	margin-top:-84px;
+	margin-left:-64px;
+}
+
+.controls-holder {
+	position: absolute;
+	width: 30px;
+	right: 20px;
+	bottom: 140px;
+	z-index: 4;
+	-webkit-transform: translateZ(0);
+	-moz-transform: translateZ(0);
+	-ms-transform: translateZ(0);
+	transform: translateZ(0);
+}
+/* zoom */
+
+.zoom {
+	background-clip: padding-box;
+	height: 57px;
+	width: 29px;
+	box-shadow: 0px 1px 4px rgba(0,0,0,0.3);
+	z-index: 0;
+	position: relative;
+	outline: none;
+	cursor: pointer;
+	background: #ffffff;
+}
+
+.zoom button {
+	color: inherit;
+	margin: 0;
+	padding: 0;
+	border: 0;
+	outline: 0;
+	font: inherit;
+	vertical-align: baseline;
+	background: transparent;
+	list-style: none;
+}
+
+.zoom .button {
+	background: #ffffff;
+	border-radius: 2px;
+	display: block;
+	height: 29px;
+	left: 0px;
+	overflow: hidden;
+	position: absolute;
+	cursor: pointer;
+	width: 29px;
+	z-index: 2;
+	-webkit-transition-duration: 0.16s;
+	-webkit-transition-property: background-color;
+	-webkit-transition-timing-function: ease-out;
+	transition-duration: 0.16s;
+	transition-property: background-color;
+	transition-timing-function: ease-out;
+}
+
+.tool-button
+{	
+	position: relative;
+	border-radius: 2px;
+	box-shadow: 0px 1px 4px rgba(0,0,0,0.3);
+	background: #FFFFFF;
+	z-index: 2;
+	outline: none;
+	cursor: pointer;
+	-webkit-transition-duration: 0.16s;
+	-webkit-transition-property: background-color;
+	-webkit-transition-timing-function: ease-out;
+	transition-duration: 0.16s;
+	transition-property: background-color;
+	transition-timing-function: ease-out;
+	width:23px;
+	height:23px;
+	padding:3px;
+}
+
+.tool-button img
+{
+	position:relative;
+	width:23px;
+	height:23px;
+}
+.tool-button:hover 
+{
+	background:#eCeCeC;
+	cursor:pointer;
+}
+
+.viewAllDiv
+{
+	margin-top:5px;
+}
+
+.selectedTool
+{
+	background:#D5D5D5 !important;
+}
+
+.button.disabled:hover
+{
+	background:#ffffff !important;
+	cursor:default;
+}
+
+.zoom .button .icon {
+	display: block;
+	height: 15px;
+	left: 7px;
+	position: absolute;
+	top: 7px;
+	width: 15px;
+}
+
+.zoom  .zoom-in {
+	top: 0px;
+	border-bottom-left-radius: 0px;
+	border-bottom-right-radius: 0px;
+}
+
+.zoom .zoom-in .icon 			{ background-position: 0 0; }
+.zoom .zoom-in:hover .icon 	{ background-position: -30px 0; }
+.zoom .zoom-in:active .icon  	{ background-position: -45px 0; }
+
+.zoom  .zoom-out {
+	bottom: 0px;
+	border-top-left-radius: 0px;
+	border-top-right-radius: 0px;
+}
+
+.zoom .zoom-out .icon 		{ background-position: 0 -15px; }
+.zoom .zoom-out:hover .icon 	{ background-position: -30px -15px; }
+.zoom .zoom-out:active .icon  	{ background-position: -45px -15px; }
+
+.zoom  .zoom-out.disabled .icon,
+.zoom .zoom-out.disabled :hover .icon, 
+.zoom .zoom-out.disabled :active .icon 
+{
+	background-position: -15px -15px;
+}
+.zoom .zoom-in.disabled .icon,
+.zoom .zoom-in.disabled:hover .icon, 
+.zoom .zoom-in.disabled:active .icon 
+{
+	background-position: -15px 0px;
+}
+
+.zoom .splitter {
+	background-color: rgb(90%,90%,90%);
+	height: 1px;
+	left: 5px;
+	position: absolute;
+	top: 28px;
+	width: 19px;
+	z-index: 3;
+	-webkit-transition-duration: 0.16s;
+	-webkit-transition-property: background-color;
+	-webkit-transition-timing-function: ease-out;
+	transition-duration: 0.16s;
+	transition-property: background-color;
+	transition-timing-function: ease-out;
+}
+
+.top-left-panel
+{
+	position:absolute;
+	left:20px;
+	top:20px;
+}
+
+.legendToggle
+{
+	float:left;
+	margin-right: 5px;
+}
+
+.legend
+{
+	position:relative;
+	float:left;
+	display:none;
+	width:200px;
+	z-index:10;
+	opacity:0.95;
+	margin-right: 5px;
+}
+.legend .header {
+	background-color: #444444;
+	width: auto;
+	font-size:19px; 
+	font-weight:bold; 
+	color: #efefef; 
+	padding: 4px;	
+	border-style: solid;
+	border-width: 1px 1px 0px 1px;
+	border-color: #C0C0C0;
+	text-align:center; 
+	height:20px;
+	border-radius: 3px 3px 0 0;
+}
+.legend .header span
+{
+	position:absolute;
+	left:50%;
+	margin-left:-25px;
+}
+.legend .header .collapse{
+	float:left;
+	margin-left: 2px;
+	font-size: 20px;
+	font-family: serif;
+	display:none;
+}
+
+.legend .header .collapse:hover
+{
+	font-family: sans-serif;
+	cursor:pointer;
+	margin-top:0px;
+}
+
+.legend .content
+{
+	background: #ffffff;
+	padding:5px;
+	width:188px;
+	height:auto;
+	border-style: solid;
+	border-width: 0px 1px 1px 1px;
+	border-color: #C0C0C0;
+}
+.legend .legendItem
+{
+	display:inline-block;
+	vertical-align:top;
+	width:100%;
+	margin-top:1px;
+	margin-bottom:1px;
+}
+.legend .legendItem img
+{
+	float:left;
+	height:24px;
+}
+.legend .legendItem label
+{
+	float:left;
+	margin-left:4px;
+	font-size:16px;
+	cursor:pointer;
+}
+.legend .legendItem input
+{
+	float:left;
+	margin-left:4px;
+	font-size:16px;
+	cursor:pointer;
+}
+
+.drawToolDiv
+{
+	float:left;
+	display:none;
+}
+
+.drawToolDiv  img.delete
+{
+	display:none;
+}
+
+.drawToolDiv.selectedTool img.default
+{
+	display:block;
+}
+.drawToolDiv.selectedTool img.delete
+{
+	display:none;
+}
+
+.drawToolDiv.delete
+{
+	/* background: rgba(180,0,0,1) !important; */
+}
+
+.drawToolDiv.delete img.delete
+{
+	display:block;
+}
+
+.drawToolDiv.delete img.default
+{
+	display:none;
+}
+.company-splitter
+{
+	display:none;
+}
+.mapFullScreen 
+{    
+    position: absolute; top: 0; right: 0; bottom: 0; left: 0;
+}
+/* add more map div styles here */
