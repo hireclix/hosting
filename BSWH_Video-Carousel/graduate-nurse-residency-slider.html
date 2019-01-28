@@ -586,7 +586,20 @@
         .slick-slide {
             outline: none !important;
         }
-        
+        .slick-slider {
+            -webkit-user-select: text;
+            -khtml-user-select: text;
+            -moz-user-select: text;
+            -ms-user-select: text;
+            user-select: text;
+        }
+        .slick-list.draggable {
+            -webkit-user-select: none;
+            -khtml-user-select: none;
+            -moz-user-select: none;
+            -ms-user-select: none;
+            user-select: none;
+        }
         
         /* Footer */
         .eoe p {
@@ -777,7 +790,8 @@ $('.scroll-to-top').on('click', function(e) {
         autoplay: true,
         autoplaySpeed:10000,
         speed: 1000,
-        fade: true
+        fade: true,
+        draggable: false  
       });
     });
 </script>
