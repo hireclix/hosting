@@ -15,6 +15,7 @@
             margin: 0;
             font-family: 'Source Sans Pro', sans-serif !important;
             font-size: 16px;
+            height: 100vh;
         }
      
         h1 {
@@ -37,15 +38,18 @@
             padding: 10px 20px;
             border: solid 1px #003ca7;
             font-weight: 500;
-            border-radius: 0;
+            border-radius: 0 !important;
             font-size: 16px;
             line-height: 20px;
             background: #003ca7;
             color: #fff;
             text-decoration: none;
+            box-shadow: none !important;
         }
         .btn:hover {
             opacity: 0.9;
+            box-shadow: none !important;
+            border-color: #003ca7 !important;
         }
         .btn:visited {
             color: #fff;
@@ -425,13 +429,172 @@
         .grad-nurse h1 span {
             color: #008fbf;
         }
-        
+        .slider h3 {
+            font-size: 32px;
+            font-weight: 600;
+            color: #003ca7;
+            margin: 0;
+        }  
+        .slider h3 span {
+            color: #008fbf;
+        }
+        .slider ul {
+            line-height: 1.75em;
+        }
         .grad-nurse img.icon {
             display: block;
             margin:0 auto;
             padding: 1em 0 3em;
         }
         
+        /* Slider */
+        @charset 'UTF-8';
+/* Slider */
+.slick-loading .slick-list
+{
+    background: #fff url('https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.9.0/ajax-loader.gif') center center no-repeat;
+}
+
+/* Icons */
+@font-face
+{
+    font-family: 'slick';
+    font-weight: normal;
+    font-style: normal;
+
+    src: url('https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.9.0/fonts/slick.eot');
+    src: url('https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.9.0/fonts/slick.eot?#iefix') format('embedded-opentype'), url('https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.9.0/fonts/slick.woff') format('woff'), url('./fonts/slick.ttf') format('truetype'), url('https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.9.0/fonts/slick.svg') format('svg');
+}
+
+/* Dots */
+.slick-dotted.slick-slider
+{
+    margin-bottom: 0px;
+}
+
+.slick-dots
+{
+    position: relative;
+    display: block;
+    top: -70px;
+    width: 100%;
+    padding: 0;
+
+    list-style: none;
+
+    text-align: center;
+}
+
+.slick-dots li
+{
+    position: relative;
+
+    display: inline-block;
+
+    width: 20px;
+    height: 20px;
+    margin: 0 5px;
+    padding: 0;
+
+    cursor: pointer;
+}
+.slick-dots li button
+{
+    font-size: 0;
+    line-height: 0;
+
+    display: block;
+
+    width: 20px;
+    height: 20px;
+    padding: 5px;
+
+    cursor: pointer;
+
+    color: transparent;
+    border: 0;
+    outline: none;
+    background: transparent;
+}
+.slick-dots li button:hover,
+.slick-dots li button:focus
+{
+    outline: none;
+}
+.slick-dots li button:hover:before,
+.slick-dots li button:focus:before
+{
+    opacity: 1;
+}
+.slick-dots li button:before
+{
+    font-family: 'slick';
+    font-size: 16px;
+    line-height: 20px;
+
+    position: absolute;
+    top: 0;
+    left: 0;
+
+    width: 20px;
+    height: 20px;
+
+    content: '•';
+    text-align: center;
+
+    opacity: 1;
+    color: #bcbdc0;
+
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+}
+.slick-dots li.slick-active button:before
+{
+    opacity: 1;
+    color: #fcb128;
+}
+        
+        .slider {
+            max-width: 380px;
+            height: 100vh;
+            margin: 0 auto;
+        }
+        .slick-slide {
+            margin: 0px 20px;
+        }
+        .slick-slide img {
+            width: 100%;
+        }
+        .slick-slide {
+            transition: all ease-in-out .3s;
+            opacity: .2;
+        }
+        .slick-active {
+            opacity: 1;
+        }
+        .slick-current {
+            opacity: 1;
+        }
+        .slick-list {
+            outline: none !important;
+        }
+        .slick-slide {
+            outline: none !important;
+        }
+        .slick-slider {
+            -webkit-user-select: text;
+            -khtml-user-select: text;
+            -moz-user-select: text;
+            -ms-user-select: text;
+            user-select: text;
+        }
+        .slick-list.draggable {
+            -webkit-user-select: none;
+            -khtml-user-select: none;
+            -moz-user-select: none;
+            -ms-user-select: none;
+            user-select: none;
+        }
         
         /* Footer */
         .eoe p {
@@ -500,121 +663,62 @@
             font-size:1.6em;
         }
         
-        /* Slider */
-        .content-slider iframe {
-            max-width: 90% !important; 
-            width: 100%;
-            height:400px; 
-            border:0;
-        }
-        
-         @media screen and (max-width: 768px) {
-            .content-slider iframe {
-                height:1200px    
-             }
-        }
-
-        
 --></style>
 </head>
     
 <body>
     
-    <div class="container">
-        <div style="text-align: right; margin: 1em 0;"><a href="/index.cfm?method=cappportal.showLogin&DCID=US3" class="sign-in btn">Sign In</a></div>
-    </div>
-    
-    <div style="border-top: 1px solid #e1e1e1;">
-        <div class="container">
-            <header class="site-header" id="site-header">
-                <a class="site-header__logo" href="index.gp"> <img src="https://bswhealth.gr8people.com/index.gp?method=cappservices.getPublicImage&amp;cdn=9892806417916583a8b12ef56826ef241f1862be&amp;cid=240&amp;type=1" alt="BSW Health" /></a> 
-                <a class="site-header__nav-toggle-link" href="#toggle-header-nav" title="Show Navigation" data-toggle-title="Hide Navigation"> <span class="site-header__nav-toggle-link-line"></span> <span class="site-header__nav-toggle-link-line"></span> <span class="site-header__nav-toggle-link-line"></span></a>
-                <nav class="site-header__nav"><a href="index.gp">Home</a> <a href="/index.gp?method=cappportal.showCategory&categoryId=2">Career Areas</a> <a href="/index.gp?method=cappportal.showCategory&categoryId=3">Working Here</a> <a href="/index.gp?method=cappportal.showCategory&categoryId=4">About Us</a> <a href="http://news.bswhealth.com" target="_blank">News</a> <a href="/index.gp?method=cappportal.showCategory&categoryId=5">Locations</a>
-                </nav>
-            </header>
-        </div>
-    </div>
-    
-    <div class="mobile-hero-text">
-        <div class="container">
-            <div class="row">
-                <div class="column">
-            <h1><span>Baylor Scott &amp; White Health</span>
-Nurse Residency Program</h1>
-                    <img style="width:100%;" src="https://bswhealth.gr8people.com/index.gp?method=cappservices.getPublicImage&cdn=dd6569dcd1f13d83d157ca2ed55527781b1bdf83&cid=240&type=1">
-        </div>
-            </div>
-        </div>
-    </div>
-    
-    <div class="hero-img">
-        <div class="container">
-            <div class="overlay">
-                <h1><span>Baylor Scott &amp; White Health</span>
-Nurse Residency Program</h1>
-            </div>    
-        </div>
-    </div>
-    
-    <div class="content-slider">
-        <div class="container">
-            <iframe scrolling="no" src="https://hireclix.github.io/hosting/BSWH_Video-Carousel/graduate-nurse-residency-slider_mobile.html"></iframe> 
-        </div>
-    </div>
     
             <div class="grad-nurse">
         <div class="container">
-            <div class="row" style="text-align:center; margin:0 auto; padding-bottom:4em;">
-                <div class="column">
-                    <img class="icon" src="https://bswhealth.gr8people.com/index.gp?method=cappservices.getPublicImage&cdn=ddc9d5a29cb1dbf04d0fb046a46113623e679ee3&cid=240&type=1">
-                     <a href="https://bswhealth.gr8people.com/index.gp?method=cappportal.showCategory&categoryId=5" class="btn">Benefits</a>
+            <div class="row">
+                    <section class="regular slider">
+                        <div>
+                          <div class="row vertical-center">    
+                          
+                                <img style="width:100%" src="https://bswhealth.gr8people.com/index.gp?method=cappservices.getPublicImage&cdn=c63e9764b9b2d2dfba82c3e6c79c25427a3b798b&cid=240&type=1">  
+                         
+                          
+                              <h3 style="margin-top:.5em;"><span>Why a</span> Nurse Residency Program?</h3> 
+                              <p>Today’s nursing resident is tomorrow’s changemaker. Across the ever-evolving healthcare industry, registered nurses have more responsibility than ever for managing complex patient conditions and for working with professionals across a broad continuum of care. A nurse residency program provides new professionals with the knowledge, skills and support to confidently fulfill their expanding roles.</p>
+                         
+                        </div>      
+                        </div>
+                        <div>
+                          <div class="row vertical-center">    
+                          
+                                <img style="width:100%" src="https://bswhealth.gr8people.com/index.gp?method=cappservices.getPublicImage&cdn=470317f46ffe965e0227b687ca7d23f9761fd02a&cid=240&type=1">  
+                           
+                          
+                              <h3 style="margin-top:.5em;"><span>Why </span> choose us?</h3> 
+                              <p>Based on the Vizient® and American Association of Colleges of Nursing (Vizient/AACN) Nurse Residency Program™, our program is designed to promote quality, safety and reduce turnover rates for first-year nurses.</p>
+                          
+                        </div>
+                        </div>
+                        <div>
+                          <div class="row vertical-center">    
+                          
+                                <img style="width:100%" src="https://bswhealth.gr8people.com/index.gp?method=cappservices.getPublicImage&cdn=cf26adfced62ef1ab59ab2d5b453b0f31e7a82b4&cid=240&type=1">  
+                            
+                          
+                              <h3 style="margin-top:.5em;"><span>Program</span> goals</h3> 
+                              <p>All Baylor Scott &amp; White Nurse Residency Program residents receive advanced instruction in:</p>
+                              <ul>
+                                  <li>Transitioning from entry-level nurse to competent professional</li>
+                                  <li>Development of effective clinical judgment</li>
+                                  <li>Ability to provide clinical leadership</li>
+                                  <li>Strengthening of commitment to nursing</li>
+                                  <li>Ability to incorporate research-based evidence into practice</li>
+                                  <li>Formulating individual career development plans</li>
+                              </ul>      
+                          
+                        </div>
+                        </div>
+                    </section>
+            </div> 
                 </div>
-                <div class="column">
-                    <img class="icon" src="https://bswhealth.gr8people.com/index.gp?method=cappservices.getPublicImage&cdn=dfba7eb203c149d1c6857c3b8b8f4fcf7dc43ad5&cid=240&type=1">
-                     <a href="https://bswhealth.gr8people.com/index.gp?method=cappportal.showCategory&categoryId=5" class="btn">Culture</a> 
-                </div>
-                <div class="column">
-                     <img class="icon" src="https://bswhealth.gr8people.com/index.gp?method=cappservices.getPublicImage&cdn=f27bc34325d6ee8aecaa7fae8240f2367f0da3b1&cid=240&type=1">
-                     <a href="https://bswhealth.gr8people.com/index.gp?method=cappportal.showCategory&categoryId=5" class="btn">FAQs</a>
-                </div>
-            </div>    
-        </div>
-    </div>    
-      
-    <div class="eoe">
-        <div class="container">
-            <p>As a health care system committed to improving the health of those we serve, we are asking our employees to model the same behaviors that we promote to our patients. As of January 1, 2012, Baylor Scott &amp; White Health no longer hires individuals who use nicotine products.
-<br><br>
-                We are an equal opportunity employer committed to ensuring a diverse workforce. All qualified applicants will receive consideration for employment without regard to race, color, religion, sex, national origin, disability status, protected veteran status, or any other characteristic protected by law. To view the most recent EEO is the Law Poster, <a href="https://bswhealth.gr8people.com/index.gp?method=cappservices.getPublicImage&cdn=070bd1c7f0dfdf4da9c43a2f7dd024dd51ff2ccd&cid=240&type=1" target="_blank">click here</a>.</p>
-        </div>    
     </div>
-    
-    <div class="footer">
-        <div class="container row vertical-center">
-        <p>&copy; <script type="text/javascript">
-  document.write(new Date().getFullYear());
-</script> Baylor Scott &amp; White Health | <a href="https://www.bswhealth.com/privacy-and-patient-rights/Pages/site-ownership.aspx" target="_blank">Terms of Use</a></p>
-            <div class="social-icon-wrap">
-            <div class="social-icon"><a href="https://twitter.com/BaylorCareers" target="_blank" aria-hidden="true" title="Twitter"><span class="fa-stack">
-              <i class="fas fa-circle fa-stack-2x"></i>
-              <i class="fab fa-twitter fa-stack-1x"></i>
-            </span></a></div>
-            <div class="social-icon"><a href="https://www.facebook.com/BaylorHealthCareers" target="_blank" aria-hidden="true" title="Facebook"><span class="fa-stack">
-              <i class="fas fa-circle fa-stack-2x"></i>
-              <i class="fab fa-facebook-f fa-stack-1x"></i>
-            </span></a></div>
-            <div class="social-icon"><a href="https://www.linkedin.com/company/6250?trk=tyah&trkInfo=tarId%3A1421255575815%2Ctas%3Abaylor%2Cidx%3A2-2-5" target="_blank" aria-hidden="true" title="LinkedIn"><span class="fa-stack">
-              <i class="fas fa-circle fa-stack-2x"></i>
-              <i class="fab fa-linkedin-in fa-stack-1x"></i>
-            </span></a></div>
-            <div class="social-icon"><a href="https://www.youtube.com/user/baylorhealth" target="_blank" aria-hidden="true" title="YouTube"><span class="fa-stack">
-              <i class="fas fa-circle fa-stack-2x"></i>
-              <i class="fab fa-youtube fa-stack-1x"></i>
-            </span></a></div>
-            </div>    
-        </div>    
-    </div> 
-    <a href='#' class='scroll-to-top'></a>
+            
      <script src='https://cdnjs.cloudflare.com/ajax/libs/jquery/2.1.3/jquery.min.js'></script>  
 <!-- Nav Script --> 
 <script>// <![CDATA[
@@ -669,4 +773,20 @@ $('.scroll-to-top').on('click', function(e) {
 	$('html, body').animate({scrollTop : 0}, 800);
 });
     </script>
+  <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.min.js"></script>
+  <script type="text/javascript">
+    $(document).on('ready', function() {
+      $(".regular").slick({
+        dots: true,
+        infinite: true,
+        slidesToShow: 1,
+        slidesToScroll: 1,
+        arrows: false,
+        autoplay: true,
+        autoplaySpeed:10000,
+        speed: 1000,
+        fade: true  
+      });
+    });
+</script>
 </body>
