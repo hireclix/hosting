@@ -1,0 +1,243 @@
+@font-face{font-family:Uber Move;font-style:normal;font-weight:300;src:url(https://uber-design-herokuapp-com.global.ssl.fastly.net/5e42280ed7d51fb011c9b0aadcfdee2c.otf) format("opentype")}
+  
+@font-face{font-family:Uber Move;font-style:normal;font-weight:400;src:url(https://uber-design-herokuapp-com.global.ssl.fastly.net/f98937b963212639284b8825380d0fbc.otf) format("opentype")}
+  
+@font-face{font-family:Uber Move;font-style:normal;font-weight:500;src:url(https://uber-design-herokuapp-com.global.ssl.fastly.net/7999d148e8355b49d71b4e1795cec247.otf) format("opentype")}
+  
+@font-face{font-family:Uber Move;font-style:normal;font-weight:700;src:url(https://uber-design-herokuapp-com.global.ssl.fastly.net/38f0dcac01a8468c8955582ef77823d4.otf) format("opentype")}
+
+body {
+    width: 970px;
+    height: 90px;
+    margin: 0 auto;
+    position: relative;
+}
+
+.wrap {
+    width: 970px;
+    height: 90px;
+    border: 1px solid #000;
+    overflow: hidden;
+}
+
+.bg {
+    width: 250px;
+    height: 90px;
+    background: url(bg.jpg)no-repeat center;
+    background-size: cover;
+    z-index: 1;
+    float: right;
+}
+
+.logo {
+    width: 85px;
+    position: absolute;
+    top: 30px;
+    left: 20px;
+}
+
+.copy-wrap {
+    position: absolute;
+    width:540px;
+    height:75px;
+    left: 30px;
+    top: 0px;
+    overflow: hidden;
+}
+
+.copy-cta-wrap {
+    position: absolute;
+    width:540px;
+    height:75px;
+    left: 160px;
+    top: 10px;
+    overflow: hidden;
+}
+
+.copy1 {
+    position: relative;
+    width: 320px;
+    top:-150px;
+    font-family: Uber Move, sans-serif;
+    font-weight: 500;
+    font-size: 24px;
+    line-height: 26px;
+    color: black;
+}
+
+.copy2 {
+    position: relative;
+    width: 340px;
+    top:-50px;
+    font-family: Uber Move, sans-serif;
+    font-weight: 500;
+    font-size: 24px;
+    line-height: 26px;
+    color: black;
+}
+  
+.cta {
+    font-family: Uber Move, sans-serif;
+    font-weight: 500;
+    letter-spacing: .2px;
+    position: absolute;
+    display:inline-flex; 
+    background-color: #276EF1; 
+    padding: 8px 13px; 
+    font-size:14px; 
+    color:white; 
+    cursor:pointer;
+    top: -55px;
+    left:385px;
+}
+
+.cta .arrow {
+    margin: 1px 9px 0 12px; 
+    font-size:10px; 
+    width:14px; 
+    height:13px; 
+    transition: transform 333ms ease;
+}
+
+.cta:hover {
+    background-color:black;
+}
+  
+.cta:hover .arrow {
+    transform: translateX(9px);
+}
+
+.green-line {
+    height: 85px;
+    position: relative;
+    left: 135px;
+    top: -40px;
+}
+      
+.animate-top1 {
+	position: relative;
+	animation: animate-top1 7s;
+    animation-timing-function: ease-in-out;
+    animation-iteration-count: 2;
+}
+
+.animate-top2 {
+	position: relative;
+	animation: animate-top2 7s;
+    animation-timing-function: ease-in-out;
+    animation-iteration-count: 2;
+}
+
+.animate-top3 {
+	position: relative;
+	animation: animate-top3 7s;
+    animation-timing-function: ease-in-out;
+    animation-iteration-count: 2;
+}
+
+.animate-right {
+	position: relative;
+	animation: animate-right 7s;
+    animation-timing-function: ease-in-out;
+    animation-iteration-count: 2;
+}
+
+.animate-left {
+	position: relative;
+	animation: animate-left 7s;
+    animation-timing-function: ease-in-out;
+    animation-iteration-count: 2;
+}
+
+.animate-left2 {
+	position: relative;
+	animation: animate-left2 7s;
+    animation-timing-function: ease-in-out;
+    animation-iteration-count: 2;
+}
+
+@keyframes animate-top1 {
+	0% {
+		top: 0px;
+	}
+    
+    40% {
+		top: 0px;
+	}
+    
+    45% {
+		top: -150px;
+	}
+    
+	100% {
+		top: -150px;
+	}
+}
+
+@keyframes animate-top2 {
+	0% {
+		top: 10px;
+	}
+       
+    40% {
+		top: 10px;
+	}
+    
+    45% {
+		top: -50px;
+	}
+    
+	100% {
+		top: -50px;
+	}
+}
+
+@keyframes animate-top3 {
+	0% {
+		top: -160px;
+	}
+    
+    5% {
+		top: -40px;
+	}
+    
+	100% {
+		top: -40px;
+	}
+}
+
+@keyframes animate-left {
+	0% {
+        left: -450px;
+	}
+    
+    7% {
+        left: -450px;
+	}
+    
+    15% {
+        left: 30px;
+	}
+    
+	100% {
+        left: 30px;
+	}
+}
+
+@keyframes animate-left2 {
+	0% {
+        left: -400px;
+	}
+    
+    7% {
+        left: -400px;
+	}
+    
+    15% {
+        left: 385px;
+	}
+    
+	100% {
+        left: 385px;
+	}
+}

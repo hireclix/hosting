@@ -1,0 +1,244 @@
+@font-face{font-family:Uber Move;font-style:normal;font-weight:300;src:url(https://uber-design-herokuapp-com.global.ssl.fastly.net/5e42280ed7d51fb011c9b0aadcfdee2c.otf) format("opentype")}
+  
+@font-face{font-family:Uber Move;font-style:normal;font-weight:400;src:url(https://uber-design-herokuapp-com.global.ssl.fastly.net/f98937b963212639284b8825380d0fbc.otf) format("opentype")}
+  
+@font-face{font-family:Uber Move;font-style:normal;font-weight:500;src:url(https://uber-design-herokuapp-com.global.ssl.fastly.net/7999d148e8355b49d71b4e1795cec247.otf) format("opentype")}
+  
+@font-face{font-family:Uber Move;font-style:normal;font-weight:700;src:url(https://uber-design-herokuapp-com.global.ssl.fastly.net/38f0dcac01a8468c8955582ef77823d4.otf) format("opentype")}
+
+body {
+    width: 300px;
+    height: 250px;
+    margin: 0 auto;
+    position: relative;
+}
+
+.wrap {
+    width: 300px;
+    height: 250px;
+    border: 1px solid #000;
+    overflow: hidden;
+}
+
+.bg {
+    width: 150px;
+    height: 250px;
+    background: url(bg.jpg)no-repeat center;
+    background-size: cover;
+    background-position: 90%;
+    z-index: 1;
+    float: left;
+}
+
+.logo {
+    width: 60px;
+    position: absolute;
+    top: 10px;
+    left: 10px;
+    z-index: 2;
+}
+
+.copy-wrap {
+    position: absolute;
+    width: 140px;
+    height:125px;
+    left: 0px;
+    top: 0px;
+    overflow: hidden;
+}
+
+.copy-cta-wrap {
+    position: absolute;
+    width: 140px;
+    height: 185px;
+    left: 160px;
+    top: 55px;
+    overflow: hidden;
+}
+
+.copy1 {
+    position: relative;
+    width: 130px;
+    top:-150px;
+    font-family: Uber Move, sans-serif;
+    font-weight: 500;
+    font-size: 24px;
+    line-height: 26px;
+    color: black;
+}
+
+.copy2 {
+    position: relative;
+    width: 130px;
+    top:-80px;
+    font-family: Uber Move, sans-serif;
+    font-weight: 500;
+    font-size: 24px;
+    line-height: 26px;
+    color: black;
+}
+  
+.cta {
+    font-family: Uber Move, sans-serif;
+    font-weight: 500;
+    letter-spacing: .2px;
+    position: absolute;
+    display:inline-flex; 
+    background-color: #276EF1; 
+    padding: 8px 13px; 
+    font-size:16px; 
+    color:white; 
+    cursor:pointer;
+    top: 10px;
+    left:0px;
+}
+
+.cta .arrow {
+    margin: 2px 9px 0 12px; 
+    font-size:12px; 
+    width:14px; 
+    height:13px; 
+    transition: transform 333ms ease;
+}
+
+.cta:hover {
+    background-color:black;
+}
+  
+.cta:hover .arrow {
+    transform: translateX(9px);
+}
+
+.green-line {
+    width: 15px;
+    position: relative;
+    left: 210px;
+    top: -120px;
+    transform: rotate(90deg)
+}
+      
+.animate-top1 {
+	position: relative;
+	animation: animate-top1 7s;
+    animation-timing-function: ease-in-out;
+    animation-iteration-count: 2;
+}
+
+.animate-top2 {
+	position: relative;
+	animation: animate-top2 7s;
+    animation-timing-function: ease-in-out;
+    animation-iteration-count: 2;
+}
+
+.animate-left2 {
+	position: relative;
+	animation: animate-left2 7s;
+    animation-timing-function: ease-in-out;
+    animation-iteration-count: 2;
+}
+
+.animate-right {
+	position: relative;
+	animation: animate-right 7s;
+    animation-timing-function: ease-in-out;
+    animation-iteration-count: 2;
+}
+
+.animate-left {
+	position: relative;
+	animation: animate-left 7s;
+    animation-timing-function: ease-in-out;
+    animation-iteration-count: 2;
+}
+
+
+@keyframes animate-top1 {
+	0% {
+		top: 10px;
+	}
+    
+    60% {
+		top: 10px;
+	}
+    
+    65% {
+		top: -150px;
+	}
+    
+	100% {
+		top: -150px;
+	}
+}
+
+@keyframes animate-top2 {
+	0% {
+		top: 30px;
+	}
+
+    60% {
+		top: 30px;
+	}
+    
+    65% {
+		top: -80px;
+	}
+    
+	100% {
+		top: -80px;
+	}
+}
+
+@keyframes animate-left2 {
+	0% {
+		left: 450px;
+	}
+
+    28% {
+		left: 450px;
+	}
+    
+    33% {
+		left: 210px;
+	}
+
+	100% {
+		left: 210px;
+	}
+}
+
+@keyframes animate-right {
+	0% {
+        width: 300px;
+	}
+    
+    25% {
+        width: 300px;
+	}
+    
+    28% {
+        width: 150px;
+	}
+
+	100% {
+        width: 150px;
+	}
+}
+
+@keyframes animate-left {
+	0% {
+        left: 450px;
+	}
+    
+    30% {
+        left: 450px;
+	}
+    
+    38% {
+        left: 0px;
+	}
+    
+	100% {
+        left: 0px;
+	}
+}
