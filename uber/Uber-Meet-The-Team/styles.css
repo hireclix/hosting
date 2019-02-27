@@ -11,6 +11,10 @@ body {
     -webkit-font-smoothing: antialiased;
     -moz-font-smoothing: antialiased;
 }
+hr {
+    border-top: 1px solid #a5a5a5;
+    width: 50%;
+}
 .flex-row {
     display: flex;
     justify-content: space-between;
@@ -67,6 +71,9 @@ header h4 {
     font-weight: 700;
 }
 
+.main {
+    padding: 2em 0;
+}
 .heading-title {
     margin-bottom: 30px;
 }
