@@ -111,11 +111,21 @@ header h4 {
     -webkit-transition: all 0.3s;
     transition: all 0.3s;
 }
-.team-member:hover .team-hover .desk, .team-member:focus .team-hover .desk {
+.team-member:hover .team-hover .desk {
     top: 35%;
 }
-.team-member:hover .team-hover, .team-member:hover .team-hover .desk, .team-member:hover .team-hover .s-link, .team-member:focus .team-hover, .team-member:focus .team-hover .desk, .team-member:focus .team-hover .s-link {
+.team-member:active .team-hover .desk {
+    top: 35%;
+    -webkit-user-select: none;
+    -webkit-touch-callout: none;
+}
+.team-member:hover .team-hover, .team-member:hover .team-hover .desk, .team-member:hover .team-hover .s-link {
     opacity: 1;
+}
+.team-member:active .team-hover, .team-member:active .team-hover .desk, .team-member:active .team-hover .s-link {
+    opacity: 1;
+    -webkit-user-select: none;
+    -webkit-touch-callout: none;
 }
 .team-hover .desk {
     position: absolute;
@@ -133,11 +143,21 @@ header h4 {
     text-align: center;
     color: #222;
 }
-.team-member:hover .team-hover .s-link, .team-member:focus .team-hover .s-link {
+.team-member:hover .team-hover .s-link {
     bottom: 30%;
 }
-.team-member:hover .team-hover, .team-member:hover .team-hover .desk, .team-member:hover .team-hover .s-link, .team-member:focus .team-hover, .team-member:focus .team-hover .desk, .team-member:focus .team-hover .s-link {
+.team-member:active .team-hover .s-link {
+    bottom: 30%;
+    -webkit-user-select: none;
+    -webkit-touch-callout: none;
+}
+.team-member:hover .team-hover, .team-member:hover .team-hover .desk, .team-member:hover .team-hover .s-link {
     opacity: 1;
+}
+.team-member:active .team-hover, .team-member:active .team-hover .desk, .team-member:active .team-hover .s-link {
+    opacity: 1;
+    -webkit-user-select: none;
+    -webkit-touch-callout: none;
 }
 .team-hover .s-link {
     position: absolute;
