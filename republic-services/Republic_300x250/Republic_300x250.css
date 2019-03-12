@@ -112,7 +112,7 @@ body {
 }
 
 .cta:hover {
-    background-color: #004a7c;
+    opacity: 0.9;
 }
     
 .logo-down1 {
