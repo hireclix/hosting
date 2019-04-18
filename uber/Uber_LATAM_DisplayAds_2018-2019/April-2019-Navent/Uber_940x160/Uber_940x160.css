@@ -1,0 +1,212 @@
+@font-face{font-family:Uber Move;font-style:normal;font-weight:300;src:url(https://uber-design-herokuapp-com.global.ssl.fastly.net/5e42280ed7d51fb011c9b0aadcfdee2c.otf) format("opentype")}
+  
+@font-face{font-family:Uber Move;font-style:normal;font-weight:400;src:url(https://uber-design-herokuapp-com.global.ssl.fastly.net/f98937b963212639284b8825380d0fbc.otf) format("opentype")}
+  
+@font-face{font-family:Uber Move;font-style:normal;font-weight:500;src:url(https://uber-design-herokuapp-com.global.ssl.fastly.net/7999d148e8355b49d71b4e1795cec247.otf) format("opentype")}
+  
+@font-face{font-family:Uber Move;font-style:normal;font-weight:700;src:url(https://uber-design-herokuapp-com.global.ssl.fastly.net/38f0dcac01a8468c8955582ef77823d4.otf) format("opentype")}
+
+body {
+    width: 940px;
+    height: 160px;
+    margin: 0 auto;
+    position: relative;
+}
+
+.wrap {
+    width: 940px;
+    height: 160px;
+    border: 1px solid #000;
+    overflow: hidden;
+}
+
+.bg {
+    width: 350px;
+    height: 160px;
+    background: url(bg.jpg)no-repeat center;
+    background-size: cover;
+    background-position: 20%;
+    z-index: 1;
+    float: right;
+}
+
+.logo {
+    width: 120px;
+    position: absolute;
+    top: 55px;
+    left: 25px;
+}
+
+.copy-wrap {
+    position: absolute;
+    width:320px;
+    height:75px;
+    left: 0px;
+    top: -10px;
+    overflow: hidden;
+}
+
+.copy-cta-wrap {
+    position: absolute;
+    width:320px;
+    height:135px;
+    left: 250px;
+    top: 25px;
+    overflow: hidden;
+}
+
+.copy1 {
+    position: relative;
+    width: 320px;
+    top:-150px;
+    font-family: Uber Move, sans-serif;
+    font-weight: 500;
+    font-size: 28px;
+    line-height: 30px;
+    color: black;
+}
+
+.copy2 {
+    position: relative;
+    width: 320px;
+    top:-75px;
+    font-family: Uber Move, sans-serif;
+    font-weight: 500;
+    font-size: 28px;
+    line-height: 30px;
+    color: black;
+}
+  
+.cta {
+    font-family: Uber Move, sans-serif;
+    font-weight: 500;
+    position: absolute;
+    display:inline-flex; 
+    background-color: #276EF1; 
+    padding: 8px 15px; 
+    font-size:16px; 
+    color:white; 
+    cursor:pointer;
+    top: 10px;
+    left:0px;
+}
+
+.cta .arrow {
+    margin: 2px 9px 0 12px; 
+    font-size:12px; 
+    width:14px; 
+    height:13px; 
+    transition: transform 333ms ease;
+}
+
+.cta:hover {
+    background-color:black;
+}
+  
+.cta:hover .arrow {
+    transform: translateX(9px);
+}
+
+.green-line {
+    height: 100px;
+    position: relative;
+    left: 205px;
+    top: -30px;
+}
+      
+.animate-top1 {
+	position: relative;
+	animation: animate-top1 7s;
+    animation-timing-function: ease-in-out;
+    animation-iteration-count: 2;
+}
+
+.animate-top2 {
+	position: relative;
+	animation: animate-top2 7s;
+    animation-timing-function: ease-in-out;
+    animation-iteration-count: 2;
+}
+
+.animate-top3 {
+	position: relative;
+	animation: animate-top3 7s;
+    animation-timing-function: ease-in-out;
+    animation-iteration-count: 2;
+}
+
+.animate-left {
+	position: relative;
+	animation: animate-left 7s;
+    animation-timing-function: ease-in-out;
+    animation-iteration-count: 2;
+}
+
+
+@keyframes animate-top1 {
+	0% {
+		top: 10px;
+	}
+    
+    40% {
+		top: 10px;
+	}
+
+    45% {
+		top: -150px;
+	}
+    
+	100% {
+		top: -150px;
+	}
+}
+
+@keyframes animate-top2 {
+	0% {
+		top: 10px;
+	}
+    
+    40% {
+		top: 10px;
+	}
+    
+    45% {
+		top: -75px;
+	}
+    
+	100% {
+		top: -75px;
+	}
+}
+
+@keyframes animate-top3 {
+	0% {
+		top: -160px;
+	}
+    
+    7% {
+		top: -30px;
+	}
+    
+	100% {
+		top: -30px;
+	}
+}
+
+@keyframes animate-left {
+	0% {
+        left: -450px;
+	}
+    
+    7% {
+        left: -450px;
+	}
+    
+    15% {
+        left: 0px;
+	}
+    
+	100% {
+        left: 0px;
+	}
+}
