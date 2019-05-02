@@ -1,0 +1,205 @@
+@font-face{font-family:Uber Move;font-style:normal;font-weight:300;src:url(https://uber-design-herokuapp-com.global.ssl.fastly.net/5e42280ed7d51fb011c9b0aadcfdee2c.otf) format("opentype")}
+  
+@font-face{font-family:Uber Move;font-style:normal;font-weight:400;src:url(https://uber-design-herokuapp-com.global.ssl.fastly.net/f98937b963212639284b8825380d0fbc.otf) format("opentype")}
+  
+@font-face{font-family:Uber Move;font-style:normal;font-weight:500;src:url(https://uber-design-herokuapp-com.global.ssl.fastly.net/7999d148e8355b49d71b4e1795cec247.otf) format("opentype")}
+  
+@font-face{font-family:Uber Move;font-style:normal;font-weight:700;src:url(https://uber-design-herokuapp-com.global.ssl.fastly.net/38f0dcac01a8468c8955582ef77823d4.otf) format("opentype")}
+
+body {
+    width: 320px;
+    height: 50px;
+    margin: 0 auto;
+    position: relative;  
+}
+
+.wrap {
+    width: 320px;
+    height: 50px;
+    border: 1px solid #000;
+    overflow: hidden;
+}
+
+.logo {
+    width: 50px;
+    position: absolute;
+    top: 15px;
+    left: 10px;
+}
+
+.copy-wrap {
+    position: absolute;
+    width:170px;
+    height:50px;
+    left: 0px;
+    top: 0px;
+    overflow: hidden;
+}
+
+.copy-cta-wrap {
+    position: absolute;
+    width:170px;
+    height:50px;
+    left: 100px;
+    top: 0px;
+    overflow: hidden;
+}
+
+.copy1 {
+    position: relative;
+    width: 170px;
+    top:-150px;
+    font-family: Uber Move, sans-serif;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 20px;
+    color: black;
+}
+
+.copy2 {
+    position: relative;
+    width: 170px;
+    top:-70px;
+    font-family: Uber Move, sans-serif;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 20px;
+    color: black;
+}
+  
+.cta {
+    font-family: Uber Move, sans-serif;
+    font-weight: 500;
+    position: absolute;
+    display:inline-flex; 
+    background-color: #276EF1; 
+    border: 1px solid #276EF1;
+    font-size:14px; 
+    color:white; 
+    cursor:pointer;
+    top: 0px;
+    left:270px;
+    z-index: 2;
+    width: 50px;
+    height: 50px;
+}
+
+.cta .arrow {
+    margin: 12px auto 0; 
+    font-size:25px; 
+    width:25px; 
+    height:25px; 
+    transition: transform 333ms ease;
+}
+
+.cta:hover {
+    background-color:black;
+}
+  
+.cta:hover .arrow {
+    transform: translateX(9px);
+}
+
+.green-line {
+    height: 55px;
+    position: relative;
+    left: 70px;
+    top: -25px;
+}
+      
+.animate-top1 {
+	position: relative;
+	animation: animate-top1 7s;
+    animation-timing-function: ease-in-out;
+    animation-iteration-count: 2;
+}
+
+.animate-top2 {
+	position: relative;
+	animation: animate-top2 7s;
+    animation-timing-function: ease-in-out;
+    animation-iteration-count: 2;
+}
+
+.animate-top3 {
+	position: relative;
+	animation: animate-top3 7s;
+    animation-timing-function: ease-in-out;
+    animation-iteration-count: 2;
+}
+
+.animate-left {
+	position: relative;
+	animation: animate-left 7s;
+    animation-timing-function: ease-in-out;
+    animation-iteration-count: 2;
+}
+
+
+@keyframes animate-top1 {
+	0% {
+		top: -12px;
+	}
+    
+    40% {
+		top: -12px;
+	}
+    
+    45% {
+		top: -150px;
+	}
+    
+	100% {
+		top: -150px;
+	}
+}
+
+@keyframes animate-top2 {
+	0% {
+		top: 10px;
+	}
+       
+    40% {
+		top: 10px;
+	}
+    
+    45% {
+		top: -70px;
+	}
+    
+	100% {
+		top: -70px;
+	}
+}
+
+@keyframes animate-top3 {
+	0% {
+		top: -260px;
+	}
+    
+    5% {
+		top: -25px;
+	}
+    
+	100% {
+		top: -25px;
+	}
+}
+
+@keyframes animate-left {
+	0% {
+        left: -450px;
+	}
+    
+    7% {
+        left: -450px;
+	}
+    
+    15% {
+        left: 0px;
+	}
+    
+	100% {
+        left: 0px;
+	}
+}
