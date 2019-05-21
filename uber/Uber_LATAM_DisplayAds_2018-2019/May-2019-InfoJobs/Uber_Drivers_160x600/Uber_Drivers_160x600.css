@@ -30,10 +30,10 @@ body {
 }
 
 .logo {
-    width: 75px;
+    width: 85px;
     position: absolute;
-    top: 10px;
-    left: 10px;
+    top: 550px;
+    left: 16px;
     z-index: 2;
 }
 
@@ -49,9 +49,9 @@ body {
 .copy-cta-wrap {
     position: absolute;
     width: 140px;
-    height: 225px;
+    height: 185px;
     left: 10px;
-    top: 360px;
+    top: 305px;
     overflow: hidden;
 }
 
@@ -61,15 +61,15 @@ body {
     top:-150px;
     font-family: Uber Move, sans-serif;
     font-weight: 500;
-    font-size: 26px;
-    line-height: 30px;
+    font-size: 24px;
+    line-height: 28px;
     color: black;
 }
 
 .copy2 {
     position: relative;
     width: 130px;
-    top:-110px;
+    top:-100px;
     font-family: Uber Move, sans-serif;
     font-weight: 500;
     font-size: 22px;
@@ -88,7 +88,7 @@ body {
     font-size:14px; 
     color:white; 
     cursor:pointer;
-    top: 40px;
+    top: 10px;
     left:5px;
 }
 
@@ -107,46 +107,24 @@ body {
 .cta:hover .arrow {
     transform: translateX(9px);
 }
-
-.green-line {
-    width: 15px;
-    position: relative;
-    left: 180px;
-    top: -120px;
-    transform: rotate(90deg)
-}
       
 .animate-top1 {
 	position: relative;
-	animation: animate-top1 7s;
+	animation: animate-top1 7.5s;
     animation-timing-function: ease-in-out;
     animation-iteration-count: 2;
 }
 
 .animate-top2 {
 	position: relative;
-	animation: animate-top2 7s;
-    animation-timing-function: ease-in-out;
-    animation-iteration-count: 2;
-}
-
-.animate-left2 {
-	position: relative;
-	animation: animate-left2 7s;
-    animation-timing-function: ease-in-out;
-    animation-iteration-count: 2;
-}
-
-.animate-right {
-	position: relative;
-	animation: animate-right 7s;
+	animation: animate-top2 7.5s;
     animation-timing-function: ease-in-out;
     animation-iteration-count: 2;
 }
 
 .animate-left {
 	position: relative;
-	animation: animate-left 7s;
+	animation: animate-left 7.5s;
     animation-timing-function: ease-in-out;
     animation-iteration-count: 2;
 }
@@ -154,14 +132,14 @@ body {
 
 @keyframes animate-top1 {
 	0% {
-		top: 0px;
+		top: 10px;
 	}
     
-    40% {
-		top: 0px;
+    60% {
+		top: 10px;
 	}
     
-    45% {
+    65% {
 		top: -150px;
 	}
     
@@ -175,30 +153,16 @@ body {
 		top: 30px;
 	}
     
-    40% {
+    60% {
 		top: 30px;
 	}
     
-    45% {
-		top: -110px;
+    65% {
+		top: -100px;
 	}
     
 	100% {
-		top: -110px;
-	}
-}
-
-@keyframes animate-left2 {
-	0% {
-		left: 650px;
-	}
-    
-    5% {
-		left: 180px;
-	}
-    
-	100% {
-		left: 180px;
+		top: -100px;
 	}
 }
 
@@ -207,7 +171,7 @@ body {
         left: 450px;
 	}
     
-    7% {
+    5% {
         left: 450px;
 	}
     
