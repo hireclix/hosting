@@ -94,6 +94,7 @@ body {
 
 .cta:hover {
     background-color:black;
+    border-color: black;
 }
   
 .cta:hover .arrow {
@@ -109,28 +110,21 @@ body {
       
 .animate-top1 {
 	position: relative;
-	animation: animate-top1 7s;
+	animation: animate-top1 7.5s;
     animation-timing-function: ease-in-out;
     animation-iteration-count: 2;
 }
 
 .animate-top2 {
 	position: relative;
-	animation: animate-top2 7s;
+	animation: animate-top2 7.5s;
     animation-timing-function: ease-in-out;
     animation-iteration-count: 2;
 }
 
-.animate-top3 {
+.animate-right {
 	position: relative;
-	animation: animate-top3 7s;
-    animation-timing-function: ease-in-out;
-    animation-iteration-count: 2;
-}
-
-.animate-left {
-	position: relative;
-	animation: animate-left 7s;
+	animation: animate-right 7.5s;
     animation-timing-function: ease-in-out;
     animation-iteration-count: 2;
 }
@@ -141,11 +135,11 @@ body {
 		top: -12px;
 	}
     
-    40% {
+    60% {
 		top: -12px;
 	}
     
-    45% {
+    65% {
 		top: -150px;
 	}
     
@@ -159,11 +153,11 @@ body {
 		top: 10px;
 	}
        
-    40% {
+    60% {
 		top: 10px;
 	}
     
-    45% {
+    65% {
 		top: -70px;
 	}
     
@@ -172,26 +166,12 @@ body {
 	}
 }
 
-@keyframes animate-top3 {
-	0% {
-		top: -260px;
-	}
-    
-    5% {
-		top: -25px;
-	}
-    
-	100% {
-		top: -25px;
-	}
-}
-
-@keyframes animate-left {
+@keyframes animate-right {
 	0% {
         left: -450px;
 	}
     
-    7% {
+    5% {
         left: -450px;
 	}
     
