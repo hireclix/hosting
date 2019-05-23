@@ -1,0 +1,184 @@
+@font-face{
+    font-family: 'AkzidGroBQLight';
+    font-style:normal;
+src:url(AkzidGroBQLig.otf) format("opentype")}
+  
+@font-face{
+    font-family: 'AkzidGroBQMedium';
+    font-style:normal;
+src:url(AkzidGroBQMd.otf) format("opentype")}
+
+body {
+    width: 320px;
+    height: 50px;
+    margin: 0 auto;
+    position: relative;
+}
+
+.wrap {
+    width: 320px;
+    height: 50px;
+    overflow: hidden;
+    background: #0f0f3f;
+}
+
+.logo {
+    width: 75px;
+    position: absolute;
+    top: 15px;
+    left: 10px;
+}
+
+.copy-cta-wrap {
+    position: absolute;
+    width:185px;
+    height:80px;
+    left: 95px;
+    top: 0px;
+    overflow: hidden;
+}
+
+.copy-wrap {
+    position: absolute;
+    width:185px;
+    height:70px;
+    top: 5px;
+    overflow: hidden;
+    border-top: 3px solid #a12321;
+}
+
+.copy1 {
+    position: relative;
+    width: 185px;
+    top:150px;
+    font-family: 'AkzidGroBQMedium', Helvetica Neue,Helvetica,Arial,sans-serif;
+    font-size: 14px;
+    line-height: 16px;
+    color: white;
+}
+
+.copy1 span {
+    font-size: 12px;
+    font-family: 'AkzidGroBQLight', Helvetica Neue,Helvetica,Arial,sans-serif;
+}
+
+.copy2 {
+    position: relative;
+    width: 185px;
+    top: -60px;
+    font-family: 'AkzidGroBQMedium', Helvetica Neue,Helvetica,Arial,sans-serif;
+    font-size: 12px;
+    line-height: 16px;
+    color: white;
+}
+
+.copy2 span {
+    font-size: 12px;
+    font-family: 'AkzidGroBQLight', Helvetica Neue,Helvetica,Arial,sans-serif;
+}
+  
+.cta {
+    position: absolute;
+    display:inline-flex; 
+    background-color: #a12321; 
+    font-size:14px; 
+    color:white; 
+    cursor:pointer;
+    top: 0px;
+    right: 0px;
+    z-index: 2;
+    width: 30px;
+    height: 50px;
+}
+
+.cta img {
+    margin: 0 auto;
+    transition: transform 333ms ease;
+}
+
+.cta:hover {
+    background-color:#cb2c2a;
+}
+
+.cta:hover img {
+   transform: translateX(6px);
+}
+      
+.animate-top1 {
+	position: relative;
+	animation: animate-top1 7.5s;
+    animation-timing-function: ease-in-out;
+    animation-iteration-count: 2;
+}
+
+.animate-top2 {
+	position: relative;
+	animation: animate-top2 7.5s;
+    animation-timing-function: ease-in-out;
+    animation-iteration-count: 2;
+}
+
+.animate-left {
+	position: relative;
+	animation: animate-left 7.5s;
+    animation-timing-function: ease-in-out;
+    animation-iteration-count: 2;
+}
+
+@keyframes animate-top1 {
+	0% {
+		top: -150px;
+	}
+    
+    10% {
+		top: -150px;
+	}
+    
+    15% {
+		top: -12px;
+	}
+    
+    60% {
+		top: -12px;
+	}
+    
+    65% {
+		top: 150px;
+	}
+    
+	100% {
+		top: 150px;
+	}
+}
+
+@keyframes animate-top2 {
+	0% {
+		top: -450px;
+	}
+       
+    60% {
+		top: -450px;
+	}
+    
+    65% {
+		top: -60px;
+	}
+    
+	100% {
+		top: -60px;
+	}
+}
+
+@keyframes animate-left {
+	0% {
+        right: -450px;
+	}
+    
+    5% {
+        right: 0px;
+	}
+    
+	100% {
+        right: 0px;
+	}
+}
