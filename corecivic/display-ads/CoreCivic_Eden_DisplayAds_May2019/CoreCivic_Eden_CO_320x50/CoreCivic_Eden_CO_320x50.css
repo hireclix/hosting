@@ -53,7 +53,7 @@ body {
     top:150px;
     font-family: 'AkzidGroBQMedium', Helvetica Neue,Helvetica,Arial,sans-serif;
     font-size: 14px;
-    line-height: 16px;
+    line-height: 14px;
     color: white;
 }
 
@@ -65,10 +65,10 @@ body {
 .copy2 {
     position: relative;
     width: 185px;
-    top: -60px;
+    top: -55px;
     font-family: 'AkzidGroBQMedium', Helvetica Neue,Helvetica,Arial,sans-serif;
     font-size: 12px;
-    line-height: 16px;
+    line-height: 14px;
     color: white;
 }
 
@@ -103,7 +103,17 @@ body {
 .cta:hover img {
    transform: translateX(6px);
 }
-      
+
+.eoe {
+    font-family: 'AkzidGroBQLight', Helvetica Neue,Helvetica,Arial,sans-serif;
+    position: absolute;
+    color: white;
+    font-size: 6px;
+    right: 56px;
+    bottom: 1px;
+    margin: 0;
+}
+
 .animate-top1 {
 	position: relative;
 	animation: animate-top1 7.5s;
@@ -161,11 +171,11 @@ body {
 	}
     
     65% {
-		top: -60px;
+		top: -55px;
 	}
     
 	100% {
-		top: -60px;
+		top: -55px;
 	}
 }
 
