@@ -105,6 +105,15 @@ body {
 .cta:hover {
     background-color:#cb2c2a;
 }
+
+.eoe {
+    font-family: 'AkzidGroBQLight', Helvetica Neue,Helvetica,Arial,sans-serif;
+    position: absolute;
+    color: white;
+    font-size: 8px;
+    right: 10px;
+    bottom: 0;
+}
       
 .animate-top1 {
 	position: relative;
