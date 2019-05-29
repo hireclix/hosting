@@ -110,6 +110,17 @@ body {
 .cta:hover {
     background-color:#cb2c2a;
 }
+
+.eoe {
+    font-family: 'AkzidGroBQLight', Helvetica Neue,Helvetica,Arial,sans-serif;
+    position: absolute;
+    color: white;
+    font-size: 8px;
+    right: 8px;
+    bottom: 2px;
+    margin: 0;
+    text-align: right;
+}
       
 .animate-top1 {
 	position: relative;
