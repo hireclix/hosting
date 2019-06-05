@@ -69,8 +69,9 @@ body {
 }
 
 .copy1 span {
-    font-size: 14px;
+    font-size: 16px;
     font-family: 'AkzidGroBQLight', Helvetica Neue,Helvetica,Arial,sans-serif;
+    color: #a12321;
 }
 
 .copy2 {
