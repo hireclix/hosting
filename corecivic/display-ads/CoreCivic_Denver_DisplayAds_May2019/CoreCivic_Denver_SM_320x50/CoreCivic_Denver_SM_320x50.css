@@ -142,11 +142,11 @@ body {
 		top: -150px;
 	}
     
-    10% {
+    5% {
 		top: -150px;
 	}
     
-    15% {
+    10% {
 		top: -12px;
 	}
     
@@ -178,19 +178,5 @@ body {
     
 	100% {
 		top: -55px;
-	}
-}
-
-@keyframes animate-left {
-	0% {
-        right: -450px;
-	}
-    
-    5% {
-        right: 0px;
-	}
-    
-	100% {
-        right: 0px;
 	}
 }
