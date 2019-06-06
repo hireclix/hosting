@@ -100,6 +100,7 @@ body {
 
 .cta:hover {
     background-color:#cb2c2a;
+    border: 3px solid #cb2c2a;
 }
 
 .cta:hover img {
