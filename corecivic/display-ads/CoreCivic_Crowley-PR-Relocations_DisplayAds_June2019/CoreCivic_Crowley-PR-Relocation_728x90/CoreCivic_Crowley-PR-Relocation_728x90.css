@@ -41,7 +41,7 @@ body {
 
 .copy-cta-wrap {
     position: absolute;
-    width:285px;
+    width:295px;
     height:150px;
     left: 170px;
     top: 3px;
@@ -50,7 +50,7 @@ body {
 
 .copy-wrap {
     position: absolute;
-    width:285px;
+    width:295px;
     height:100px;
     top: 10px;
     left: 13px;
@@ -92,15 +92,15 @@ body {
 .cta {
     font-family: 'AkzidGroBQMedium', Helvetica Neue,Helvetica,Arial,sans-serif;
     letter-spacing: .2px;
-    position: absolute;
+    position: relative;
     display:inline-flex; 
     background-color: #a12321; 
     padding: 4px 18px; 
     font-size:15px; 
     color: white; 
     cursor: pointer;
-    bottom: 15px;
-    right:255px;
+    margin-top: 45px;
+    margin-left: 180px;
 }
 
 .cta:hover {
