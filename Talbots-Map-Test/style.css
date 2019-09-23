@@ -1,0 +1,42 @@
+.container {
+    padding: 0;
+}
+
+.nav {
+    border-bottom: 5px solid #c30e2e;
+}
+
+.map {
+    padding: 2em 0 0 0;
+}
+
+.map iframe {
+    width: 95%;
+    height: 500px;
+    margin: 0 auto;
+}
+
+.footer {
+    background: #c30e2e;
+    margin-top: 2em;
+}
+
+.desktop {
+    display: none;
+}
+
+@media screen and (min-width: 768px) {
+    .container {
+        padding-left: 15px;
+        padding-right: 15px;
+    }
+    .desktop {
+        display: inherit;
+    }
+    .mobile {
+        display: none;
+    }
+    .map iframe {
+        width: 80%;
+    }
+}
