@@ -3906,6 +3906,20 @@ Slides Index
   overflow: auto;
   background: rgba(0,0,0,.75);
 }
+    
+    /* The Modal (background) */
+.modal3 {
+  display: none;
+  position: fixed;
+  z-index: 2;
+  padding-top: 40px;
+  left: 0;
+  top: 0;
+  width: 100%;
+  height: 100%;
+  overflow: auto;
+  background: rgba(0,0,0,.75);
+}
 
 /* Modal Content */
 .modal-content {
@@ -3914,6 +3928,16 @@ Slides Index
   margin: auto;
   padding: 0;
   width: 40%;
+  max-width: 1200px;
+}
+    
+    /* Modal Content */
+.modal-content3 {
+  position: relative;
+  background-color: #fefefe;
+  margin: auto;
+  padding: 0;
+  width: 30%;
   max-width: 1200px;
 }
 
