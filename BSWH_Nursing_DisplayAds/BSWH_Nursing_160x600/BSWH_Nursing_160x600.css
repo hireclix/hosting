@@ -26,7 +26,7 @@ body {
 
 .bg {
     position: relative;
-    background: url(bg.png);
+    background: url(bg.jpg);
     background-size: cover;
     background-position: 80% 20%;
     width: 160px;
@@ -42,10 +42,6 @@ h2 {
     line-height: 22px;
     text-align: center;
     max-width: 140px;
-}
-
-.three h2 {
-    font-size: 18px;
 }
 
 .logo {
