@@ -1,0 +1,438 @@
+<!doctype html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="initial-scale=1,user-scalable=no,maximum-scale=1,width=device-width">
+        <meta name="mobile-web-app-capable" content="yes">
+        <meta name="apple-mobile-web-app-capable" content="yes">
+        <link rel="stylesheet" href="css/leaflet.css">
+        <link rel="stylesheet" href="css/qgis2web.css"><link rel="stylesheet" href="css/fontawesome-all.min.css">
+        <link rel="stylesheet" href="css/MarkerCluster.css">
+        <link rel="stylesheet" href="css/MarkerCluster.Default.css">
+        <style>
+        html, body, #map {
+            width: 100%;
+            height: 100%;
+            padding: 0;
+            margin: 0;
+        }
+        </style>
+        <title></title>
+    </head>
+    <body>
+        <div id="map">
+        </div>
+        <script src="js/qgis2web_expressions.js"></script>
+        <script src="js/leaflet.js"></script>
+        <script src="js/leaflet-heat.js"></script>
+        <script src="js/leaflet.rotatedMarker.js"></script>
+        <script src="js/leaflet.pattern.js"></script>
+        <script src="js/leaflet-hash.js"></script>
+        <script src="js/Autolinker.min.js"></script>
+        <script src="js/rbush.min.js"></script>
+        <script src="js/labelgun.min.js"></script>
+        <script src="js/labels.js"></script>
+        <script src="js/leaflet.markercluster.js"></script>
+        <script src="data/Heatmap_1.js"></script>
+        <script src="data/Points_2.js"></script>
+        
+        <script src="js-extra/heatmap.js"></script>
+<!--        <script src="js-extra/leaflet-heatmap.js"></script>-->
+        <script>/*
+* Leaflet Heatmap Overlay
+*
+* Copyright (c) 2008-2016, Patrick Wied (https://www.patrick-wied.at)
+* Dual-licensed under the MIT (http://www.opensource.org/licenses/mit-license.php)
+* and the Beerware (http://en.wikipedia.org/wiki/Beerware) license.
+*/
+;(function (name, context, factory) {
+  // Supports UMD. AMD, CommonJS/Node.js and browser context
+  if (typeof module !== "undefined" && module.exports) {
+    module.exports = factory(
+      require('heatmap.js'),
+      require('leaflet')
+    );
+  } else if (typeof define === "function" && define.amd) {
+    define(['heatmap.js', 'leaflet'], factory);
+  } else {
+    // browser globals
+    if (typeof window.h337 === 'undefined') {
+      throw new Error('heatmap.js must be loaded before the leaflet heatmap plugin');
+    }
+    if (typeof window.L === 'undefined') {
+      throw new Error('Leaflet must be loaded before the leaflet heatmap plugin');
+    }
+    context[name] = factory(window.h337, window.L);
+  }
+
+})("HeatmapOverlay", this, function (h337, L) {
+  'use strict';
+
+  // Leaflet < 0.8 compatibility
+  if (typeof L.Layer === 'undefined') {
+    L.Layer = L.Class;
+  }
+
+  var HeatmapOverlay = L.Layer.extend({
+
+    initialize: function (config) {
+      this.cfg = config;
+      this._el = L.DomUtil.create('div', 'leaflet-zoom-hide');
+      this._data = [];
+      this._max = 1;
+      this._min = 0;
+      this.cfg.container = this._el;
+    },
+
+    onAdd: function (map) {
+      var size = map.getSize();
+
+      this._map = map;
+
+      this._width = size.x;
+      this._height = size.y;
+
+      this._el.style.width = size.x + 'px';
+      this._el.style.height = size.y + 'px';
+      this._el.style.position = 'absolute';
+
+      this._origin = this._map.layerPointToLatLng(new L.Point(0, 0));
+
+      map.getPanes().overlayPane.appendChild(this._el);
+
+      if (!this._heatmap) {
+        this._heatmap = h337.create(this.cfg);
+      } 
+
+      // this resets the origin and redraws whenever
+      // the zoom changed or the map has been moved
+      map.on('moveend', this._reset, this);
+      this._draw();
+    },
+
+    addTo: function (map) {
+      map.addLayer(this);
+      return this;
+    },
+
+    onRemove: function (map) {
+      // remove layer's DOM elements and listeners
+      map.getPanes().overlayPane.removeChild(this._el);
+
+      map.off('moveend', this._reset, this);
+    },
+    _draw: function() {
+      if (!this._map) { return; }
+      
+      var mapPane = this._map.getPanes().mapPane;
+      var point = mapPane._leaflet_pos;      
+
+      // reposition the layer
+      this._el.style[HeatmapOverlay.CSS_TRANSFORM] = 'translate(' +
+        -Math.round(point.x) + 'px,' +
+        -Math.round(point.y) + 'px)';
+
+      this._update();
+    },
+    _update: function() {
+      var bounds, zoom, scale;
+      var generatedData = { max: this._max, min: this._min, data: [] };
+
+      bounds = this._map.getBounds();
+      zoom = this._map.getZoom();
+      scale = Math.pow(2, zoom);
+
+      if (this._data.length == 0) {
+        if (this._heatmap) {
+          this._heatmap.setData(generatedData);
+        }
+        return;
+      }
+
+
+      var latLngPoints = [];
+      var radiusMultiplier = this.cfg.scaleRadius ? scale : 1;
+      var localMax = 0;
+      var localMin = 0;
+      var valueField = this.cfg.valueField;
+      var len = this._data.length;
+    
+      while (len--) {
+        var entry = this._data[len];
+        var value = entry[valueField];
+        var latlng = entry.latlng;
+
+
+        // we don't wanna render points that are not even on the map ;-)
+        if (!bounds.contains(latlng)) {
+          continue;
+        }
+        // local max is the maximum within current bounds
+        localMax = Math.max(value, localMax);
+        localMin = Math.min(value, localMin);
+
+        var point = this._map.latLngToContainerPoint(latlng);
+        var latlngPoint = { x: Math.round(point.x), y: Math.round(point.y) };
+        latlngPoint[valueField] = value;
+
+        var radius;
+
+        if (entry.radius) {
+          radius = entry.radius * radiusMultiplier;
+        } else {
+          radius = (this.cfg.radius || 2) * radiusMultiplier;
+        }
+        latlngPoint.radius = radius;
+        latLngPoints.push(latlngPoint);
+      }
+      if (this.cfg.useLocalExtrema) {
+        generatedData.max = localMax;
+        generatedData.min = localMin;
+      }
+
+      generatedData.data = latLngPoints;
+
+      this._heatmap.setData(generatedData);
+    },
+    setData: function(data) {
+      this._max = data.max || this._max;
+      this._min = data.min || this._min;
+      var latField = this.cfg.latField || 'lat';
+      var lngField = this.cfg.lngField || 'lng';
+      var valueField = this.cfg.valueField || 'value';
+    
+      // transform data to latlngs
+      var data = data.data;
+      var len = data.length;
+      var d = [];
+    
+      while (len--) {
+        var entry = data[len];
+        var latlng = new L.LatLng(entry[latField], entry[lngField]);
+        var dataObj = { latlng: latlng };
+        dataObj[valueField] = entry[valueField];
+        if (entry.radius) {
+          dataObj.radius = entry.radius;
+        }
+        d.push(dataObj);
+      }
+      this._data = d;
+    
+      this._draw();
+    },
+    // experimential... not ready.
+    addData: function(pointOrArray) {
+      if (pointOrArray.length > 0) {
+        var len = pointOrArray.length;
+        while(len--) {
+          this.addData(pointOrArray[len]);
+        }
+      } else {
+        var latField = this.cfg.latField || 'lat';
+        var lngField = this.cfg.lngField || 'lng';
+        var valueField = this.cfg.valueField || 'value';
+        var entry = pointOrArray;
+        var latlng = new L.LatLng(entry[latField], entry[lngField]);
+        var dataObj = { latlng: latlng };
+        
+        dataObj[valueField] = entry[valueField];
+        this._max = Math.max(this._max, dataObj[valueField]);
+        this._min = Math.min(this._min, dataObj[valueField]);
+
+        if (entry.radius) {
+          dataObj.radius = entry.radius;
+        }
+        this._data.push(dataObj);
+        this._draw();
+      }
+    },
+    _reset: function () {
+      this._origin = this._map.layerPointToLatLng(new L.Point(0, 0));
+      
+      var size = this._map.getSize();
+      if (this._width !== size.x || this._height !== size.y) {
+        this._width  = size.x;
+        this._height = size.y;
+
+        this._el.style.width = this._width + 'px';
+        this._el.style.height = this._height + 'px';
+
+        this._heatmap._renderer.setDimensions(this._width, this._height);
+      }
+      this._draw();
+    } 
+  });
+
+  HeatmapOverlay.CSS_TRANSFORM = (function() {
+    var div = document.createElement('div');
+    var props = [
+      'transform',
+      'WebkitTransform',
+      'MozTransform',
+      'OTransform',
+      'msTransform'
+    ];
+
+    for (var i = 0; i < props.length; i++) {
+      var prop = props[i];
+      if (div.style[prop] !== undefined) {
+        return prop;
+      }
+    }
+    return props[0];
+  })();
+
+  return HeatmapOverlay;
+});</script>
+        <script>
+        var map = L.map('map', {
+            zoomControl:true, maxZoom:28, minZoom:1
+        }).fitBounds([[36.99613599205917,-90.03349624345418],[41.933191522335875,-81.72380731434103]]);
+        var hash = new L.Hash(map);
+        map.attributionControl.setPrefix('<a href="https://github.com/tomchadwin/qgis2web" target="_blank">qgis2web</a> &middot; <a href="https://leafletjs.com" title="A JS library for interactive maps">Leaflet</a> &middot; <a href="https://qgis.org">QGIS</a>');
+        var bounds_group = new L.featureGroup([]);
+        function setBounds() {
+        }
+        var layer_OpenStreetMap_0 = L.tileLayer('https://tile.openstreetmap.org/{z}/{x}/{y}.png', {
+            opacity: 1.0,
+            attribution: '',
+            minZoom: 1,
+            maxZoom: 28,
+            minNativeZoom: 0,
+            maxNativeZoom: 19
+        });
+        layer_OpenStreetMap_0;
+        map.addLayer(layer_OpenStreetMap_0);
+        function pop_Heatmap_1(feature, layer) {
+            var popupContent = '<table>\
+                    <tr>\
+                        <td colspan="2">' + (feature.properties['City'] !== null ? Autolinker.link(feature.properties['City'].toLocaleString(), {truncate: {length: 30, location: 'smart'}}) : '') + '</td>\
+                    </tr>\
+                    <tr>\
+                        <td colspan="2">' + (feature.properties['State'] !== null ? Autolinker.link(feature.properties['State'].toLocaleString(), {truncate: {length: 30, location: 'smart'}}) : '') + '</td>\
+                    </tr>\
+                    <tr>\
+                        <td colspan="2">' + (feature.properties['Contacts'] !== null ? Autolinker.link(feature.properties['Contacts'].toLocaleString(), {truncate: {length: 30, location: 'smart'}}) : '') + '</td>\
+                    </tr>\
+                    <tr>\
+                        <td colspan="2">' + (feature.properties['Latitude'] !== null ? Autolinker.link(feature.properties['Latitude'].toLocaleString(), {truncate: {length: 30, location: 'smart'}}) : '') + '</td>\
+                    </tr>\
+                    <tr>\
+                        <td colspan="2">' + (feature.properties['Longitude'] !== null ? Autolinker.link(feature.properties['Longitude'].toLocaleString(), {truncate: {length: 30, location: 'smart'}}) : '') + '</td>\
+                    </tr>\
+                </table>';
+            layer.bindPopup(popupContent, {maxHeight: 400});
+        }
+
+        map.createPane('pane_Heatmap_1');
+        map.getPane('pane_Heatmap_1').style.zIndex = 401;
+        map.getPane('pane_Heatmap_1').style['mix-blend-mode'] = 'multiply';
+        
+        var Heatmap_1_hm = {
+            max: 8,
+            data: geoJson2heatmapJs(json_Heatmap_1, 'Contacts')
+        };
+            
+        var cfg = {
+            // radius should be small ONLY if scaleRadius is true (or small radius is intended)
+            // if scaleRadius is false it will be the constant radius used in pixels
+            "radius": 0.2,
+            "maxOpacity": 1,
+            // scales the radius based on map zoom
+            "scaleRadius": true,
+            // if set to false the heatmap uses the global maximum for colorization
+            // if activated: uses the data maximum within the current map boundaries
+            //   (there will always be a red spot with useLocalExtremas true)
+            "useLocalExtrema": true,
+            // which field name in your data represents the latitude - default "lat"
+            latField: 'lat',
+            // which field name in your data represents the longitude - default "lng"
+            lngField: 'lng',
+            // which field name in your data represents the data value - default "value"
+            valueField: 'weight'
+        };
+        var layer_Heatmap_1 = new HeatmapOverlay(cfg);
+        layer_Heatmap_1.setData(Heatmap_1_hm);
+            
+        bounds_group.addLayer(layer_Heatmap_1);
+        map.addLayer(layer_Heatmap_1);
+        function pop_Points_2(feature, layer) {
+            var popupContent = '<table>\
+                    <tr>\
+                        <th scope="row">City</th>\
+                        <td>' + (feature.properties['City'] !== null ? Autolinker.link(feature.properties['City'].toLocaleString(), {truncate: {length: 30, location: 'smart'}}) : '') + '</td>\
+                    </tr>\
+                    <tr>\
+                        <th scope="row">State</th>\
+                        <td>' + (feature.properties['State'] !== null ? Autolinker.link(feature.properties['State'].toLocaleString(), {truncate: {length: 30, location: 'smart'}}) : '') + '</td>\
+                    </tr>\
+                    <tr>\
+                        <th scope="row">Contacts</th>\
+                        <td>' + (feature.properties['Contacts'] !== null ? Autolinker.link(feature.properties['Contacts'].toLocaleString(), {truncate: {length: 30, location: 'smart'}}) : '') + '</td>\
+                    </tr>\
+                    <tr>\
+                        <th scope="row">Latitude</th>\
+                        <td>' + (feature.properties['Latitude'] !== null ? Autolinker.link(feature.properties['Latitude'].toLocaleString(), {truncate: {length: 30, location: 'smart'}}) : '') + '</td>\
+                    </tr>\
+                    <tr>\
+                        <th scope="row">Longitude</th>\
+                        <td>' + (feature.properties['Longitude'] !== null ? Autolinker.link(feature.properties['Longitude'].toLocaleString(), {truncate: {length: 30, location: 'smart'}}) : '') + '</td>\
+                    </tr>\
+                </table>';
+            layer.bindPopup(popupContent, {maxHeight: 400});
+        }
+
+        function style_Points_2_0() {
+            return {
+                pane: 'pane_Points_2',
+                radius: 4.0,
+                opacity: 1,
+                color: 'rgba(35,35,35,1.0)',
+                dashArray: '',
+                lineCap: 'butt',
+                lineJoin: 'miter',
+                weight: 1,
+                fill: true,
+                fillOpacity: 1,
+                fillColor: 'rgba(243,17,157,1.0)',
+                interactive: true,
+            }
+        }
+        map.createPane('pane_Points_2');
+        map.getPane('pane_Points_2').style.zIndex = 402;
+        map.getPane('pane_Points_2').style['mix-blend-mode'] = 'normal';
+        var layer_Points_2 = new L.geoJson(json_Points_2, {
+            attribution: '',
+            interactive: true,
+            dataVar: 'json_Points_2',
+            layerName: 'layer_Points_2',
+            pane: 'pane_Points_2',
+            onEachFeature: pop_Points_2,
+            pointToLayer: function (feature, latlng) {
+                var context = {
+                    feature: feature,
+                    variables: {}
+                };
+                return L.circleMarker(latlng, style_Points_2_0(feature));
+            },
+        });
+        var cluster_Points_2 = new L.MarkerClusterGroup({showCoverageOnHover: false,
+            spiderfyDistanceMultiplier: 2});
+        cluster_Points_2.addLayer(layer_Points_2);
+
+        bounds_group.addLayer(layer_Points_2);
+        cluster_Points_2.addTo(map);
+        setBounds();
+        function geoJson2heatmapJs(geojson, weight) {
+            return geojson.features.map(function(feature) {
+                return {
+                    lat: feature.geometry.coordinates[1],
+                    lng: feature.geometry.coordinates[0],
+                    weight: feature.properties[weight]
+                };
+            });
+        }
+        </script>
+    </body>
+</html>
