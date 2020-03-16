@@ -1,0 +1,89 @@
+body {
+    width: 300px;
+    height: 250px;
+    margin: 0 auto;
+    position: relative;
+    overflow: hidden;
+}
+
+.wrap {
+    width: 300px;
+    height: 250px;
+    border: 1px solid #bcbcbc;
+    overflow: hidden;
+    box-sizing: border-box;
+    text-align: center;
+}
+
+.heart {
+    position: relative;
+    width: 100px;
+}
+
+.nursesBetter {
+    width: 280px;
+}
+
+.nowHiring {
+    width: 280px;
+}
+
+.logo {
+    width: 150px;
+    position: absolute;
+    margin: 0;
+    bottom: 18px;
+    left: 15px;
+}
+
+.cta {
+    width:100px;
+    position: absolute;
+    bottom:25px;
+    right: 15px;
+    cursor: pointer;
+    -webkit-transition-duration: 0.3s;
+    transition-duration: 0.3s;
+    -webkit-transition-property: transform;
+    transition-property: transform;
+}
+      
+.cta:hover {
+    transform: scale(1.1)
+}
+
+.one {
+    position: absolute;
+    width: 300px;
+    height: 115px;
+    top:85px;
+    opacity: 0;
+    animation:fade 7s;
+    -webkit-animation:fade 7s;
+    animation-iteration-count: 2;
+}
+
+.two {
+    position: absolute;
+    width: 300px;
+    height: 115px;
+    top:85px;
+    animation:fade2 7s;
+    -webkit-animation:fade2 7s;
+    animation-iteration-count: 2;
+}
+
+@keyframes fade {
+    0% {opacity:0;}
+    10% {opacity:1;}    
+    50% { opacity: 1}
+    60% { opacity: 0}
+    100% { opacity: 0;}
+}
+
+@keyframes fade2 {
+    0%  {opacity:0;}
+    50% { opacity: 0}
+    60% { opacity: 1} 
+    100% { opacity: 1}  
+}
