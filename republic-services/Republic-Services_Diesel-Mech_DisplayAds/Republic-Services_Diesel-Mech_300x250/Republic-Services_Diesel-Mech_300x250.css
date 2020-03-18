@@ -1,0 +1,84 @@
+body {
+    width: 300px;
+    height: 250px;
+    margin: 0 auto;
+    position: relative;
+    overflow: hidden;
+}
+
+.wrap {
+    width: 300px;
+    height: 250px;
+    overflow: hidden;
+    box-sizing: border-box;
+    text-align: center;
+}
+
+.bg {
+    background: url(bg.jpg);
+    background-size: cover;
+    width: 300px;
+    height: 250px;
+}
+
+.workEarth {
+    width: 160px;
+}
+
+.nowHiring {
+    width: 260px;
+}
+
+.cta {
+    width:85px;
+    position: absolute;
+    bottom:15px;
+    right: 15px;
+    cursor: pointer;
+    -webkit-transition-duration: 0.3s;
+    transition-duration: 0.3s;
+    -webkit-transition-property: transform;
+    transition-property: transform;
+}
+      
+.cta:hover {
+    transform: scale(1.1)
+}
+
+.one {
+    position: absolute;
+    width: 160px;
+    height: 87px;
+    bottom:2px;
+    left:15px;
+    opacity: 0;
+    animation:fade 7s;
+    -webkit-animation:fade 7s;
+    animation-iteration-count: 2;
+}
+
+.two {
+    position: absolute;
+    width: 260px;
+    height: 48px;
+    bottom:20px;
+    left:15px;
+    animation:fade2 7s;
+    -webkit-animation:fade2 7s;
+    animation-iteration-count: 2;
+}
+
+@keyframes fade {
+    0% {opacity:0;}
+    10% {opacity:1;}    
+    50% { opacity: 1}
+    60% { opacity: 0}
+    100% { opacity: 0;}
+}
+
+@keyframes fade2 {
+    0%  {opacity:0;}
+    50% { opacity: 0}
+    60% { opacity: 1} 
+    100% { opacity: 1}  
+}
