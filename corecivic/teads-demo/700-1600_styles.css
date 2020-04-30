@@ -1,0 +1,97 @@
+@import url("https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css");
+
+/* Fonts */
+@font-face {
+  font-family: 'AkzidGroBQ';
+  src: url("https://hireclix.github.io/hosting/CoreCivic/fonts/AkzidGroBQLig.otf");
+  font-weight: 300;
+  font-style: normal; 
+}
+@font-face {
+  font-family: 'AkzidGroBQ';
+  src: url("https://hireclix.github.io/hosting/CoreCivic/fonts/AkzidGroBQLigIt.otf");
+  font-weight: 300;
+  font-style: italic; 
+}
+@font-face {
+  font-family: 'AkzidGroBQ';
+  src: url("https://hireclix.github.io/hosting/CoreCivic/fonts/AkzidGroBQReg.otf");
+  font-weight: normal;
+  font-style: normal; 
+}
+@font-face {
+  font-family: 'AkzidGroBQ';
+  src: url("https://hireclix.github.io/hosting/CoreCivic/fonts/AkzidGroBQIt.otf");
+  font-weight: normal;
+  font-style: italic; 
+}
+@font-face {
+  font-family: 'AkzidGroBQ';
+  src: url("https://hireclix.github.io/hosting/CoreCivic/fonts/AkzidGroBQMd.otf");
+  font-weight: 500;
+  font-style: normal; 
+}
+@font-face {
+  font-family: 'AkzidGroBQ';
+  src: url("https://hireclix.github.io/hosting/CoreCivic/fonts/AkzidGroBQMdIt.otf");
+  font-weight: 500;
+  font-style: italic; 
+}
+@font-face {
+  font-family: 'AkzidGroBQ';
+  src: url("https://hireclix.github.io/hosting/CoreCivic/fonts/AkzidGroBQBol.otf");
+  font-weight: 700;
+  font-style: normal; 
+}
+@font-face {
+  font-family: 'AkzidGroBQ';
+  src: url("https://hireclix.github.io/hosting/CoreCivic/fonts/AkzidGroBQBolIt.otf");
+  font-weight: 700;
+  font-style: italic; 
+}
+
+/* General */
+html,body {
+    font-family: 'AkzidGroBQ', Helvetica, sans-serif; 
+}
+
+.scroller {
+    width: 700px;
+    height: 395px;
+    border: 1px solid black;
+    background: url(https://hireclix.github.io/hosting/corecivic/Teads/CoreCivic_700x1600.jpg);
+    background-size: 700px;
+    background-position: center;
+    background-attachment: fixed;
+    margin-top: 700px;
+    margin-bottom: 1000px;
+    position: relative;
+}
+
+.logo {
+    width: 180px;
+    position: absolute;
+    left: 20px;
+    top: 20px;
+}
+
+h2 {
+    font-size: 42px;
+    line-height: 46px;
+    position: absolute;
+    left: 20px;
+    bottom: 10px;
+}
+
+button {
+    background: #a12321;
+    border-color: #a12321;
+    color: white;
+    border-radius: 40px;
+    font-weight: 500;
+    padding: 0.25rem 1.25rem;
+    position: absolute;
+    right: 20px;
+    bottom: 20px;
+    font-size: 1.5rem;
+}
