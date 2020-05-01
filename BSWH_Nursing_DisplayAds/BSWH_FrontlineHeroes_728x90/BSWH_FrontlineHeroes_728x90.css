@@ -18,7 +18,7 @@ body {
     position: relative;
     background: url(bg.jpg);
     background-size: cover;
-    background-position: center left;
+    background-position: center;
     width: 135px;
     height: 90px;
     z-index: -1;
