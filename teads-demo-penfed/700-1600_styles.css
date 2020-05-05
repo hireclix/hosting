@@ -1,0 +1,35 @@
+@import url("https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css");
+
+.scroller {
+    width: 700px;
+    height: 395px;
+    border: 1px solid black;
+    background: url(PenFed_700x1600.jpg);
+    background-size: 700px;
+    background-position: center;
+    background-attachment: fixed;
+    margin-top: 700px;
+    margin-bottom: 1000px;
+    position: relative;
+}
+
+.logo {
+    width: 275px;
+    position: absolute;
+    left: 250px;
+    top: 30px;
+}
+
+.headline {
+    width: 355px;
+    position: absolute;
+    left: 235px;
+    top: 120px;
+}
+
+.cta {
+    width: 215px;
+    position: absolute;
+    left: 250px;
+    bottom: 20px;
+}
