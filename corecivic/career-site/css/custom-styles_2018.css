@@ -26,13 +26,21 @@ body {
   background-repeat: no-repeat;
   width: 100%;    
   height: 375px;
-  margin-top:90px;    
+  margin-top:90px;
+  background: #0f0f3f;
 }
+
+#hero-img.blue-bg {
+  height: auto; 
+}  
 
 @media screen and (min-width: 1680px) {
 #hero-img {
   height: 575px; 
 }
+#hero-img.blue-bg {
+  height: auto; 
+}    
 }
 
 #hero-img .headline {
@@ -43,12 +51,20 @@ body {
     width: 100%;
     padding: 70px 60px;
 }
+
+#hero-img.blue-bg .headline {
+    padding: 30px 60px;
+}
 #hero-img .headline h1 {
   color: #fff;
   font-weight: normal;
   font-size: 3.25em;
   margin-bottom: 0; 
   line-height: 1.25em;
+}
+
+#hero-img.blue-bg .headline h1 {
+  margin-top: 0; 
 }
 
 #hero-img .headline h2 {
@@ -67,6 +83,10 @@ body {
       background-position: center;
       height: 425px;    
     } 
+    
+    #hero-img.blue-bg {
+  height: auto; 
+}  
     
     #hero-img .headline {
         text-align: center;
@@ -107,6 +127,14 @@ body {
     font-size: 2.25em;
 }
 
+#lp-body h2.profile-header {
+    font-family: light, Helvetica, sans-serif;
+    color: #0f0f3f;
+    font-size: 2em;
+    margin-bottom: 0;
+    margin-top: 0;
+}
+
 #lp-body h3 {
     font-size:1.5em;
     font-family: medium, Helvetica, sans-serif;
@@ -133,6 +161,33 @@ body {
 
 #lp-body .button {
     white-space: nowrap;
+}
+
+#lp-body blockquote {
+  background: #f9f9f9;
+  border-left: 5px solid #ccc;
+  margin: 1.5em 10px;
+  padding: 0.5em 10px;
+  font-size: 20px;
+}
+
+section.cta {
+    background: #0f0f3f;
+    color: white;
+    padding: 4em;
+    text-align: center;
+}
+
+section.cta h1 {
+    font-family: medium, Helvetica, sans-serif;
+    margin-top:0; 
+    margin-bottom:0;
+    font-size: 2.25em;
+}
+
+section.cta p {
+    font-size: 18px;
+    margin-top:0
 }
 
 /* Benefits Page */
