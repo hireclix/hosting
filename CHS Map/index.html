@@ -99,15 +99,15 @@
         });
         //layer_OpenStreetMap_0;
         //map.addLayer(layer_OpenStreetMap_0);
-        var Stadia_AlidadeSmoothDark = L.tileLayer('https://tiles.stadiamaps.com/tiles/alidade_smooth_dark/{z}/{x}/{y}{r}.png', {
+        var BlackMap = L.tileLayer('https://cartodb-basemaps-{s}.global.ssl.fastly.net/dark_all/{z}/{x}/{y}.png', {
 	       opacity: 1.0,
             minZoom: 1,
             maxZoom: 28,
             minNativeZoom: 0,
             maxNativeZoom: 19,
-	       attribution: '&copy; <a href="https://stadiamaps.com/">Stadia Maps</a>, &copy; <a href="https://openmaptiles.org/">OpenMapTiles</a> &copy; <a           href="http://openstreetmap.org">OpenStreetMap</a> contributors'
+	       attribution: ''
             }); 
-        map.addLayer(Stadia_AlidadeSmoothDark);
+        map.addLayer(BlackMap);
         map.createPane('pane_Heatmap_1');
         map.getPane('pane_Heatmap_1').style.zIndex = 401;
         map.getPane('pane_Heatmap_1').style['mix-blend-mode'] = 'multiply';
