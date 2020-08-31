@@ -41,13 +41,6 @@
         <script src="js-extra/heatmap.js"></script>
         <script src="js-zoomhome/leaflet.zoomhome.min.js"></script>
         <script>
-        /*
-        * Leaflet Heatmap Overlay
-        *
-        * Copyright (c) 2008-2016, Patrick Wied (https://www.patrick-wied.at)
-        * Dual-licensed under the MIT (http://www.opensource.org/licenses/mit-license.php)
-        * and the Beerware (http://en.wikipedia.org/wiki/Beerware) license.
-        */
             ;(function (name, context, factory) {
         // Supports UMD. AMD, CommonJS/Node.js and browser context
     if (typeof module !== "undefined" && module.exports) {
@@ -88,19 +81,32 @@
         var bounds_group = new L.featureGroup([]);
         function setBounds() {
         }
+        var legend = L.control({ position: "bottomleft" });
+        legend.onAdd = function(map) {
+            var div = L.DomUtil.create("div", "legend");
+            div.innerHTML += '<h4 style="background: #FFFFF">Legend</h4>';
+            div.innerHTML += '<i style="background: #4daf7c"></i><span>Campaign Live</span><br>';
+            div.innerHTML += '<i style="background: #1e8bc3"></i><span>Not Live</span><br>';
+            div.innerHTML += '<i style="background: #E6E696"></i><span>Other</span><br>';
+            div.innerHTML += '<i style="background: #E8E6E0"></i><span>Not Sure</span><br>';
+            div.innerHTML += '<i style="background: #FFFFFF"></i><span>Blah</span><br>';
+            return div;
+        };
+            legend.addTo(map);
             
-        var layer_OpenStreetMap_0 = L.tileLayer('https://tile.openstreetmap.org/{z}/{x}/{y}.png', {
+        /*var layer_OpenStreetMap_0 = L.tileLayer('https://tile.openstreetmap.org/{z}/{x}/{y}.png', { ~~~~~~~~~~~~~~~~~~~~~~~~~~~~Standard Map overlay
             opacity: 1.0,
             attribution: '',
             minZoom: 1,
             maxZoom: 28,
             minNativeZoom: 0,
             maxNativeZoom: 19
-        });
-        //layer_OpenStreetMap_0;
-        //map.addLayer(layer_OpenStreetMap_0);
-        var BlackMap = L.tileLayer('https://cartodb-basemaps-{s}.global.ssl.fastly.net/dark_all/{z}/{x}/{y}.png', {
-	       opacity: 1.0,
+        }); 
+        layer_OpenStreetMap_0;
+        map.addLayer(layer_OpenStreetMap_0);*/
+            
+        var BlackMap = L.tileLayer('https://cartodb-basemaps-{s}.global.ssl.fastly.net/dark_all/{z}/{x}/{y}.png', { // black map overlay
+	       opacity: 1.0, 
             minZoom: 1,
             maxZoom: 28,
             minNativeZoom: 0,
@@ -216,13 +222,51 @@
                 }
             },
         });
-        var cluster_Points_2 = new L.featureGroup({showCoverageOnHover: false,
+        var Points_2 = new L.featureGroup({showCoverageOnHover: false,
             spiderfyDistanceMultiplier: 2});
-        cluster_Points_2.addLayer(layer_Points_2);
+        Points_2.addLayer(layer_Points_2);
 
         bounds_group.addLayer(layer_Points_2);
-        cluster_Points_2.addTo(map);
+        Points_2.addTo(map);
+        
         setBounds();
         </script>
+        <style>
+            /*Legend specific*/
+            .legend {
+              padding: 6px 8px;
+              font: 14px Arial, Helvetica, sans-serif;
+              background: white;
+              background: rgba(255, 255, 255, 0.8);
+              /*box-shadow: 0 0 15px rgba(0, 0, 0, 0.2);*/
+              /*border-radius: 5px;*/
+              line-height: 24px;
+              color: #555;
+            }
+            .legend h4 {
+              text-align: center;
+              font-size: 16px;
+              margin: 2px 12px 8px;
+              color: #777;
+            }
+
+            .legend span {
+              position: relative;
+              bottom: 3px;
+            }
+
+            .legend i {
+              width: 18px;
+              height: 18px;
+              float: left;
+              margin: 0 8px 0 0;
+              opacity: 0.7;
+            }
+
+            .legend i.icon {
+              background-size: 18px;
+              background-color: rgba(255, 255, 255, 1);
+            }
+        </style>
     </body>
 </html>
