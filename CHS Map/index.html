@@ -85,11 +85,10 @@
         legend.onAdd = function(map) {
             var div = L.DomUtil.create("div", "legend");
             div.innerHTML += '<h4 style="background: #FFFFF">Legend</h4>';
-            div.innerHTML += '<i style="background: #4daf7c"></i><span>Campaign Live</span><br>';
-            div.innerHTML += '<i style="background: #1e8bc3"></i><span>Not Live</span><br>';
-            div.innerHTML += '<i style="background: #E6E696"></i><span>Other</span><br>';
-            div.innerHTML += '<i style="background: #E8E6E0"></i><span>Not Sure</span><br>';
-            div.innerHTML += '<i style="background: #FFFFFF"></i><span>Blah</span><br>';
+            div.innerHTML += '<i style="background: #008000"></i><span>Campaign Live</span><br>';
+            div.innerHTML += '<i style="background: #0000FF"></i><span>Media Planning</span><br>';
+            div.innerHTML += '<i style="background: #FFFF00"></i><span>Call scheduled</span><br>';
+            div.innerHTML += '<i style="background: #D3D3D3"></i><span>No Activity </span><br>';
             return div;
         };
             legend.addTo(map);
@@ -147,11 +146,10 @@
                 </table>';
             layer.bindPopup(popupContent, {maxHeight: 400});
         }
-
-        function style_Points_2_Media() {
+        function style_Points_2(color, rad) {
             return {
                 pane: 'pane_Points_2',
-                radius: 4.0,
+                radius: rad,
                 opacity: 1,
                 color: 'rgba(0,0,0,1.0)',
                 dashArray: '',
@@ -160,39 +158,7 @@
                 weight: 1,
                 fill: true,
                 fillOpacity: 1,
-                fillColor: 'rgba(30, 139, 195, 1)',
-                interactive: true,
-            }
-        }
-        function style_Points_2_Live() {
-            return {
-                pane: 'pane_Points_2',
-                radius: 4.0,
-                opacity: 1,
-                color: 'rgba(0,0,0,1.0)',
-                dashArray: '',
-                lineCap: 'butt',
-                lineJoin: 'miter',
-                weight: 1,
-                fill: true,
-                fillOpacity: 1,
-                fillColor: 'rgba(77, 175, 124, 1)',
-                interactive: true,
-            }
-        }
-        function style_Points_2_Other() {
-            return {
-                pane: 'pane_Points_2',
-                radius: 4.0,
-                opacity: 1,
-                color: 'rgba(0,0,0,1.0)',
-                dashArray: '',
-                lineCap: 'butt',
-                lineJoin: 'miter',
-                weight: 1,
-                fill: true,
-                fillOpacity: 1,
-                fillColor: 'rgba(255, 0, 0, 1)',
+                fillColor: color,
                 interactive: true,
             }
         }
@@ -211,17 +177,21 @@
                     feature: feature,
                     variables: {}
                 };
-                if (feature.properties['Status'] == "Media Plan Sent"){
-                return L.circleMarker(latlng, style_Points_2_Media(feature));
+                if (feature.properties['Status'] == "Campaigns Live"){
+                return L.circleMarker(latlng, style_Points_2('rgba(0, 128, 0, 1)', 4));
                 }
-                else if (feature.properties['Status'] == "Campaigns Live"){
-                return L.circleMarker(latlng, style_Points_2_Live(feature));
+                else if (feature.properties['Status'] == "Media Plan Sent"){
+                return L.circleMarker(latlng, style_Points_2('rgba(0, 0, 255, 1)', 4));
+                }
+                else if (feature.properties['Status'] == "Kickoff Call Scheduled"){
+                return L.circleMarker(latlng, style_Points_2('rgba(255, 255, 0, 1)', 4));
                 }
                 else {
-                return L.circleMarker(latlng, style_Points_2_Other(feature));    
+                return L.circleMarker(latlng, style_Points_2('rgba(211, 211, 211, 1)', 4));    
                 }
             },
         });
+            
         var Points_2 = new L.featureGroup({showCoverageOnHover: false,
             spiderfyDistanceMultiplier: 2});
         Points_2.addLayer(layer_Points_2);
@@ -237,17 +207,17 @@
               padding: 6px 8px;
               font: 14px Arial, Helvetica, sans-serif;
               background: white;
-              background: rgba(255, 255, 255, 0.8);
-              /*box-shadow: 0 0 15px rgba(0, 0, 0, 0.2);*/
+              background: rgba(255, 255, 255, 0.2);
+              box-shadow: 0 0 15px rgba(0, 0, 0, 0.2);
               /*border-radius: 5px;*/
               line-height: 24px;
-              color: #555;
+              color: rgba(255, 255, 255, 0.7);
             }
             .legend h4 {
               text-align: center;
               font-size: 16px;
               margin: 2px 12px 8px;
-              color: #777;
+              color: rgba(255, 255, 255, 0.7);
             }
 
             .legend span {
@@ -261,11 +231,13 @@
               float: left;
               margin: 0 8px 0 0;
               opacity: 0.7;
+              border-radius: 50%;
+              border-style: solid;
+              border-width: 1px;
+              border-color: black;
             }
-
-            .legend i.icon {
-              background-size: 18px;
-              background-color: rgba(255, 255, 255, 1);
+            .leaflet-popup-content-wrapper {
+                background: white;
             }
         </style>
     </body>
