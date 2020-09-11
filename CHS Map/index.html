@@ -11,6 +11,7 @@
         <link rel="stylesheet" href="css/MarkerCluster.css">
         <link rel="stylesheet" href="css/MarkerCluster.Default.css">
         <link rel="stylesheet" href="css-zoomhome/leaflet.zoomhome.css">
+        <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous">
         <style>
         html, body, #map {
             width: 100%;
@@ -35,7 +36,6 @@
         <script src="js/labelgun.min.js"></script>
         <script src="js/labels.js"></script>
         <script src="js/leaflet.markercluster.js"></script>
-        <script src="data/Heatmap_1.js"></script>
         <script src="https://storage.googleapis.com/chs_map/Points_2.js"></script>
         
         <script src="js-extra/heatmap.js"></script>
@@ -104,7 +104,7 @@
 	};
 
 	info.update = function (props) {
-		this._div.innerHTML = '<h4>Community Health Systems</h4>' +  (props ?
+		this._div.innerHTML = '<img src=\"img/CHS_logo.png\" style=\"width:185px;display:block;\" class=\"mb-4\">' +  (props ?
 			'<b>' + props.Hospital + '</b><br />' + props.Status
 			: 'Hover over a hospital');
 	};
@@ -113,7 +113,7 @@
             
         var button = L.control({ position: "topright"});
         button.onAdd = function(map) {
-                var button = L.DomUtil.create("button", "togglebutton");
+                var button = L.DomUtil.create("button", "btn btn-primary");
                 L.DomEvent.addListener(button, 'click', togglemap)
                 button.innerHTML += 'Toggle Map'
                 return button;
@@ -187,7 +187,7 @@
         function pop_Points_2(feature, layer) {
             var popupContent = '<table>\
                     <tr>\
-                        <th scope="row">City</th>\
+                        <th scope="row" class="text-uppercase h6 font-weight-bold">City</th>\
                         <td>' + (feature.properties['City'] !== null ? Autolinker.link(feature.properties['City'].toLocaleString(), {truncate: {length: 30, location: 'smart'}}) : '') + '</td>\
                     </tr>\
                     <tr>\
