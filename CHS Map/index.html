@@ -187,7 +187,7 @@
         function pop_Points_2(feature, layer) {
             var popupContent = '<table>\
                     <tr>\
-                        <th scope="row" class="text-uppercase h6 font-weight-bold">City</th>\
+                        <th scope="row">City</th>\
                         <td>' + (feature.properties['City'] !== null ? Autolinker.link(feature.properties['City'].toLocaleString(), {truncate: {length: 30, location: 'smart'}}) : '') + '</td>\
                     </tr>\
                     <tr>\
