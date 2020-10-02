@@ -36,7 +36,7 @@
         <script src="js/labelgun.min.js"></script>
         <script src="js/labels.js"></script>
         <script src="js/leaflet.markercluster.js"></script>
-        <script src="https://storage.googleapis.com/chs_map/Points_2.js"></script>
+        <script src="https://storage.cloud.google.com/chs_map/Points_2.js"></script>
         
         <script src="js-extra/heatmap.js"></script>
         <script src="js-zoomhome/leaflet.zoomhome.min.js"></script>
@@ -88,6 +88,7 @@
             div.innerHTML += '<h4 style="background: #FFFFF">Legend</h4>';
             div.innerHTML += '<i style="background: #008000"></i><span>Campaign Live</span><br>';
             div.innerHTML += '<i style="background: #0000FF"></i><span>Media Planning</span><br>';
+            div.innerHTML += '<i style="background: #FFA500"></i><span>Kickoff Call Completed - No Activity</span><br>';
             div.innerHTML += '<i style="background: #FFFF00"></i><span>Call scheduled</span><br>';
             div.innerHTML += '<i style="background: #D3D3D3"></i><span>No Activity </span><br>';
             return div;
@@ -210,6 +211,10 @@
                         <th scope="row">Notes</th>\
                         <td>' + (feature.properties['Notes'] !== null ? Autolinker.link(feature.properties['Notes'].toLocaleString(), {truncate: {length: 30, location: 'smart'}}) : '') + '</td>\
                     </tr>\
+                    <tr>\
+                        <th scope="row">Region</th>\
+                        <td>' + (feature.properties['Region'] !== null ? Autolinker.link(feature.properties['Region'].toLocaleString(), {truncate: {length: 30, location: 'smart'}}) : '') + '</td>\
+                    </tr>\
                 </table>';
             
             layer.bindPopup(popupContent, {maxHeight: 400});
@@ -252,16 +257,19 @@
                     variables: {}
                 };
                 if (feature.properties['Status'] == "Campaigns Live"){
-                return L.circleMarker(latlng, style_Points_2('rgba(0, 128, 0, 1)', 4));
+                    return L.circleMarker(latlng, style_Points_2('rgba(0, 128, 0, 1)', 4));
                 }
                 else if (feature.properties['Status'] == "Media Plan Sent"){
-                return L.circleMarker(latlng, style_Points_2('rgba(0, 0, 255, 1)', 4));
+                    return L.circleMarker(latlng, style_Points_2('rgba(0, 0, 255, 1)', 4));
                 }
                 else if (feature.properties['Status'] == "Kickoff Call Scheduled"){
-                return L.circleMarker(latlng, style_Points_2('rgba(255, 255, 0, 1)', 4));
+                    return L.circleMarker(latlng, style_Points_2('rgba(255, 255, 0, 1)', 4));
+                }
+                else if (feature.properties['Status'] == 'Kickoff Call Completed - No Activity'){
+                    return L.circleMarker(latlng, style_Points_2('rgba(255, 165, 0, 1)', 4));
                 }
                 else {
-                return L.circleMarker(latlng, style_Points_2('rgba(211, 211, 211, 1)', 4));    
+                    return L.circleMarker(latlng, style_Points_2('rgba(211, 211, 211, 1)', 4));    
                 }
             },
         });
@@ -286,6 +294,7 @@
               line-height: 24px;
               color: rgba(0, 0, 0, 1);
               border-radius: 5px;
+                
             }
             .legend h4 {
               text-align: center;
@@ -330,7 +339,6 @@
             .info {
                 padding: 6px 8px;
                 font: 14px/16px Arial, Helvetica, sans-serif;
-                background: white;
                 background: rgba(255,255,255,0.8);
                 box-shadow: 0 0 15px rgba(0,0,0,0.2);
                 border-radius: 5px;
