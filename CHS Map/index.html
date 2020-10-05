@@ -86,15 +86,73 @@
         legend.onAdd = function(map) {
             var div = L.DomUtil.create("div", "legend");
             div.innerHTML += '<h4 style="background: #FFFFF">Legend</h4>';
-            div.innerHTML += '<i style="background: #008000"></i><span>Campaign Live</span><br>';
-            div.innerHTML += '<i style="background: #0000FF"></i><span>Media Planning</span><br>';
-            div.innerHTML += '<i style="background: #FFA500"></i><span>Kickoff Call Completed - No Activity</span><br>';
-            div.innerHTML += '<i style="background: #FFFF00"></i><span>Call scheduled</span><br>';
-            div.innerHTML += '<i style="background: #D3D3D3"></i><span>No Activity </span><br>';
+            div.innerHTML += '<i style="background: #008000"></i><span class="CL">Campaign Live</span><br>';
+            div.innerHTML += '<i style="background: #0000FF"></i><span class="MP">Media Planning</span><br>';
+            div.innerHTML += '<i style="background: #FFA500"></i><span class="KCC">Kickoff Call Completed - No Activity</span><br>';
+            div.innerHTML += '<i style="background: #FFFF00"></i><span class="CS">Call scheduled</span><br>';
+            div.innerHTML += '<i style="background: #D3D3D3"></i><span class="NA">No Activity </span><br>';
             return div;
         };
             legend.addTo(map);
-        
+            
+            window.cp = true;
+            var doc;
+            doc = document.getElementsByClassName("CL")[0];
+            doc.addEventListener('click',function(){
+                if(cp){
+                    Points_2.removeLayer(CP);
+                }
+                else {
+                    Points_2.addLayer(CP);   
+                }
+                cp = !cp;
+            });
+            window.mp = true;
+            doc = document.getElementsByClassName("MP")[0];
+            doc.addEventListener('click',function(){
+                if(mp){
+                    Points_2.removeLayer(MPS);
+                }
+                else {
+                    Points_2.addLayer(MPS);   
+                }
+                mp = !mp;
+            });
+            window.kc = true;
+            doc = document.getElementsByClassName("KCC")[0];
+            doc.addEventListener('click',function(){
+                if(kc){
+                    Points_2.removeLayer(KCC);
+                }
+                else {
+                    Points_2.addLayer(KCC);   
+                }
+                kc = !kc;
+            });
+            window.cs = true;
+            doc = document.getElementsByClassName("CS")[0];
+            doc.addEventListener('click',function(){
+                if(cs){
+                    Points_2.removeLayer(KCS);
+                }
+                else {
+                    Points_2.addLayer(KCS);   
+                }
+                cs = !cs;
+            });
+            window.na = true;
+            doc = document.getElementsByClassName("NA")[0];
+            doc.addEventListener('click',function(){
+                if(na){
+                    Points_2.removeLayer(NA);
+                }
+                else {
+                    Points_2.addLayer(NA);   
+                }
+                na = !na;
+            });
+            
+            
             // control that shows state info on hover
 	var info = L.control();
 
@@ -153,7 +211,7 @@
           }
           toggle = !toggle;
         }
-        
+            
         function highlightFeature(e) {
             var layer = e.target;
 
@@ -247,7 +305,8 @@
         map.createPane('pane_Points_2');
         map.getPane('pane_Points_2').style.zIndex = 402;
         map.getPane('pane_Points_2').style['mix-blend-mode'] = 'normal';
-        var layer_Points_2 = new L.geoJson(json_Points_2, {
+        function points(name, rgb) {
+            var layer = new L.geoJson(json_Points_2, {
             attribution: '',
             interactive: true,
             dataVar: 'json_Points_2',
@@ -260,31 +319,34 @@
                     feature: feature,
                     variables: {}
                 };
-                if (feature.properties['Status'] == "Campaigns Live"){
-                    return L.circleMarker(latlng, style_Points_2('rgba(0, 128, 0, 1)', 4));
-                }
-                else if (feature.properties['Status'] == "Media Plan Sent"){
-                    return L.circleMarker(latlng, style_Points_2('rgba(0, 0, 255, 1)', 4));
-                }
-                else if (feature.properties['Status'] == "Kickoff Call Scheduled"){
-                    return L.circleMarker(latlng, style_Points_2('rgba(255, 255, 0, 1)', 4));
-                }
-                else if (feature.properties['Status'] == 'Kickoff Call Completed - No Activity'){
-                    return L.circleMarker(latlng, style_Points_2('rgba(255, 165, 0, 1)', 4));
-                }
-                else {
-                    return L.circleMarker(latlng, style_Points_2('rgba(211, 211, 211, 1)', 4));    
+                if (feature.properties['Status'] ==  name){
+                    return L.circleMarker(latlng, style_Points_2(rgb, 4));
                 }
             },
         });
+        return layer;
+        }
             
-        var Points_2 = new L.featureGroup({showCoverageOnHover: false,
-            spiderfyDistanceMultiplier: 2});
-        Points_2.addLayer(layer_Points_2);
-
-        bounds_group.addLayer(layer_Points_2);
-        Points_2.addTo(map);
+        var Points_2 = new L.featureGroup({showCoverageOnHover: false, spiderfyDistanceMultiplier: 2});
+        var CP = points('Campaigns Live','rgba(0, 128, 0, 1)');
+        var MPS = points('Media Plan Sent','rgba(0, 0, 255, 1)');
+        var KCS = points('Kickoff Call Scheduled','rgba(255, 255, 0, 1)');
+        var KCC = points('Kickoff Call Completed - No Activity', 'rgba(255, 165, 0, 1)');
+        var NA = points('No Activity', 'rgba(211, 211, 211, 1)');
+            
+        Points_2.addLayer(CP);
+        Points_2.addLayer(MPS);
+        Points_2.addLayer(KCS);
+        Points_2.addLayer(KCC);
+        Points_2.addLayer(NA);
         
+        bounds_group.addLayer(CP);
+        bounds_group.addLayer(MPS);        
+        bounds_group.addLayer(KCS);
+        bounds_group.addLayer(KCC);
+        bounds_group.addLayer(NA);
+            
+        Points_2.addTo(map);
         setBounds();
         </script>
         <style>
@@ -310,6 +372,9 @@
             .legend span {
               position: relative;
               bottom: 3px;
+            }
+            .legend span:hover {
+              color: gray;
             }
 
             .legend i {
