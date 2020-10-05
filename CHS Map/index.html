@@ -188,6 +188,10 @@
         function pop_Points_2(feature, layer) {
             var popupContent = '<table>\
                     <tr>\
+                        <th scope="row">Hospital</th>\
+                        <td>' + (feature.properties['Hospital'] !== null ? Autolinker.link(feature.properties['Hospital'].toLocaleString(), {truncate: {length: 30, location: 'smart'}}) : '') + '</td>\
+                    </tr>\
+                    <tr>\
                         <th scope="row">City</th>\
                         <td>' + (feature.properties['City'] !== null ? Autolinker.link(feature.properties['City'].toLocaleString(), {truncate: {length: 30, location: 'smart'}}) : '') + '</td>\
                     </tr>\
@@ -199,9 +203,9 @@
                         <th scope="row">Status</th>\
                         <td>' + (feature.properties['Status'] !== null ? Autolinker.link(feature.properties['Status'].toLocaleString(), {truncate: {length: 30, location: 'smart'}}) : '') + '</td>\
                     </tr>\
-                     <tr>\
-                        <th scope="row">Hospital</th>\
-                        <td>' + (feature.properties['Hospital'] !== null ? Autolinker.link(feature.properties['Hospital'].toLocaleString(), {truncate: {length: 30, location: 'smart'}}) : '') + '</td>\
+                    <tr>\
+                        <th style="white-space: nowrap;" scope="row">Kick-Off Call Date</th>\
+                        <td>' + (feature.properties['Kickoff Date'] !== null ? Autolinker.link(feature.properties['Kickoff Date'].toLocaleString(), {truncate: {length: 30, location: 'smart'}}) : '') + '</td>\
                     </tr>\
                     <tr>\
                         <th scope="row">POC</th>\
