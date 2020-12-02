@@ -269,6 +269,10 @@
                         <th scope="row">POC</th>\
                         <td>' + (feature.properties['POC'] !== null ? Autolinker.link(feature.properties['POC'].toLocaleString(), {truncate: {length: 30, location: 'smart'}}) : '') + '</td>\
                     </tr>\
+		    <tr>\
+                        <th scope="row">Marketing POC</th>\
+                        <td>' + (feature.properties['Marketing POC'] !== null ? Autolinker.link(feature.properties['Marketing POC'].toLocaleString(), {truncate: {length: 30, location: 'smart'}}) : '') + '</td>\
+                    </tr>\
                     <tr>\
                         <th scope="row">Notes</th>\
                         <td>' + (feature.properties['Notes'] !== null ? Autolinker.link(feature.properties['Notes'].toLocaleString(), {truncate: {length: 30, location: 'smart'}}) : '') + '</td>\
