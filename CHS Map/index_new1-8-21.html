@@ -98,7 +98,8 @@
                 color: #0b6c68;
             }
             .info-wrap {
-                transition: all 1.3s ease-in-out;
+                height: 100px;
+                width: 235px;
             }
         </style>
     </head>
@@ -209,9 +210,9 @@
 	};
 
 	info.update = function (props) {
-		this._div.innerHTML = '<div class="info-wrap">' + '<img src=\"img/CHS_logo.png\" style=\"width:185px;display:block;\" class=\"mb-4\">' +  (props ?
-			'<b>' + props.Hospital + '</b><br />' + props.Status
-			: 'Hover over a hospital' + '</div>');
+		this._div.innerHTML = '<div class="info-wrap d-flex flex-column justify-content-between">' + '<img src=\"img/CHS_logo.png\" style=\"width:185px;display:block;\" class=\"mb-4\">' +  (props ?
+			'<div><b>' + props.Hospital + '</b><br />' + props.Status
+			: 'Hover over a hospital</div>' + '</div>');
 	};
 
 	info.addTo(map);
