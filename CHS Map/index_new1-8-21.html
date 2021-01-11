@@ -291,7 +291,7 @@
         }
 
         function pop_Points_2(feature, layer) {
-            var popupContent = '<table>\
+            var popupContent = '<table style="word-break: break-all;">\
                     <tr>\
                         <th scope="row">Hospital</th>\
                         <td>' + (feature.properties['Hospital'] !== null ? Autolinker.link(feature.properties['Hospital'].toLocaleString(), {truncate: {length: 30, location: 'smart'}}) : '') + '</td>\
