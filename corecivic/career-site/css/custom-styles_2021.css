@@ -1,0 +1,907 @@
+/* CoreCivic Custom CSS | HireClix 2018 */
+
+/* Global Landing Page Styles */
+
+@media screen and (min-width: 1280px) {
+body {
+    font-size: 150% !important;
+}
+}
+
+@media screen and (min-width: 1680px) {
+body {
+    font-size: 200% !important;
+}
+}
+
+.row {
+    padding-bottom: 1.5em;
+}
+
+#hero-img {
+  position: relative;
+  display: table;    
+  background-size: cover;
+  background-position: right;
+  background-repeat: no-repeat;
+  width: 100%;    
+  height: 375px;
+  margin-top:90px;
+}
+
+#hero-img.blue-bg {
+  height: auto; 
+  background: #0f0f3f;
+}  
+
+@media screen and (min-width: 1680px) {
+#hero-img {
+  height: 575px; 
+}
+#hero-img.blue-bg {
+  height: auto; 
+}    
+}
+
+#hero-img .headline {
+    position: relative;
+    display: table-cell;
+    vertical-align: middle;
+    font-family: medium, Helvetica, sans-serif;
+    width: 100%;
+    padding: 70px 60px;
+}
+
+#hero-img.blue-bg .headline {
+    padding: 30px 60px;
+}
+#hero-img .headline h1 {
+  color: #fff;
+  font-weight: normal;
+  font-size: 3.25em;
+  margin-bottom: 0; 
+  line-height: 1.25em;
+}
+
+#hero-img.blue-bg .headline h1 {
+  margin-top: 0; 
+}
+
+#hero-img .headline h2 {
+  color: #fff;
+  font-size: 1.5em;
+  font-weight: normal;
+  margin-top: 0; 
+}
+
+#hero-img .light {
+    font-family: light, Helvetica, sans-serif;
+}
+
+@media screen and (max-width: 767px) {
+    #hero-img {
+      background-position: center;
+      height: 425px;    
+    } 
+    
+    #hero-img.blue-bg {
+  height: auto; 
+}  
+    
+    #hero-img .headline {
+        text-align: center;
+        padding: 250px 0 60px;
+        top: 30px;
+    }
+    
+    #hero-img.blue-bg .headline {
+    padding: 30px 60px;
+        top: 0;
+}
+    
+    #hero-img.blue-bg .headline h1 {
+  margin-top: 0; 
+}
+}
+
+#lp-body {
+   padding: 20px 40px; 
+}
+
+#lp-body p {
+    font-size: 1.1em;
+}
+
+#lp-body .light {
+    font-family: light, Helvetica, sans-serif;
+    color: #a12221;
+}
+
+#lp-body .light-blue {
+    font-family: light, Helvetica, sans-serif;
+    color: #0f0f3f;
+}
+
+#lp-body h1 {
+    font-family: medium, Helvetica, sans-serif;
+    margin-top:0; 
+    margin-bottom:0;
+    color: #0f0f3f;
+    font-size: 2.25em;
+}
+
+#lp-body h2 {
+    font-family: light, Helvetica, sans-serif;
+    color: #a12221;
+    font-size: 2.25em;
+}
+
+#lp-body h2.profile-header {
+    font-family: light, Helvetica, sans-serif;
+    color: #0f0f3f;
+    font-size: 2em;
+    margin-bottom: 0;
+    margin-top: 0;
+}
+
+#lp-body h3 {
+    font-size:1.5em;
+    font-family: medium, Helvetica, sans-serif;
+    margin-top:0; margin-bottom:0;
+}
+
+#lp-body h3.red {
+    color: #a12221;
+}
+
+#lp-body h3.blue {
+    color: #0f0f3f;
+}
+
+#lp-body h4 {
+    margin-top:0; 
+    margin-bottom:0;
+    font-size:1.25em;
+}
+
+#lp-body h4.blue {
+    color: #0f0f3f;
+}
+
+#lp-body .button {
+    white-space: nowrap;
+}
+
+#lp-body blockquote {
+  background: #f9f9f9;
+  border-left: 5px solid #ccc;
+  margin: 1.5em 10px;
+  padding: 0.5em 10px;
+  font-size: 20px;
+  overflow: hidden;
+}
+
+section.cta {
+    background: #0f0f3f;
+    color: white;
+    padding: 4em;
+    text-align: center;
+}
+
+section.cta h1 {
+    font-family: medium, Helvetica, sans-serif;
+    margin-top:0; 
+    margin-bottom:0;
+    font-size: 2.25em;
+}
+
+section.cta p {
+    font-size: 18px;
+    margin-top:0
+}
+
+/* Benefits Page */
+
+.benefits-bg {
+    background: url(https://recruit.smashfly.com/SmashFlyMedia/Images/13195/13195_2622_benefits-header_updated.jpg);
+}
+
+ #hero-img.benefits-bg .headline h1 {
+  font-size: 3.5em;
+}
+
+@media screen and (max-width: 767px) {
+.benefits-bg {
+  background: url(https://recruit.smashfly.com/SmashFlyMedia/Images/13195/13195_2621_benefits-header_mobile.jpg);
+}
+    #hero-img.benefits-bg .headline h1 {
+  font-size: 2.25em;
+}
+}
+
+.benefits-card {
+    text-align: center;
+    padding-bottom: 1.5em;
+}
+
+.benefits-card img {
+    max-width: 110px;
+    margin-bottom: 5px;
+}
+
+.benefits-card h4 {
+    font-family: medium, Helvetica, sans-serif;
+    color: #0f0f3f;
+    text-transform: uppercase;
+    font-size: 16px !important;
+}
+
+.benefits-card p {
+    margin-top: 0;
+    line-height: 1.3;
+}
+
+/* Healthcare Page */
+
+.healthcare-bg {
+  background: url(http://jobs.corecivic.com/Views/Client/8dc4a657-f3b9-4967-bf13-de8e447ff866/images/nursing-header.jpg);
+}
+
+#hero-img.healthcare-bg .headline h1 {
+  font-size: 4.25em;
+}
+
+@media screen and (max-width: 767px) {
+.healthcare-bg {
+  background: url(https://recruit.smashfly.com/SmashFlyMedia/Images/13195/13195_2605_healthcare-header_mobile.jpg);
+}  
+    #hero-img.healthcare-bg .headline h1 {
+  font-size: 3.25em;
+}
+}
+
+.mobile-nursing-img {
+    display: none;
+}
+
+@media screen and (max-width: 992px) {
+    .desktop-nursing-img {
+        display: none;
+    }
+    .mobile-nursing-img {
+        display:inherit;
+    }
+}
+
+/* Education Page */
+
+.education-bg {
+  background: url(
+https://recruit.smashfly.com/SmashFlyMedia/Images/13195/13195_2623_education-header.jpg);
+}
+
+
+@media screen and (max-width: 767px) {
+.education-bg {
+  background: url(
+https://recruit.smashfly.com/SmashFlyMedia/Images/13195/13195_2624_education-header_mobile.jpg);
+}
+} 
+
+/* Programs Page */
+
+.programs-bg {
+  background: url(https://recruit.smashfly.com/SmashFlyMedia/Images/13195/13195_3569_programs-header.jpg);
+}
+
+
+@media screen and (max-width: 767px) {
+.programs-bg {
+  background: url(https://recruit.smashfly.com/SmashFlyMedia/Images/13195/13195_3568_programs-header_mobile.jpg);
+}
+} 
+
+/* Who We Are Page */
+
+.whoweare-bg {
+  background: url(https://recruit.smashfly.com/SmashFlyMedia/Images/13195/13195_2627_we-are-corecivic_header_updated.jpg);
+}
+
+@media screen and (max-width: 767px) {
+.whoweare-bg {
+  background: url(https://recruit.smashfly.com/SmashFlyMedia/Images/13195/13195_2628_we-are-corecivic_header_mobile.jpg);
+}
+} 
+
+
+/* RMOMS Page */
+
+.rmoms-bg {
+  background: url(https://recruit.smashfly.com/SmashFlyMedia/Images/13195/13195_2407_rmoms-header.jpg);
+  }
+
+@media screen and (max-width: 767px) {
+.rmoms-bg {
+  background: url(https://recruit.smashfly.com/SmashFlyMedia/Images/13195/13195_2629_RMOMS-header_mobile.jpg);
+}
+    #hero-img.rmoms-bg .headline h1 {
+  font-size: 2em;
+}
+} 
+
+
+/* News Page */
+
+.news-bg {
+  background: url(https://recruit.smashfly.com/SmashFlyMedia/Images/13195/13195_2762_news-header.jpg);
+  }
+
+@media screen and (max-width: 767px) {
+.news-bg {
+  background: url(https://recruit.smashfly.com/SmashFlyMedia/Images/13195/13195_2763_news-header_mobile.jpg);
+}
+}
+    
+#lp-body.news a {
+    color: #0f0f3f;
+    font-weight: bold;
+}
+
+#lp-body.news a:hover {
+    text-decoration: underline;
+}
+
+
+/* Culture Page */
+
+.culture-bg {
+  background: url(https://recruit.smashfly.com/SmashFlyMedia/Images/13195/13195_2776_culture-header.jpg);
+  }
+
+#hero-img.culture-bg .headline h1 {
+  font-size: 2.5em;
+}
+
+@media screen and (max-width: 767px) {
+.culture-bg {
+  background: url(https://recruit.smashfly.com/SmashFlyMedia/Images/13195/13195_2777_culture-header_mobile.jpg);
+}
+    
+    #hero-img.culture-bg .headline h1 {
+  font-size: 2.25em;
+}
+}
+
+/* Community Page */
+
+.community-bg {
+  background: url(https://recruit.smashfly.com/SmashFlyMedia/Images/13195/13195_3154_community-header_updated.jpg);
+}
+
+@media screen and (max-width: 767px) {
+.community-bg {
+  background: url(https://recruit.smashfly.com/SmashFlyMedia/Images/13195/13195_3155_community-header_mobile.jpg);
+}
+} 
+
+/* Corporate Page */
+
+.corporate-bg {
+  background: url(https://recruit.smashfly.com/SmashFlyMedia/Images/13195/13195_3161_corporate-header_updated.jpg);
+}
+
+@media screen and (max-width: 767px) {
+.corporate-bg {
+  background: url(https://recruit.smashfly.com/SmashFlyMedia/Images/13195/13195_3162_corporate-header_mobile.jpg);
+}
+} 
+
+/* Security Page */
+
+.security-bg {
+  background: url(https://recruit.smashfly.com/SmashFlyMedia/Images/13195/13195_3164_security-header_updated.jpg);
+}
+
+@media screen and (max-width: 767px) {
+.security-bg {
+  background: url(https://recruit.smashfly.com/SmashFlyMedia/Images/13195/13195_3163_security-header_mobile.jpg);
+}
+} 
+
+/* FMS Page */
+
+.fms-bg {
+  background: url(https://recruit.smashfly.com/SmashFlyMedia/Images/13195/13195_3198_fms-header_updated.jpg);
+}
+
+@media screen and (max-width: 767px) {
+.fms-bg {
+  background: url(https://recruit.smashfly.com/SmashFlyMedia/Images/13195/13195_3199_fms-header_mobile.jpg);
+}
+} 
+
+/* Career Paths Page */
+
+.career-paths-bg {
+   background: url(https://recruit.smashfly.com/SmashFlyMedia/Images/13195/13195_3200_career-paths-header_updated.jpg); 
+}
+
+@media screen and (max-width: 767px) {
+.career-paths-bg {
+  background: url(https://recruit.smashfly.com/SmashFlyMedia/Images/13195/13195_3201_career-paths-header_mobile.jpg);
+}
+} 
+
+/* Veterans Page */
+
+.veterans-bg {
+   background: url(https://recruit.smashfly.com/SmashFlyMedia/Images/13195/13195_3217_veterans-header_updated.jpg); 
+}
+
+@media screen and (max-width: 767px) {
+.veterans-bg {
+  background: url(https://recruit.smashfly.com/SmashFlyMedia/Images/13195/13195_3218_veterans-header_mobile.jpg);
+}
+}
+
+#lp-body.veterans a.red-link {
+    color: #a12221;
+    font-family: light, Helvetica, sans-serif;
+    text-decoration: underline;
+}
+
+
+
+
+
+
+.teacher-spotlight {
+    border: 3px solid #0f0f3f;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+.teacher-spotlight .title {
+    color: #fff; 
+    font-family: medium, Helvetica, sans-serif;
+    font-size: 1.75em;
+    background-color: #0f0f3f;
+    padding: .25em 1em;
+    text-align: center;
+}
+
+.teacher-spotlight .content {
+    display: inline-block;
+}
+
+.teacher-spotlight .content img {
+    max-width: 40%;
+}
+
+.teacher-spotlight .content p {
+    max-width: 60%; 
+    float:right; 
+    padding-right:3em;
+    padding-left: 1em;
+    font-size: 1.15em !important;
+}
+
+.teacher-spotlight .content .quote {
+    font-size: 1.25em;
+    font-style: italic;
+    color: #0f0f3f;
+}
+
+.teacher-spotlight .content .medium {
+    font-family: medium, Helvetica, sans-serif;
+}
+
+@media screen and (max-width: 980px) {
+    .teacher-spotlight .content img {
+    max-width: 30%;
+    }
+
+    .teacher-spotlight .content p {
+        max-width: 70%; 
+        float: right !important;
+        padding:0em 1em;
+    }    
+}
+
+@media screen and (max-width: 767px) {
+    
+    .teacher-spotlight .content {
+    text-align: center;
+    }
+    
+    .teacher-spotlight .content img {
+    max-width: 100%;
+    }
+
+    .teacher-spotlight .content p {
+        max-width: 100%; 
+        float: none !important;
+        padding:0em 1em;
+    }  
+}
+
+/* Military-Form Page */
+
+#military-form {
+    padding: 200px 0 0 0;
+    margin-top:-3em;
+}
+
+#military-form p {
+    font-size: 1.1em;
+}
+
+#military-form .light {
+    font-family: light, Helvetica, sans-serif;
+    color: #a12221;
+}
+
+#military-form h1 {
+    font-family: medium, Helvetica, sans-serif;
+    color: #0f0f3f;
+    font-size: 2.25em;
+    text-align: center;
+}
+
+#military-form h2 {
+    font-family: light, Helvetica, sans-serif;
+    color: #a12221;
+    font-size: 2.25em;
+}
+
+#military-form a {
+    color: #a12221; 
+    font-family: light, Helvetica, sans-serif;
+    text-decoration: underline;
+}
+
+#military-form .button {
+    color: #fff; 
+    font-family: medium, Helvetica, sans-serif;
+    text-decoration: none;
+}
+
+#military-form .button:hover {
+    color: #fff !important; 
+}
+
+#military-form a:hover {
+    color: #801b1a !important; 
+}
+
+
+
+/* Military Page */
+
+.military-background {
+  background: url(https://recruit.smashfly.com/SmashFlyMedia/Images/13195/13195_1001_military-header.jpg);
+  background-size: contain;
+  background-position: center center;
+  background-repeat: no-repeat;
+  height: 0;
+  padding-top: 38.98%; }
+
+.military-background .overlay h1 {
+  color: #fff;
+  font-weight: normal;
+  font-size: 3.25em;
+  margin-bottom: 0; 
+  line-height: 1.25em;
+}
+
+.military-background .overlay h2 {
+  color: #fff;
+  font-size: 1.5em;
+  font-weight: normal;
+  margin-top: 0; }
+
+.military-background .overlay {
+    text-align: left;
+    padding-left: 5em;
+}
+
+#military {
+    padding: 0 40px;
+    margin-top:-3em;
+}
+
+#military p {
+    font-size: 1.1em;
+}
+
+#military .light {
+    font-family: light, Helvetica, sans-serif;
+    color: #a12221;
+}
+
+#military h1 {
+    font-family: medium, Helvetica, sans-serif;
+    color: #0f0f3f;
+    font-size: 2.25em;
+}
+
+#military h2 {
+    font-family: light, Helvetica, sans-serif;
+    color: #a12221;
+    font-size: 2.25em;
+}
+
+#military a {
+    color: #a12221; 
+    font-family: light, Helvetica, sans-serif;
+    text-decoration: underline;
+}
+
+#military .button {
+    color: #fff; 
+    font-family: medium, Helvetica, sans-serif;
+    text-decoration: none;
+}
+
+#military .button:hover {
+    color: #fff !important; 
+}
+
+#military a:hover {
+    color: #801b1a !important; 
+}
+
+#full-width-slider {
+  width: 100%;
+  color: #000;
+}
+
+.rsMinW, .rsMinW .rsOverflow, .rsMinW .rsSlide, .rsMinW .rsVideoFrameHolder, .rsMinW .rsThumbs {
+    background: #fff !important;
+}
+
+.rsOverflow {
+    width: 100% !important;
+    height: 100% !important;
+}
+
+.coloredBlock {
+  padding: 12px;
+  background: rgba(255,0,0,0.6);
+  color: #FFF;
+   width: 200px;
+   left: 20%;
+   top: 5%;
+}
+.infoBlock {
+  position: absolute;
+  top: 30px;
+  right: 30px;
+  left: auto;
+  max-width: 25%;
+  padding-bottom: 0;
+  background: #FFF;
+  background: rgba(255, 255, 255, 0.8);
+  overflow: hidden;
+  padding: 20px;
+}
+.infoBlockLeftBlack {
+  color: #FFF;
+  background: #000;
+  background: rgba(0,0,0,0.75);
+  left: 30px;
+  right: auto;
+}
+.infoBlock h4 {
+  font-size: 20px;
+  line-height: 1.2;
+  margin: 0;
+  padding-bottom: 3px;
+}
+.infoBlock p {
+  font-size: 14px;
+  margin: 4px 0 0;
+}
+.infoBlock a {
+  color: #FFF;
+  text-decoration: underline;
+}
+.photosBy {
+  position: absolute;
+  line-height: 24px;
+  font-size: 12px;
+  background: #FFF;
+  color: #000;
+  padding: 0px 10px;
+  position: absolute;
+  left: 12px;
+  bottom: 12px;
+  top: auto;
+  border-radius: 2px;
+  z-index: 25; 
+} 
+.photosBy a {
+  color: #000;
+}
+.fullWidth {
+  max-width: 1400px;
+  margin: 0 auto 24px;
+}
+
+@media screen and (min-width:960px) and (min-height:660px) {
+  .heroSlider .rsOverflow,
+  .royalSlider.heroSlider {
+      height: 520px !important;
+  }
+}
+
+@media screen and (min-width:960px) and (min-height:1000px) {
+    .heroSlider .rsOverflow,
+    .royalSlider.heroSlider {
+        height: 660px !important;
+    }
+}
+@media screen and (min-width: 0px) and (max-width: 800px) {
+  .royalSlider.heroSlider,
+  .royalSlider.heroSlider .rsOverflow {
+    height: 525px !important;
+  }
+    .rsImg {
+        width: 300px;
+    }
+    
+  .infoBlock {
+    padding: 10px;
+    height: auto;
+    max-height: 100%;
+    min-width: 40%;
+    left: 5px;
+    top: 5px;
+    right: auto;
+    font-size: 12px;
+  }
+  .infoBlock h3 {
+     font-size: 14px;
+     line-height: 17px;
+  }
+}
+
+.mobile-only {
+    display: none !important;
+}
+
+/* Media Queries */
+
+@media screen and (max-width: 767px) {
+     .mobile-only {
+        display: inherit !important;
+    }
+    
+    .desktop-only {
+        display: none !important;
+    }
+}
+
+
+@media screen and (max-width: 1020px) {
+    .overlay h1 {
+        margin-top: -1em;
+    } 
+}
+
+.overlay {
+        width: 100% !important;
+    }
+
+
+
+ 
+
+
+/* Carousel */
+
+.carousel-indicators .active { 
+    background: #a12321; 
+} 
+
+.content { 
+    margin-top:20px; 
+} 
+
+.adjust1 { 
+    float:left; width:100%; margin-bottom:0; 
+} 
+
+.adjust2 { 
+    margin:0; 
+} 
+
+.carousel-indicators li { 
+    border :1px solid #ccc; 
+} 
+
+.carousel-control { 
+    color:#a12321; width:5%; 
+} 
+
+.carousel-control:hover, .carousel-control:focus {              color:#a12321; 
+
+} 
+
+.carousel-control.left, .carousel-control.right {              background-image: none; 
+
+} 
+
+.carousel-inner .caption {
+    padding-left:40px;
+}
+
+.carousel-inner .thumbnail {
+    border: 5px solid #10103f;
+    background: #fafafa;
+}
+
+.carousel-inner .name {
+    -webkit-margin-before: 0 !important;
+     -webkit-margin-after: 0 !important;
+}
+
+.carousel-inner .title {
+     -webkit-margin-before: 0 !important;
+}
+
+.media-object { 
+    margin-left:25%; margin-top:5%; 
+} 
+
+@media screen and (max-width: 768px) { 
+    .media-object { 
+        margin-top:0; 
+        margin-left:0%;
+    } 
+}
+
+.navbar{
+    position:fixed;
+    font-weight:500;
+    font-size:18px;
+    width:100%;
+    z-index:1030;
+    top:0
+}
+
+.footer {
+    font-size: 11
+}
+
+.footer-items {
+    font-size: 16px;
+}
+
+.footer-sub li {
+    font-size: 1.25rem;
+}
+
+#terms {
+    padding: 100px 40px 0px;
+}
+
+#terms p {
+    font-size: 1.1em;
+}
+
+#terms .light {
+    font-family: light, Helvetica, sans-serif;
+    color: #a12221;
+}
+
+#terms h2 {
+    font-family: light, Helvetica, sans-serif;
+    color: #a12221;
+    font-size: 2.25em;
+}
+
+#terms h3 {
+    font-family: light, Helvetica, sans-serif;
+    color: #0f0f3f;
+    font-size: 1.25em;
+}
