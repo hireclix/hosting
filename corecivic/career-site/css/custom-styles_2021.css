@@ -1,4 +1,4 @@
-/* CoreCivic Custom CSS | HireClix 2018 */
+/* CoreCivic Custom CSS | HireClix 2021 */
 
 /* Global Landing Page Styles */
 
@@ -169,9 +169,11 @@ body {
     color: #0f0f3f;
 }
 
+/*
 #lp-body .button {
     white-space: nowrap;
 }
+*/
 
 #lp-body blockquote {
   background: #f9f9f9;
