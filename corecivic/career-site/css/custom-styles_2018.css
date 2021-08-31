@@ -382,6 +382,18 @@ https://recruit.smashfly.com/SmashFlyMedia/Images/13195/13195_2624_education-hea
 }
 } 
 
+/* Travel Duty Page */
+
+.travelduty-bg {
+  background: url(https://recruit.smashfly.com/SmashFlyMedia/Images/13195/13195_3161_corporate-header_updated.jpg);
+}
+
+@media screen and (max-width: 767px) {
+.travelduty-bg {
+  background: url(https://recruit.smashfly.com/SmashFlyMedia/Images/13195/13195_3162_corporate-header_mobile.jpg);
+}
+} 
+
 /* FMS Page */
 
 .fms-bg {
